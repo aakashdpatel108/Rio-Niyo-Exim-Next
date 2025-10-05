@@ -11,8 +11,8 @@ const HomeBannerComp = (props) => {
         className={`home-banner-comp-header30 thq-section-padding ${props.rootClassName} `}
       >
         <img
-          alt={props.image1Alt}
-          src={props.image1Src}
+          alt="home page banner image"
+          src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGZydWl0cyUyMGFuZCUyMHZlZ2V0YWJsZXN8ZW58MHx8fHwxNzU5Njk5MTM5fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           className="home-banner-comp-image"
         />
         <div className="home-banner-comp-max-width thq-section-max-width">
@@ -164,20 +164,15 @@ const HomeBannerComp = (props) => {
 }
 
 HomeBannerComp.defaultProps = {
-  image1Alt: 'Image of fresh fruits and vegetables',
   rootClassName: '',
   content1: undefined,
   heading1: undefined,
-  image1Src:
-    'https://images.unsplash.com/photo-1688591407037-e110f4acc4b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyODYxNHw&ixlib=rb-4.1.0&q=80&w=1500',
 }
 
 HomeBannerComp.propTypes = {
-  image1Alt: PropTypes.string,
   rootClassName: PropTypes.string,
   content1: PropTypes.element,
   heading1: PropTypes.element,
-  image1Src: PropTypes.string,
 }
 
 export default HomeBannerComp

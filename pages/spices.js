@@ -75,6 +75,7 @@ const Spices = (props) => {
             width: 100%;
             display: flex;
             min-height: 100vh;
+            overflow-x: clip;
             align-items: center;
             flex-direction: column;
           }

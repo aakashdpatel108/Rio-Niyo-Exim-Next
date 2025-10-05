@@ -192,6 +192,7 @@ const Footer = (props) => {
             color: #040404;
             background-color: #d4d4d4;
           }
+
           @media (max-width: 991px) {
             .footerroot-class-name {
               padding: 0px;

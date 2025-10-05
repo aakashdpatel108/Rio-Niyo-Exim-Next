@@ -7,7 +7,9 @@ const FruitsFeature1 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="fruits-feature-1-layout300 thq-section-padding">
+      <div
+        className={`fruits-feature-1-layout300 thq-section-padding ${props.rootClassName} `}
+      >
         <div className="fruits-feature-1-max-width thq-section-max-width">
           <div className="fruits-feature-1-section-title">
             <span className="fruits-feature-1-text10 thq-body-small">
@@ -302,6 +304,7 @@ const FruitsFeature1 = (props) => {
           .fruits-feature-1-text21 {
             display: inline-block;
           }
+
           @media (max-width: 991px) {
             .fruits-feature-1-section-title {
               width: 100%;
@@ -343,6 +346,7 @@ FruitsFeature1.defaultProps = {
   feature1Description: undefined,
   heading1: undefined,
   feature1Title: undefined,
+  rootClassName: '',
 }
 
 FruitsFeature1.propTypes = {
@@ -355,6 +359,7 @@ FruitsFeature1.propTypes = {
   feature1Description: PropTypes.element,
   heading1: PropTypes.element,
   feature1Title: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default FruitsFeature1

@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react'
+import React, { useState } from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -13,8 +13,8 @@ const Features241 = (props) => {
           <div className="features241-image-container">
             {activeTab === 0 && (
               <img
-                alt={props.feature1ImgAlt}
-                src={props.feature1ImgSrc}
+                alt="OFICE"
+                src="/certificateofiec-1400w.png"
                 className="features241-image1 thq-img-ratio-16-9"
               />
             )}
@@ -43,32 +43,20 @@ const Features241 = (props) => {
                   <div className="features241-container3"></div>
                 )}
               </div>
-              <div className="features241-content1">
+              <div className="features241-content">
                 <h2 className="thq-heading-2">
-                  {props.feature1Title ?? (
-                    <Fragment>
-                      <span className="features241-text6">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_-HuJvu'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_GpXRGh'),
+                    }}
+                  ></span>
                 </h2>
                 <span className="thq-body-small">
-                  {props.feature1Description ?? (
-                    <Fragment>
-                      <span className="features241-text1">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_FqbBbA'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_kYG6qK'),
+                    }}
+                  ></span>
                 </span>
               </div>
             </div>
@@ -81,34 +69,6 @@ const Features241 = (props) => {
                   <div className="features241-container4"></div>
                 )}
               </div>
-              <div className="features241-content2">
-                <h2 className="thq-heading-2">
-                  {props.feature2Title ?? (
-                    <Fragment>
-                      <span className="features241-text2">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_0o4ks7'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </h2>
-                <span className="thq-body-small">
-                  {props.feature2Description ?? (
-                    <Fragment>
-                      <span className="features241-text5">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_ByJQPF'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
-              </div>
             </div>
             <div
               onClick={() => setActiveTab(2)}
@@ -118,34 +78,6 @@ const Features241 = (props) => {
                 {activeTab === 2 && (
                   <div className="features241-container5"></div>
                 )}
-              </div>
-              <div className="features241-content3">
-                <h2 className="thq-heading-2">
-                  {props.feature3Title ?? (
-                    <Fragment>
-                      <span className="features241-text3">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_RqeHLm'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </h2>
-                <span className="thq-body-small">
-                  {props.feature3Description ?? (
-                    <Fragment>
-                      <span className="features241-text4">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_FZP3ZH'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
               </div>
             </div>
           </div>
@@ -171,7 +103,7 @@ const Features241 = (props) => {
             position: relative;
           }
           .features241-image1 {
-            height: 873px;
+            height: 990px;
             border-color: var(--dl-color-theme-neutral-dark);
             border-style: dotted;
             border-width: 2px;
@@ -225,7 +157,7 @@ const Features241 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .features241-content1 {
+          .features241-content {
             gap: 16px;
             flex: 1;
             display: flex;
@@ -255,17 +187,6 @@ const Features241 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .features241-content2 {
-            gap: 16px;
-            flex: 1;
-            display: flex;
-            overflow: hidden;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-            justify-content: center;
-          }
           .features241-tab-horizontal3 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
@@ -285,35 +206,6 @@ const Features241 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .features241-content3 {
-            gap: 16px;
-            flex: 1;
-            display: flex;
-            overflow: hidden;
-            flex-grow: 1;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .features241-text1 {
-            display: inline-block;
-          }
-          .features241-text2 {
-            display: inline-block;
-          }
-          .features241-text3 {
-            display: inline-block;
-          }
-          .features241-text4 {
-            display: inline-block;
-          }
-          .features241-text5 {
-            display: inline-block;
-          }
-          .features241-text6 {
-            display: inline-block;
-          }
           @media (max-width: 1200px) {
             .features241-image1 {
               width: 478px;
@@ -324,6 +216,9 @@ const Features241 = (props) => {
             .features241-container2 {
               grid-gap: var(--dl-layout-space-twounits);
               grid-template-columns: 1fr;
+            }
+            .features241-image-container {
+              justify-content: center;
             }
           }
           @media (max-width: 414px) {
@@ -339,35 +234,19 @@ const Features241 = (props) => {
 }
 
 Features241.defaultProps = {
-  feature1Description: undefined,
   feature3ImgAlt: 'Global connections icon',
   feature2ImgAlt: 'Quality check icon',
-  feature1ImgAlt: 'Fresh fruits and vegetables',
-  feature2Title: undefined,
-  feature3Title: undefined,
-  feature3Description: undefined,
-  feature2Description: undefined,
   feature3ImgSrc:
     'https://images.unsplash.com/photo-1706407281811-eec5d826864b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
   feature2ImgSrc:
     'https://images.unsplash.com/photo-1750165023743-1ce8d4d03ce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
-  feature1ImgSrc: '/demo-1400w.png',
-  feature1Title: undefined,
 }
 
 Features241.propTypes = {
-  feature1Description: PropTypes.element,
   feature3ImgAlt: PropTypes.string,
   feature2ImgAlt: PropTypes.string,
-  feature1ImgAlt: PropTypes.string,
-  feature2Title: PropTypes.element,
-  feature3Title: PropTypes.element,
-  feature3Description: PropTypes.element,
-  feature2Description: PropTypes.element,
   feature3ImgSrc: PropTypes.string,
   feature2ImgSrc: PropTypes.string,
-  feature1ImgSrc: PropTypes.string,
-  feature1Title: PropTypes.element,
 }
 
 export default Features241
