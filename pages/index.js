@@ -453,14 +453,15 @@ const Home = (props) => {
           }
           .home-text18 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .home-text19 {
             display: inline-block;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .home-text20 {
             display: inline-block;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .home-container4 {
             width: 100%;
