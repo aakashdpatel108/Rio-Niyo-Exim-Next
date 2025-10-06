@@ -38,3 +38,10 @@ steps:
     echo "Build completed successfully on production branch."
   displayName: 'Notify Build Success'
 
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/.next'
+    ArtifactName: 'rioniyo_build'
+    publishLocation: 'Container'
+  displayName: 'Publish build artifact (.next folder)'
+
