@@ -65,23 +65,23 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image2Alt}
-                src={props.image2Src}
+                src="https://images.unsplash.com/photo-1705501720577-4fe7bba7f85b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxkcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NTk1OTU1MzF8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="Dragon fruit"
                 className="home-page-image-slider-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image3Alt}
-                src={props.image3Src}
+                src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5Njk4ODY4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="papaya"
                 className="home-page-image-slider-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image4Alt}
-                src={props.image4Src}
+                src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk2OTg4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="banana"
                 className="home-page-image-slider-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image5Alt}
-                src={props.image5Src}
+                src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTY5ODkwNHww&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="guava"
                 className="home-page-image-slider-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
               />
               <img
@@ -102,18 +102,18 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image3Alt}
-                src={props.image3Src}
+                src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5Njk4ODY4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="papaya"
                 className="home-page-image-slider-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image4Alt}
-                src={props.image4Src}
+                src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk2OTg4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="banana"
                 className="home-page-image-slider-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image5Alt}
-                src={props.image5Src}
+                src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTY5ODkwNHww&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="guava"
                 className="home-page-image-slider-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
               />
               <img
@@ -416,25 +416,18 @@ HomePageImageSlider.defaultProps = {
   image12Alt: 'Your reliable food export partner',
   image8Src:
     'https://images.unsplash.com/photo-1720289024474-946b6feabfcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1080',
-  image3Src:
-    'https://images.unsplash.com/photo-1720289024474-946b6feabfcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1080',
   image10Alt: 'Exotic Indian spices',
   content1: undefined,
   image9Alt: 'Premium food exports',
-  image5Src:
-    'https://images.unsplash.com/photo-1619073181529-93e12b4f9a29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1080',
   image12Src:
     'https://images.unsplash.com/photo-1570168007204-dfb528c6958f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&ixlib=rb-4.1.0&q=80&w=1080',
-  image4Src:
-    'https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1080',
   image11Src:
     'https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1080',
   image6Src:
     'https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&ixlib=rb-4.1.0&q=80&w=1080',
   image2Src:
-    'https://images.unsplash.com/photo-1619073181529-93e12b4f9a29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1080',
+    'https://images.unsplash.com/photo-1705501720577-4fe7bba7f85b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxkcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NTk1OTU1MzF8MA&ixlib=rb-4.1.0&w=1500',
   image1Alt: 'Fresh fruits and vegetables',
-  image4Alt: 'Global food export',
   action1: undefined,
   image8Alt: 'International quality standards',
   image7Src:
@@ -443,11 +436,9 @@ HomePageImageSlider.defaultProps = {
     'https://images.unsplash.com/photo-1649562212286-dfb64636ba91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMnw&ixlib=rb-4.1.0&q=80&w=1080',
   image2Alt: 'Spices from India',
   image7Alt: 'Connecting suppliers and buyers',
-  image3Alt: 'Quality produce',
   image6Alt: 'Exporting excellence',
   image1Src:
-    'https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&ixlib=rb-4.1.0&q=80&w=1080',
-  image5Alt: 'Farm-fresh products',
+    'https://images.unsplash.com/photo-1519096845289-95806ee03a1a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxtYW5nb3xlbnwwfHx8fDE3NTk2OTg3NDh8MA&ixlib=rb-4.1.0&w=1500',
   heading1: undefined,
   image11Alt: 'Delivering freshness worldwide',
 }
@@ -456,28 +447,22 @@ HomePageImageSlider.propTypes = {
   image10Src: PropTypes.string,
   image12Alt: PropTypes.string,
   image8Src: PropTypes.string,
-  image3Src: PropTypes.string,
   image10Alt: PropTypes.string,
   content1: PropTypes.element,
   image9Alt: PropTypes.string,
-  image5Src: PropTypes.string,
   image12Src: PropTypes.string,
-  image4Src: PropTypes.string,
   image11Src: PropTypes.string,
   image6Src: PropTypes.string,
   image2Src: PropTypes.string,
   image1Alt: PropTypes.string,
-  image4Alt: PropTypes.string,
   action1: PropTypes.element,
   image8Alt: PropTypes.string,
   image7Src: PropTypes.string,
   image9Src: PropTypes.string,
   image2Alt: PropTypes.string,
   image7Alt: PropTypes.string,
-  image3Alt: PropTypes.string,
   image6Alt: PropTypes.string,
   image1Src: PropTypes.string,
-  image5Alt: PropTypes.string,
   heading1: PropTypes.element,
   image11Alt: PropTypes.string,
 }
