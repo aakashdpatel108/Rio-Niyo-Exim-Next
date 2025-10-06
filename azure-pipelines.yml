@@ -1,0 +1,47 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+  branches:
+    include:
+      - production # Only build on production branch
+
+variables:
+  NODE_VERSION: '22.0' 
+  BUILD_DIR: '.next'   # default Next.js build folder
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '$(NODE_VERSION)'
+  displayName: 'Install Node.js'
+
+- checkout: self
+  displayName: 'Checkout production branch'
+
+- script: |
+    npm ci
+  displayName: 'Install dependencies'
+  
+
+- script: |
+    npm run build
+  displayName: 'Build Next.js app'
+
+
+- script: |
+    echo "Build completed successfully on production branch."
+  displayName: 'Notify Build Success'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/.next'
+    ArtifactName: 'rioniyo_build'
+    publishLocation: 'Container'
+  displayName: 'Publish build artifact (.next folder)'
+
