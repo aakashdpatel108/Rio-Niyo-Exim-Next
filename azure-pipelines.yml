@@ -4,7 +4,13 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- main
+  branches:
+    include:
+      - production # Only build on production branch
+
+variables:
+  NODE_VERSION: '22.0' 
+  BUILD_DIR: '.next'   # default Next.js build folder
 
 pool:
   vmImage: ubuntu-latest
@@ -12,10 +18,23 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '20.x'
+    versionSpec: '$(NODE_VERSION)'
   displayName: 'Install Node.js'
 
+- checkout: self
+  displayName: 'Checkout production branch'
+
 - script: |
-    npm install
+    npm ci
+  displayName: 'Install dependencies'
+  
+
+- script: |
     npm run build
-  displayName: 'npm install and build'
+  displayName: 'Build Next.js app'
+
+
+- script: |
+    echo "Build completed successfully on production branch."
+  displayName: 'Notify Build Success'
+
