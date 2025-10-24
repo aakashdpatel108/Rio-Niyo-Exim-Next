@@ -12,7 +12,7 @@ const Features4 = (props) => {
           <h2 className="features4-text10 thq-heading-2">
             {props.sectionTitle ?? (
               <Fragment>
-                <span className="features4-text11">
+                <span className="features4-text19">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_UZbWJS'),
@@ -25,8 +25,8 @@ const Features4 = (props) => {
           <div className="features4-row thq-grid-auto-300">
             <div className="features4-feature21">
               <img
-                src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGZyZXNoJTIwZnJ1aXRzfGVufDB8fHx8MTc2MTMxODYyN3ww&amp;ixlib=rb-4.1.0&amp;w=600"
                 alt="Image showing secure payment options"
+                src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGZyZXNoJTIwZnJ1aXRzfGVufDB8fHx8MTc2MTMxODYyN3ww&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
               <div className="features4-content1 thq-flex-column">
@@ -34,7 +34,7 @@ const Features4 = (props) => {
                   <strong className="features4-title21 thq-heading-3">
                     {props.feature2Title ?? (
                       <Fragment>
-                        <span className="features4-text13">
+                        <span className="features4-text17">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_w94CmI'),
@@ -47,7 +47,7 @@ const Features4 = (props) => {
                   <span className="features4-description21 thq-body-small">
                     {props.feature2Description ?? (
                       <Fragment>
-                        <span className="features4-text12">
+                        <span className="features4-text18">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_P4uKip'),
@@ -76,8 +76,8 @@ const Features4 = (props) => {
             </div>
             <div className="features4-feature22">
               <img
-                src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGZyZXNoJTIwdmVnZXRhYmxlc3xlbnwwfHx8fDE3NjEzMTg2NjN8MA&amp;ixlib=rb-4.1.0&amp;w=600"
                 alt="Image showing secure payment options"
+                src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGZyZXNoJTIwdmVnZXRhYmxlc3xlbnwwfHx8fDE3NjEzMTg2NjN8MA&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
               <div className="features4-content2 thq-flex-column">
@@ -85,7 +85,7 @@ const Features4 = (props) => {
                   <strong className="features4-title22 thq-heading-3">
                     {props.feature2Title3 ?? (
                       <Fragment>
-                        <span className="features4-text18">
+                        <span className="features4-text11">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_KTLn-T'),
@@ -98,7 +98,7 @@ const Features4 = (props) => {
                   <span className="features4-description22 thq-body-small">
                     {props.feature2Description3 ?? (
                       <Fragment>
-                        <span className="features4-text19">
+                        <span className="features4-text14">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_uo2ubm'),
@@ -127,8 +127,8 @@ const Features4 = (props) => {
             </div>
             <div className="features4-feature23">
               <img
-                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHNwaWNlc3xlbnwwfHx8fDE3NjEzMTg2ODd8MA&amp;ixlib=rb-4.1.0&amp;w=600"
                 alt="Image showing secure payment options"
+                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHNwaWNlc3xlbnwwfHx8fDE3NjEzMTg2ODd8MA&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
               <div className="features4-content3 thq-flex-column">
@@ -149,7 +149,7 @@ const Features4 = (props) => {
                   <span className="features4-description23 thq-body-small">
                     {props.feature2Description2 ?? (
                       <Fragment>
-                        <span className="features4-text17">
+                        <span className="features4-text15">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_GAd4vg'),
@@ -178,8 +178,8 @@ const Features4 = (props) => {
             </div>
             <div className="features4-feature24">
               <img
-                src="https://images.unsplash.com/photo-1616252576862-bd9abd7467f9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fG51dHN8ZW58MHx8fHwxNzYxMzE4OTgzfDA&amp;ixlib=rb-4.1.0&amp;w=600"
                 alt="Image showing secure payment options"
+                src="https://images.unsplash.com/photo-1616252576862-bd9abd7467f9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fG51dHN8ZW58MHx8fHwxNzYxMzE4OTgzfDA&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
               <div className="features4-content4 thq-flex-column">
@@ -187,7 +187,7 @@ const Features4 = (props) => {
                   <strong className="features4-title24 thq-heading-3">
                     {props.feature2Title1 ?? (
                       <Fragment>
-                        <span className="features4-text14">
+                        <span className="features4-text12">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_4wg4FO'),
@@ -200,7 +200,7 @@ const Features4 = (props) => {
                   <span className="features4-description24 thq-body-small">
                     {props.feature2Description1 ?? (
                       <Fragment>
-                        <span className="features4-text15">
+                        <span className="features4-text13">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_EslWDy'),
@@ -439,27 +439,27 @@ const Features4 = (props) => {
 }
 
 Features4.defaultProps = {
-  sectionTitle: undefined,
-  feature2Description: undefined,
-  feature2Title: undefined,
+  feature2Title3: undefined,
   feature2Title1: undefined,
   feature2Description1: undefined,
-  feature2Title2: undefined,
-  feature2Description2: undefined,
-  feature2Title3: undefined,
   feature2Description3: undefined,
+  feature2Description2: undefined,
+  feature2Title2: undefined,
+  feature2Title: undefined,
+  feature2Description: undefined,
+  sectionTitle: undefined,
 }
 
 Features4.propTypes = {
-  sectionTitle: PropTypes.element,
-  feature2Description: PropTypes.element,
-  feature2Title: PropTypes.element,
+  feature2Title3: PropTypes.element,
   feature2Title1: PropTypes.element,
   feature2Description1: PropTypes.element,
-  feature2Title2: PropTypes.element,
-  feature2Description2: PropTypes.element,
-  feature2Title3: PropTypes.element,
   feature2Description3: PropTypes.element,
+  feature2Description2: PropTypes.element,
+  feature2Title2: PropTypes.element,
+  feature2Title: PropTypes.element,
+  feature2Description: PropTypes.element,
+  sectionTitle: PropTypes.element,
 }
 
 export default Features4

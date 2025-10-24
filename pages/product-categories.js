@@ -22,20 +22,9 @@ const ProductCategories = (props) => {
           />
         </Head>
         <Nav
-          page4={
-            <Fragment>
-              <span className="product-categories-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_x6xa67'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page1={
             <Fragment>
-              <span className="product-categories-text11">
+              <span className="product-categories-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_02Hm3Q'),
@@ -46,7 +35,7 @@ const ProductCategories = (props) => {
           }
           page2={
             <Fragment>
-              <span className="product-categories-text12">
+              <span className="product-categories-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Ck2TOw'),
@@ -57,10 +46,21 @@ const ProductCategories = (props) => {
           }
           page3={
             <Fragment>
-              <span className="product-categories-text13">
+              <span className="product-categories-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_2XhQc4'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page4={
+            <Fragment>
+              <span className="product-categories-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_x6xa67'),
                   }}
                 ></span>
               </span>
@@ -96,20 +96,9 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
-          feature2Description={
-            <Fragment>
-              <span className="product-categories-text16">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-7qFHi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           feature2Title={
             <Fragment>
-              <span className="product-categories-text17">
+              <span className="product-categories-text16">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_xlkuOq'),
@@ -120,7 +109,7 @@ const ProductCategories = (props) => {
           }
           feature2Title1={
             <Fragment>
-              <span className="product-categories-text18">
+              <span className="product-categories-text17">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_AJYoxS'),
@@ -129,20 +118,9 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
-          feature2Description1={
-            <Fragment>
-              <span className="product-categories-text19">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_qYXdux'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           feature2Title2={
             <Fragment>
-              <span className="product-categories-text20">
+              <span className="product-categories-text18">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_vYjhD3'),
@@ -151,23 +129,45 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
-          feature2Description2={
+          feature2Title3={
             <Fragment>
-              <span className="product-categories-text21">
+              <span className="product-categories-text19">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_NGbjEP'),
+                    __html: translate.raw('text_HulPg9'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          feature2Title3={
+          feature2Description={
+            <Fragment>
+              <span className="product-categories-text20">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_-7qFHi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          feature2Description1={
+            <Fragment>
+              <span className="product-categories-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_qYXdux'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          feature2Description2={
             <Fragment>
               <span className="product-categories-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HulPg9'),
+                    __html: translate.raw('text_NGbjEP'),
                   }}
                 ></span>
               </span>
@@ -187,12 +187,12 @@ const ProductCategories = (props) => {
           locale={props?.locale ?? ''}
         ></Features4>
         <CTA26
-          heading1={
+          action1={
             <Fragment>
               <span className="product-categories-text24">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Nq1gyI'),
+                    __html: translate.raw('text_4OJ84O'),
                   }}
                 ></span>
               </span>
@@ -209,12 +209,12 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
-          action1={
+          heading1={
             <Fragment>
               <span className="product-categories-text26">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4OJ84O'),
+                    __html: translate.raw('text_Nq1gyI'),
                   }}
                 ></span>
               </span>

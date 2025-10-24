@@ -10,8 +10,8 @@ const ContactForm3 = (props) => {
       <div className="contact-form3-contact9 thq-section-padding">
         <div className="thq-flex-row thq-section-max-width contact-form3-max-width">
           <img
-            src="https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzYxMzE5OTc3fDA&amp;ixlib=rb-4.1.0&amp;w=700"
             alt="contact us"
+            src="https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzYxMzE5OTc3fDA&amp;ixlib=rb-4.1.0&amp;w=700"
             className="contact-form3-image1 thq-img-ratio-4-3"
           />
           <div className="contact-form3-content1 thq-flex-column">

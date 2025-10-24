@@ -29,7 +29,7 @@ const CTA26 = (props) => {
                   <p className="thq-body-large">
                     {props.content1 ?? (
                       <Fragment>
-                        <span className="cta26-text5">
+                        <span className="cta26-text6">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_P3ogPU'),
@@ -48,7 +48,7 @@ const CTA26 = (props) => {
                     <span>
                       {props.action1 ?? (
                         <Fragment>
-                          <span className="cta26-text6">
+                          <span className="cta26-text5">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_VUKWqk'),
@@ -159,14 +159,14 @@ const CTA26 = (props) => {
 
 CTA26.defaultProps = {
   heading1: undefined,
-  content1: undefined,
   action1: undefined,
+  content1: undefined,
 }
 
 CTA26.propTypes = {
   heading1: PropTypes.element,
-  content1: PropTypes.element,
   action1: PropTypes.element,
+  content1: PropTypes.element,
 }
 
 export default CTA26
