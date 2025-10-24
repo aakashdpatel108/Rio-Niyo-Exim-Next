@@ -193,8 +193,16 @@ const Footer = (props) => {
             background-color: #d4d4d4;
           }
 
+          .footerroot-class-name11 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: #040404;
+            background-color: #d4d4d4;
+          }
           @media (max-width: 991px) {
             .footerroot-class-name {
+              padding: 0px;
+            }
+            .footerroot-class-name11 {
               padding: 0px;
             }
           }
@@ -220,6 +228,9 @@ const Footer = (props) => {
               font-size: 12px;
             }
             .footerroot-class-name {
+              width: auto;
+            }
+            .footerroot-class-name11 {
               width: auto;
             }
           }

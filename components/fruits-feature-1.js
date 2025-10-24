@@ -339,6 +339,7 @@ const FruitsFeature1 = (props) => {
 FruitsFeature1.defaultProps = {
   feature2Description: undefined,
   slogan1: undefined,
+  rootClassName: '',
   feature2Title: undefined,
   feature3Description: undefined,
   feature3Title: undefined,
@@ -346,12 +347,12 @@ FruitsFeature1.defaultProps = {
   feature1Description: undefined,
   heading1: undefined,
   feature1Title: undefined,
-  rootClassName: '',
 }
 
 FruitsFeature1.propTypes = {
   feature2Description: PropTypes.element,
   slogan1: PropTypes.element,
+  rootClassName: PropTypes.string,
   feature2Title: PropTypes.element,
   feature3Description: PropTypes.element,
   feature3Title: PropTypes.element,
@@ -359,7 +360,6 @@ FruitsFeature1.propTypes = {
   feature1Description: PropTypes.element,
   heading1: PropTypes.element,
   feature1Title: PropTypes.element,
-  rootClassName: PropTypes.string,
 }
 
 export default FruitsFeature1

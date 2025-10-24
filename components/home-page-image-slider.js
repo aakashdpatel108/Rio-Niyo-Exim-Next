@@ -65,23 +65,23 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1705501720577-4fe7bba7f85b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxkcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NTk1OTU1MzF8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="Dragon fruit"
+                src="https://images.unsplash.com/photo-1705501720577-4fe7bba7f85b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxkcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NTk1OTU1MzF8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5Njk4ODY4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="papaya"
+                src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5Njk4ODY4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk2OTg4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="banana"
+                src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk2OTg4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTY5ODkwNHww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="guava"
+                src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTY5ODkwNHww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
               />
               <img
@@ -102,18 +102,18 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5Njk4ODY4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="papaya"
+                src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5Njk4ODY4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk2OTg4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="banana"
+                src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk2OTg4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTY5ODkwNHww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="guava"
+                src="https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGd1YXZhfGVufDB8fHx8MTc1OTY5ODkwNHww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
               />
               <img

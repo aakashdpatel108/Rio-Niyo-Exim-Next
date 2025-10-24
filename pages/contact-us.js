@@ -140,100 +140,12 @@ const ContactUs = (props) => {
           locale={props?.locale ?? ''}
         ></ContactForm3>
         <Contact14
-          link1={
+          heading1={
             <Fragment>
               <span className="contact-us-text20">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JZUnyI'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          email1={
-            <Fragment>
-              <span className="contact-us-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_s3igBO'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          phone1={
-            <Fragment>
-              <span className="contact-us-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JUqrN6'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content1={
-            <Fragment>
-              <span className="contact-us-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ioL35F'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content2={
-            <Fragment>
-              <span className="contact-us-text24">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__ML4j7'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content3={
-            <Fragment>
-              <span className="contact-us-text25">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_qI3HKj'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="contact-us-text26">
-                <span
-                  dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LH0YEl'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading2={
-            <Fragment>
-              <span className="contact-us-text27">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_WDfYkW'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading3={
-            <Fragment>
-              <span className="contact-us-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_oDeCOG'),
                   }}
                 ></span>
               </span>
@@ -244,7 +156,7 @@ const ContactUs = (props) => {
         <Contact7
           content1={
             <Fragment>
-              <span className="contact-us-text29">
+              <span className="contact-us-text21">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Xr20pv'),
@@ -255,7 +167,7 @@ const ContactUs = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="contact-us-text30">
+              <span className="contact-us-text22">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CdEU5L'),
@@ -321,30 +233,6 @@ const ContactUs = (props) => {
             display: inline-block;
           }
           .contact-us-text22 {
-            display: inline-block;
-          }
-          .contact-us-text23 {
-            display: inline-block;
-          }
-          .contact-us-text24 {
-            display: inline-block;
-          }
-          .contact-us-text25 {
-            display: inline-block;
-          }
-          .contact-us-text26 {
-            display: inline-block;
-          }
-          .contact-us-text27 {
-            display: inline-block;
-          }
-          .contact-us-text28 {
-            display: inline-block;
-          }
-          .contact-us-text29 {
-            display: inline-block;
-          }
-          .contact-us-text30 {
             display: inline-block;
           }
         `}

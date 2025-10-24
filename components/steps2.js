@@ -14,7 +14,7 @@ const Steps2 = (props) => {
               <span className="steps2-text10">
                 {props.text ?? (
                   <Fragment>
-                    <span className="steps2-text33">
+                    <span className="steps2-text32">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_Z0gWMm'),
@@ -48,7 +48,7 @@ const Steps2 = (props) => {
                 <h2 className="steps2-text13 thq-heading-2">
                   {props.step1Title ?? (
                     <Fragment>
-                      <span className="steps2-text25">
+                      <span className="steps2-text24">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_EvVumV'),
@@ -61,7 +61,7 @@ const Steps2 = (props) => {
                 <span className="steps2-text14 thq-body-small">
                   {props.step1Description ?? (
                     <Fragment>
-                      <span className="steps2-text31">
+                      <span className="steps2-text30">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_mb8EhB'),
@@ -80,10 +80,10 @@ const Steps2 = (props) => {
                 </label>
               </div>
               <div className="steps2-container5 thq-card">
-                <h2 className="steps2-text16 thq-heading-2">
+                <h2 className="steps2-heading thq-heading-2">
                   {props.step2Title ?? (
                     <Fragment>
-                      <span className="steps2-text28">
+                      <span className="steps2-text27">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_hMZyH4'),
@@ -93,10 +93,10 @@ const Steps2 = (props) => {
                     </Fragment>
                   )}
                 </h2>
-                <span className="steps2-text17 thq-body-small">
+                <span className="steps2-text16 thq-body-small">
                   {props.step2Description ?? (
                     <Fragment>
-                      <span className="steps2-text29">
+                      <span className="steps2-text28">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_VG1gs2'),
@@ -106,7 +106,7 @@ const Steps2 = (props) => {
                     </Fragment>
                   )}
                 </span>
-                <label className="steps2-text18 thq-heading-3">
+                <label className="steps2-text17 thq-heading-3">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_ssYsiq'),
@@ -115,10 +115,10 @@ const Steps2 = (props) => {
                 </label>
               </div>
               <div className="steps2-container6 thq-card">
-                <h2 className="steps2-text19 thq-heading-2">
+                <h2 className="steps2-text18 thq-heading-2">
                   {props.step3Title ?? (
                     <Fragment>
-                      <span className="steps2-text27">
+                      <span className="steps2-text26">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_CfU2sq'),
@@ -128,10 +128,10 @@ const Steps2 = (props) => {
                     </Fragment>
                   )}
                 </h2>
-                <span className="steps2-text20 thq-body-small">
+                <span className="steps2-text19 thq-body-small">
                   {props.step3Description ?? (
                     <Fragment>
-                      <span className="steps2-text32">
+                      <span className="steps2-text31">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_E1mBf3'),
@@ -141,7 +141,7 @@ const Steps2 = (props) => {
                     </Fragment>
                   )}
                 </span>
-                <label className="steps2-text21 thq-heading-3">
+                <label className="steps2-text20 thq-heading-3">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_Z9G3jl'),
@@ -150,10 +150,10 @@ const Steps2 = (props) => {
                 </label>
               </div>
               <div className="steps2-container7 thq-card">
-                <h2 className="steps2-text22 thq-heading-2">
+                <h2 className="steps2-text21 thq-heading-2">
                   {props.step4Title ?? (
                     <Fragment>
-                      <span className="steps2-text26">
+                      <span className="steps2-text25">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_6rVLi1'),
@@ -163,10 +163,10 @@ const Steps2 = (props) => {
                     </Fragment>
                   )}
                 </h2>
-                <span className="steps2-text23 thq-body-small">
+                <span className="steps2-text22 thq-body-small">
                   {props.step4Description ?? (
                     <Fragment>
-                      <span className="steps2-text30">
+                      <span className="steps2-text29">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_TewuTW'),
@@ -176,7 +176,7 @@ const Steps2 = (props) => {
                     </Fragment>
                   )}
                 </span>
-                <label className="steps2-text24 thq-heading-3">
+                <label className="steps2-text23 thq-heading-3">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_gzi4Da'),
@@ -248,11 +248,11 @@ const Steps2 = (props) => {
           .steps2-text13 {
             font-size: 30px;
             text-align: left;
-            font-family: 'inter';
+            font-family: 'Taviraj';
           }
           .steps2-text14 {
             text-align: left;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .steps2-text15 {
             top: var(--dl-layout-space-unit);
@@ -270,14 +270,14 @@ const Steps2 = (props) => {
             margin-bottom: var(--dl-layout-space-twounits);
             background-color: var(--dl-color-theme-accent2);
           }
-          .steps2-text16 {
+          .steps2-heading {
             text-align: left;
           }
-          .steps2-text17 {
+          .steps2-text16 {
             text-align: left;
             font-family: 'Inter';
           }
-          .steps2-text18 {
+          .steps2-text17 {
             top: var(--dl-layout-space-unit);
             right: var(--dl-layout-space-unit);
             position: absolute;
@@ -292,14 +292,14 @@ const Steps2 = (props) => {
             margin-bottom: var(--dl-layout-space-twounits);
             background-color: var(--dl-color-theme-accent1);
           }
-          .steps2-text19 {
+          .steps2-text18 {
             text-align: left;
             font-family: 'Inter';
           }
-          .steps2-text20 {
+          .steps2-text19 {
             text-align: left;
           }
-          .steps2-text21 {
+          .steps2-text20 {
             top: var(--dl-layout-space-unit);
             right: var(--dl-layout-space-unit);
             position: absolute;
@@ -313,13 +313,13 @@ const Steps2 = (props) => {
             transform: rotate(2deg);
             background-color: var(--dl-color-theme-accent2);
           }
-          .steps2-text22 {
+          .steps2-text21 {
             font-family: 'Inter';
           }
-          .steps2-text23 {
+          .steps2-text22 {
             text-align: left;
           }
-          .steps2-text24 {
+          .steps2-text23 {
             top: var(--dl-layout-space-unit);
             right: var(--dl-layout-space-unit);
             position: absolute;
@@ -327,12 +327,17 @@ const Steps2 = (props) => {
             font-style: normal;
             font-weight: 700;
           }
+          .steps2-text24 {
+            display: inline-block;
+            font-family: 'Taviraj';
+          }
           .steps2-text25 {
             display: inline-block;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .steps2-text26 {
             display: inline-block;
+            font-family: 'Taviraj';
           }
           .steps2-text27 {
             display: inline-block;
@@ -342,17 +347,17 @@ const Steps2 = (props) => {
           }
           .steps2-text29 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .steps2-text30 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .steps2-text31 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .steps2-text32 {
-            display: inline-block;
-          }
-          .steps2-text33 {
             display: inline-block;
           }
           @media (max-width: 1600px) {
@@ -432,29 +437,29 @@ const Steps2 = (props) => {
               font-size: 15px;
               text-align: left;
             }
-            .steps2-text16 {
+            .steps2-heading {
               font-size: 20px;
               font-family: Inter;
             }
-            .steps2-text17 {
+            .steps2-text16 {
               font-size: 15px;
               text-align: left;
+            }
+            .steps2-text18 {
+              font-size: 20px;
+              text-align: left;
+              font-family: Inter;
             }
             .steps2-text19 {
-              font-size: 20px;
-              text-align: left;
-              font-family: Inter;
-            }
-            .steps2-text20 {
               font-size: 15px;
               text-align: left;
             }
-            .steps2-text22 {
+            .steps2-text21 {
               font-size: 20px;
               text-align: left;
               font-family: Inter;
             }
-            .steps2-text23 {
+            .steps2-text22 {
               font-size: 15px;
               text-align: left;
             }

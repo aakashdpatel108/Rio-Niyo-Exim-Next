@@ -377,7 +377,7 @@ const Nav = (props) => {
           .nav-container1 {
             width: 100%;
             display: flex;
-            z-index: 100;
+            z-index: 10000;
             position: relative;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);

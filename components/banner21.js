@@ -85,9 +85,13 @@ const Banner21 = (props) => {
             flex-direction: column;
           }
           .banner21-title {
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
             text-align: center;
           }
           .banner21-text1 {
+            fill: var(--dl-color-theme-secondary1);
+            color: var(--dl-color-theme-secondary1);
             text-align: center;
           }
           .banner21-button {

@@ -10,8 +10,8 @@ const ContactForm3 = (props) => {
       <div className="contact-form3-contact9 thq-section-padding">
         <div className="thq-flex-row thq-section-max-width contact-form3-max-width">
           <img
-            alt={props.imageAlt}
-            src={props.imageSrc}
+            src="https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzYxMzE5OTc3fDA&amp;ixlib=rb-4.1.0&amp;w=700"
+            alt="contact us"
             className="contact-form3-image1 thq-img-ratio-4-3"
           />
           <div className="contact-form3-content1 thq-flex-column">
@@ -282,19 +282,14 @@ ContactForm3.defaultProps = {
   content1: undefined,
   heading1: undefined,
   content2: undefined,
-  imageAlt: 'Image1',
   action: undefined,
-  imageSrc:
-    'https://images.unsplash.com/photo-1599536884823-1bc4fb5f9dea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTE1NzgyMnw&ixlib=rb-4.1.0&q=80&w=1080',
 }
 
 ContactForm3.propTypes = {
   content1: PropTypes.element,
   heading1: PropTypes.element,
   content2: PropTypes.element,
-  imageAlt: PropTypes.string,
   action: PropTypes.element,
-  imageSrc: PropTypes.string,
 }
 
 export default ContactForm3

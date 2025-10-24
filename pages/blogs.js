@@ -17,20 +17,9 @@ const Blogs = (props) => {
           <meta property="og:title" content="Blogs - Rio Niyo Exim" />
         </Head>
         <Nav
-          page4={
-            <Fragment>
-              <span className="blogs-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_q0yqPd'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page1={
             <Fragment>
-              <span className="blogs-text11">
+              <span className="blogs-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_J19n10'),
@@ -41,7 +30,7 @@ const Blogs = (props) => {
           }
           page2={
             <Fragment>
-              <span className="blogs-text12">
+              <span className="blogs-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_6s4Vvs'),
@@ -52,10 +41,21 @@ const Blogs = (props) => {
           }
           page3={
             <Fragment>
-              <span className="blogs-text13">
+              <span className="blogs-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GMQPDH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page4={
+            <Fragment>
+              <span className="blogs-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_q0yqPd'),
                   }}
                 ></span>
               </span>
@@ -65,20 +65,9 @@ const Blogs = (props) => {
           locale={props?.locale ?? ''}
         ></Nav>
         <FruitsFeature1
-          feature2Description={
-            <Fragment>
-              <span className="blogs-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Ve4V7U'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           slogan1={
             <Fragment>
-              <span className="blogs-text15">
+              <span className="blogs-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FsWJhF'),
@@ -87,42 +76,9 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
-          feature2Title={
-            <Fragment>
-              <span className="blogs-text16">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GOzfGP'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Description={
-            <Fragment>
-              <span className="blogs-text17">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rraRGR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Title={
-            <Fragment>
-              <span className="blogs-text18">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Uv8tqK'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           content1={
             <Fragment>
-              <span className="blogs-text19">
+              <span className="blogs-text15">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_u2J_Tw'),
@@ -131,6 +87,51 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          heading1={
+            <Fragment>
+              <span className="blogs-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_b-9bxv'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          feature1Title={
+            <Fragment>
+              <span className="blogs-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_8wQW31'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          feature2Title={
+            <Fragment>
+              <span className="blogs-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_GOzfGP'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          feature3Title={
+            <Fragment>
+              <span className="blogs-text19">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Uv8tqK'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="fruits-feature1root-class-name"
           feature1Description={
             <Fragment>
               <span className="blogs-text20">
@@ -142,29 +143,28 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
-          heading1={
+          feature2Description={
             <Fragment>
               <span className="blogs-text21">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_b-9bxv'),
+                    __html: translate.raw('text_Ve4V7U'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          feature1Title={
+          feature3Description={
             <Fragment>
               <span className="blogs-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8wQW31'),
+                    __html: translate.raw('text_rraRGR'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="fruits-feature1root-class-name"
           locale={props?.locale ?? ''}
         ></FruitsFeature1>
         <Footer

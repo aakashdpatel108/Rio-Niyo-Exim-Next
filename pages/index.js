@@ -199,7 +199,7 @@ const Home = (props) => {
                 <span className="home-text23">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_TV7fgi'),
+                      __html: translate.raw('text_Iy6K2o'),
                     }}
                   ></span>
                 </span>
@@ -210,7 +210,7 @@ const Home = (props) => {
                 <span className="home-text24">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_PZBOPa'),
+                      __html: translate.raw('text_-diTO9'),
                     }}
                   ></span>
                 </span>
@@ -221,7 +221,7 @@ const Home = (props) => {
                 <span className="home-text25">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_MpJHYY'),
+                      __html: translate.raw('text_fcLXyQ'),
                     }}
                   ></span>
                 </span>
@@ -232,7 +232,7 @@ const Home = (props) => {
                 <span className="home-text26">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_gDb0cf'),
+                      __html: translate.raw('text_aRvsRf'),
                     }}
                   ></span>
                 </span>
@@ -243,7 +243,7 @@ const Home = (props) => {
                 <span className="home-text27">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_a7eiNf'),
+                      __html: translate.raw('text_OEYomF'),
                     }}
                   ></span>
                 </span>
@@ -254,7 +254,7 @@ const Home = (props) => {
                 <span className="home-text28">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_MH_PWj'),
+                      __html: translate.raw('text_sNScFn'),
                     }}
                   ></span>
                 </span>
@@ -265,7 +265,7 @@ const Home = (props) => {
                 <span className="home-text29">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_43OjXq'),
+                      __html: translate.raw('text_CvQFq4'),
                     }}
                   ></span>
                 </span>
@@ -484,28 +484,34 @@ const Home = (props) => {
           }
           .home-text22 {
             display: inline-block;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .home-text23 {
             display: inline-block;
           }
           .home-text24 {
             display: inline-block;
+            font-family: 'Taviraj';
           }
           .home-text25 {
             display: inline-block;
+            font-family: 'Taviraj';
           }
           .home-text26 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .home-text27 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .home-text28 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .home-text29 {
             display: inline-block;
+            font-family: 'Open Sans';
           }
           .home-text30 {
             display: inline-block;

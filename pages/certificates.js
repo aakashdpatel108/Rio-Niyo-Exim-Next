@@ -5,8 +5,8 @@ import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
 import CertificateBannerComp from '../components/certificate-banner-comp'
-import Features241 from '../components/features241'
-import Features251 from '../components/features251'
+import Certificate1 from '../components/certificate-1'
+import Certificate2 from '../components/certificate-2'
 import Footer from '../components/footer'
 
 const Certificates = (props) => {
@@ -115,12 +115,12 @@ const Certificates = (props) => {
           rootClassName="certificate-banner-comproot-class-name1"
           locale={props?.locale ?? ''}
         ></CertificateBannerComp>
-        <Features241
+        <Certificate1
           feature1ImgSrc="/demo-1400w.png"
           feature3ImgSrc="https://images.unsplash.com/photo-1563268381-06ddf2b1f46d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE0fHxibGFja3xlbnwwfHx8fDE3NTk0OTkwMDB8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
           locale={props?.locale ?? ''}
-        ></Features241>
-        <Features251
+        ></Certificate1>
+        <Certificate2
           feature1Title={
             <Fragment>
               <span className="certificates-text18">
@@ -132,31 +132,9 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
-          feature2Title={
-            <Fragment>
-              <span className="certificates-text19">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0weCMG'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Title={
-            <Fragment>
-              <span className="certificates-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Q-2WNx'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           feature1Description={
             <Fragment>
-              <span className="certificates-text21">
+              <span className="certificates-text19">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_UNsQjC'),
@@ -165,30 +143,8 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
-          feature2Description={
-            <Fragment>
-              <span className="certificates-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_RSkA-B'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Description={
-            <Fragment>
-              <span className="certificates-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4RyMQD'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
-        ></Features251>
+        ></Certificate2>
         <Footer
           logoSrc="/rioniyoexim.svg"
           rootClassName="footerroot-class-name5"
@@ -233,18 +189,6 @@ const Certificates = (props) => {
             display: inline-block;
           }
           .certificates-text19 {
-            display: inline-block;
-          }
-          .certificates-text20 {
-            display: inline-block;
-          }
-          .certificates-text21 {
-            display: inline-block;
-          }
-          .certificates-text22 {
-            display: inline-block;
-          }
-          .certificates-text23 {
             display: inline-block;
           }
           @media (max-width: 991px) {
