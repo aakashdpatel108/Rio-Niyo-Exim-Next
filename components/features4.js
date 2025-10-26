@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -59,18 +60,20 @@ const Features4 = (props) => {
                   </span>
                 </div>
                 <div className="features4-action1 thq-flex-row">
-                  <button className="thq-button-flat">
-                    <span className="thq-body-small">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_0Oydqg'),
-                        }}
-                      ></span>
-                    </span>
-                    <svg viewBox="0 0 1024 1024" className="thq-icon-small">
-                      <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
-                    </svg>
-                  </button>
+                  <Link href="/fruits">
+                    <a className="features4-link1 thq-button-flat">
+                      <span className="thq-body-small">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_0Oydqg'),
+                          }}
+                        ></span>
+                      </span>
+                      <svg viewBox="0 0 1024 1024" className="thq-icon-small">
+                        <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -110,18 +113,20 @@ const Features4 = (props) => {
                   </span>
                 </div>
                 <div className="features4-action3 thq-flex-row">
-                  <button className="thq-button-flat">
-                    <span className="thq-body-small">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_tOVdxS'),
-                        }}
-                      ></span>
-                    </span>
-                    <svg viewBox="0 0 1024 1024" className="thq-icon-small">
-                      <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
-                    </svg>
-                  </button>
+                  <Link href="/vegetables">
+                    <a className="features4-link2 thq-button-flat">
+                      <span className="thq-body-small">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_tOVdxS'),
+                          }}
+                        ></span>
+                      </span>
+                      <svg viewBox="0 0 1024 1024" className="thq-icon-small">
+                        <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -161,18 +166,20 @@ const Features4 = (props) => {
                   </span>
                 </div>
                 <div className="features4-action4 thq-flex-row">
-                  <button className="thq-button-flat">
-                    <span className="thq-body-small">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_6S8WSC'),
-                        }}
-                      ></span>
-                    </span>
-                    <svg viewBox="0 0 1024 1024" className="thq-icon-small">
-                      <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
-                    </svg>
-                  </button>
+                  <Link href="/spices">
+                    <a className="features4-link3 thq-button-flat">
+                      <span className="thq-body-small">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_6S8WSC'),
+                          }}
+                        ></span>
+                      </span>
+                      <svg viewBox="0 0 1024 1024" className="thq-icon-small">
+                        <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -212,18 +219,20 @@ const Features4 = (props) => {
                   </span>
                 </div>
                 <div className="features4-action5 thq-flex-row">
-                  <button className="thq-button-flat">
-                    <span className="thq-body-small">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_7FySmb'),
-                        }}
-                      ></span>
-                    </span>
-                    <svg viewBox="0 0 1024 1024" className="thq-icon-small">
-                      <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
-                    </svg>
-                  </button>
+                  <Link href="/dry-fruits">
+                    <a className="features4-link4 thq-button-flat">
+                      <span className="thq-body-small">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_7FySmb'),
+                          }}
+                        ></span>
+                      </span>
+                      <svg viewBox="0 0 1024 1024" className="thq-icon-small">
+                        <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -286,6 +295,9 @@ const Features4 = (props) => {
             align-items: stretch;
             justify-content: center;
           }
+          .features4-link1 {
+            text-decoration: none;
+          }
           .features4-feature22 {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
@@ -315,6 +327,9 @@ const Features4 = (props) => {
             align-self: stretch;
             align-items: stretch;
             justify-content: center;
+          }
+          .features4-link2 {
+            text-decoration: none;
           }
           .features4-feature23 {
             gap: var(--dl-layout-space-twounits);
@@ -346,6 +361,9 @@ const Features4 = (props) => {
             align-items: stretch;
             justify-content: center;
           }
+          .features4-link3 {
+            text-decoration: none;
+          }
           .features4-feature24 {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
@@ -375,6 +393,9 @@ const Features4 = (props) => {
             align-self: stretch;
             align-items: stretch;
             justify-content: center;
+          }
+          .features4-link4 {
+            text-decoration: none;
           }
           .features4-text11 {
             display: inline-block;

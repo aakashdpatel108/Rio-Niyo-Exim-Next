@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
@@ -8,21 +9,17 @@ const HomePageImageSlider = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="home-page-image-slider-header78">
+      <div
+        className={`home-page-image-slider-header78 ${props.rootClassName} `}
+      >
         <div className="home-page-image-slider-column thq-section-padding thq-section-max-width">
           <div className="home-page-image-slider-content1">
             <h1 className="home-page-image-slider-text1 thq-heading-1">
-              {props.heading1 ?? (
-                <Fragment>
-                  <span className="home-page-image-slider-text6">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_3q9k3m'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_7IVpwh'),
+                }}
+              ></span>
             </h1>
             <p className="home-page-image-slider-text2 thq-body-large">
               {props.content1 ?? (
@@ -40,19 +37,26 @@ const HomePageImageSlider = (props) => {
           </div>
           <div className="home-page-image-slider-actions">
             <button className="thq-button-filled home-page-image-slider-button">
-              <span className="thq-body-small home-page-image-slider-text3">
-                {props.action1 ?? (
-                  <Fragment>
-                    <span className="home-page-image-slider-text5">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_5ntxhO'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
-              </span>
+              <Link href="/product-categories">
+                <a className="home-page-image-slider-link thq-body-small">
+                  {props.action1 ?? (
+                    <Fragment>
+                      <span className="home-page-image-slider-text5">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_5ntxhO'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
+              </Link>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_QwPhGx'),
+                }}
+              ></span>
             </button>
           </div>
         </div>
@@ -228,7 +232,14 @@ const HomePageImageSlider = (props) => {
             position: relative;
             align-items: center;
             flex-shrink: 0;
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-style: solid;
+            border-width: 1px;
             flex-direction: column;
+            border-left-width: 6px;
+            border-right-width: 6px;
+            border-top-left-radius: 40%;
+            border-top-right-radius: 40%;
           }
           .home-page-image-slider-column {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -246,6 +257,7 @@ const HomePageImageSlider = (props) => {
             flex-direction: column;
           }
           .home-page-image-slider-text1 {
+            font-size: 35px;
             text-align: center;
           }
           .home-page-image-slider-text2 {
@@ -256,6 +268,9 @@ const HomePageImageSlider = (props) => {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-layout-space-unit);
+          }
+          .home-page-image-slider-link {
+            text-decoration: none;
           }
           .home-page-image-slider-content2 {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -376,10 +391,35 @@ const HomePageImageSlider = (props) => {
           .home-page-image-slider-text5 {
             display: inline-block;
           }
-          .home-page-image-slider-text6 {
-            display: inline-block;
+          .home-page-image-sliderroot-class-name {
+            background-color: #f3f3f3;
+          }
+          @media (max-width: 1600px) {
+            .home-page-image-slider-header78 {
+              border-top-width: 1px;
+              border-right-width: 6px;
+            }
+          }
+          @media (max-width: 991px) {
+            .home-page-image-slider-header78 {
+              border-top-width: 0px;
+              border-left-width: 3px;
+              border-right-width: 3px;
+              border-top-left-radius: 30%;
+              border-top-right-radius: 30%;
+            }
+            .home-page-image-slider-text1 {
+              font-size: 30px;
+            }
           }
           @media (max-width: 767px) {
+            .home-page-image-slider-text1 {
+              width: 408px;
+              font-size: 35px;
+            }
+            .home-page-image-slider-text2 {
+              width: 514px;
+            }
             .home-page-image-slider-content2 {
               width: 100%;
             }
@@ -395,12 +435,15 @@ const HomePageImageSlider = (props) => {
           }
           @media (max-width: 414px) {
             .home-page-image-slider-text1 {
+              width: 194px;
               font-size: 20px;
+              padding-right: 0px;
             }
             .home-page-image-slider-text2 {
+              width: 231px;
               font-size: 15px;
             }
-            .home-page-image-slider-text3 {
+            .home-page-image-slider-link {
               font-size: 15px;
             }
           }
@@ -439,8 +482,8 @@ HomePageImageSlider.defaultProps = {
   image6Alt: 'Exporting excellence',
   image1Src:
     'https://images.unsplash.com/photo-1519096845289-95806ee03a1a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxtYW5nb3xlbnwwfHx8fDE3NTk2OTg3NDh8MA&ixlib=rb-4.1.0&w=1500',
-  heading1: undefined,
   image11Alt: 'Delivering freshness worldwide',
+  rootClassName: '',
 }
 
 HomePageImageSlider.propTypes = {
@@ -463,8 +506,8 @@ HomePageImageSlider.propTypes = {
   image7Alt: PropTypes.string,
   image6Alt: PropTypes.string,
   image1Src: PropTypes.string,
-  heading1: PropTypes.element,
   image11Alt: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default HomePageImageSlider

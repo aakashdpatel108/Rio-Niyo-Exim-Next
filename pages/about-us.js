@@ -21,31 +21,9 @@ const AboutUs = (props) => {
           <meta property="og:title" content="About-Us - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="about-us-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_5hPmW7'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="about-us-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_BdFGID'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="about-us-text12">
+              <span className="about-us-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_1SIx_i'),
@@ -56,10 +34,32 @@ const AboutUs = (props) => {
           }
           page4={
             <Fragment>
-              <span className="about-us-text13">
+              <span className="about-us-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_5JHI89'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="about-us-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__wYPjW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="about-us-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_MM53Ey'),
                   }}
                 ></span>
               </span>
@@ -372,6 +372,7 @@ const AboutUs = (props) => {
             width: 100%;
             display: flex;
             min-height: 100vh;
+            overflow-x: clip;
             align-items: center;
             flex-direction: column;
           }

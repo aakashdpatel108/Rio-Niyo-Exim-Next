@@ -8,7 +8,9 @@ const Certificate2 = (props) => {
   const [activeTab, setActiveTab] = useState(0)
   return (
     <>
-      <div className="certificate-2-container1 thq-section-padding">
+      <div
+        className={`certificate-2-container1 thq-section-padding ${props.rootClassName} `}
+      >
         <div className="certificate-2-container2 thq-section-max-width">
           <div className="certificate-2-tabs-menu">
             <div
@@ -101,7 +103,7 @@ const Certificate2 = (props) => {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             border-color: var(--dl-color-theme-neutral-dark);
             border-style: solid;
-            border-width: 1px;
+            border-width: 0px;
           }
           .certificate-2-container2 {
             width: 100%;
@@ -226,6 +228,10 @@ const Certificate2 = (props) => {
           .certificate-2-text2 {
             display: inline-block;
           }
+          .certificate-2root-class-name {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
+          }
           @media (max-width: 1200px) {
             .certificate-2-image1 {
               width: 638px;
@@ -271,6 +277,7 @@ Certificate2.defaultProps = {
   feature3ImgAlt: 'Wide Range of Products Image Alt',
   feature2ImgAlt: 'Global Reach Image Alt',
   feature1ImgSrc: '/gst-1400w.png',
+  rootClassName: '',
   feature1Title: undefined,
 }
 
@@ -282,6 +289,7 @@ Certificate2.propTypes = {
   feature3ImgAlt: PropTypes.string,
   feature2ImgAlt: PropTypes.string,
   feature1ImgSrc: PropTypes.string,
+  rootClassName: PropTypes.string,
   feature1Title: PropTypes.element,
 }
 

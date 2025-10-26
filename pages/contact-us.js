@@ -20,31 +20,9 @@ const ContactUs = (props) => {
           <meta property="og:title" content="Contact-Us - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="contact-us-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9Zxg2h'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="contact-us-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZOSTrC'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="contact-us-text12">
+              <span className="contact-us-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_moyt-7'),
@@ -55,10 +33,32 @@ const ContactUs = (props) => {
           }
           page4={
             <Fragment>
-              <span className="contact-us-text13">
+              <span className="contact-us-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_nvZAyM'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="contact-us-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_j-GKOi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="contact-us-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ocp7mI'),
                   }}
                 ></span>
               </span>
@@ -104,45 +104,12 @@ const ContactUs = (props) => {
               </span>
             </Fragment>
           }
-          content1={
-            <Fragment>
-              <span className="contact-us-text17">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_OMIZJY'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content2={
-            <Fragment>
-              <span className="contact-us-text18">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0jBFZ6'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="contact-us-text19">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZsJxgB'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
         ></ContactForm3>
         <Contact14
           heading1={
             <Fragment>
-              <span className="contact-us-text20">
+              <span className="contact-us-text17">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LH0YEl'),
@@ -156,7 +123,7 @@ const ContactUs = (props) => {
         <Contact7
           content1={
             <Fragment>
-              <span className="contact-us-text21">
+              <span className="contact-us-text18">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Xr20pv'),
@@ -167,7 +134,7 @@ const ContactUs = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="contact-us-text22">
+              <span className="contact-us-text19">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CdEU5L'),
@@ -222,17 +189,6 @@ const ContactUs = (props) => {
             display: inline-block;
           }
           .contact-us-text19 {
-            display: inline-block;
-            font-style: normal;
-            font-weight: 600;
-          }
-          .contact-us-text20 {
-            display: inline-block;
-          }
-          .contact-us-text21 {
-            display: inline-block;
-          }
-          .contact-us-text22 {
             display: inline-block;
           }
         `}

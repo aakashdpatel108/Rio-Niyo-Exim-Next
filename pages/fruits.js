@@ -21,31 +21,9 @@ const Fruits = (props) => {
           <meta property="og:title" content="Fruits - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="fruits-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_OMRiv7'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="fruits-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lU9ndc'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="fruits-text12">
+              <span className="fruits-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LVVv4t'),
@@ -56,10 +34,32 @@ const Fruits = (props) => {
           }
           page4={
             <Fragment>
-              <span className="fruits-text13">
+              <span className="fruits-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_j5cIHG'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="fruits-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_T2uqO_'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="fruits-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_A8xDd_'),
                   }}
                 ></span>
               </span>

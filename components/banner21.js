@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -37,21 +38,23 @@ const Banner21 = (props) => {
               )}
             </h3>
           </div>
-          <button type="button" className="banner21-button thq-button-filled">
-            <span>
-              {props.action1 ?? (
-                <Fragment>
-                  <span className="banner21-text3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_wGDkZ2'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
-            </span>
-          </button>
+          <Link href="/product-categories">
+            <a className="banner21-link thq-button-filled">
+              <span>
+                {props.action1 ?? (
+                  <Fragment>
+                    <span className="banner21-text3">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: translate.raw('text_wGDkZ2'),
+                        }}
+                      ></span>
+                    </span>
+                  </Fragment>
+                )}
+              </span>
+            </a>
+          </Link>
           <video
             src={props.video1Src}
             loop="true"
@@ -94,8 +97,9 @@ const Banner21 = (props) => {
             color: var(--dl-color-theme-secondary1);
             text-align: center;
           }
-          .banner21-button {
+          .banner21-link {
             z-index: 100;
+            text-decoration: none;
           }
           .banner21-video {
             top: 0px;

@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -42,36 +43,40 @@ const CertificateBannerComp = (props) => {
               )}
             </p>
             <div className="certificate-banner-comp-actions">
-              <button type="button" className="thq-button-filled">
-                <span>
-                  {props.action1 ?? (
-                    <Fragment>
-                      <span className="certificate-banner-comp-text5">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_bVrutg'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
-              </button>
-              <button type="button" className="thq-button-outline">
-                <span>
-                  {props.action2 ?? (
-                    <Fragment>
-                      <span className="certificate-banner-comp-text8">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_7Zu-wD'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
-              </button>
+              <Link href="/product-categories">
+                <a className="certificate-banner-comp-link1 thq-button-filled">
+                  <span>
+                    {props.action1 ?? (
+                      <Fragment>
+                        <span className="certificate-banner-comp-text5">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('text_bVrutg'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                </a>
+              </Link>
+              <Link href="/contact-us">
+                <a className="certificate-banner-comp-link2 thq-button-outline">
+                  <span>
+                    {props.action2 ?? (
+                      <Fragment>
+                        <span className="certificate-banner-comp-text8">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('text_7Zu-wD'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -115,6 +120,12 @@ const CertificateBannerComp = (props) => {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
+          }
+          .certificate-banner-comp-link1 {
+            text-decoration: none;
+          }
+          .certificate-banner-comp-link2 {
+            text-decoration: none;
           }
           .certificate-banner-comp-text5 {
             display: inline-block;

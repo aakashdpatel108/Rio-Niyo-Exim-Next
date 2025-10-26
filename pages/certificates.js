@@ -7,6 +7,7 @@ import Nav from '../components/nav'
 import CertificateBannerComp from '../components/certificate-banner-comp'
 import Certificate1 from '../components/certificate-1'
 import Certificate2 from '../components/certificate-2'
+import Certificate3 from '../components/certificate-3'
 import Footer from '../components/footer'
 
 const Certificates = (props) => {
@@ -19,31 +20,9 @@ const Certificates = (props) => {
           <meta property="og:title" content="Certificates - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="certificates-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Sny4PG'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="certificates-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1YPYYt'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="certificates-text12">
+              <span className="certificates-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_SFerHG'),
@@ -54,10 +33,32 @@ const Certificates = (props) => {
           }
           page4={
             <Fragment>
-              <span className="certificates-text13">
+              <span className="certificates-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_E2rpmH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="certificates-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_GjqiRn'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="certificates-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__fy02Y'),
                   }}
                 ></span>
               </span>
@@ -132,6 +133,7 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          rootClassName="certificate2root-class-name"
           feature1Description={
             <Fragment>
               <span className="certificates-text19">
@@ -145,6 +147,10 @@ const Certificates = (props) => {
           }
           locale={props?.locale ?? ''}
         ></Certificate2>
+        <Certificate3
+          rootClassName="certificate3root-class-name"
+          locale={props?.locale ?? ''}
+        ></Certificate3>
         <Footer
           logoSrc="/rioniyoexim.svg"
           rootClassName="footerroot-class-name5"

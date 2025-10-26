@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -12,19 +13,13 @@ const Steps2 = (props) => {
           <div className="steps2-container2 thq-grid-2">
             <div className="steps2-section-header">
               <span className="steps2-text10">
-                {props.text ?? (
-                  <Fragment>
-                    <span className="steps2-text32">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_Z0gWMm'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_uDyrR_'),
+                  }}
+                ></span>
               </span>
-              <p className="thq-body-large steps2-text11">
+              <p className="steps2-text11 thq-body-large">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ri3SQv'),
@@ -32,44 +27,34 @@ const Steps2 = (props) => {
                 ></span>
               </p>
               <div className="steps2-actions">
-                <button className="thq-button-filled thq-button-animated steps2-button">
-                  <span className="thq-body-small steps2-text12">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_d4qUKE'),
-                      }}
-                    ></span>
-                  </span>
-                </button>
+                <Link href="/about-us">
+                  <a className="steps2-link thq-button-filled thq-button-animated">
+                    <span className="thq-body-small steps2-text12">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: translate.raw('text_d4qUKE'),
+                        }}
+                      ></span>
+                    </span>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="steps2-container3">
               <div className="steps2-container4 thq-card">
                 <h2 className="steps2-text13 thq-heading-2">
-                  {props.step1Title ?? (
-                    <Fragment>
-                      <span className="steps2-text24">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_EvVumV'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_9Z2lf5'),
+                    }}
+                  ></span>
                 </h2>
                 <span className="steps2-text14 thq-body-small">
-                  {props.step1Description ?? (
-                    <Fragment>
-                      <span className="steps2-text30">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_mb8EhB'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_zde29O'),
+                    }}
+                  ></span>
                 </span>
                 <label className="steps2-text15 thq-heading-3">
                   <span
@@ -81,30 +66,18 @@ const Steps2 = (props) => {
               </div>
               <div className="steps2-container5 thq-card">
                 <h2 className="steps2-heading thq-heading-2">
-                  {props.step2Title ?? (
-                    <Fragment>
-                      <span className="steps2-text27">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_hMZyH4'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_Q1-6zR'),
+                    }}
+                  ></span>
                 </h2>
                 <span className="steps2-text16 thq-body-small">
-                  {props.step2Description ?? (
-                    <Fragment>
-                      <span className="steps2-text28">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_VG1gs2'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_o-ziXF'),
+                    }}
+                  ></span>
                 </span>
                 <label className="steps2-text17 thq-heading-3">
                   <span
@@ -116,30 +89,18 @@ const Steps2 = (props) => {
               </div>
               <div className="steps2-container6 thq-card">
                 <h2 className="steps2-text18 thq-heading-2">
-                  {props.step3Title ?? (
-                    <Fragment>
-                      <span className="steps2-text26">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_CfU2sq'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_UmhFnz'),
+                    }}
+                  ></span>
                 </h2>
                 <span className="steps2-text19 thq-body-small">
-                  {props.step3Description ?? (
-                    <Fragment>
-                      <span className="steps2-text31">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_E1mBf3'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_fkNTLU'),
+                    }}
+                  ></span>
                 </span>
                 <label className="steps2-text20 thq-heading-3">
                   <span
@@ -151,22 +112,16 @@ const Steps2 = (props) => {
               </div>
               <div className="steps2-container7 thq-card">
                 <h2 className="steps2-text21 thq-heading-2">
-                  {props.step4Title ?? (
-                    <Fragment>
-                      <span className="steps2-text25">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_6rVLi1'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_Cj29TQ'),
+                    }}
+                  ></span>
                 </h2>
                 <span className="steps2-text22 thq-body-small">
                   {props.step4Description ?? (
                     <Fragment>
-                      <span className="steps2-text29">
+                      <span className="steps2-text24">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_TewuTW'),
@@ -230,10 +185,16 @@ const Steps2 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
             border-width: 0px;
           }
+          .steps2-text11 {
+            font-family: 'Open Sans';
+          }
           .steps2-actions {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-items: flex-start;
+          }
+          .steps2-link {
+            text-decoration: none;
           }
           .steps2-container3 {
             grid-area: span 1 / span 1 / span 1 / span 1;
@@ -246,7 +207,7 @@ const Steps2 = (props) => {
             background-color: var(--dl-color-theme-accent1);
           }
           .steps2-text13 {
-            font-size: 30px;
+            font-size: 35px;
             text-align: left;
             font-family: 'Taviraj';
           }
@@ -260,7 +221,7 @@ const Steps2 = (props) => {
             position: absolute;
             font-size: 40px;
             font-style: normal;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
             font-weight: 700;
           }
           .steps2-container5 {
@@ -272,10 +233,11 @@ const Steps2 = (props) => {
           }
           .steps2-heading {
             text-align: left;
+            font-family: 'Taviraj';
           }
           .steps2-text16 {
             text-align: left;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .steps2-text17 {
             top: var(--dl-layout-space-unit);
@@ -283,6 +245,7 @@ const Steps2 = (props) => {
             position: absolute;
             font-size: 40px;
             font-style: normal;
+            font-family: 'Taviraj';
             font-weight: 700;
           }
           .steps2-container6 {
@@ -294,10 +257,11 @@ const Steps2 = (props) => {
           }
           .steps2-text18 {
             text-align: left;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .steps2-text19 {
             text-align: left;
+            font-family: 'Open Sans';
           }
           .steps2-text20 {
             top: var(--dl-layout-space-unit);
@@ -305,6 +269,7 @@ const Steps2 = (props) => {
             position: absolute;
             font-size: 40px;
             font-style: normal;
+            font-family: 'Taviraj';
             font-weight: 700;
           }
           .steps2-container7 {
@@ -314,7 +279,7 @@ const Steps2 = (props) => {
             background-color: var(--dl-color-theme-accent2);
           }
           .steps2-text21 {
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .steps2-text22 {
             text-align: left;
@@ -325,40 +290,12 @@ const Steps2 = (props) => {
             position: absolute;
             font-size: 40px;
             font-style: normal;
+            font-family: 'Taviraj';
             font-weight: 700;
           }
           .steps2-text24 {
             display: inline-block;
-            font-family: 'Taviraj';
-          }
-          .steps2-text25 {
-            display: inline-block;
-            font-family: 'Taviraj';
-          }
-          .steps2-text26 {
-            display: inline-block;
-            font-family: 'Taviraj';
-          }
-          .steps2-text27 {
-            display: inline-block;
-          }
-          .steps2-text28 {
-            display: inline-block;
-          }
-          .steps2-text29 {
-            display: inline-block;
             font-family: 'Open Sans';
-          }
-          .steps2-text30 {
-            display: inline-block;
-            font-family: 'Open Sans';
-          }
-          .steps2-text31 {
-            display: inline-block;
-            font-family: 'Open Sans';
-          }
-          .steps2-text32 {
-            display: inline-block;
           }
           @media (max-width: 1600px) {
             .steps2-text10 {
@@ -411,7 +348,7 @@ const Steps2 = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .steps2-button {
+            .steps2-link {
               width: 100%;
             }
           }
@@ -471,27 +408,11 @@ const Steps2 = (props) => {
 }
 
 Steps2.defaultProps = {
-  step1Title: undefined,
-  step4Title: undefined,
-  step3Title: undefined,
-  step2Title: undefined,
-  step2Description: undefined,
   step4Description: undefined,
-  step1Description: undefined,
-  step3Description: undefined,
-  text: undefined,
 }
 
 Steps2.propTypes = {
-  step1Title: PropTypes.element,
-  step4Title: PropTypes.element,
-  step3Title: PropTypes.element,
-  step2Title: PropTypes.element,
-  step2Description: PropTypes.element,
   step4Description: PropTypes.element,
-  step1Description: PropTypes.element,
-  step3Description: PropTypes.element,
-  text: PropTypes.element,
 }
 
 export default Steps2

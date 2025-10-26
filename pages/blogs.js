@@ -17,31 +17,9 @@ const Blogs = (props) => {
           <meta property="og:title" content="Blogs - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="blogs-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_J19n10'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="blogs-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6s4Vvs'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="blogs-text12">
+              <span className="blogs-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GMQPDH'),
@@ -52,10 +30,32 @@ const Blogs = (props) => {
           }
           page4={
             <Fragment>
-              <span className="blogs-text13">
+              <span className="blogs-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_q0yqPd'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="blogs-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_iSaQCX'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="blogs-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_o7spzW'),
                   }}
                 ></span>
               </span>

@@ -16,31 +16,9 @@ const Vegetables = (props) => {
           <meta property="og:title" content="Vegetables - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="vegetables-text1">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8_HXe6'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="vegetables-text2">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Z51IHY'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="vegetables-text3">
+              <span className="vegetables-text1">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_1w13Ej'),
@@ -51,10 +29,32 @@ const Vegetables = (props) => {
           }
           page4={
             <Fragment>
-              <span className="vegetables-text4">
+              <span className="vegetables-text2">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_A3Hkia'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="vegetables-text3">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gE5OGF'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="vegetables-text4">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_xItkU6'),
                   }}
                 ></span>
               </span>

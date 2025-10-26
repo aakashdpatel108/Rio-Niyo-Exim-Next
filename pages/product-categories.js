@@ -22,31 +22,9 @@ const ProductCategories = (props) => {
           />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="product-categories-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_02Hm3Q'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="product-categories-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Ck2TOw'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="product-categories-text12">
+              <span className="product-categories-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_2XhQc4'),
@@ -57,10 +35,32 @@ const ProductCategories = (props) => {
           }
           page4={
             <Fragment>
-              <span className="product-categories-text13">
+              <span className="product-categories-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_x6xa67'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="product-categories-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_-799kj'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="product-categories-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_snkDQ9'),
                   }}
                 ></span>
               </span>
@@ -156,7 +156,7 @@ const ProductCategories = (props) => {
               <span className="product-categories-text21">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_qYXdux'),
+                    __html: translate.raw('text_y560Kc'),
                   }}
                 ></span>
               </span>
@@ -167,7 +167,7 @@ const ProductCategories = (props) => {
               <span className="product-categories-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_NGbjEP'),
+                    __html: translate.raw('text_QS6gO2'),
                   }}
                 ></span>
               </span>
@@ -234,6 +234,7 @@ const ProductCategories = (props) => {
             width: 100%;
             display: flex;
             min-height: 100vh;
+            overflow-x: clip;
             align-items: center;
             flex-direction: column;
           }

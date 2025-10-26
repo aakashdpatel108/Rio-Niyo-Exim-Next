@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -20,96 +21,81 @@ const Footer3 = (props) => {
               />
             </div>
             <div className="footer3-links">
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="thq-body-small footer3-link1"
-              >
-                {props.link1 ?? (
-                  <Fragment>
-                    <span className="footer3-text4">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_DpDfTl'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="thq-body-small footer3-link2"
-              >
-                {props.link2 ?? (
-                  <Fragment>
-                    <span className="footer3-text8">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_YiNVZJ'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="thq-body-small footer3-link3"
-              >
-                {props.link3 ?? (
-                  <Fragment>
-                    <span className="footer3-text5">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_kWi-96'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="thq-body-small footer3-link4"
-              >
-                {props.link4 ?? (
-                  <Fragment>
-                    <span className="footer3-text6">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_XvWG_v'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="thq-body-small footer3-link5"
-              >
-                {props.link5 ?? (
-                  <Fragment>
-                    <span className="footer3-text3">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_WqgGY6'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
-              </a>
+              <Link href="/">
+                <a className="footer3-link1 thq-body-small">
+                  {props.link2 ?? (
+                    <Fragment>
+                      <span className="footer3-text7">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_YiNVZJ'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
+              </Link>
+              <Link href="/product-categories">
+                <a className="footer3-link6 thq-body-small">
+                  {props.link21 ?? (
+                    <Fragment>
+                      <span className="footer3-text8">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_Y-H6UI'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
+              </Link>
+              <Link href="/about-us">
+                <a className="footer3-link7 thq-body-small">
+                  {props.link3 ?? (
+                    <Fragment>
+                      <span className="footer3-text4">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_kWi-96'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
+              </Link>
+              <Link href="/certificates">
+                <a className="footer3-link8 thq-body-small">
+                  {props.link4 ?? (
+                    <Fragment>
+                      <span className="footer3-text5">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_XvWG_v'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
+              </Link>
+              <Link href="/contact-us">
+                <a className="footer3-link9 thq-body-small">
+                  {props.link5 ?? (
+                    <Fragment>
+                      <span className="footer3-text3">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_WqgGY6'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </a>
+              </Link>
             </div>
             <div className="footer3-social-links">
               <svg
@@ -155,7 +141,7 @@ const Footer3 = (props) => {
                 <span className="thq-body-small footer3-link11">
                   {props.privacyLink ?? (
                     <Fragment>
-                      <span className="footer3-text7">
+                      <span className="footer3-text6">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_XhFSFT'),
@@ -250,6 +236,21 @@ const Footer3 = (props) => {
             gap: var(--dl-layout-space-twounits);
             display: flex;
             align-items: flex-start;
+          }
+          .footer3-link1 {
+            text-decoration: none;
+          }
+          .footer3-link6 {
+            text-decoration: none;
+          }
+          .footer3-link7 {
+            text-decoration: none;
+          }
+          .footer3-link8 {
+            text-decoration: none;
+          }
+          .footer3-link9 {
+            text-decoration: none;
           }
           .footer3-social-links {
             gap: var(--dl-layout-space-unit);
@@ -418,16 +419,16 @@ const Footer3 = (props) => {
             .footer3-link1 {
               font-size: 12px;
             }
-            .footer3-link2 {
+            .footer3-link6 {
               font-size: 12px;
             }
-            .footer3-link3 {
+            .footer3-link7 {
               font-size: 12px;
             }
-            .footer3-link4 {
+            .footer3-link8 {
               font-size: 12px;
             }
-            .footer3-link5 {
+            .footer3-link9 {
               font-size: 12px;
             }
             .footer3-credits {
@@ -458,7 +459,7 @@ const Footer3 = (props) => {
             .footer3-text5 {
               font-size: 12px;
             }
-            .footer3-text6 {
+            .footer3-text7 {
               font-size: 12px;
             }
             .footer3-text8 {
@@ -479,12 +480,12 @@ Footer3.defaultProps = {
   termsLink: undefined,
   cookiesLink: undefined,
   link5: undefined,
-  link1: undefined,
   link3: undefined,
   link4: undefined,
   privacyLink: undefined,
   rootClassName: '',
   link2: undefined,
+  link21: undefined,
   imageAlt: 'image',
 }
 
@@ -493,12 +494,12 @@ Footer3.propTypes = {
   termsLink: PropTypes.element,
   cookiesLink: PropTypes.element,
   link5: PropTypes.element,
-  link1: PropTypes.element,
   link3: PropTypes.element,
   link4: PropTypes.element,
   privacyLink: PropTypes.element,
   rootClassName: PropTypes.string,
   link2: PropTypes.element,
+  link21: PropTypes.element,
   imageAlt: PropTypes.string,
 }
 

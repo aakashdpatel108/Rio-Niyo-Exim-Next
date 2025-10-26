@@ -16,31 +16,9 @@ const Spices = (props) => {
           <meta property="og:title" content="Spices - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="spices-text1">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_c8Qb3j'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="spices-text2">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_EyisV9'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="spices-text3">
+              <span className="spices-text1">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_PvmAqE'),
@@ -51,10 +29,32 @@ const Spices = (props) => {
           }
           page4={
             <Fragment>
-              <span className="spices-text4">
+              <span className="spices-text2">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_PgFJj4'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="spices-text3">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_KmQFqs'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="spices-text4">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_nVjni-'),
                   }}
                 ></span>
               </span>

@@ -89,30 +89,20 @@ const Nav = (props) => {
                     <div className="nav-menu-item1">
                       <div className="nav-content1">
                         <a
-                          href={props.linkUrlPage1}
+                          href="https://www.teleporthq.io"
                           className="nav-page11 thq-body-large"
                         >
-                          {props.page1 ?? (
-                            <Fragment>
-                              <span className="nav-text2">
-                                <span
-                                  dangerouslySetInnerHTML={{
-                                    __html: translate.raw('text_EDSfO4'),
-                                  }}
-                                ></span>
-                              </span>
-                            </Fragment>
-                          )}
+                          {props.fruits1}
                         </a>
                       </div>
                     </div>
                     <div className="nav-menu-item2">
                       <div className="nav-content2">
                         <a
-                          href={props.linkUrlPage2}
+                          href="https://www.teleporthq.io"
                           className="nav-page21 thq-body-large"
                         >
-                          {props.page2 ?? (
+                          {props.vegetables ?? (
                             <Fragment>
                               <span className="nav-text3">
                                 <span
@@ -129,7 +119,7 @@ const Nav = (props) => {
                     <div className="nav-menu-item3">
                       <div className="nav-content3">
                         <a
-                          href={props.linkUrlPage3}
+                          href="https://www.teleporthq.io"
                           className="nav-page31 thq-body-large"
                         >
                           {props.page3 ?? (
@@ -149,7 +139,7 @@ const Nav = (props) => {
                     <div className="nav-menu-item4">
                       <div className="nav-content4">
                         <a
-                          href={props.linkUrlPage4}
+                          href="https://www.teleporthq.io"
                           className="nav-page41 thq-body-large"
                         >
                           {props.page4 ?? (
@@ -261,10 +251,10 @@ const Nav = (props) => {
                       <div className="nav-menu-item5">
                         <div className="nav-content5">
                           <a
-                            href={props.linkUrlPage1}
+                            href="https://www.teleporthq.io"
                             className="nav-page12 thq-body-large"
                           >
-                            {props.page1 ?? (
+                            {props.fruits ?? (
                               <Fragment>
                                 <span className="nav-text2">
                                   <span
@@ -281,10 +271,10 @@ const Nav = (props) => {
                       <div className="nav-menu-item6">
                         <div className="nav-content6">
                           <a
-                            href={props.linkUrlPage2}
+                            href="https://www.teleporthq.io"
                             className="nav-page22 thq-body-large"
                           >
-                            {props.page2 ?? (
+                            {props.vegetables ?? (
                               <Fragment>
                                 <span className="nav-text3">
                                   <span
@@ -301,7 +291,7 @@ const Nav = (props) => {
                       <div className="nav-menu-item7">
                         <div className="nav-content7">
                           <a
-                            href={props.linkUrlPage3}
+                            href="https://www.teleporthq.io"
                             className="nav-page32 thq-body-large"
                           >
                             {props.page3 ?? (
@@ -321,7 +311,7 @@ const Nav = (props) => {
                       <div className="nav-menu-item8">
                         <div className="nav-content8">
                           <a
-                            href={props.linkUrlPage4}
+                            href="https://www.teleporthq.io"
                             className="nav-page42 thq-body-large"
                           >
                             {props.page4 ?? (
@@ -767,6 +757,12 @@ const Nav = (props) => {
           }
 
           @media (max-width: 1600px) {
+            .nav-desktop-menu {
+              display: none;
+            }
+            .nav-burger-menu {
+              display: flex;
+            }
             .nav-logo {
               width: 67px;
               height: 52px;
@@ -781,11 +777,7 @@ const Nav = (props) => {
               width: 73px;
               height: 81px;
             }
-            .nav-desktop-menu {
-              display: none;
-            }
             .nav-burger-menu {
-              display: flex;
               align-items: center;
               justify-content: center;
             }
@@ -805,26 +797,20 @@ const Nav = (props) => {
 }
 
 Nav.defaultProps = {
-  linkUrlPage3: 'https://www.teleporthq.io',
-  linkUrlPage1: 'https://www.teleporthq.io',
-  linkUrlPage2: 'https://www.teleporthq.io',
   page4: undefined,
   rootClassName: '',
-  page1: undefined,
-  page2: undefined,
-  linkUrlPage4: 'https://www.teleporthq.io',
+  fruits1: 'https://www.google.com',
+  fruits: undefined,
+  vegetables: undefined,
   page3: undefined,
 }
 
 Nav.propTypes = {
-  linkUrlPage3: PropTypes.string,
-  linkUrlPage1: PropTypes.string,
-  linkUrlPage2: PropTypes.string,
   page4: PropTypes.element,
   rootClassName: PropTypes.string,
-  page1: PropTypes.element,
-  page2: PropTypes.element,
-  linkUrlPage4: PropTypes.string,
+  fruits1: PropTypes.string,
+  fruits: PropTypes.element,
+  vegetables: PropTypes.element,
   page3: PropTypes.element,
 }
 
