@@ -4,6 +4,11 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
+import Banner3 from '../components/banner3'
+import SpiceFeature1 from '../components/spice-feature-1'
+import SpiceFeature2 from '../components/spice-feature-2'
+import SpiceFeature3 from '../components/spice-feature-3'
+import SpiceFeature4 from '../components/spice-feature-4'
 import Footer from '../components/footer'
 
 const Spices = (props) => {
@@ -63,6 +68,55 @@ const Spices = (props) => {
           rootClassName="navroot-class-name5"
           locale={props?.locale ?? ''}
         ></Nav>
+        <Banner3
+          action1={
+            <Fragment>
+              <span className="spices-text5">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_M0cb6a'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          locale={props?.locale ?? ''}
+        ></Banner3>
+        <SpiceFeature1
+          rootClassName="spice-feature1root-class-name"
+          feature1Description={
+            <Fragment>
+              <span className="spices-text6">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_lJn7kG'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          locale={props?.locale ?? ''}
+        ></SpiceFeature1>
+        <SpiceFeature2 locale={props?.locale ?? ''}></SpiceFeature2>
+        <SpiceFeature3
+          rootClassName="spice-feature3root-class-name"
+          feature1Description={
+            <Fragment>
+              <span className="spices-text7">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_1f0g5E'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          locale={props?.locale ?? ''}
+        ></SpiceFeature3>
+        <SpiceFeature4
+          rootClassName="spice-feature4root-class-name"
+          locale={props?.locale ?? ''}
+        ></SpiceFeature4>
         <Footer
           logoSrc="/rioniyoexim.svg"
           rootClassName="footerroot-class-name9"
@@ -89,6 +143,15 @@ const Spices = (props) => {
             display: inline-block;
           }
           .spices-text4 {
+            display: inline-block;
+          }
+          .spices-text5 {
+            display: inline-block;
+          }
+          .spices-text6 {
+            display: inline-block;
+          }
+          .spices-text7 {
             display: inline-block;
           }
         `}

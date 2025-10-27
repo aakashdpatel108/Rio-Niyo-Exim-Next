@@ -89,8 +89,8 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image6Alt}
-                src={props.image6Src}
+                src="https://images.unsplash.com/photo-1608797179072-4268dd68eff2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fGNvcmlhbmRlcnxlbnwwfHx8fDE3NjE1MTM1NjF8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
+                alt="coriander"
                 className="home-page-image-slider-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
@@ -462,12 +462,11 @@ HomePageImageSlider.defaultProps = {
   image10Alt: 'Exotic Indian spices',
   content1: undefined,
   image9Alt: 'Premium food exports',
+  rootClassName: '',
   image12Src:
     'https://images.unsplash.com/photo-1570168007204-dfb528c6958f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&ixlib=rb-4.1.0&q=80&w=1080',
   image11Src:
     'https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1080',
-  image6Src:
-    'https://images.unsplash.com/photo-1540420828642-fca2c5c18abe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMHw&ixlib=rb-4.1.0&q=80&w=1080',
   image2Src:
     'https://images.unsplash.com/photo-1705501720577-4fe7bba7f85b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxkcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NTk1OTU1MzF8MA&ixlib=rb-4.1.0&w=1500',
   image1Alt: 'Fresh fruits and vegetables',
@@ -479,11 +478,9 @@ HomePageImageSlider.defaultProps = {
     'https://images.unsplash.com/photo-1649562212286-dfb64636ba91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMnw&ixlib=rb-4.1.0&q=80&w=1080',
   image2Alt: 'Spices from India',
   image7Alt: 'Connecting suppliers and buyers',
-  image6Alt: 'Exporting excellence',
   image1Src:
     'https://images.unsplash.com/photo-1519096845289-95806ee03a1a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxtYW5nb3xlbnwwfHx8fDE3NTk2OTg3NDh8MA&ixlib=rb-4.1.0&w=1500',
   image11Alt: 'Delivering freshness worldwide',
-  rootClassName: '',
 }
 
 HomePageImageSlider.propTypes = {
@@ -493,9 +490,9 @@ HomePageImageSlider.propTypes = {
   image10Alt: PropTypes.string,
   content1: PropTypes.element,
   image9Alt: PropTypes.string,
+  rootClassName: PropTypes.string,
   image12Src: PropTypes.string,
   image11Src: PropTypes.string,
-  image6Src: PropTypes.string,
   image2Src: PropTypes.string,
   image1Alt: PropTypes.string,
   action1: PropTypes.element,
@@ -504,10 +501,8 @@ HomePageImageSlider.propTypes = {
   image9Src: PropTypes.string,
   image2Alt: PropTypes.string,
   image7Alt: PropTypes.string,
-  image6Alt: PropTypes.string,
   image1Src: PropTypes.string,
   image11Alt: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default HomePageImageSlider

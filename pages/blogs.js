@@ -132,39 +132,6 @@ const Blogs = (props) => {
             </Fragment>
           }
           rootClassName="fruits-feature1root-class-name"
-          feature1Description={
-            <Fragment>
-              <span className="blogs-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IMLnpi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Description={
-            <Fragment>
-              <span className="blogs-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Ve4V7U'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Description={
-            <Fragment>
-              <span className="blogs-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rraRGR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
         ></FruitsFeature1>
         <Footer
@@ -210,15 +177,6 @@ const Blogs = (props) => {
             display: inline-block;
           }
           .blogs-text19 {
-            display: inline-block;
-          }
-          .blogs-text20 {
-            display: inline-block;
-          }
-          .blogs-text21 {
-            display: inline-block;
-          }
-          .blogs-text22 {
             display: inline-block;
           }
         `}

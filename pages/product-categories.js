@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import Banner2 from '../components/banner2'
+import ProductCategoryBanner from '../components/product-category-banner'
 import Features4 from '../components/features4'
 import CTA26 from '../components/cta26'
 import Footer from '../components/footer'
@@ -69,7 +69,7 @@ const ProductCategories = (props) => {
           rootClassName="navroot-class-name9"
           locale={props?.locale ?? ''}
         ></Nav>
-        <Banner2
+        <ProductCategoryBanner
           content1={
             <Fragment>
               <span className="product-categories-text14">
@@ -83,7 +83,7 @@ const ProductCategories = (props) => {
           }
           video1Poster="example.com/video1Poster.jpg"
           locale={props?.locale ?? ''}
-        ></Banner2>
+        ></ProductCategoryBanner>
         <Features4
           sectionTitle={
             <Fragment>

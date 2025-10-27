@@ -25,11 +25,15 @@ const Features4 = (props) => {
           </h2>
           <div className="features4-row thq-grid-auto-300">
             <div className="features4-feature21">
-              <img
-                alt="Image showing secure payment options"
-                src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGZyZXNoJTIwZnJ1aXRzfGVufDB8fHx8MTc2MTMxODYyN3ww&amp;ixlib=rb-4.1.0&amp;w=600"
-                className="thq-img-ratio-4-3"
-              />
+              <Link href="/fruits">
+                <a className="features4-link1">
+                  <img
+                    alt="Image showing secure payment options"
+                    src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGZyZXNoJTIwZnJ1aXRzfGVufDB8fHx8MTc2MTMxODYyN3ww&amp;ixlib=rb-4.1.0&amp;w=600"
+                    className="features4-img21 thq-img-ratio-4-3"
+                  />
+                </a>
+              </Link>
               <div className="features4-content1 thq-flex-column">
                 <div className="features4-section-title1 thq-flex-column">
                   <strong className="features4-title21 thq-heading-3">
@@ -61,7 +65,7 @@ const Features4 = (props) => {
                 </div>
                 <div className="features4-action1 thq-flex-row">
                   <Link href="/fruits">
-                    <a className="features4-link1 thq-button-flat">
+                    <a className="features4-link2 thq-button-flat">
                       <span className="thq-body-small">
                         <span
                           dangerouslySetInnerHTML={{
@@ -78,11 +82,15 @@ const Features4 = (props) => {
               </div>
             </div>
             <div className="features4-feature22">
-              <img
-                alt="Image showing secure payment options"
-                src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGZyZXNoJTIwdmVnZXRhYmxlc3xlbnwwfHx8fDE3NjEzMTg2NjN8MA&amp;ixlib=rb-4.1.0&amp;w=600"
-                className="thq-img-ratio-4-3"
-              />
+              <Link href="/vegetables">
+                <a className="features4-link3">
+                  <img
+                    alt="Image showing secure payment options"
+                    src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGZyZXNoJTIwdmVnZXRhYmxlc3xlbnwwfHx8fDE3NjEzMTg2NjN8MA&amp;ixlib=rb-4.1.0&amp;w=600"
+                    className="features4-img22 thq-img-ratio-4-3"
+                  />
+                </a>
+              </Link>
               <div className="features4-content2 thq-flex-column">
                 <div className="features4-section-title2 thq-flex-column">
                   <strong className="features4-title22 thq-heading-3">
@@ -114,7 +122,7 @@ const Features4 = (props) => {
                 </div>
                 <div className="features4-action3 thq-flex-row">
                   <Link href="/vegetables">
-                    <a className="features4-link2 thq-button-flat">
+                    <a className="features4-link4 thq-button-flat">
                       <span className="thq-body-small">
                         <span
                           dangerouslySetInnerHTML={{
@@ -131,11 +139,15 @@ const Features4 = (props) => {
               </div>
             </div>
             <div className="features4-feature23">
-              <img
-                alt="Image showing secure payment options"
-                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHNwaWNlc3xlbnwwfHx8fDE3NjEzMTg2ODd8MA&amp;ixlib=rb-4.1.0&amp;w=600"
-                className="thq-img-ratio-4-3"
-              />
+              <Link href="/spices">
+                <a className="features4-link5">
+                  <img
+                    alt="Image showing secure payment options"
+                    src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHNwaWNlc3xlbnwwfHx8fDE3NjEzMTg2ODd8MA&amp;ixlib=rb-4.1.0&amp;w=600"
+                    className="features4-img23 thq-img-ratio-4-3"
+                  />
+                </a>
+              </Link>
               <div className="features4-content3 thq-flex-column">
                 <div className="features4-section-title3 thq-flex-column">
                   <strong className="features4-title23 thq-heading-3">
@@ -167,7 +179,7 @@ const Features4 = (props) => {
                 </div>
                 <div className="features4-action4 thq-flex-row">
                   <Link href="/spices">
-                    <a className="features4-link3 thq-button-flat">
+                    <a className="features4-link6 thq-button-flat">
                       <span className="thq-body-small">
                         <span
                           dangerouslySetInnerHTML={{
@@ -184,11 +196,15 @@ const Features4 = (props) => {
               </div>
             </div>
             <div className="features4-feature24">
-              <img
-                alt="Image showing secure payment options"
-                src="https://images.unsplash.com/photo-1616252576862-bd9abd7467f9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fG51dHN8ZW58MHx8fHwxNzYxMzE4OTgzfDA&amp;ixlib=rb-4.1.0&amp;w=600"
-                className="thq-img-ratio-4-3"
-              />
+              <Link href="/dry-fruits">
+                <a className="features4-link7">
+                  <img
+                    alt="Image showing secure payment options"
+                    src="https://images.unsplash.com/photo-1616252576862-bd9abd7467f9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fG51dHN8ZW58MHx8fHwxNzYxMzE4OTgzfDA&amp;ixlib=rb-4.1.0&amp;w=600"
+                    className="features4-img24 thq-img-ratio-4-3"
+                  />
+                </a>
+              </Link>
               <div className="features4-content4 thq-flex-column">
                 <div className="features4-section-title4 thq-flex-column">
                   <strong className="features4-title24 thq-heading-3">
@@ -220,7 +236,7 @@ const Features4 = (props) => {
                 </div>
                 <div className="features4-action5 thq-flex-row">
                   <Link href="/dry-fruits">
-                    <a className="features4-link4 thq-button-flat">
+                    <a className="features4-link8 thq-button-flat">
                       <span className="thq-body-small">
                         <span
                           dangerouslySetInnerHTML={{
@@ -248,6 +264,7 @@ const Features4 = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
+            box-shadow: 5px 5px 10px 0px #d4d4d4;
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
@@ -276,6 +293,12 @@ const Features4 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
+          .features4-link1 {
+            display: contents;
+          }
+          .features4-img21 {
+            text-decoration: none;
+          }
           .features4-content1 {
             align-self: stretch;
             align-items: center;
@@ -295,7 +318,7 @@ const Features4 = (props) => {
             align-items: stretch;
             justify-content: center;
           }
-          .features4-link1 {
+          .features4-link2 {
             text-decoration: none;
           }
           .features4-feature22 {
@@ -308,6 +331,12 @@ const Features4 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
             flex-direction: column;
+          }
+          .features4-link3 {
+            display: contents;
+          }
+          .features4-img22 {
+            text-decoration: none;
           }
           .features4-content2 {
             align-self: stretch;
@@ -328,7 +357,7 @@ const Features4 = (props) => {
             align-items: stretch;
             justify-content: center;
           }
-          .features4-link2 {
+          .features4-link4 {
             text-decoration: none;
           }
           .features4-feature23 {
@@ -341,6 +370,12 @@ const Features4 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
             flex-direction: column;
+          }
+          .features4-link5 {
+            display: contents;
+          }
+          .features4-img23 {
+            text-decoration: none;
           }
           .features4-content3 {
             align-self: stretch;
@@ -361,7 +396,7 @@ const Features4 = (props) => {
             align-items: stretch;
             justify-content: center;
           }
-          .features4-link3 {
+          .features4-link6 {
             text-decoration: none;
           }
           .features4-feature24 {
@@ -374,6 +409,12 @@ const Features4 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
             flex-direction: column;
+          }
+          .features4-link7 {
+            display: contents;
+          }
+          .features4-img24 {
+            text-decoration: none;
           }
           .features4-content4 {
             align-self: stretch;
@@ -394,7 +435,7 @@ const Features4 = (props) => {
             align-items: stretch;
             justify-content: center;
           }
-          .features4-link4 {
+          .features4-link8 {
             text-decoration: none;
           }
           .features4-text11 {

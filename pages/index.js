@@ -23,7 +23,7 @@ const Home = (props) => {
         <Nav
           page3={
             <Fragment>
-              <span className="home-text10">
+              <span className="home-text1">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_0Da8w7'),
@@ -34,7 +34,7 @@ const Home = (props) => {
           }
           page4={
             <Fragment>
-              <span className="home-text11">
+              <span className="home-text2">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_xAdg9o'),
@@ -45,7 +45,7 @@ const Home = (props) => {
           }
           fruits={
             <Fragment>
-              <span className="home-text12">
+              <span className="home-text3">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Eg4LKa'),
@@ -56,7 +56,7 @@ const Home = (props) => {
           }
           vegetables={
             <Fragment>
-              <span className="home-text13">
+              <span className="home-text4">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Run-l1'),
@@ -69,28 +69,6 @@ const Home = (props) => {
           locale={props?.locale ?? ''}
         ></Nav>
         <HomeBannerComp
-          content1={
-            <Fragment>
-              <span className="home-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_2UEXTk'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="home-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0sbiMa'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           image1Src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGZydWl0cyUyMGFuZCUyMHZlZ2V0YWJsZXN8ZW58MHx8fHwxNzU5MzI4NzU1fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           rootClassName="home-banner-comproot-class-name"
           locale={props?.locale ?? ''}
@@ -100,7 +78,7 @@ const Home = (props) => {
           <HomePageImageSlider
             action1={
               <Fragment>
-                <span className="home-text16">
+                <span className="home-text5">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_PZ0pyv'),
@@ -111,7 +89,7 @@ const Home = (props) => {
             }
             content1={
               <Fragment>
-                <span className="home-text17">
+                <span className="home-text6">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_Fxr6Li'),
@@ -128,7 +106,7 @@ const Home = (props) => {
           <Steps2
             step4Description={
               <Fragment>
-                <span className="home-text18">
+                <span className="home-text7">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_CvQFq4'),
@@ -141,78 +119,12 @@ const Home = (props) => {
           ></Steps2>
         </div>
         <ContactUs
-          email={
-            <Fragment>
-              <span className="home-text19">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7tkDDl'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          phone={
-            <Fragment>
-              <span className="home-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_RXC26c'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           action={
             <Fragment>
-              <span className="home-text21">
+              <span className="home-text8">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_009sSQ'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          adress={
-            <Fragment>
-              <span className="home-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_v_PgNR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content1={
-            <Fragment>
-              <span className="home-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_s3A62O'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content2={
-            <Fragment>
-              <span className="home-text24">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__tpJCG'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="home-text25">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_eJl2Fk'),
                   }}
                 ></span>
               </span>
@@ -236,24 +148,17 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text10 {
+          .home-text1 {
             display: inline-block;
           }
-          .home-text11 {
+          .home-text2 {
             display: inline-block;
           }
-          .home-text12 {
+          .home-text3 {
             display: inline-block;
           }
-          .home-text13 {
+          .home-text4 {
             display: inline-block;
-          }
-          .home-text14 {
-            display: inline-block;
-          }
-          .home-text15 {
-            display: inline-block;
-            font-family: 'Inter';
           }
           .home-container2 {
             width: 100%;
@@ -265,11 +170,11 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-text16 {
+          .home-text5 {
             display: inline-block;
             font-family: 'Open Sans';
           }
-          .home-text17 {
+          .home-text6 {
             display: inline-block;
             font-family: 'Open Sans';
           }
@@ -288,47 +193,14 @@ const Home = (props) => {
             justify-content: center;
             background-color: #e8f8df;
           }
-          .home-text18 {
+          .home-text7 {
             display: inline-block;
             font-family: 'Open Sans';
           }
-          .home-text19 {
+          .home-text8 {
             display: inline-block;
-          }
-          .home-text20 {
-            display: inline-block;
-          }
-          .home-text21 {
-            display: inline-block;
-          }
-          .home-text22 {
-            display: inline-block;
-          }
-          .home-text23 {
-            display: inline-block;
-          }
-          .home-text24 {
-            display: inline-block;
-          }
-          .home-text25 {
-            display: inline-block;
-          }
-          @media (max-width: 1200px) {
-            .home-text15 {
-              font-family: Inter;
-            }
-          }
-          @media (max-width: 767px) {
-            .home-text14 {
-              font-family: Inter;
-              letter-spacing: 6px;
-            }
           }
           @media (max-width: 414px) {
-            .home-text14 {
-              font-family: Inter;
-              letter-spacing: 2px;
-            }
             .home-container2 {
               width: 100%;
             }
