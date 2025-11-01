@@ -381,7 +381,6 @@ const Nav = (props) => {
             padding-left: var(--dl-layout-space-threeunits);
             padding-right: var(--dl-layout-space-threeunits);
             padding-bottom: var(--dl-layout-space-halfunit);
-            justify-content: space-between;
           }
           .nav-image1 {
             width: 124px;
@@ -761,6 +760,9 @@ const Nav = (props) => {
               display: none;
             }
             .nav-burger-menu {
+              display: flex;
+            }
+            .nav-icon14 {
               display: flex;
             }
             .nav-logo {

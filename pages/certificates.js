@@ -106,7 +106,7 @@ const Certificates = (props) => {
               <span className="certificates-text17">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JmZngT'),
+                    __html: translate.raw('text__MSRGK'),
                   }}
                 ></span>
               </span>
@@ -196,11 +196,6 @@ const Certificates = (props) => {
           }
           .certificates-text19 {
             display: inline-block;
-          }
-          @media (max-width: 991px) {
-            .certificates-text17 {
-              box-shadow: inherit;
-            }
           }
         `}
       </style>

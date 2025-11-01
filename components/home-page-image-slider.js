@@ -89,8 +89,8 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1608797179072-4268dd68eff2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fGNvcmlhbmRlcnxlbnwwfHx8fDE3NjE1MTM1NjF8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="coriander"
+                src="https://images.unsplash.com/photo-1608797179072-4268dd68eff2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fGNvcmlhbmRlcnxlbnwwfHx8fDE3NjE1MTM1NjF8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
@@ -409,7 +409,7 @@ const HomePageImageSlider = (props) => {
               border-top-right-radius: 30%;
             }
             .home-page-image-slider-text1 {
-              font-size: 30px;
+              font-size: 35px;
             }
           }
           @media (max-width: 767px) {

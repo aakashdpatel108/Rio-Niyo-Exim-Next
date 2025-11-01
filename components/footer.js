@@ -185,6 +185,7 @@ const Footer = (props) => {
           .footerroot-class-name8 {
             fill: var(--dl-color-theme-neutral-dark);
             color: #040404;
+            position: static;
             background-color: #d4d4d4;
           }
           .footerroot-class-name9 {
@@ -198,6 +199,7 @@ const Footer = (props) => {
             color: #040404;
             background-color: #d4d4d4;
           }
+
           @media (max-width: 991px) {
             .footerroot-class-name {
               padding: 0px;

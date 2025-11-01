@@ -122,7 +122,8 @@ const HomeBannerComp = (props) => {
               letter-spacing: 2px;
             }
             .home-banner-comp-text2 {
-              font-size: 10px;
+              color: rgb(255, 255, 255);
+              font-size: 15px;
               letter-spacing: 2px;
             }
           }

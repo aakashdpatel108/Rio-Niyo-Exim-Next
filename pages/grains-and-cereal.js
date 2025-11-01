@@ -4,36 +4,28 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import NotFound2 from '../components/not-found2'
+import NotFound21 from '../components/not-found21'
 import Footer from '../components/footer'
 
-const DryFruits = (props) => {
+const GrainsAndCereal = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="dry-fruits-container">
+      <div className="grains-and-cereal-container">
         <Head>
-          <title>Dry-fruits - Rio Niyo Exim</title>
-          <meta property="og:title" content="Dry-fruits - Rio Niyo Exim" />
+          <title>Grains-and-Cereal - Rio Niyo Exim</title>
+          <meta
+            property="og:title"
+            content="Grains-and-Cereal - Rio Niyo Exim"
+          />
         </Head>
         <Nav
-          page3={
-            <Fragment>
-              <span className="dry-fruits-text1">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_cmZdYG'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page4={
             <Fragment>
-              <span className="dry-fruits-text2">
+              <span className="grains-and-cereal-text1">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_oFTC58'),
+                    __html: translate.raw('text_81Y9wS'),
                   }}
                 ></span>
               </span>
@@ -41,10 +33,10 @@ const DryFruits = (props) => {
           }
           fruits={
             <Fragment>
-              <span className="dry-fruits-text3">
+              <span className="grains-and-cereal-text2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_q14xpU'),
+                    __html: translate.raw('text_WfDAYR'),
                   }}
                 ></span>
               </span>
@@ -52,25 +44,36 @@ const DryFruits = (props) => {
           }
           vegetables={
             <Fragment>
-              <span className="dry-fruits-text4">
+              <span className="grains-and-cereal-text3">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vNPAex'),
+                    __html: translate.raw('text_IBx7tK'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="navroot-class-name7"
-          locale={props?.locale ?? ''}
-        ></Nav>
-        <NotFound2
-          heading2={
+          page3={
             <Fragment>
-              <span className="dry-fruits-text5">
+              <span className="grains-and-cereal-text4">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_A8-YlX'),
+                    __html: translate.raw('text_IsBKnD'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name12"
+          locale={props?.locale ?? ''}
+        ></Nav>
+        <NotFound21
+          heading2={
+            <Fragment>
+              <span className="grains-and-cereal-text5">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_rOYNgL'),
                   }}
                 ></span>
               </span>
@@ -78,49 +81,47 @@ const DryFruits = (props) => {
           }
           action1={
             <Fragment>
-              <span className="dry-fruits-text6">
+              <span className="grains-and-cereal-text6">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4qaDXZ'),
+                    __html: translate.raw('text_AfTo4c'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
           locale={props?.locale ?? ''}
-        ></NotFound2>
+        ></NotFound21>
         <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name8"
+          rootClassName="footerroot-class-name14"
           locale={props?.locale ?? ''}
         ></Footer>
       </div>
       <style jsx>
         {`
-          .dry-fruits-container {
+          .grains-and-cereal-container {
             width: 100%;
             display: flex;
             min-height: 100vh;
-            overflow-x: clip;
             align-items: center;
             flex-direction: column;
           }
-          .dry-fruits-text1 {
+          .grains-and-cereal-text1 {
             display: inline-block;
           }
-          .dry-fruits-text2 {
+          .grains-and-cereal-text2 {
             display: inline-block;
           }
-          .dry-fruits-text3 {
+          .grains-and-cereal-text3 {
             display: inline-block;
           }
-          .dry-fruits-text4 {
+          .grains-and-cereal-text4 {
             display: inline-block;
           }
-          .dry-fruits-text5 {
+          .grains-and-cereal-text5 {
             display: inline-block;
           }
-          .dry-fruits-text6 {
+          .grains-and-cereal-text6 {
             display: inline-block;
           }
         `}
@@ -129,7 +130,7 @@ const DryFruits = (props) => {
   )
 }
 
-export default DryFruits
+export default GrainsAndCereal
 
 export async function getStaticProps(context) {
   const messages = (await import('/locales/' + context.locale + '.json'))

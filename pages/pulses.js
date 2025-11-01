@@ -4,37 +4,25 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import Banner31 from '../components/banner31'
-import VegetableFeature1 from '../components/vegetable-feature-1'
+import PulsesFeature1 from '../components/pulses-feature-1'
 import Footer from '../components/footer'
 
-const Vegetables = (props) => {
+const Pulses = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="vegetables-container">
+      <div className="pulses-container">
         <Head>
-          <title>Vegetables - Rio Niyo Exim</title>
-          <meta property="og:title" content="Vegetables - Rio Niyo Exim" />
+          <title>Pulses - Rio Niyo Exim</title>
+          <meta property="og:title" content="Pulses - Rio Niyo Exim" />
         </Head>
         <Nav
-          page3={
-            <Fragment>
-              <span className="vegetables-text1">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1w13Ej'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page4={
             <Fragment>
-              <span className="vegetables-text2">
+              <span className="pulses-text1">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_A3Hkia'),
+                    __html: translate.raw('text_Y2FjWP'),
                   }}
                 ></span>
               </span>
@@ -42,10 +30,10 @@ const Vegetables = (props) => {
           }
           fruits={
             <Fragment>
-              <span className="vegetables-text3">
+              <span className="pulses-text2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gE5OGF'),
+                    __html: translate.raw('text_6ZG1lk'),
                   }}
                 ></span>
               </span>
@@ -53,49 +41,57 @@ const Vegetables = (props) => {
           }
           vegetables={
             <Fragment>
-              <span className="vegetables-text4">
+              <span className="pulses-text3">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xItkU6'),
+                    __html: translate.raw('text_mzX1Au'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="navroot-class-name6"
+          page3={
+            <Fragment>
+              <span className="pulses-text4">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Gne_h6'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name10"
           locale={props?.locale ?? ''}
         ></Nav>
-        <Banner31 locale={props?.locale ?? ''}></Banner31>
-        <VegetableFeature1
-          rootClassName="vegetable-feature1root-class-name"
+        <PulsesFeature1
+          rootClassName="pulses-feature1root-class-name"
           locale={props?.locale ?? ''}
-        ></VegetableFeature1>
+        ></PulsesFeature1>
         <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name7"
+          rootClassName="footerroot-class-name12"
           locale={props?.locale ?? ''}
         ></Footer>
       </div>
       <style jsx>
         {`
-          .vegetables-container {
+          .pulses-container {
             width: 100%;
             display: flex;
             min-height: 100vh;
-            overflow-x: clip;
             align-items: center;
             flex-direction: column;
           }
-          .vegetables-text1 {
+          .pulses-text1 {
             display: inline-block;
           }
-          .vegetables-text2 {
+          .pulses-text2 {
             display: inline-block;
           }
-          .vegetables-text3 {
+          .pulses-text3 {
             display: inline-block;
           }
-          .vegetables-text4 {
+          .pulses-text4 {
             display: inline-block;
           }
         `}
@@ -104,7 +100,7 @@ const Vegetables = (props) => {
   )
 }
 
-export default Vegetables
+export default Pulses
 
 export async function getStaticProps(context) {
   const messages = (await import('/locales/' + context.locale + '.json'))
