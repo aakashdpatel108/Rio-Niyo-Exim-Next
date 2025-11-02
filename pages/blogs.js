@@ -17,31 +17,9 @@ const Blogs = (props) => {
           <meta property="og:title" content="Blogs - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="blogs-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_J19n10'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="blogs-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6s4Vvs'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="blogs-text12">
+              <span className="blogs-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GMQPDH'),
@@ -52,7 +30,7 @@ const Blogs = (props) => {
           }
           page4={
             <Fragment>
-              <span className="blogs-text13">
+              <span className="blogs-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_q0yqPd'),
@@ -61,13 +39,189 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          fruits={
+            <Fragment>
+              <span className="blogs-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_iSaQCX'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="blogs-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_o7spzW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           rootClassName="navroot-class-name8"
+          page41={
+            <Fragment>
+              <span className="blogs-text14">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zaKDVi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page411={
+            <Fragment>
+              <span className="blogs-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Qm-0PQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text1={
+            <Fragment>
+              <span className="blogs-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ZOwW9I'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text2={
+            <Fragment>
+              <span className="blogs-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ruUR5o'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3={
+            <Fragment>
+              <span className="blogs-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_LKwgfx'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31={
+            <Fragment>
+              <span className="blogs-text19">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_MUtMni'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="blogs-text20">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_j6aeNV'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3111={
+            <Fragment>
+              <span className="blogs-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_CCYzWH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="blogs-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_DDx4do'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="blogs-text23">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_lX0AKa'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text32={
+            <Fragment>
+              <span className="blogs-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_A7QCh6'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text312={
+            <Fragment>
+              <span className="blogs-text25">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_a6-kuW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3112={
+            <Fragment>
+              <span className="blogs-text26">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Q8NOCY'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31111={
+            <Fragment>
+              <span className="blogs-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_iZPgmH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></Nav>
         <FruitsFeature1
           slogan1={
             <Fragment>
-              <span className="blogs-text14">
+              <span className="blogs-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FsWJhF'),
@@ -78,7 +232,7 @@ const Blogs = (props) => {
           }
           content1={
             <Fragment>
-              <span className="blogs-text15">
+              <span className="blogs-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_u2J_Tw'),
@@ -89,7 +243,7 @@ const Blogs = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="blogs-text16">
+              <span className="blogs-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_b-9bxv'),
@@ -100,7 +254,7 @@ const Blogs = (props) => {
           }
           feature1Title={
             <Fragment>
-              <span className="blogs-text17">
+              <span className="blogs-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_8wQW31'),
@@ -111,7 +265,7 @@ const Blogs = (props) => {
           }
           feature2Title={
             <Fragment>
-              <span className="blogs-text18">
+              <span className="blogs-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GOzfGP'),
@@ -122,7 +276,7 @@ const Blogs = (props) => {
           }
           feature3Title={
             <Fragment>
-              <span className="blogs-text19">
+              <span className="blogs-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Uv8tqK'),
@@ -132,39 +286,6 @@ const Blogs = (props) => {
             </Fragment>
           }
           rootClassName="fruits-feature1root-class-name"
-          feature1Description={
-            <Fragment>
-              <span className="blogs-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IMLnpi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Description={
-            <Fragment>
-              <span className="blogs-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Ve4V7U'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Description={
-            <Fragment>
-              <span className="blogs-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rraRGR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
         ></FruitsFeature1>
         <Footer
@@ -219,6 +340,39 @@ const Blogs = (props) => {
             display: inline-block;
           }
           .blogs-text22 {
+            display: inline-block;
+          }
+          .blogs-text23 {
+            display: inline-block;
+          }
+          .blogs-text24 {
+            display: inline-block;
+          }
+          .blogs-text25 {
+            display: inline-block;
+          }
+          .blogs-text26 {
+            display: inline-block;
+          }
+          .blogs-text27 {
+            display: inline-block;
+          }
+          .blogs-text28 {
+            display: inline-block;
+          }
+          .blogs-text29 {
+            display: inline-block;
+          }
+          .blogs-text30 {
+            display: inline-block;
+          }
+          .blogs-text31 {
+            display: inline-block;
+          }
+          .blogs-text32 {
+            display: inline-block;
+          }
+          .blogs-text33 {
             display: inline-block;
           }
         `}

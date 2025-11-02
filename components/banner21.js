@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -13,7 +14,7 @@ const Banner21 = (props) => {
             <h2 className="banner21-title thq-heading-2">
               {props.heading1 ?? (
                 <Fragment>
-                  <span className="banner21-text5">
+                  <span className="banner21-text3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_zLh7Xg'),
@@ -23,35 +24,24 @@ const Banner21 = (props) => {
                 </Fragment>
               )}
             </h2>
-            <h3 className="banner21-text1 thq-heading-3">
-              {props.content1 ?? (
-                <Fragment>
-                  <span className="banner21-text4">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_cg4Mar'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
-            </h3>
           </div>
-          <button type="button" className="banner21-button thq-button-filled">
-            <span>
-              {props.action1 ?? (
-                <Fragment>
-                  <span className="banner21-text3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_wGDkZ2'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
-            </span>
-          </button>
+          <Link href="/product-categories">
+            <a className="banner21-link thq-button-filled">
+              <span>
+                {props.action1 ?? (
+                  <Fragment>
+                    <span className="banner21-text2">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: translate.raw('text_wGDkZ2'),
+                        }}
+                      ></span>
+                    </span>
+                  </Fragment>
+                )}
+              </span>
+            </a>
+          </Link>
           <video
             src={props.video1Src}
             loop="true"
@@ -89,13 +79,9 @@ const Banner21 = (props) => {
             color: var(--dl-color-theme-secondary1);
             text-align: center;
           }
-          .banner21-text1 {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
-            text-align: center;
-          }
-          .banner21-button {
+          .banner21-link {
             z-index: 100;
+            text-decoration: none;
           }
           .banner21-video {
             top: 0px;
@@ -105,13 +91,10 @@ const Banner21 = (props) => {
             position: absolute;
             object-fit: cover;
           }
+          .banner21-text2 {
+            display: inline-block;
+          }
           .banner21-text3 {
-            display: inline-block;
-          }
-          .banner21-text4 {
-            display: inline-block;
-          }
-          .banner21-text5 {
             display: inline-block;
           }
         `}
@@ -124,7 +107,6 @@ Banner21.defaultProps = {
   video1Poster:
     'https://images.pexels.com/videos/3365440/pictures/preview-0.jpg',
   action1: undefined,
-  content1: undefined,
   heading1: undefined,
   video1Src:
     'https://videos.pexels.com/video-files/3365440/3365440-hd_1280_720_30fps.mp4',
@@ -133,7 +115,6 @@ Banner21.defaultProps = {
 Banner21.propTypes = {
   video1Poster: PropTypes.string,
   action1: PropTypes.element,
-  content1: PropTypes.element,
   heading1: PropTypes.element,
   video1Src: PropTypes.string,
 }

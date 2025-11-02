@@ -1,54 +1,63 @@
 import React, { Fragment } from 'react'
-import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
-const CTA26 = (props) => {
+const CTA261 = (props) => {
   const translate = useTranslations()
   return (
     <>
       <div className="thq-section-padding">
         <div className="thq-section-max-width">
-          <div className="cta26-accent2-bg">
-            <div className="cta26-accent1-bg">
-              <div className="cta26-container2">
-                <div className="cta26-content">
+          <div className="cta261-accent2-bg">
+            <div className="cta261-accent1-bg">
+              <div className="cta261-container2">
+                <div className="cta261-content">
                   <span className="thq-heading-2">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_cTw3Er'),
-                      }}
-                    ></span>
+                    {props.heading1 ?? (
+                      <Fragment>
+                        <span className="cta261-text5">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('text_LBe2My'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
                   </span>
                   <p className="thq-body-large">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_FDhLjL'),
-                      }}
-                    ></span>
+                    {props.content1 ?? (
+                      <Fragment>
+                        <span className="cta261-text6">
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: translate.raw('text_owwtUb'),
+                            }}
+                          ></span>
+                        </span>
+                      </Fragment>
+                    )}
                   </p>
                 </div>
-                <div className="cta26-actions">
+                <div className="cta261-actions">
                   <button
                     type="button"
-                    className="thq-button-filled cta26-button"
+                    className="thq-button-filled cta261-button"
                   >
-                    <Link href="/contact-us">
-                      <a className="cta26-link">
-                        {props.action1 ?? (
-                          <Fragment>
-                            <span className="cta26-text3">
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: translate.raw('text_VUKWqk'),
-                                }}
-                              ></span>
-                            </span>
-                          </Fragment>
-                        )}
-                      </a>
-                    </Link>
+                    <span>
+                      {props.action1 ?? (
+                        <Fragment>
+                          <span className="cta261-text4">
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: translate.raw('text_4nGTpd'),
+                              }}
+                            ></span>
+                          </span>
+                        </Fragment>
+                      )}
+                    </span>
                   </button>
                 </div>
               </div>
@@ -58,7 +67,7 @@ const CTA26 = (props) => {
       </div>
       <style jsx>
         {`
-          .cta26-accent2-bg {
+          .cta261-accent2-bg {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -71,10 +80,10 @@ const CTA26 = (props) => {
             transform-style: preserve-3d;
             background-color: var(--dl-color-theme-accent2);
           }
-          .cta26-accent2-bg:hover {
+          .cta261-accent2-bg:hover {
             transform: scale3d(1.1, 1.1, 1.1);
           }
-          .cta26-accent1-bg {
+          .cta261-accent1-bg {
             width: 100%;
             display: flex;
             transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -85,7 +94,7 @@ const CTA26 = (props) => {
             transform-style: preserve-3d;
             background-color: var(--dl-color-theme-accent1);
           }
-          .cta26-container2 {
+          .cta261-container2 {
             gap: var(--dl-layout-space-threeunits);
             width: 100%;
             display: flex;
@@ -99,43 +108,46 @@ const CTA26 = (props) => {
             padding-right: var(--dl-layout-space-fourunits);
             padding-bottom: var(--dl-layout-space-sixunits);
           }
-          .cta26-container2:hover {
+          .cta261-container2:hover {
             color: var(--dl-color-theme-neutral-light);
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .cta26-content {
+          .cta261-content {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .cta26-actions {
+          .cta261-actions {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             display: flex;
             align-items: flex-start;
             justify-content: flex-end;
           }
-          .cta26-link {
-            text-decoration: none;
+          .cta261-text4 {
+            display: inline-block;
           }
-          .cta26-text3 {
+          .cta261-text5 {
+            display: inline-block;
+          }
+          .cta261-text6 {
             display: inline-block;
           }
           @media (max-width: 767px) {
-            .cta26-container2 {
+            .cta261-container2 {
               gap: var(--dl-layout-space-oneandhalfunits);
               flex-direction: column;
               justify-content: flex-start;
             }
           }
           @media (max-width: 479px) {
-            .cta26-actions {
+            .cta261-actions {
               flex-wrap: wrap;
               align-self: stretch;
               justify-content: center;
             }
-            .cta26-button {
+            .cta261-button {
               flex: 1;
             }
           }
@@ -145,12 +157,16 @@ const CTA26 = (props) => {
   )
 }
 
-CTA26.defaultProps = {
+CTA261.defaultProps = {
   action1: undefined,
+  heading1: undefined,
+  content1: undefined,
 }
 
-CTA26.propTypes = {
+CTA261.propTypes = {
   action1: PropTypes.element,
+  heading1: PropTypes.element,
+  content1: PropTypes.element,
 }
 
-export default CTA26
+export default CTA261

@@ -13,7 +13,7 @@ const ContactUsBanner = (props) => {
             <h2 className="contact-us-banner-title thq-heading-2">
               {props.heading1 ?? (
                 <Fragment>
-                  <span className="contact-us-banner-text3">
+                  <span className="contact-us-banner-text2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_qAOqEt'),
@@ -24,17 +24,11 @@ const ContactUsBanner = (props) => {
               )}
             </h2>
             <h3 className="contact-us-banner-text1 thq-heading-3">
-              {props.content1 ?? (
-                <Fragment>
-                  <span className="contact-us-banner-text2">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_nc-7Ly'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_kjceeZ'),
+                }}
+              ></span>
             </h3>
           </div>
           <video
@@ -74,7 +68,7 @@ const ContactUsBanner = (props) => {
             text-align: center;
           }
           .contact-us-banner-text1 {
-            color: #f7f7f7;
+            color: rgb(247, 247, 247);
             text-align: center;
           }
           .contact-us-banner-video {
@@ -88,9 +82,6 @@ const ContactUsBanner = (props) => {
           .contact-us-banner-text2 {
             display: inline-block;
           }
-          .contact-us-banner-text3 {
-            display: inline-block;
-          }
         `}
       </style>
     </>
@@ -98,7 +89,6 @@ const ContactUsBanner = (props) => {
 }
 
 ContactUsBanner.defaultProps = {
-  content1: undefined,
   video1Poster:
     'https://images.pexels.com/videos/5293017/pictures/preview-0.jpg',
   video1Src:
@@ -107,7 +97,6 @@ ContactUsBanner.defaultProps = {
 }
 
 ContactUsBanner.propTypes = {
-  content1: PropTypes.element,
   video1Poster: PropTypes.string,
   video1Src: PropTypes.string,
   heading1: PropTypes.element,

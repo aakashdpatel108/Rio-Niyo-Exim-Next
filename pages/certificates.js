@@ -7,6 +7,7 @@ import Nav from '../components/nav'
 import CertificateBannerComp from '../components/certificate-banner-comp'
 import Certificate1 from '../components/certificate-1'
 import Certificate2 from '../components/certificate-2'
+import Certificate3 from '../components/certificate-3'
 import Footer from '../components/footer'
 
 const Certificates = (props) => {
@@ -19,31 +20,9 @@ const Certificates = (props) => {
           <meta property="og:title" content="Certificates - Rio Niyo Exim" />
         </Head>
         <Nav
-          page1={
-            <Fragment>
-              <span className="certificates-text10">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Sny4PG'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page2={
-            <Fragment>
-              <span className="certificates-text11">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1YPYYt'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           page3={
             <Fragment>
-              <span className="certificates-text12">
+              <span className="certificates-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_SFerHG'),
@@ -54,7 +33,7 @@ const Certificates = (props) => {
           }
           page4={
             <Fragment>
-              <span className="certificates-text13">
+              <span className="certificates-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_E2rpmH'),
@@ -63,13 +42,189 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          fruits={
+            <Fragment>
+              <span className="certificates-text12">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_GjqiRn'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          vegetables={
+            <Fragment>
+              <span className="certificates-text13">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__fy02Y'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           rootClassName="navroot-class-name2"
+          page41={
+            <Fragment>
+              <span className="certificates-text14">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_HUfiGk'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page411={
+            <Fragment>
+              <span className="certificates-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zYork8'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text1={
+            <Fragment>
+              <span className="certificates-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_grWOC3'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text2={
+            <Fragment>
+              <span className="certificates-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__Y-2eN'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3={
+            <Fragment>
+              <span className="certificates-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_kefLiZ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31={
+            <Fragment>
+              <span className="certificates-text19">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_NUsxHb'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="certificates-text20">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__3WCDF'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3111={
+            <Fragment>
+              <span className="certificates-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7Fpm5k'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="certificates-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7vum2o'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="certificates-text23">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gxakXQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text32={
+            <Fragment>
+              <span className="certificates-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_xlm-2-'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text312={
+            <Fragment>
+              <span className="certificates-text25">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_aPS6RZ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3112={
+            <Fragment>
+              <span className="certificates-text26">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Iv0gfk'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31111={
+            <Fragment>
+              <span className="certificates-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Hg_GjZ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></Nav>
         <CertificateBannerComp
           action1={
             <Fragment>
-              <span className="certificates-text14">
+              <span className="certificates-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_MPCs_y'),
@@ -80,7 +235,7 @@ const Certificates = (props) => {
           }
           action2={
             <Fragment>
-              <span className="certificates-text15">
+              <span className="certificates-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pnqXji'),
@@ -91,7 +246,7 @@ const Certificates = (props) => {
           }
           content11={
             <Fragment>
-              <span className="certificates-text16">
+              <span className="certificates-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CogmYY'),
@@ -102,10 +257,10 @@ const Certificates = (props) => {
           }
           heading11={
             <Fragment>
-              <span className="certificates-text17">
+              <span className="certificates-text31">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_JmZngT'),
+                    __html: translate.raw('text__MSRGK'),
                   }}
                 ></span>
               </span>
@@ -123,7 +278,7 @@ const Certificates = (props) => {
         <Certificate2
           feature1Title={
             <Fragment>
-              <span className="certificates-text18">
+              <span className="certificates-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_WFrIcw'),
@@ -132,9 +287,10 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          rootClassName="certificate2root-class-name"
           feature1Description={
             <Fragment>
-              <span className="certificates-text19">
+              <span className="certificates-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_UNsQjC'),
@@ -145,6 +301,10 @@ const Certificates = (props) => {
           }
           locale={props?.locale ?? ''}
         ></Certificate2>
+        <Certificate3
+          rootClassName="certificate3root-class-name"
+          locale={props?.locale ?? ''}
+        ></Certificate3>
         <Footer
           logoSrc="/rioniyoexim.svg"
           rootClassName="footerroot-class-name5"
@@ -191,10 +351,47 @@ const Certificates = (props) => {
           .certificates-text19 {
             display: inline-block;
           }
-          @media (max-width: 991px) {
-            .certificates-text17 {
-              box-shadow: inherit;
-            }
+          .certificates-text20 {
+            display: inline-block;
+          }
+          .certificates-text21 {
+            display: inline-block;
+          }
+          .certificates-text22 {
+            display: inline-block;
+          }
+          .certificates-text23 {
+            display: inline-block;
+          }
+          .certificates-text24 {
+            display: inline-block;
+          }
+          .certificates-text25 {
+            display: inline-block;
+          }
+          .certificates-text26 {
+            display: inline-block;
+          }
+          .certificates-text27 {
+            display: inline-block;
+          }
+          .certificates-text28 {
+            display: inline-block;
+          }
+          .certificates-text29 {
+            display: inline-block;
+          }
+          .certificates-text30 {
+            display: inline-block;
+          }
+          .certificates-text31 {
+            display: inline-block;
+          }
+          .certificates-text32 {
+            display: inline-block;
+          }
+          .certificates-text33 {
+            display: inline-block;
           }
         `}
       </style>
