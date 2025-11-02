@@ -184,12 +184,23 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
+          feature2Description31={
+            <Fragment>
+              <span className="product-categories-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_kcg_JN'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></Features4>
         <CTA26
           action1={
             <Fragment>
-              <span className="product-categories-text24">
+              <span className="product-categories-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_4OJ84O'),
@@ -200,7 +211,7 @@ const ProductCategories = (props) => {
           }
           content1={
             <Fragment>
-              <span className="product-categories-text25">
+              <span className="product-categories-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_zKGvO-'),
@@ -211,7 +222,7 @@ const ProductCategories = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="product-categories-text26">
+              <span className="product-categories-text27">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Nq1gyI'),
@@ -289,6 +300,9 @@ const ProductCategories = (props) => {
             display: inline-block;
           }
           .product-categories-text26 {
+            display: inline-block;
+          }
+          .product-categories-text27 {
             display: inline-block;
           }
         `}

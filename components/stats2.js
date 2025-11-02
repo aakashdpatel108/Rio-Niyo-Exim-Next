@@ -30,21 +30,14 @@ const Stats2 = (props) => {
                 </Fragment>
               )}
             </span>
-            <div className="stats2-container4 thq-grid-2"></div>
             <p className="thq-body-large">
-              {props.content2 ?? (
-                <Fragment>
-                  <span className="stats2-text4">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_dPduUO'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_vR3Qrd'),
+                }}
+              ></span>
             </p>
-            <div className="stats2-container5 thq-grid-2"></div>
+            <div className="stats2-container4 thq-grid-2"></div>
           </div>
         </div>
       </div>
@@ -75,14 +68,7 @@ const Stats2 = (props) => {
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
           }
-          .stats2-container5 {
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-          }
           .stats2-text3 {
-            display: inline-block;
-          }
-          .stats2-text4 {
             display: inline-block;
           }
           @media (max-width: 991px) {
@@ -113,7 +99,6 @@ const Stats2 = (props) => {
 
 Stats2.defaultProps = {
   content1: undefined,
-  content2: undefined,
   image1Alt: 'Global Food Exporter',
   image1Src:
     'https://images.unsplash.com/photo-1504281186-f427c16ed131?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTA5MDgwNXw&ixlib=rb-4.1.0&q=80&w=1400',
@@ -121,7 +106,6 @@ Stats2.defaultProps = {
 
 Stats2.propTypes = {
   content1: PropTypes.element,
-  content2: PropTypes.element,
   image1Alt: PropTypes.string,
   image1Src: PropTypes.string,
 }

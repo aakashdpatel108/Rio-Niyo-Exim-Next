@@ -65,23 +65,23 @@ const DryFruits = (props) => {
           locale={props?.locale ?? ''}
         ></Nav>
         <NotFound2
-          heading2={
+          action1={
             <Fragment>
               <span className="dry-fruits-text5">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_A8-YlX'),
+                    __html: translate.raw('text_4qaDXZ'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          action1={
+          heading2={
             <Fragment>
               <span className="dry-fruits-text6">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4qaDXZ'),
+                    __html: translate.raw('text_A8-YlX'),
                   }}
                 ></span>
               </span>

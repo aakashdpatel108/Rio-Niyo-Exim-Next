@@ -756,11 +756,8 @@ const Nav = (props) => {
           }
 
           @media (max-width: 1600px) {
-            .nav-desktop-menu {
-              display: none;
-            }
-            .nav-burger-menu {
-              display: flex;
+            .nav-navbar-interactive {
+              justify-content: space-between;
             }
             .nav-icon14 {
               display: flex;
@@ -768,6 +765,11 @@ const Nav = (props) => {
             .nav-logo {
               width: 67px;
               height: 52px;
+            }
+          }
+          @media (max-width: 991px) {
+            .nav-navbar-interactive {
+              justify-content: space-between;
             }
           }
           @media (max-width: 767px) {
@@ -779,7 +781,11 @@ const Nav = (props) => {
               width: 73px;
               height: 81px;
             }
+            .nav-desktop-menu {
+              display: none;
+            }
             .nav-burger-menu {
+              display: flex;
               align-items: center;
               justify-content: center;
             }

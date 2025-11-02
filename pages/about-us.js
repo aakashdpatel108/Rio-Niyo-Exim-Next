@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl'
 import Nav from '../components/nav'
 import Banner21 from '../components/banner21'
 import Stats2 from '../components/stats2'
+import Stats13 from '../components/stats13'
 import Logos1 from '../components/logos1'
 import Features1 from '../components/features1'
 import MeetOurTeam from '../components/meet-our-team'
@@ -80,23 +81,12 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
-          content1={
+          heading1={
             <Fragment>
               <span className="about-us-text15">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_5wQsUB'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="about-us-text16">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GaRBps'),
+                    __html: translate.raw('text_C666Dq'),
                   }}
                 ></span>
               </span>
@@ -107,7 +97,7 @@ const AboutUs = (props) => {
         <Stats2
           content1={
             <Fragment>
-              <span className="about-us-text17">
+              <span className="about-us-text16">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_I2m5gm'),
@@ -116,23 +106,81 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
-          content2={
+          locale={props?.locale ?? ''}
+        ></Stats2>
+        <Stats13
+          stat2Description={
+            <Fragment>
+              <span className="about-us-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_mPsT_P'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          stat3={
             <Fragment>
               <span className="about-us-text18">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_VhmcQb'),
+                    __html: translate.raw('text_pxZ8Gw'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          stat3Description={
+            <Fragment>
+              <span className="about-us-text19">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_3QMQQp'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          stat1Description={
+            <Fragment>
+              <span className="about-us-text20">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_xiVtUp'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          stat1={
+            <Fragment>
+              <span className="about-us-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_yVnNNu'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          stat2={
+            <Fragment>
+              <span className="about-us-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_rWV4my'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
           locale={props?.locale ?? ''}
-        ></Stats2>
+        ></Stats13>
         <Logos1
           heading1={
             <Fragment>
-              <span className="about-us-text19">
+              <span className="about-us-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_AdNGgf'),
@@ -146,7 +194,7 @@ const AboutUs = (props) => {
         <Features1
           slogan={
             <Fragment>
-              <span className="about-us-text20">
+              <span className="about-us-text24">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_bhw4Hr'),
@@ -157,7 +205,7 @@ const AboutUs = (props) => {
           }
           mainAction={
             <Fragment>
-              <span className="about-us-text21">
+              <span className="about-us-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_o-WlZ2'),
@@ -168,7 +216,7 @@ const AboutUs = (props) => {
           }
           sectionTitle={
             <Fragment>
-              <span className="about-us-text22">
+              <span className="about-us-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LItllM'),
@@ -179,7 +227,7 @@ const AboutUs = (props) => {
           }
           feature1Title={
             <Fragment>
-              <span className="about-us-text23">
+              <span className="about-us-text27">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Aya4SO'),
@@ -190,7 +238,7 @@ const AboutUs = (props) => {
           }
           feature2Title={
             <Fragment>
-              <span className="about-us-text24">
+              <span className="about-us-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_6Uydy8'),
@@ -201,7 +249,7 @@ const AboutUs = (props) => {
           }
           feature3Title={
             <Fragment>
-              <span className="about-us-text25">
+              <span className="about-us-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_0hZLc4'),
@@ -212,7 +260,7 @@ const AboutUs = (props) => {
           }
           secondaryAction={
             <Fragment>
-              <span className="about-us-text26">
+              <span className="about-us-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_vqKuk7'),
@@ -223,7 +271,7 @@ const AboutUs = (props) => {
           }
           sectionDescription={
             <Fragment>
-              <span className="about-us-text27">
+              <span className="about-us-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_WEjgqL'),
@@ -234,7 +282,7 @@ const AboutUs = (props) => {
           }
           feature1Description={
             <Fragment>
-              <span className="about-us-text28">
+              <span className="about-us-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_DUQVAE'),
@@ -245,7 +293,7 @@ const AboutUs = (props) => {
           }
           feature2Description={
             <Fragment>
-              <span className="about-us-text29">
+              <span className="about-us-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_iajvmB'),
@@ -256,7 +304,7 @@ const AboutUs = (props) => {
           }
           feature3Description={
             <Fragment>
-              <span className="about-us-text30">
+              <span className="about-us-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_p2Bbia'),
@@ -270,7 +318,7 @@ const AboutUs = (props) => {
         <MeetOurTeam
           member1={
             <Fragment>
-              <span className="about-us-text31">
+              <span className="about-us-text35">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_D6RI6t'),
@@ -281,7 +329,7 @@ const AboutUs = (props) => {
           }
           member2={
             <Fragment>
-              <span className="about-us-text32">
+              <span className="about-us-text36">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_EeLP2k'),
@@ -290,34 +338,12 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
-          content2={
-            <Fragment>
-              <span className="about-us-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_C8XRjR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="about-us-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rQ6pwH'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           member1Job={
             <Fragment>
-              <span className="about-us-text35">
+              <span className="about-us-text37">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_kPIWiO'),
+                    __html: translate.raw('text_dhQIqj'),
                   }}
                 ></span>
               </span>
@@ -326,38 +352,16 @@ const AboutUs = (props) => {
           member1Src="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQwfHxwZXJzb258ZW58MHx8fHwxNzU5MDkzMDI4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           member2Job={
             <Fragment>
-              <span className="about-us-text36">
+              <span className="about-us-text38">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_2A67mc'),
+                    __html: translate.raw('text_Oy6MvF'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
           member2Src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxwZXJzb258ZW58MHx8fHwxNzU5MDkzMDI4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
-          member1Content={
-            <Fragment>
-              <span className="about-us-text37">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Z0LBkO'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          member2Content={
-            <Fragment>
-              <span className="about-us-text38">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-LY0u_'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
         ></MeetOurTeam>
         <Footer
@@ -396,18 +400,16 @@ const AboutUs = (props) => {
           }
           .about-us-text16 {
             display: inline-block;
-          }
-          .about-us-text17 {
-            display: inline-block;
             font-size: 30px;
             font-style: normal;
             font-weight: 700;
             letter-spacing: 1px;
           }
+          .about-us-text17 {
+            display: inline-block;
+          }
           .about-us-text18 {
             display: inline-block;
-            font-family: 'Inter';
-            font-weight: 400;
           }
           .about-us-text19 {
             display: inline-block;

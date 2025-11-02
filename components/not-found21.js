@@ -19,7 +19,7 @@ const NotFound21 = (props) => {
           <h2 className="not-found21-text2 thq-heading-2">
             {props.heading2 ?? (
               <Fragment>
-                <span className="not-found21-text3">
+                <span className="not-found21-text4">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_OsTMH4'),
@@ -29,11 +29,11 @@ const NotFound21 = (props) => {
               </Fragment>
             )}
           </h2>
-          <button className="not-found21-button thq-button-outline thq-button-filled">
+          <button className="not-found21-button thq-button-filled thq-button-outline">
             <span className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>
-                  <span className="not-found21-text4">
+                  <span className="not-found21-text3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_DVKDtE'),
@@ -144,17 +144,17 @@ const NotFound21 = (props) => {
 
 NotFound21.defaultProps = {
   image1Alt: 'image',
-  heading2: undefined,
   action1: undefined,
   image1Src:
     'https://images.unsplash.com/photo-1584824486509-112e4181ff6b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fG5vdCUyMGZvdW5kfGVufDB8fHx8MTcxMzI3MTcwNXww&ixlib=rb-4.0.3&w=1500',
+  heading2: undefined,
 }
 
 NotFound21.propTypes = {
   image1Alt: PropTypes.string,
-  heading2: PropTypes.element,
   action1: PropTypes.element,
   image1Src: PropTypes.string,
+  heading2: PropTypes.element,
 }
 
 export default NotFound21
