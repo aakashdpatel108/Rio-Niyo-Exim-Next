@@ -22,7 +22,7 @@ const GrainsAndCereal = (props) => {
         <Nav
           page3={
             <Fragment>
-              <span className="grains-and-cereal-text1">
+              <span className="grains-and-cereal-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_IsBKnD'),
@@ -33,7 +33,7 @@ const GrainsAndCereal = (props) => {
           }
           page4={
             <Fragment>
-              <span className="grains-and-cereal-text2">
+              <span className="grains-and-cereal-text11">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_81Y9wS'),
@@ -44,7 +44,7 @@ const GrainsAndCereal = (props) => {
           }
           fruits={
             <Fragment>
-              <span className="grains-and-cereal-text3">
+              <span className="grains-and-cereal-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_WfDAYR'),
@@ -55,7 +55,7 @@ const GrainsAndCereal = (props) => {
           }
           vegetables={
             <Fragment>
-              <span className="grains-and-cereal-text4">
+              <span className="grains-and-cereal-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_IBx7tK'),
@@ -65,12 +65,166 @@ const GrainsAndCereal = (props) => {
             </Fragment>
           }
           rootClassName="navroot-class-name12"
+          page41={
+            <Fragment>
+              <span className="grains-and-cereal-text14">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_19hK9M'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page411={
+            <Fragment>
+              <span className="grains-and-cereal-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_vyeFjK'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text1={
+            <Fragment>
+              <span className="grains-and-cereal-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_18mC8g'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text2={
+            <Fragment>
+              <span className="grains-and-cereal-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_BlgLsh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3={
+            <Fragment>
+              <span className="grains-and-cereal-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_-BEBZC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31={
+            <Fragment>
+              <span className="grains-and-cereal-text19">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_VXGZnX'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="grains-and-cereal-text20">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_xHQFzu'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3111={
+            <Fragment>
+              <span className="grains-and-cereal-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_P1hqN1'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="grains-and-cereal-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4nimhC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="grains-and-cereal-text23">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_LQHsK3'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text32={
+            <Fragment>
+              <span className="grains-and-cereal-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_IW9V4d'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text312={
+            <Fragment>
+              <span className="grains-and-cereal-text25">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__Awum0'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3112={
+            <Fragment>
+              <span className="grains-and-cereal-text26">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_E3szmc'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31111={
+            <Fragment>
+              <span className="grains-and-cereal-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FTJzvU'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></Nav>
         <NotFound21
           action1={
             <Fragment>
-              <span className="grains-and-cereal-text5">
+              <span className="grains-and-cereal-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_AfTo4c'),
@@ -81,7 +235,7 @@ const GrainsAndCereal = (props) => {
           }
           heading2={
             <Fragment>
-              <span className="grains-and-cereal-text6">
+              <span className="grains-and-cereal-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_rOYNgL'),
@@ -106,22 +260,64 @@ const GrainsAndCereal = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .grains-and-cereal-text1 {
+          .grains-and-cereal-text10 {
             display: inline-block;
           }
-          .grains-and-cereal-text2 {
+          .grains-and-cereal-text11 {
             display: inline-block;
           }
-          .grains-and-cereal-text3 {
+          .grains-and-cereal-text12 {
             display: inline-block;
           }
-          .grains-and-cereal-text4 {
+          .grains-and-cereal-text13 {
             display: inline-block;
           }
-          .grains-and-cereal-text5 {
+          .grains-and-cereal-text14 {
             display: inline-block;
           }
-          .grains-and-cereal-text6 {
+          .grains-and-cereal-text15 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text16 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text17 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text18 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text19 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text20 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text21 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text22 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text23 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text24 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text25 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text26 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text27 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text28 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text29 {
             display: inline-block;
           }
         `}

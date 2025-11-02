@@ -14,7 +14,7 @@ const Certificate1 = (props) => {
             {activeTab === 0 && (
               <img
                 alt="OFICE"
-                src="/certificateofiec-1400w.png"
+                src="/iec-1400w.png"
                 className="certificate-1-image1 thq-img-ratio-16-9"
               />
             )}

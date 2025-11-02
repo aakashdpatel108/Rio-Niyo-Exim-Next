@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -29,21 +30,23 @@ const NotFound21 = (props) => {
               </Fragment>
             )}
           </h2>
-          <button className="not-found21-button thq-button-filled thq-button-outline">
-            <span className="thq-body-small">
-              {props.action1 ?? (
-                <Fragment>
-                  <span className="not-found21-text3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_DVKDtE'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
-            </span>
-          </button>
+          <Link href="/">
+            <a className="not-found21-link thq-button-filled thq-button-outline">
+              <span className="thq-body-small">
+                {props.action1 ?? (
+                  <Fragment>
+                    <span className="not-found21-text3">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: translate.raw('text_DVKDtE'),
+                        }}
+                      ></span>
+                    </span>
+                  </Fragment>
+                )}
+              </span>
+            </a>
+          </Link>
         </div>
         <img
           alt={props.image1Alt}
@@ -82,9 +85,10 @@ const NotFound21 = (props) => {
             font-style: normal;
             font-weight: 400;
           }
-          .not-found21-button {
+          .not-found21-link {
             color: var(--dl-color-theme-neutral-dark);
             margin-top: var(--dl-layout-space-threeunits);
+            text-decoration: none;
             background-color: var(--dl-color-theme-neutral-light);
           }
           .not-found21-image {

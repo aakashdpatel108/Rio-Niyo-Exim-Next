@@ -32,8 +32,8 @@ const MeetOurTeam = (props) => {
               <div className="meet-our-team-row">
                 <div className="meet-our-team-card1">
                   <img
-                    src="https://images.unsplash.com/photo-1583314965950-cd54a8b6db84?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTA5MjkxM3w&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600"
                     alt="Image of John Doe"
+                    src="https://images.unsplash.com/photo-1583314965950-cd54a8b6db84?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTA5MjkxM3w&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600"
                     className="thq-img-ratio-1-1 meet-our-team-placeholder-image1"
                   />
                   <div className="meet-our-team-content4">
@@ -91,8 +91,8 @@ const MeetOurTeam = (props) => {
                 </div>
                 <div className="meet-our-team-card2">
                   <img
-                    src="/aakash%20patel%20profile-600w.png"
                     alt="Aakash Patel"
+                    src="/aakash%20patel%20profile-600w.png"
                     className="thq-img-ratio-1-1 meet-our-team-placeholder-image2"
                   />
                   <div className="meet-our-team-content5">

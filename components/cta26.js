@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -14,30 +15,18 @@ const CTA26 = (props) => {
               <div className="cta26-container2">
                 <div className="cta26-content">
                   <span className="thq-heading-2">
-                    {props.heading1 ?? (
-                      <Fragment>
-                        <span className="cta26-text4">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_dJLa76'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_cTw3Er'),
+                      }}
+                    ></span>
                   </span>
                   <p className="thq-body-large">
-                    {props.content1 ?? (
-                      <Fragment>
-                        <span className="cta26-text6">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_P3ogPU'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_FDhLjL'),
+                      }}
+                    ></span>
                   </p>
                 </div>
                 <div className="cta26-actions">
@@ -45,19 +34,21 @@ const CTA26 = (props) => {
                     type="button"
                     className="thq-button-filled cta26-button"
                   >
-                    <span>
-                      {props.action1 ?? (
-                        <Fragment>
-                          <span className="cta26-text5">
-                            <span
-                              dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_VUKWqk'),
-                              }}
-                            ></span>
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
+                    <Link href="/contact-us">
+                      <a className="cta26-link">
+                        {props.action1 ?? (
+                          <Fragment>
+                            <span className="cta26-text3">
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: translate.raw('text_VUKWqk'),
+                                }}
+                              ></span>
+                            </span>
+                          </Fragment>
+                        )}
+                      </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -125,13 +116,10 @@ const CTA26 = (props) => {
             align-items: flex-start;
             justify-content: flex-end;
           }
-          .cta26-text4 {
-            display: inline-block;
+          .cta26-link {
+            text-decoration: none;
           }
-          .cta26-text5 {
-            display: inline-block;
-          }
-          .cta26-text6 {
+          .cta26-text3 {
             display: inline-block;
           }
           @media (max-width: 767px) {
@@ -158,15 +146,11 @@ const CTA26 = (props) => {
 }
 
 CTA26.defaultProps = {
-  heading1: undefined,
   action1: undefined,
-  content1: undefined,
 }
 
 CTA26.propTypes = {
-  heading1: PropTypes.element,
   action1: PropTypes.element,
-  content1: PropTypes.element,
 }
 
 export default CTA26

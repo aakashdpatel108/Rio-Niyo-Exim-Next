@@ -13,7 +13,7 @@ const Features4 = (props) => {
           <h2 className="features4-text10 thq-heading-2">
             {props.sectionTitle ?? (
               <Fragment>
-                <span className="features4-text19">
+                <span className="features4-text20">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_UZbWJS'),
@@ -37,7 +37,7 @@ const Features4 = (props) => {
                       <strong className="features4-title21 thq-heading-3">
                         {props.feature2Title ?? (
                           <Fragment>
-                            <span className="features4-text17">
+                            <span className="features4-text18">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_w94CmI'),
@@ -50,7 +50,7 @@ const Features4 = (props) => {
                       <span className="features4-description21 thq-body-small">
                         {props.feature2Description ?? (
                           <Fragment>
-                            <span className="features4-text18">
+                            <span className="features4-text19">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_P4uKip'),
@@ -147,7 +147,7 @@ const Features4 = (props) => {
                       <strong className="features4-title23 thq-heading-3">
                         {props.feature2Title2 ?? (
                           <Fragment>
-                            <span className="features4-text16">
+                            <span className="features4-text17">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_eObcqD'),
@@ -160,7 +160,7 @@ const Features4 = (props) => {
                       <span className="features4-description23 thq-body-small">
                         {props.feature2Description2 ?? (
                           <Fragment>
-                            <span className="features4-text15">
+                            <span className="features4-text16">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_GAd4vg'),
@@ -309,7 +309,7 @@ const Features4 = (props) => {
                       <span className="features4-description26 thq-body-small">
                         {props.feature2Description31 ?? (
                           <Fragment>
-                            <span className="features4-text20">
+                            <span className="features4-text15">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_3Q0hrF'),
@@ -639,12 +639,12 @@ Features4.defaultProps = {
   feature2Title1: undefined,
   feature2Description1: undefined,
   feature2Description3: undefined,
+  feature2Description31: undefined,
   feature2Description2: undefined,
   feature2Title2: undefined,
   feature2Title: undefined,
   feature2Description: undefined,
   sectionTitle: undefined,
-  feature2Description31: undefined,
 }
 
 Features4.propTypes = {
@@ -652,12 +652,12 @@ Features4.propTypes = {
   feature2Title1: PropTypes.element,
   feature2Description1: PropTypes.element,
   feature2Description3: PropTypes.element,
+  feature2Description31: PropTypes.element,
   feature2Description2: PropTypes.element,
   feature2Title2: PropTypes.element,
   feature2Title: PropTypes.element,
   feature2Description: PropTypes.element,
   sectionTitle: PropTypes.element,
-  feature2Description31: PropTypes.element,
 }
 
 export default Features4

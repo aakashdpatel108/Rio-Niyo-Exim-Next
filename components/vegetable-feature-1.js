@@ -12,7 +12,7 @@ const VegetableFeature1 = (props) => {
       >
         <div className="vegetable-feature-1-max-width1 thq-section-max-width">
           <div className="thq-flex-row vegetable-feature-1-section-title1">
-            <div className="vegetable-feature-1-column1 thq-flex-column">
+            <div className="vegetable-feature-1-column thq-flex-column">
               <h2 className="thq-heading-2 vegetable-feature-1-text">
                 <span
                   dangerouslySetInnerHTML={{
@@ -76,9 +76,7 @@ const VegetableFeature1 = (props) => {
           </div>
         </div>
         <div className="vegetable-feature-1-max-width2 thq-section-max-width">
-          <div className="thq-flex-row vegetable-feature-1-section-title2">
-            <div className="vegetable-feature-1-column2 thq-flex-column"></div>
-          </div>
+          <div className="vegetable-feature-1-section-title2 thq-flex-row"></div>
           <div className="vegetable-feature-1-content5">
             <div className="vegetable-feature-1-row2 thq-flex-row">
               <div className="vegetable-feature-1-feature12 thq-flex-column">
@@ -151,7 +149,7 @@ const VegetableFeature1 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .vegetable-feature-1-column1 {
+          .vegetable-feature-1-column {
             gap: var(--dl-layout-space-halfunit);
             align-items: flex-start;
             flex-shrink: 0;
@@ -202,11 +200,8 @@ const VegetableFeature1 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .vegetable-feature-1-column2 {
-            gap: var(--dl-layout-space-halfunit);
+          .vegetable-feature-1-section-title2 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
-            align-items: flex-start;
-            flex-shrink: 0;
           }
           .vegetable-feature-1-content5 {
             gap: 48px;
@@ -278,7 +273,7 @@ const VegetableFeature1 = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .vegetable-feature-1-column1 {
+            .vegetable-feature-1-column {
               width: 100%;
             }
             .vegetable-feature-1-text {
@@ -298,9 +293,6 @@ const VegetableFeature1 = (props) => {
             }
             .vegetable-feature-1-feature31 {
               width: auto;
-            }
-            .vegetable-feature-1-column2 {
-              width: 100%;
             }
             .vegetable-feature-1-row2 {
               flex-direction: column;

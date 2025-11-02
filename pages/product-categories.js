@@ -67,12 +67,166 @@ const ProductCategories = (props) => {
             </Fragment>
           }
           rootClassName="navroot-class-name9"
+          page41={
+            <Fragment>
+              <span className="product-categories-text14">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_QvXUQ8'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page411={
+            <Fragment>
+              <span className="product-categories-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_1xbIQb'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text1={
+            <Fragment>
+              <span className="product-categories-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gTwVq0'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text2={
+            <Fragment>
+              <span className="product-categories-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_wXXFHh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3={
+            <Fragment>
+              <span className="product-categories-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_2Y3xGP'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31={
+            <Fragment>
+              <span className="product-categories-text19">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4mMrQk'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="product-categories-text20">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_X3LvSy'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3111={
+            <Fragment>
+              <span className="product-categories-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zALcHz'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="product-categories-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7gDYTa'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="product-categories-text23">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_xZD4Un'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text32={
+            <Fragment>
+              <span className="product-categories-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_fOhu38'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text312={
+            <Fragment>
+              <span className="product-categories-text25">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_quRSRz'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3112={
+            <Fragment>
+              <span className="product-categories-text26">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_K65t7p'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31111={
+            <Fragment>
+              <span className="product-categories-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_h2AgcT'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></Nav>
         <ProductCategoryBanner
           content1={
             <Fragment>
-              <span className="product-categories-text14">
+              <span className="product-categories-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_TWydlM'),
@@ -87,7 +241,7 @@ const ProductCategories = (props) => {
         <Features4
           sectionTitle={
             <Fragment>
-              <span className="product-categories-text15">
+              <span className="product-categories-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_YifbX9'),
@@ -98,7 +252,7 @@ const ProductCategories = (props) => {
           }
           feature2Title={
             <Fragment>
-              <span className="product-categories-text16">
+              <span className="product-categories-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_xlkuOq'),
@@ -109,7 +263,7 @@ const ProductCategories = (props) => {
           }
           feature2Title1={
             <Fragment>
-              <span className="product-categories-text17">
+              <span className="product-categories-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_AJYoxS'),
@@ -120,7 +274,7 @@ const ProductCategories = (props) => {
           }
           feature2Title2={
             <Fragment>
-              <span className="product-categories-text18">
+              <span className="product-categories-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_vYjhD3'),
@@ -131,7 +285,7 @@ const ProductCategories = (props) => {
           }
           feature2Title3={
             <Fragment>
-              <span className="product-categories-text19">
+              <span className="product-categories-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_HulPg9'),
@@ -142,7 +296,7 @@ const ProductCategories = (props) => {
           }
           feature2Description={
             <Fragment>
-              <span className="product-categories-text20">
+              <span className="product-categories-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_-7qFHi'),
@@ -153,7 +307,7 @@ const ProductCategories = (props) => {
           }
           feature2Description1={
             <Fragment>
-              <span className="product-categories-text21">
+              <span className="product-categories-text35">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_y560Kc'),
@@ -164,7 +318,7 @@ const ProductCategories = (props) => {
           }
           feature2Description2={
             <Fragment>
-              <span className="product-categories-text22">
+              <span className="product-categories-text36">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_QS6gO2'),
@@ -175,7 +329,7 @@ const ProductCategories = (props) => {
           }
           feature2Description3={
             <Fragment>
-              <span className="product-categories-text23">
+              <span className="product-categories-text37">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_jFnJyz'),
@@ -186,7 +340,7 @@ const ProductCategories = (props) => {
           }
           feature2Description31={
             <Fragment>
-              <span className="product-categories-text24">
+              <span className="product-categories-text38">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_kcg_JN'),
@@ -200,32 +354,10 @@ const ProductCategories = (props) => {
         <CTA26
           action1={
             <Fragment>
-              <span className="product-categories-text25">
+              <span className="product-categories-text39">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4OJ84O'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content1={
-            <Fragment>
-              <span className="product-categories-text26">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zKGvO-'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="product-categories-text27">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Nq1gyI'),
+                    __html: translate.raw('text_Xr_Or7'),
                   }}
                 ></span>
               </span>
@@ -263,8 +395,6 @@ const ProductCategories = (props) => {
           }
           .product-categories-text14 {
             display: inline-block;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .product-categories-text15 {
             display: inline-block;
@@ -303,6 +433,44 @@ const ProductCategories = (props) => {
             display: inline-block;
           }
           .product-categories-text27 {
+            display: inline-block;
+          }
+          .product-categories-text28 {
+            display: inline-block;
+            font-family: 'Open Sans';
+            font-weight: 400;
+          }
+          .product-categories-text29 {
+            display: inline-block;
+          }
+          .product-categories-text30 {
+            display: inline-block;
+          }
+          .product-categories-text31 {
+            display: inline-block;
+          }
+          .product-categories-text32 {
+            display: inline-block;
+          }
+          .product-categories-text33 {
+            display: inline-block;
+          }
+          .product-categories-text34 {
+            display: inline-block;
+          }
+          .product-categories-text35 {
+            display: inline-block;
+          }
+          .product-categories-text36 {
+            display: inline-block;
+          }
+          .product-categories-text37 {
+            display: inline-block;
+          }
+          .product-categories-text38 {
+            display: inline-block;
+          }
+          .product-categories-text39 {
             display: inline-block;
           }
         `}

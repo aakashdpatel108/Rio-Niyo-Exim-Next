@@ -67,12 +67,166 @@ const AboutUs = (props) => {
             </Fragment>
           }
           rootClassName="navroot-class-name1"
+          page41={
+            <Fragment>
+              <span className="about-us-text14">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_bXD2cL'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page411={
+            <Fragment>
+              <span className="about-us-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_LvKXPQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text1={
+            <Fragment>
+              <span className="about-us-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_32isif'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text2={
+            <Fragment>
+              <span className="about-us-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Cwr11O'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3={
+            <Fragment>
+              <span className="about-us-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FDXvg1'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31={
+            <Fragment>
+              <span className="about-us-text19">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_RJRX8d'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="about-us-text20">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_8ktmza'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3111={
+            <Fragment>
+              <span className="about-us-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_wi-2UE'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="about-us-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_SKMrzh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="about-us-text23">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9vBFqA'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text32={
+            <Fragment>
+              <span className="about-us-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_K-KnOY'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text312={
+            <Fragment>
+              <span className="about-us-text25">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Z2vv1-'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text3112={
+            <Fragment>
+              <span className="about-us-text26">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_oTTeKH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text31111={
+            <Fragment>
+              <span className="about-us-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_UIH5Cu'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
         ></Nav>
         <Banner21
           action1={
             <Fragment>
-              <span className="about-us-text14">
+              <span className="about-us-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_n2tmZ3'),
@@ -83,7 +237,7 @@ const AboutUs = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="about-us-text15">
+              <span className="about-us-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_C666Dq'),
@@ -97,7 +251,7 @@ const AboutUs = (props) => {
         <Stats2
           content1={
             <Fragment>
-              <span className="about-us-text16">
+              <span className="about-us-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_I2m5gm'),
@@ -109,12 +263,23 @@ const AboutUs = (props) => {
           locale={props?.locale ?? ''}
         ></Stats2>
         <Stats13
-          stat2Description={
+          stat1={
             <Fragment>
-              <span className="about-us-text17">
+              <span className="about-us-text31">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_mPsT_P'),
+                    __html: translate.raw('text_q6pps3'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          stat2={
+            <Fragment>
+              <span className="about-us-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_rWV4my'),
                   }}
                 ></span>
               </span>
@@ -122,7 +287,7 @@ const AboutUs = (props) => {
           }
           stat3={
             <Fragment>
-              <span className="about-us-text18">
+              <span className="about-us-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pxZ8Gw'),
@@ -131,20 +296,9 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
-          stat3Description={
-            <Fragment>
-              <span className="about-us-text19">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3QMQQp'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           stat1Description={
             <Fragment>
-              <span className="about-us-text20">
+              <span className="about-us-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_xiVtUp'),
@@ -153,23 +307,23 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
-          stat1={
+          stat2Description={
             <Fragment>
-              <span className="about-us-text21">
+              <span className="about-us-text35">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_yVnNNu'),
+                    __html: translate.raw('text_8cHYbh'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          stat2={
+          stat3Description={
             <Fragment>
-              <span className="about-us-text22">
+              <span className="about-us-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rWV4my'),
+                    __html: translate.raw('text_3QMQQp'),
                   }}
                 ></span>
               </span>
@@ -180,7 +334,7 @@ const AboutUs = (props) => {
         <Logos1
           heading1={
             <Fragment>
-              <span className="about-us-text23">
+              <span className="about-us-text37">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_AdNGgf'),
@@ -194,7 +348,7 @@ const AboutUs = (props) => {
         <Features1
           slogan={
             <Fragment>
-              <span className="about-us-text24">
+              <span className="about-us-text38">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_bhw4Hr'),
@@ -205,7 +359,7 @@ const AboutUs = (props) => {
           }
           mainAction={
             <Fragment>
-              <span className="about-us-text25">
+              <span className="about-us-text39">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_o-WlZ2'),
@@ -216,7 +370,7 @@ const AboutUs = (props) => {
           }
           sectionTitle={
             <Fragment>
-              <span className="about-us-text26">
+              <span className="about-us-text40">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LItllM'),
@@ -227,7 +381,7 @@ const AboutUs = (props) => {
           }
           feature1Title={
             <Fragment>
-              <span className="about-us-text27">
+              <span className="about-us-text41">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Aya4SO'),
@@ -238,7 +392,7 @@ const AboutUs = (props) => {
           }
           feature2Title={
             <Fragment>
-              <span className="about-us-text28">
+              <span className="about-us-text42">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_6Uydy8'),
@@ -249,7 +403,7 @@ const AboutUs = (props) => {
           }
           feature3Title={
             <Fragment>
-              <span className="about-us-text29">
+              <span className="about-us-text43">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_0hZLc4'),
@@ -260,7 +414,7 @@ const AboutUs = (props) => {
           }
           secondaryAction={
             <Fragment>
-              <span className="about-us-text30">
+              <span className="about-us-text44">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_vqKuk7'),
@@ -271,7 +425,7 @@ const AboutUs = (props) => {
           }
           sectionDescription={
             <Fragment>
-              <span className="about-us-text31">
+              <span className="about-us-text45">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_WEjgqL'),
@@ -282,7 +436,7 @@ const AboutUs = (props) => {
           }
           feature1Description={
             <Fragment>
-              <span className="about-us-text32">
+              <span className="about-us-text46">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_DUQVAE'),
@@ -293,7 +447,7 @@ const AboutUs = (props) => {
           }
           feature2Description={
             <Fragment>
-              <span className="about-us-text33">
+              <span className="about-us-text47">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_iajvmB'),
@@ -304,7 +458,7 @@ const AboutUs = (props) => {
           }
           feature3Description={
             <Fragment>
-              <span className="about-us-text34">
+              <span className="about-us-text48">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_p2Bbia'),
@@ -318,7 +472,7 @@ const AboutUs = (props) => {
         <MeetOurTeam
           member1={
             <Fragment>
-              <span className="about-us-text35">
+              <span className="about-us-text49">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_D6RI6t'),
@@ -329,7 +483,7 @@ const AboutUs = (props) => {
           }
           member2={
             <Fragment>
-              <span className="about-us-text36">
+              <span className="about-us-text50">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_EeLP2k'),
@@ -340,7 +494,7 @@ const AboutUs = (props) => {
           }
           member1Job={
             <Fragment>
-              <span className="about-us-text37">
+              <span className="about-us-text51">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_dhQIqj'),
@@ -352,7 +506,7 @@ const AboutUs = (props) => {
           member1Src="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQwfHxwZXJzb258ZW58MHx8fHwxNzU5MDkzMDI4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           member2Job={
             <Fragment>
-              <span className="about-us-text38">
+              <span className="about-us-text52">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Oy6MvF'),
@@ -400,10 +554,6 @@ const AboutUs = (props) => {
           }
           .about-us-text16 {
             display: inline-block;
-            font-size: 30px;
-            font-style: normal;
-            font-weight: 700;
-            letter-spacing: 1px;
           }
           .about-us-text17 {
             display: inline-block;
@@ -446,6 +596,10 @@ const AboutUs = (props) => {
           }
           .about-us-text30 {
             display: inline-block;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 1px;
           }
           .about-us-text31 {
             display: inline-block;
@@ -470,6 +624,53 @@ const AboutUs = (props) => {
           }
           .about-us-text38 {
             display: inline-block;
+          }
+          .about-us-text39 {
+            display: inline-block;
+          }
+          .about-us-text40 {
+            display: inline-block;
+          }
+          .about-us-text41 {
+            display: inline-block;
+          }
+          .about-us-text42 {
+            display: inline-block;
+          }
+          .about-us-text43 {
+            display: inline-block;
+          }
+          .about-us-text44 {
+            display: inline-block;
+          }
+          .about-us-text45 {
+            display: inline-block;
+          }
+          .about-us-text46 {
+            display: inline-block;
+          }
+          .about-us-text47 {
+            display: inline-block;
+          }
+          .about-us-text48 {
+            display: inline-block;
+          }
+          .about-us-text49 {
+            display: inline-block;
+          }
+          .about-us-text50 {
+            display: inline-block;
+          }
+          .about-us-text51 {
+            display: inline-block;
+          }
+          .about-us-text52 {
+            display: inline-block;
+          }
+          @media (max-width: 414px) {
+            .about-us-text32 {
+              font-size: inherit;
+            }
           }
         `}
       </style>

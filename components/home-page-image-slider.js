@@ -140,13 +140,13 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1733938942778-c2e510c02dc9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxDbG92ZXN8ZW58MHx8fHwxNzYyMTA1MjI5fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="Cloves"
+                src="https://images.unsplash.com/photo-1733938942778-c2e510c02dc9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxDbG92ZXN8ZW58MHx8fHwxNzYyMTA1MjI5fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image24 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1740759781409-9d1d6985c866?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIyfHxEcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NjIxMDQxNTJ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="Dragon fruit"
+                src="https://images.unsplash.com/photo-1740759781409-9d1d6985c866?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIyfHxEcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NjIxMDQxNTJ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image25 thq-img-scale thq-img-ratio-1-1"
               />
               <img
@@ -155,15 +155,15 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image26 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1553499944-e4297a0af1bd?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fENpbm5hbW9ufGVufDB8fHx8MTc2MjEwNDc3Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="Cinnamon"
+                src="https://images.unsplash.com/photo-1553499944-e4297a0af1bd?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fENpbm5hbW9ufGVufDB8fHx8MTc2MjEwNDc3Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
             <div className="thq-animated-group-horizontal-reverse">
               <img
-                src="https://images.unsplash.com/photo-1689996647099-a7a0b67fd2f6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fEd1YXZhfGVufDB8fHx8MTc2MjEwNDU3Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="Guava"
+                src="https://images.unsplash.com/photo-1689996647099-a7a0b67fd2f6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fEd1YXZhfGVufDB8fHx8MTc2MjEwNDU3Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image28 thq-img-scale thq-img-ratio-1-1"
               />
               <img
@@ -172,13 +172,13 @@ const HomePageImageSlider = (props) => {
                 className="home-page-image-slider-placeholder-image29 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1524593410820-38510f580a77?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGdyZWVuJTIwcGVwcGVyfGVufDB8fHx8MTc2MjAzODg2N3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="Green chilli"
+                src="https://images.unsplash.com/photo-1524593410820-38510f580a77?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGdyZWVuJTIwcGVwcGVyfGVufDB8fHx8MTc2MjAzODg2N3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image30 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                src="https://images.unsplash.com/photo-1701166627787-12d9fdd437cc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGNhcmRhbW9tfGVufDB8fHx8MTc2MjEwNDk0N3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 alt="Cardamom"
+                src="https://images.unsplash.com/photo-1701166627787-12d9fdd437cc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGNhcmRhbW9tfGVufDB8fHx8MTc2MjEwNDk0N3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
                 className="home-page-image-slider-placeholder-image31 thq-img-scale thq-img-ratio-1-1"
               />
               <img
