@@ -13,23 +13,12 @@ const Footer = (props) => {
         className={`footer-container thq-section-padding ${props.rootClassName} `}
       >
         <Footer3
-          link1={
+          link2={
             <Fragment>
               <span className="footer-text1">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0XG6Vp'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link2={
-            <Fragment>
-              <span className="footer-text2">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Y2_Gz4'),
+                    __html: translate.raw('text_Kein-X'),
                   }}
                 ></span>
               </span>
@@ -37,7 +26,7 @@ const Footer = (props) => {
           }
           link3={
             <Fragment>
-              <span className="footer-text3">
+              <span className="footer-text2">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_I2mr0K'),
@@ -48,10 +37,10 @@ const Footer = (props) => {
           }
           link4={
             <Fragment>
-              <span className="footer-text4">
+              <span className="footer-text3">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9AHQb7'),
+                    __html: translate.raw('text_B_gNoJ'),
                   }}
                 ></span>
               </span>
@@ -59,10 +48,21 @@ const Footer = (props) => {
           }
           link5={
             <Fragment>
-              <span className="footer-text5">
+              <span className="footer-text4">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_S4s24G'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link21={
+            <Fragment>
+              <span className="footer-text5">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_HYNKdx'),
                   }}
                 ></span>
               </span>
@@ -185,6 +185,7 @@ const Footer = (props) => {
           .footerroot-class-name8 {
             fill: var(--dl-color-theme-neutral-dark);
             color: #040404;
+            position: static;
             background-color: #d4d4d4;
           }
           .footerroot-class-name9 {
@@ -193,8 +194,17 @@ const Footer = (props) => {
             background-color: #d4d4d4;
           }
 
+          .footerroot-class-name11 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: #040404;
+            background-color: #d4d4d4;
+          }
+
           @media (max-width: 991px) {
             .footerroot-class-name {
+              padding: 0px;
+            }
+            .footerroot-class-name11 {
               padding: 0px;
             }
           }
@@ -220,6 +230,9 @@ const Footer = (props) => {
               font-size: 12px;
             }
             .footerroot-class-name {
+              width: auto;
+            }
+            .footerroot-class-name11 {
               width: auto;
             }
           }

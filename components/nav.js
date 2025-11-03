@@ -12,15 +12,19 @@ const Nav = (props) => {
     <>
       <header className={`nav-container1 ${props.rootClassName} `}>
         <header data-thq="thq-navbar" className="nav-navbar-interactive">
-          <img
-            alt="RioNiyo EXIM Logo"
-            src="/rioniyoexim.svg"
-            className="nav-image1"
-          />
+          <Link href="/">
+            <a className="nav-link10">
+              <img
+                alt="RioNiyo EXIM Logo"
+                src="/rioniyoexim.svg"
+                className="nav-image1"
+              />
+            </a>
+          </Link>
           <div data-thq="thq-navbar-nav" className="nav-desktop-menu">
             <nav className="nav-links1">
               <Link href="/">
-                <a className="nav-link5 thq-body-small thq-link">
+                <a className="nav-link12 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link1_dFMFNM'),
@@ -29,7 +33,7 @@ const Nav = (props) => {
                 </a>
               </Link>
               <Link href="/about-us">
-                <a className="nav-link6 thq-body-small thq-link">
+                <a className="nav-link13 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link2_tHtuHa'),
@@ -38,7 +42,7 @@ const Nav = (props) => {
                 </a>
               </Link>
               <Link href="/certificates">
-                <a className="nav-link7 thq-body-small thq-link">
+                <a className="nav-link14 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link3_Q0-Pyo'),
@@ -47,7 +51,7 @@ const Nav = (props) => {
                 </a>
               </Link>
               <Link href="/contact-us">
-                <a className="nav-link8 thq-body-small thq-link">
+                <a className="nav-link15 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link3_d0wioP'),
@@ -55,66 +59,199 @@ const Nav = (props) => {
                   ></span>
                 </a>
               </Link>
-              <div className="nav-container2">
+              <div
+                data-thq="thq-dropdown"
+                className="nav-thq-dropdown1 list-item"
+              >
                 <div
-                  onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
-                  className="nav-link4-dropdown-trigger"
+                  data-thq="thq-dropdown-toggle"
+                  className="nav-dropdown-toggle10"
                 >
-                  <span className="thq-body-small thq-link">
+                  <span className="nav-text10">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('link4_FJCjLB'),
+                        __html: translate.raw('text_HM1Gwc'),
                       }}
                     ></span>
                   </span>
-                  <div className="nav-icon-container1">
-                    {link5DropdownVisible === true && (
-                      <div className="nav-container3">
-                        <svg viewBox="0 0 1024 1024" className="nav-icon10">
-                          <path d="M298 426h428l-214 214z"></path>
-                        </svg>
-                      </div>
-                    )}
-                    {link5DropdownVisible === false && (
-                      <div className="nav-container4">
-                        <svg viewBox="0 0 1024 1024" className="nav-icon12">
-                          <path d="M426 726v-428l214 214z"></path>
-                        </svg>
-                      </div>
-                    )}
+                  <div
+                    data-thq="thq-dropdown-arrow"
+                    className="nav-dropdown-arrow1"
+                  >
+                    <svg viewBox="0 0 1024 1024" className="nav-icon10">
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
                   </div>
                 </div>
+                <ul data-thq="thq-dropdown-list" className="nav-dropdown-list1">
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-dropdown10 list-item"
+                  >
+                    <Link href="/fruits">
+                      <a data-thq="thq-dropdown-toggle">
+                        <div className="nav-dropdown-toggle11">
+                          <span className="nav-text11">
+                            {props.text1 ?? (
+                              <Fragment>
+                                <span className="nav-text30">
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: translate.raw('text_abaIlC'),
+                                    }}
+                                  ></span>
+                                </span>
+                              </Fragment>
+                            )}
+                          </span>
+                        </div>
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-dropdown11 list-item"
+                  >
+                    <Link href="/vegetables">
+                      <a data-thq="thq-dropdown-toggle">
+                        <div className="nav-dropdown-toggle12">
+                          <span className="nav-text12">
+                            {props.text2 ?? (
+                              <Fragment>
+                                <span className="nav-text31">
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: translate.raw('text_IT_G50'),
+                                    }}
+                                  ></span>
+                                </span>
+                              </Fragment>
+                            )}
+                          </span>
+                        </div>
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-dropdown12 list-item"
+                  >
+                    <Link href="/spices">
+                      <a data-thq="thq-dropdown-toggle">
+                        <div className="nav-dropdown-toggle13">
+                          <span className="nav-text13">
+                            {props.text3 ?? (
+                              <Fragment>
+                                <span className="nav-text32">
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: translate.raw('text_dAOo9g'),
+                                    }}
+                                  ></span>
+                                </span>
+                              </Fragment>
+                            )}
+                          </span>
+                        </div>
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-dropdown13 list-item"
+                  >
+                    <Link href="/grains-and-cereal">
+                      <a data-thq="thq-dropdown-toggle">
+                        <div className="nav-dropdown-toggle14">
+                          <span className="nav-text14">
+                            {props.text31 ?? (
+                              <Fragment>
+                                <span className="nav-text33">
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: translate.raw('text_vWBLso'),
+                                    }}
+                                  ></span>
+                                </span>
+                              </Fragment>
+                            )}
+                          </span>
+                        </div>
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-dropdown14 list-item"
+                  >
+                    <Link href="/pulses">
+                      <a data-thq="thq-dropdown-toggle">
+                        <div className="nav-dropdown-toggle15">
+                          <span className="nav-text15">
+                            {props.text311 ?? (
+                              <Fragment>
+                                <span className="nav-text34">
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: translate.raw('text_-dFJVC'),
+                                    }}
+                                  ></span>
+                                </span>
+                              </Fragment>
+                            )}
+                          </span>
+                        </div>
+                      </a>
+                    </Link>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
+                    className="nav-dropdown15 list-item"
+                  >
+                    <Link href="/dry-fruits">
+                      <a data-thq="thq-dropdown-toggle">
+                        <div className="nav-dropdown-toggle16">
+                          <span className="nav-text16">
+                            {props.text3111 ?? (
+                              <Fragment>
+                                <span className="nav-text35">
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: translate.raw('text_WAP2XN'),
+                                    }}
+                                  ></span>
+                                </span>
+                              </Fragment>
+                            )}
+                          </span>
+                        </div>
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="nav-container2">
                 {link5DropdownVisible === true && (
-                  <div className="nav-container5 thq-box-shadow">
-                    <div className="nav-menu-item1">
-                      <div className="nav-content1">
+                  <div className="nav-container3 thq-box-shadow">
+                    <div className="nav-menu-item10">
+                      <div className="nav-content10">
                         <a
-                          href={props.linkUrlPage1}
-                          className="nav-page11 thq-body-large"
+                          href="https://www.teleporthq.io"
+                          className="nav-fruits thq-body-large"
                         >
-                          {props.page1 ?? (
-                            <Fragment>
-                              <span className="nav-text2">
-                                <span
-                                  dangerouslySetInnerHTML={{
-                                    __html: translate.raw('text_EDSfO4'),
-                                  }}
-                                ></span>
-                              </span>
-                            </Fragment>
-                          )}
+                          {props.page1}
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item2">
-                      <div className="nav-content2">
+                    <div className="nav-menu-item11">
+                      <div className="nav-content11">
                         <a
-                          href={props.linkUrlPage2}
+                          href="https://www.teleporthq.io"
                           className="nav-page21 thq-body-large"
                         >
-                          {props.page2 ?? (
+                          {props.vegetables ?? (
                             <Fragment>
-                              <span className="nav-text3">
+                              <span className="nav-text26">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_sckdO2'),
@@ -126,15 +263,15 @@ const Nav = (props) => {
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item3">
-                      <div className="nav-content3">
+                    <div className="nav-menu-item12">
+                      <div className="nav-content12">
                         <a
-                          href={props.linkUrlPage3}
+                          href="https://www.teleporthq.io"
                           className="nav-page31 thq-body-large"
                         >
                           {props.page3 ?? (
                             <Fragment>
-                              <span className="nav-text4">
+                              <span className="nav-text27">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_bmDZsm'),
@@ -146,18 +283,58 @@ const Nav = (props) => {
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item4">
-                      <div className="nav-content4">
+                    <div className="nav-menu-item13">
+                      <div className="nav-content13">
                         <a
-                          href={props.linkUrlPage4}
+                          href="https://www.teleporthq.io"
                           className="nav-page41 thq-body-large"
                         >
                           {props.page4 ?? (
                             <Fragment>
-                              <span className="nav-text1">
+                              <span className="nav-text24">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_7ow-M-'),
+                                  }}
+                                ></span>
+                              </span>
+                            </Fragment>
+                          )}
+                        </a>
+                      </div>
+                    </div>
+                    <div className="nav-menu-item14">
+                      <div className="nav-content14">
+                        <a
+                          href="https://www.teleporthq.io"
+                          className="nav-page5 thq-body-large"
+                        >
+                          {props.page41 ?? (
+                            <Fragment>
+                              <span className="nav-text28">
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: translate.raw('text_xacYGA'),
+                                  }}
+                                ></span>
+                              </span>
+                            </Fragment>
+                          )}
+                        </a>
+                      </div>
+                    </div>
+                    <div className="nav-menu-item15">
+                      <div className="nav-content15">
+                        <a
+                          href="https://www.teleporthq.io"
+                          className="nav-page6 thq-body-large"
+                        >
+                          {props.page411 ?? (
+                            <Fragment>
+                              <span className="nav-text29">
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: translate.raw('text_h6wdLO'),
                                   }}
                                 ></span>
                               </span>
@@ -172,7 +349,7 @@ const Nav = (props) => {
             </nav>
           </div>
           <div data-thq="thq-burger-menu" className="nav-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="nav-icon14">
+            <svg viewBox="0 0 1024 1024" className="nav-icon12">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
@@ -185,14 +362,14 @@ const Nav = (props) => {
                   className="nav-logo"
                 />
                 <div data-thq="thq-close-menu" className="nav-close-menu">
-                  <svg viewBox="0 0 1024 1024" className="nav-icon16">
+                  <svg viewBox="0 0 1024 1024" className="nav-icon14">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
               </div>
               <nav className="nav-links2">
                 <Link href="/">
-                  <a className="nav-link9 thq-body-small thq-link">
+                  <a className="nav-link23 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link1_hbuQ9x'),
@@ -201,7 +378,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/about-us">
-                  <a className="nav-link10 thq-body-small thq-link">
+                  <a className="nav-link25 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link2_dJg7gl'),
@@ -210,7 +387,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/certificates">
-                  <a className="nav-link13 thq-body-small thq-link">
+                  <a className="nav-link26 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link3_DFODdZ'),
@@ -219,7 +396,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/contact-us">
-                  <a className="nav-link14 thq-body-small thq-link">
+                  <a className="nav-link27 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link3_jiTdIq'),
@@ -227,46 +404,192 @@ const Nav = (props) => {
                     ></span>
                   </a>
                 </Link>
-                <div className="nav-link4-accordion">
+                <div
+                  data-thq="thq-dropdown"
+                  className="nav-thq-dropdown2 list-item"
+                >
                   <div
-                    onClick={() => setLink5AccordionOpen(!link5AccordionOpen)}
-                    className="nav-trigger"
+                    data-thq="thq-dropdown-toggle"
+                    className="nav-dropdown-toggle17"
                   >
-                    <span className="thq-body-small thq-link">
+                    <span className="nav-text17">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('link4_f46XrC'),
+                          __html: translate.raw('text_Sd63cd'),
                         }}
                       ></span>
                     </span>
-                    <div className="nav-icon-container2">
-                      {link5AccordionOpen === true && (
-                        <div className="nav-container6">
-                          <svg viewBox="0 0 1024 1024" className="nav-icon18">
-                            <path d="M298 426h428l-214 214z"></path>
-                          </svg>
-                        </div>
-                      )}
-                      {link5AccordionOpen === false && (
-                        <div className="nav-container7">
-                          <svg viewBox="0 0 1024 1024" className="nav-icon20">
-                            <path d="M426 726v-428l214 214z"></path>
-                          </svg>
-                        </div>
-                      )}
+                    <div
+                      data-thq="thq-dropdown-arrow"
+                      className="nav-dropdown-arrow2"
+                    >
+                      <svg viewBox="0 0 1024 1024" className="nav-icon16">
+                        <path d="M426 726v-428l214 214z"></path>
+                      </svg>
                     </div>
                   </div>
+                  <ul
+                    data-thq="thq-dropdown-list"
+                    className="nav-dropdown-list2"
+                  >
+                    <li
+                      data-thq="thq-dropdown"
+                      className="nav-dropdown16 list-item"
+                    >
+                      <Link href="/fruits">
+                        <a data-thq="thq-dropdown-toggle">
+                          <div className="nav-dropdown-toggle18">
+                            <span className="nav-text18">
+                              {props.text11 ?? (
+                                <Fragment>
+                                  <span className="nav-text36">
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: translate.raw('text_ln7gg7'),
+                                      }}
+                                    ></span>
+                                  </span>
+                                </Fragment>
+                              )}
+                            </span>
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="nav-dropdown17 list-item"
+                    >
+                      <Link href="/vegetables">
+                        <a data-thq="thq-dropdown-toggle">
+                          <div className="nav-dropdown-toggle19">
+                            <span className="nav-text19">
+                              {props.text21 ?? (
+                                <Fragment>
+                                  <span className="nav-text37">
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: translate.raw('text_caAIqG'),
+                                      }}
+                                    ></span>
+                                  </span>
+                                </Fragment>
+                              )}
+                            </span>
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="nav-dropdown18 list-item"
+                    >
+                      <Link href="/spices">
+                        <a data-thq="thq-dropdown-toggle">
+                          <div className="nav-dropdown-toggle20">
+                            <span className="nav-text20">
+                              {props.text32 ?? (
+                                <Fragment>
+                                  <span className="nav-text38">
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: translate.raw('text_dGt6b4'),
+                                      }}
+                                    ></span>
+                                  </span>
+                                </Fragment>
+                              )}
+                            </span>
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="nav-dropdown19 list-item"
+                    >
+                      <Link href="/grains-and-cereal">
+                        <a data-thq="thq-dropdown-toggle">
+                          <div className="nav-dropdown-toggle21">
+                            <span className="nav-text21">
+                              {props.text312 ?? (
+                                <Fragment>
+                                  <span className="nav-text39">
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: translate.raw('text_BMlZEP'),
+                                      }}
+                                    ></span>
+                                  </span>
+                                </Fragment>
+                              )}
+                            </span>
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="nav-dropdown20 list-item"
+                    >
+                      <Link href="/pulses">
+                        <a data-thq="thq-dropdown-toggle">
+                          <div className="nav-dropdown-toggle22">
+                            <span className="nav-text22">
+                              {props.text3112 ?? (
+                                <Fragment>
+                                  <span className="nav-text40">
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: translate.raw('text_laJiqW'),
+                                      }}
+                                    ></span>
+                                  </span>
+                                </Fragment>
+                              )}
+                            </span>
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="nav-dropdown21 list-item"
+                    >
+                      <Link href="/dry-fruits">
+                        <a data-thq="thq-dropdown-toggle">
+                          <div className="nav-dropdown-toggle23">
+                            <span className="nav-text23">
+                              {props.text31111 ?? (
+                                <Fragment>
+                                  <span className="nav-text41">
+                                    <span
+                                      dangerouslySetInnerHTML={{
+                                        __html: translate.raw('text_HUdeYh'),
+                                      }}
+                                    ></span>
+                                  </span>
+                                </Fragment>
+                              )}
+                            </span>
+                          </div>
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="nav-link4-accordion">
                   {link5AccordionOpen === true && (
-                    <div className="nav-container8">
-                      <div className="nav-menu-item5">
-                        <div className="nav-content5">
+                    <div className="nav-container4">
+                      <div className="nav-menu-item16">
+                        <div className="nav-content16">
                           <a
-                            href={props.linkUrlPage1}
-                            className="nav-page12 thq-body-large"
+                            href="https://www.teleporthq.io"
+                            className="nav-page1 thq-body-large"
                           >
-                            {props.page1 ?? (
+                            {props.fruits ?? (
                               <Fragment>
-                                <span className="nav-text2">
+                                <span className="nav-text25">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_EDSfO4'),
@@ -278,15 +601,15 @@ const Nav = (props) => {
                           </a>
                         </div>
                       </div>
-                      <div className="nav-menu-item6">
-                        <div className="nav-content6">
+                      <div className="nav-menu-item17">
+                        <div className="nav-content17">
                           <a
-                            href={props.linkUrlPage2}
+                            href="https://www.teleporthq.io"
                             className="nav-page22 thq-body-large"
                           >
-                            {props.page2 ?? (
+                            {props.vegetables ?? (
                               <Fragment>
-                                <span className="nav-text3">
+                                <span className="nav-text26">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_sckdO2'),
@@ -298,15 +621,15 @@ const Nav = (props) => {
                           </a>
                         </div>
                       </div>
-                      <div className="nav-menu-item7">
-                        <div className="nav-content7">
+                      <div className="nav-menu-item18">
+                        <div className="nav-content18">
                           <a
-                            href={props.linkUrlPage3}
+                            href="https://www.teleporthq.io"
                             className="nav-page32 thq-body-large"
                           >
                             {props.page3 ?? (
                               <Fragment>
-                                <span className="nav-text4">
+                                <span className="nav-text27">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_bmDZsm'),
@@ -318,15 +641,15 @@ const Nav = (props) => {
                           </a>
                         </div>
                       </div>
-                      <div className="nav-menu-item8">
-                        <div className="nav-content8">
+                      <div className="nav-menu-item19">
+                        <div className="nav-content19">
                           <a
-                            href={props.linkUrlPage4}
+                            href="https://www.teleporthq.io"
                             className="nav-page42 thq-body-large"
                           >
                             {props.page4 ?? (
                               <Fragment>
-                                <span className="nav-text1">
+                                <span className="nav-text24">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_7ow-M-'),
@@ -352,13 +675,13 @@ const Nav = (props) => {
               </svg>
               <svg
                 viewBox="0 0 877.7142857142857 1024"
-                className="nav-icon24 thq-icon-x-small"
+                className="nav-icon20 thq-icon-x-small"
               >
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
               </svg>
               <svg
                 viewBox="0 0 602.2582857142856 1024"
-                className="nav-icon26 thq-icon-x-small"
+                className="nav-icon22 thq-icon-x-small"
               >
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
               </svg>
@@ -368,7 +691,7 @@ const Nav = (props) => {
         {link5DropdownVisible === true && (
           <div
             onClick={() => setLink5DropdownVisible(false)}
-            className="nav-container9"
+            className="nav-container5"
           ></div>
         )}
       </header>
@@ -377,7 +700,7 @@ const Nav = (props) => {
           .nav-container1 {
             width: 100%;
             display: flex;
-            z-index: 100;
+            z-index: 10000;
             position: relative;
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
@@ -391,11 +714,14 @@ const Nav = (props) => {
             padding-left: var(--dl-layout-space-threeunits);
             padding-right: var(--dl-layout-space-threeunits);
             padding-bottom: var(--dl-layout-space-halfunit);
-            justify-content: space-between;
+          }
+          .nav-link10 {
+            display: contents;
           }
           .nav-image1 {
             width: 124px;
             height: 112px;
+            text-decoration: none;
           }
           .nav-desktop-menu {
             flex: 1;
@@ -411,17 +737,271 @@ const Nav = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
-          .nav-link5 {
+          .nav-link12 {
             text-decoration: none;
           }
-          .nav-link6 {
+          .nav-link13 {
             text-decoration: none;
           }
-          .nav-link7 {
+          .nav-link14 {
             text-decoration: none;
           }
-          .nav-link8 {
+          .nav-link15 {
             text-decoration: none;
+          }
+          .nav-thq-dropdown1 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle10 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+          }
+          .nav-text10 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
+            font-size: 16px;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 600;
+            margin-right: 4px;
+            vertical-align: middle;
+          }
+          .nav-dropdown-arrow1 {
+            transition: 0.3s;
+          }
+          .nav-icon10 {
+            fill: #000000;
+            width: 18px;
+            height: 18px;
+            transition: 0.3s;
+          }
+          .nav-dropdown-list1 {
+            left: 0%;
+            width: max-content;
+            display: none;
+            z-index: 100;
+            position: absolute;
+            min-width: 100%;
+            box-shadow: 5px 5px 10px 0px #d4d4d4;
+            transition: 0.3s;
+            align-items: stretch;
+            border-color: #d9d9d9;
+            border-width: 1px;
+            border-radius: var(--dl-layout-radius-radius4);
+            flex-direction: column;
+            list-style-type: none;
+            list-style-position: inside;
+          }
+          .nav-dropdown10 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle11 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-unit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-unit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle11:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text11 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown11 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle12 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-unit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-unit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle12:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text12 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown12 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle13 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-unit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-unit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle13:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text13 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown13 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle14 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-unit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-unit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle14:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text14 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown14 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle15 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-unit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-unit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle15:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text15 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown15 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle16 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-unit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-unit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle16:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text16 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
           }
           .nav-container2 {
             display: flex;
@@ -430,42 +1010,7 @@ const Nav = (props) => {
             flex-direction: row;
             justify-content: flex-end;
           }
-          .nav-link4-dropdown-trigger {
-            gap: 4px;
-            cursor: pointer;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .nav-icon-container1 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
           .nav-container3 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .nav-icon10 {
-            width: 24px;
-            height: 24px;
-          }
-          .nav-container4 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .nav-icon12 {
-            width: 24px;
-            height: 24px;
-          }
-          .nav-container5 {
             top: 30px;
             right: 0px;
             display: flex;
@@ -482,7 +1027,7 @@ const Nav = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .nav-menu-item1 {
+          .nav-menu-item10 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -491,15 +1036,15 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content1 {
+          .nav-content10 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-page11 {
+          .nav-fruits {
             white-space: nowrap;
           }
-          .nav-menu-item2 {
+          .nav-menu-item11 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -508,7 +1053,7 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content2 {
+          .nav-content11 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -516,7 +1061,7 @@ const Nav = (props) => {
           .nav-page21 {
             white-space: nowrap;
           }
-          .nav-menu-item3 {
+          .nav-menu-item12 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -525,7 +1070,7 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content3 {
+          .nav-content12 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -533,7 +1078,7 @@ const Nav = (props) => {
           .nav-page31 {
             white-space: nowrap;
           }
-          .nav-menu-item4 {
+          .nav-menu-item13 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -542,7 +1087,7 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content4 {
+          .nav-content13 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -550,10 +1095,44 @@ const Nav = (props) => {
           .nav-page41 {
             white-space: nowrap;
           }
+          .nav-menu-item14 {
+            gap: 12px;
+            cursor: pointer;
+            display: flex;
+            padding: 8px 0;
+            align-self: stretch;
+            align-items: flex-start;
+            flex-shrink: 0;
+          }
+          .nav-content14 {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .nav-page5 {
+            white-space: nowrap;
+          }
+          .nav-menu-item15 {
+            gap: 12px;
+            cursor: pointer;
+            display: flex;
+            padding: 8px 0;
+            align-self: stretch;
+            align-items: flex-start;
+            flex-shrink: 0;
+          }
+          .nav-content15 {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .nav-page6 {
+            white-space: nowrap;
+          }
           .nav-burger-menu {
             display: none;
           }
-          .nav-icon14 {
+          .nav-icon12 {
             width: var(--dl-layout-size-xsmall);
             height: var(--dl-layout-size-xsmall);
           }
@@ -592,7 +1171,7 @@ const Nav = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .nav-icon16 {
+          .nav-icon14 {
             width: var(--dl-layout-size-xsmall);
             height: var(--dl-layout-size-xsmall);
           }
@@ -603,58 +1182,277 @@ const Nav = (props) => {
             align-self: flex-start;
             flex-direction: column;
           }
-          .nav-link9 {
+          .nav-link23 {
             text-decoration: none;
           }
-          .nav-link10 {
+          .nav-link25 {
             text-decoration: none;
           }
-          .nav-link13 {
+          .nav-link26 {
             text-decoration: none;
           }
-          .nav-link14 {
+          .nav-link27 {
             text-decoration: none;
+          }
+          .nav-thq-dropdown2 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle17 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+          }
+          .nav-text17 {
+            fill: var(--dl-color-theme-neutral-dark);
+            color: var(--dl-color-theme-neutral-dark);
+            font-size: 16px;
+            font-style: normal;
+            text-align: center;
+            font-weight: 600;
+            margin-right: 4px;
+            vertical-align: middle;
+          }
+          .nav-dropdown-arrow2 {
+            transition: 0.3s;
+          }
+          .nav-icon16 {
+            fill: #000000;
+            width: 18px;
+            height: 18px;
+            transition: 0.3s;
+          }
+          .nav-dropdown-list2 {
+            left: 0%;
+            width: max-content;
+            display: none;
+            z-index: 100;
+            position: absolute;
+            min-width: 100%;
+            box-shadow: 5px 5px 10px 0px #d4d4d4;
+            transition: 0.3s;
+            align-items: stretch;
+            border-color: #d9d9d9;
+            border-width: 1px;
+            border-radius: var(--dl-layout-radius-radius4);
+            flex-direction: column;
+            list-style-type: none;
+            list-style-position: inside;
+          }
+          .nav-dropdown16 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle18 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-halfunit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-halfunit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle18:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text18 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown17 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle19 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-halfunit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-halfunit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle19:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text19 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown18 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle20 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-halfunit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-halfunit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle20:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text20 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown19 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle21 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-halfunit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-halfunit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle21:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text21 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown20 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle22 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-halfunit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-halfunit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle22:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text22 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .nav-dropdown21 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-layout-radius-radius2);
+          }
+          .nav-dropdown-toggle23 {
+            fill: #595959;
+            color: #1a1a1a;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-layout-space-halfunit);
+            padding-left: var(--dl-layout-space-unit);
+            padding-right: var(--dl-layout-space-unit);
+            padding-bottom: var(--dl-layout-space-halfunit);
+            text-decoration: none;
+            background-color: #ffffff;
+          }
+          .nav-dropdown-toggle23:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-text23 {
+            color: #1a1a1a;
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
           }
           .nav-link4-accordion {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-trigger {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .nav-icon-container2 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .nav-container6 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .nav-icon18 {
-            width: 24px;
-            height: 24px;
-          }
-          .nav-container7 {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-end;
-          }
-          .nav-icon20 {
-            width: 24px;
-            height: 24px;
-          }
-          .nav-container8 {
+          .nav-container4 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -662,7 +1460,7 @@ const Nav = (props) => {
             padding-left: var(--dl-layout-space-oneandhalfunits);
             flex-direction: column;
           }
-          .nav-menu-item5 {
+          .nav-menu-item16 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -672,15 +1470,15 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content5 {
+          .nav-content16 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
           }
-          .nav-page12 {
+          .nav-page1 {
             white-space: nowrap;
           }
-          .nav-menu-item6 {
+          .nav-menu-item17 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -690,7 +1488,7 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content6 {
+          .nav-content17 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
@@ -698,7 +1496,7 @@ const Nav = (props) => {
           .nav-page22 {
             white-space: nowrap;
           }
-          .nav-menu-item7 {
+          .nav-menu-item18 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -708,7 +1506,7 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content7 {
+          .nav-content18 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
@@ -716,7 +1514,7 @@ const Nav = (props) => {
           .nav-page32 {
             white-space: nowrap;
           }
-          .nav-menu-item8 {
+          .nav-menu-item19 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -726,7 +1524,7 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content8 {
+          .nav-content19 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
@@ -738,13 +1536,13 @@ const Nav = (props) => {
             gap: var(--dl-layout-space-twounits);
             display: flex;
           }
-          .nav-icon24 {
+          .nav-icon20 {
             height: var(--dl-layout-size-xsmall);
           }
-          .nav-icon26 {
+          .nav-icon22 {
             height: var(--dl-layout-size-xsmall);
           }
-          .nav-container9 {
+          .nav-container5 {
             top: 0px;
             width: 100%;
             height: 100%;
@@ -753,23 +1551,84 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-text1 {
+          .nav-text24 {
             display: inline-block;
           }
-          .nav-text2 {
+          .nav-text25 {
             display: inline-block;
           }
-          .nav-text3 {
+          .nav-text26 {
             display: inline-block;
           }
-          .nav-text4 {
+          .nav-text27 {
+            display: inline-block;
+          }
+          .nav-text28 {
+            display: inline-block;
+          }
+          .nav-text29 {
+            display: inline-block;
+          }
+          .nav-text30 {
+            display: inline-block;
+          }
+          .nav-text31 {
+            display: inline-block;
+          }
+          .nav-text32 {
+            display: inline-block;
+          }
+          .nav-text33 {
+            display: inline-block;
+          }
+          .nav-text34 {
+            display: inline-block;
+          }
+          .nav-text35 {
+            display: inline-block;
+          }
+          .nav-text36 {
+            display: inline-block;
+          }
+          .nav-text37 {
+            display: inline-block;
+          }
+          .nav-text38 {
+            display: inline-block;
+          }
+          .nav-text39 {
+            display: inline-block;
+          }
+          .nav-text40 {
+            display: inline-block;
+          }
+          .nav-text41 {
             display: inline-block;
           }
 
           @media (max-width: 1600px) {
+            .nav-navbar-interactive {
+              justify-content: space-between;
+            }
+            .nav-icon12 {
+              display: flex;
+            }
             .nav-logo {
               width: 67px;
               height: 52px;
+            }
+          }
+          @media (max-width: 1200px) {
+            .nav-text10 {
+              font-family: Open Sans;
+            }
+            .nav-text17 {
+              font-family: Open Sans;
+            }
+          }
+          @media (max-width: 991px) {
+            .nav-navbar-interactive {
+              justify-content: space-between;
             }
           }
           @media (max-width: 767px) {
@@ -789,6 +1648,30 @@ const Nav = (props) => {
               align-items: center;
               justify-content: center;
             }
+            .nav-dropdown-toggle18 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle19 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle20 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle21 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle22 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle23 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
           }
           @media (max-width: 479px) {
             .nav-navbar-interactive {
@@ -798,6 +1681,38 @@ const Nav = (props) => {
               padding: var(--dl-layout-space-unit);
             }
           }
+          @media (max-width: 414px) {
+            .nav-dropdown-list1 {
+              display: none;
+            }
+            .nav-dropdown-list2 {
+              display: none;
+            }
+            .nav-dropdown-toggle18 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle19 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle20 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle21 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle22 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+            .nav-dropdown-toggle23 {
+              padding-top: var(--dl-layout-space-unit);
+              padding-bottom: var(--dl-layout-space-unit);
+            }
+          }
         `}
       </style>
     </>
@@ -805,27 +1720,49 @@ const Nav = (props) => {
 }
 
 Nav.defaultProps = {
-  linkUrlPage3: 'https://www.teleporthq.io',
-  linkUrlPage1: 'https://www.teleporthq.io',
-  linkUrlPage2: 'https://www.teleporthq.io',
   page4: undefined,
   rootClassName: '',
-  page1: undefined,
-  page2: undefined,
-  linkUrlPage4: 'https://www.teleporthq.io',
+  fruits: undefined,
+  vegetables: undefined,
   page3: undefined,
+  page1: 'https://www.teleporthq.io',
+  page41: undefined,
+  page411: undefined,
+  text1: undefined,
+  text2: undefined,
+  text3: undefined,
+  text31: undefined,
+  text311: undefined,
+  text3111: undefined,
+  text11: undefined,
+  text21: undefined,
+  text32: undefined,
+  text312: undefined,
+  text3112: undefined,
+  text31111: undefined,
 }
 
 Nav.propTypes = {
-  linkUrlPage3: PropTypes.string,
-  linkUrlPage1: PropTypes.string,
-  linkUrlPage2: PropTypes.string,
   page4: PropTypes.element,
   rootClassName: PropTypes.string,
-  page1: PropTypes.element,
-  page2: PropTypes.element,
-  linkUrlPage4: PropTypes.string,
+  fruits: PropTypes.element,
+  vegetables: PropTypes.element,
   page3: PropTypes.element,
+  page1: PropTypes.string,
+  page41: PropTypes.element,
+  page411: PropTypes.element,
+  text1: PropTypes.element,
+  text2: PropTypes.element,
+  text3: PropTypes.element,
+  text31: PropTypes.element,
+  text311: PropTypes.element,
+  text3111: PropTypes.element,
+  text11: PropTypes.element,
+  text21: PropTypes.element,
+  text32: PropTypes.element,
+  text312: PropTypes.element,
+  text3112: PropTypes.element,
+  text31111: PropTypes.element,
 }
 
 export default Nav

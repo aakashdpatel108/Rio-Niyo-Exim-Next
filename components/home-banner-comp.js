@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -18,30 +18,18 @@ const HomeBannerComp = (props) => {
         <div className="home-banner-comp-max-width thq-section-max-width">
           <div className="home-banner-comp-content">
             <h1 className="home-banner-comp-text1 thq-heading-1">
-              {props.heading1 ?? (
-                <Fragment>
-                  <span className="home-banner-comp-text4">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_MV9OtJ'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_yFuawZ'),
+                }}
+              ></span>
             </h1>
             <p className="home-banner-comp-text2 thq-body-large">
-              {props.content1 ?? (
-                <Fragment>
-                  <span className="home-banner-comp-text3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_y0Srmc'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_cwhaIT'),
+                }}
+              ></span>
             </p>
           </div>
         </div>
@@ -76,24 +64,16 @@ const HomeBannerComp = (props) => {
             flex-direction: column;
           }
           .home-banner-comp-text1 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             text-align: center;
             font-family: 'Taviraj';
             letter-spacing: 10px;
           }
           .home-banner-comp-text2 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             font-size: 30px;
             text-align: center;
             letter-spacing: 6px;
-          }
-          .home-banner-comp-text3 {
-            display: inline-block;
-            font-family: 'Inter';
-          }
-          .home-banner-comp-text4 {
-            display: inline-block;
-            font-family: 'Inter';
           }
           .home-banner-comproot-class-name {
             height: auto;
@@ -113,9 +93,6 @@ const HomeBannerComp = (props) => {
           @media (max-width: 1200px) {
             .home-banner-comp-text1 {
               letter-spacing: 8px;
-            }
-            .home-banner-comp-text4 {
-              font-family: Inter;
             }
           }
           @media (max-width: 991px) {
@@ -138,10 +115,6 @@ const HomeBannerComp = (props) => {
               font-size: 25px;
               letter-spacing: 4px;
             }
-            .home-banner-comp-text3 {
-              font-family: Inter;
-              letter-spacing: 6px;
-            }
           }
           @media (max-width: 414px) {
             .home-banner-comp-text1 {
@@ -149,11 +122,8 @@ const HomeBannerComp = (props) => {
               letter-spacing: 2px;
             }
             .home-banner-comp-text2 {
-              font-size: 10px;
-              letter-spacing: 2px;
-            }
-            .home-banner-comp-text3 {
-              font-family: Inter;
+              color: rgb(255, 255, 255);
+              font-size: 15px;
               letter-spacing: 2px;
             }
           }
@@ -165,14 +135,10 @@ const HomeBannerComp = (props) => {
 
 HomeBannerComp.defaultProps = {
   rootClassName: '',
-  content1: undefined,
-  heading1: undefined,
 }
 
 HomeBannerComp.propTypes = {
   rootClassName: PropTypes.string,
-  content1: PropTypes.element,
-  heading1: PropTypes.element,
 }
 
 export default HomeBannerComp

@@ -7,7 +7,9 @@ const Contact14 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="contact14-contact20 thq-section-padding">
+      <div
+        className={`contact14-contact20 thq-section-padding ${props.rootClassName} `}
+      >
         <div className="contact14-max-width thq-section-max-width">
           <div className="contact14-content1">
             <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
@@ -15,10 +17,10 @@ const Contact14 = (props) => {
             </svg>
             <div className="contact14-contact-info1">
               <div className="contact14-content2">
-                <h3 className="contact14-text10 thq-heading-3">
+                <h3 className="contact14-text1 thq-heading-3">
                   {props.heading1 ?? (
                     <Fragment>
-                      <span className="contact14-text20">
+                      <span className="contact14-text7">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_v-bJAx'),
@@ -28,32 +30,20 @@ const Contact14 = (props) => {
                     </Fragment>
                   )}
                 </h3>
-                <p className="contact14-text11 thq-body-large">
-                  {props.content1 ?? (
-                    <Fragment>
-                      <span className="contact14-text17">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_gjVbhO'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <p className="contact14-text2 thq-body-large">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_qnL27v'),
+                    }}
+                  ></span>
                 </p>
               </div>
               <span className="contact14-email1 thq-body-small">
-                {props.email1 ?? (
-                  <Fragment>
-                    <span className="contact14-text24">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_nGHKMm'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zvVBGa'),
+                  }}
+                ></span>
               </span>
             </div>
           </div>
@@ -63,45 +53,27 @@ const Contact14 = (props) => {
             </svg>
             <div className="contact14-contact-info2">
               <div className="contact14-content4">
-                <h3 className="contact14-text12 thq-heading-3">
-                  {props.heading2 ?? (
-                    <Fragment>
-                      <span className="contact14-text23">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_Qj15fP'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <h3 className="contact14-text3 thq-heading-3">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_BDU7mv'),
+                    }}
+                  ></span>
                 </h3>
-                <p className="contact14-text13 thq-body-large">
-                  {props.content2 ?? (
-                    <Fragment>
-                      <span className="contact14-text19">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_vbj-az'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <p className="contact14-text4 thq-body-large">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_1LNzAD'),
+                    }}
+                  ></span>
                 </p>
               </div>
               <span className="contact14-email2 thq-body-small">
-                {props.link1 ?? (
-                  <Fragment>
-                    <span className="contact14-text22">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_MCkrdX'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Klb-2-'),
+                  }}
+                ></span>
               </span>
             </div>
           </div>
@@ -111,45 +83,27 @@ const Contact14 = (props) => {
             </svg>
             <div className="contact14-contact-info3">
               <div className="contact14-content6">
-                <h3 className="contact14-text14 thq-heading-3">
-                  {props.heading3 ?? (
-                    <Fragment>
-                      <span className="contact14-text21">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_A6Xr4M'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <h3 className="contact14-text5 thq-heading-3">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_3ElNLf'),
+                    }}
+                  ></span>
                 </h3>
-                <p className="contact14-text15 thq-body-large">
-                  {props.content3 ?? (
-                    <Fragment>
-                      <span className="contact14-text16">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_lvFy_i'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <p className="contact14-text6 thq-body-large">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_SNoXU_'),
+                    }}
+                  ></span>
                 </p>
               </div>
               <span className="contact14-phone thq-body-small">
-                {props.phone1 ?? (
-                  <Fragment>
-                    <span className="contact14-text18">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_lrum8y'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_vEmFdW'),
+                  }}
+                ></span>
               </span>
             </div>
           </div>
@@ -194,12 +148,12 @@ const Contact14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .contact14-text10 {
+          .contact14-text1 {
             align-self: stretch;
             text-align: center;
             font-family: 'Inter';
           }
-          .contact14-text11 {
+          .contact14-text2 {
             text-align: center;
             font-family: 'Inter';
           }
@@ -235,12 +189,12 @@ const Contact14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .contact14-text12 {
+          .contact14-text3 {
             align-self: stretch;
             text-align: center;
             font-family: 'Inter';
           }
-          .contact14-text13 {
+          .contact14-text4 {
             text-align: center;
             font-family: 'Inter';
           }
@@ -271,12 +225,12 @@ const Contact14 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .contact14-text14 {
+          .contact14-text5 {
             align-self: stretch;
             text-align: center;
             font-family: 'Inter';
           }
-          .contact14-text15 {
+          .contact14-text6 {
             text-align: center;
             font-family: 'Inter';
           }
@@ -284,33 +238,10 @@ const Contact14 = (props) => {
             text-align: center;
             font-family: 'Inter';
           }
-          .contact14-text16 {
+          .contact14-text7 {
             display: inline-block;
           }
-          .contact14-text17 {
-            display: inline-block;
-          }
-          .contact14-text18 {
-            display: inline-block;
-          }
-          .contact14-text19 {
-            display: inline-block;
-          }
-          .contact14-text20 {
-            display: inline-block;
-          }
-          .contact14-text21 {
-            display: inline-block;
-          }
-          .contact14-text22 {
-            display: inline-block;
-          }
-          .contact14-text23 {
-            display: inline-block;
-          }
-          .contact14-text24 {
-            display: inline-block;
-          }
+
           @media (max-width: 767px) {
             .contact14-max-width {
               flex-direction: column;
@@ -323,27 +254,13 @@ const Contact14 = (props) => {
 }
 
 Contact14.defaultProps = {
-  content3: undefined,
-  content1: undefined,
-  phone1: undefined,
-  content2: undefined,
   heading1: undefined,
-  heading3: undefined,
-  link1: undefined,
-  heading2: undefined,
-  email1: undefined,
+  rootClassName: '',
 }
 
 Contact14.propTypes = {
-  content3: PropTypes.element,
-  content1: PropTypes.element,
-  phone1: PropTypes.element,
-  content2: PropTypes.element,
   heading1: PropTypes.element,
-  heading3: PropTypes.element,
-  link1: PropTypes.element,
-  heading2: PropTypes.element,
-  email1: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default Contact14
