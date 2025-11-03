@@ -10,7 +10,7 @@ trigger:
 
 variables:
   NODE_VERSION: '22.0' 
-  BUILD_DIR: '.next'   # default Next.js build folder
+
 
 pool:
   vmImage: ubuntu-latest
@@ -40,8 +40,8 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)/.next'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)'
     ArtifactName: 'rioniyo_build'
     publishLocation: 'Container'
-  displayName: 'Publish build artifact (.next folder)'
+  displayName: 'Publish entire project as artifact'
 
