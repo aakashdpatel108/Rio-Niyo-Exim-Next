@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
+import MyCustomContactUsComp from "./MyCustomContactUsComp"
 
 const ContactForm3 = (props) => {
   const translate = useTranslations()
@@ -15,7 +16,7 @@ const ContactForm3 = (props) => {
             className="contact-form3-image1 thq-img-ratio-4-3"
           />
           <div className="contact-form3-content1 thq-flex-column">
-            <div className="contact-form3-section-title thq-card">
+            <div className="" style={{marginBottom: "2rem"}} >
               <div className="contact-form3-content2">
                 <h2 className="contact-form3-text1 thq-heading-2">
                   <span
@@ -33,7 +34,7 @@ const ContactForm3 = (props) => {
                 </span>
               </div>
             </div>
-            <form className="thq-card">
+            {/* <form className="thq-card">
               <div className="contact-form3-input1">
                 <label
                   htmlFor="contact-form-3-name"
@@ -107,7 +108,8 @@ const ContactForm3 = (props) => {
                   )}
                 </span>
               </button>
-            </form>
+            </form> */}
+            <MyCustomContactUsComp />
           </div>
         </div>
       </div>

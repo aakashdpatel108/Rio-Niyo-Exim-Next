@@ -2,6 +2,14 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
+import CONSTANTS from '@/constants'
+
+const phoneNumber = CONSTANTS.phone_number;
+const message = CONSTANTS.message;
+
+const whatsappURL = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
+  phoneNumber
+)}&text=${encodeURIComponent(message)}`;
 
 const Contact14 = (props) => {
   const translate = useTranslations()
@@ -73,6 +81,8 @@ const Contact14 = (props) => {
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Klb-2-'),
                   }}
+                  onClick={() => window.open(whatsappURL, '_blank', 'noopener,noreferrer')}
+                  style={{ cursor: 'pointer', color: '#25D366', textDecoration: 'underline' }}
                 ></span>
               </span>
             </div>
