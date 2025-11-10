@@ -33,7 +33,10 @@ const ContactForm3 = (props) => {
                 </span>
               </div>
             </div>
-            <form className="thq-card">
+            <form
+              data-form-id="da65d551-62ec-44d9-a858-0ce69308a11d"
+              className="thq-card"
+            >
               <div className="contact-form3-input1">
                 <label
                   htmlFor="contact-form-3-name"
@@ -48,7 +51,9 @@ const ContactForm3 = (props) => {
                 <input
                   type="text"
                   id="contact-form-3-name"
+                  name="contact-form-3-name"
                   placeholder="Name"
+                  data-form-field-id="contact-form-3-name"
                   className="thq-input"
                 />
               </div>
@@ -66,8 +71,10 @@ const ContactForm3 = (props) => {
                 <input
                   type="email"
                   id="contact-form-3-email"
+                  name="contact-form-3-email"
                   required="true"
                   placeholder="Email"
+                  data-form-field-id="contact-form-3-email"
                   className="thq-input"
                 />
               </div>
@@ -84,12 +91,15 @@ const ContactForm3 = (props) => {
                 </label>
                 <textarea
                   id="contact-form-3-message"
+                  name="contact-form-3-message"
                   rows="3"
                   placeholder="Enter your message"
+                  data-form-field-id="contact-form-3-message"
                   className="thq-input"
                 ></textarea>
               </div>
               <button
+                name="button kqkhww100r"
                 type="submit"
                 className="contact-form3-button thq-button-filled"
               >

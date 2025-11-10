@@ -65,7 +65,10 @@ const ContactUs = (props) => {
               </div>
             </div>
           </div>
-          <form className="contact-us-form">
+          <form
+            data-form-id="4255e880-b843-4547-b44b-6e5c5c6ba6b6"
+            className="contact-us-form"
+          >
             <div className="contact-us-input1">
               <label
                 htmlFor="contact-form-2-name"
@@ -80,7 +83,9 @@ const ContactUs = (props) => {
               <input
                 type="text"
                 id="contact-form-2-name"
+                name="contact-form-2-name"
                 placeholder="Name"
+                data-form-field-id="contact-form-2-name"
                 className="contact-us-text-input1 thq-input"
               />
             </div>
@@ -98,8 +103,10 @@ const ContactUs = (props) => {
               <input
                 type="email"
                 id="contact-form-2-email"
+                name="contact-form-2-email"
                 required="true"
                 placeholder="Email"
+                data-form-field-id="contact-form-2-email"
                 className="contact-us-text-input2 thq-input"
               />
             </div>
@@ -116,12 +123,18 @@ const ContactUs = (props) => {
               </label>
               <textarea
                 id="contact-form-2-message"
+                name="contact-form-2-message"
                 rows="3"
                 placeholder="Enter your message"
+                data-form-field-id="contact-form-2-message"
                 className="contact-us-textarea thq-input"
               ></textarea>
             </div>
-            <button type="submit" className="thq-button-filled">
+            <button
+              name="button zi77ookwrp"
+              type="submit"
+              className="thq-button-filled"
+            >
               <span className="thq-body-small contact-us-action1">
                 {props.action ?? (
                   <Fragment>
@@ -230,7 +243,7 @@ const ContactUs = (props) => {
               width: 100%;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .contact-us-text1 {
               font-size: 20px;
               font-family: Inter;

@@ -255,7 +255,7 @@ const Certificate2 = (props) => {
               margin-right: 0px;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .certificate-2-image1 {
               width: 364px;
               height: 514px;

@@ -433,7 +433,7 @@ const HomePageImageSlider = (props) => {
               width: 100%;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .home-page-image-slider-text1 {
               width: 194px;
               font-size: 20px;

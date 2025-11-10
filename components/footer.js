@@ -213,7 +213,7 @@ const Footer = (props) => {
               width: 767px;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .footer-text1 {
               font-size: 12px;
             }

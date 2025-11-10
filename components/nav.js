@@ -94,7 +94,7 @@ const Nav = (props) => {
                           <span className="nav-text11">
                             {props.text1 ?? (
                               <Fragment>
-                                <span className="nav-text30">
+                                <span className="nav-text24">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_abaIlC'),
@@ -118,7 +118,7 @@ const Nav = (props) => {
                           <span className="nav-text12">
                             {props.text2 ?? (
                               <Fragment>
-                                <span className="nav-text31">
+                                <span className="nav-text36">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_IT_G50'),
@@ -142,7 +142,7 @@ const Nav = (props) => {
                           <span className="nav-text13">
                             {props.text3 ?? (
                               <Fragment>
-                                <span className="nav-text32">
+                                <span className="nav-text29">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_dAOo9g'),
@@ -166,7 +166,7 @@ const Nav = (props) => {
                           <span className="nav-text14">
                             {props.text31 ?? (
                               <Fragment>
-                                <span className="nav-text33">
+                                <span className="nav-text37">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_vWBLso'),
@@ -190,7 +190,7 @@ const Nav = (props) => {
                           <span className="nav-text15">
                             {props.text311 ?? (
                               <Fragment>
-                                <span className="nav-text34">
+                                <span className="nav-text38">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_-dFJVC'),
@@ -214,7 +214,7 @@ const Nav = (props) => {
                           <span className="nav-text16">
                             {props.text3111 ?? (
                               <Fragment>
-                                <span className="nav-text35">
+                                <span className="nav-text27">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_WAP2XN'),
@@ -251,7 +251,7 @@ const Nav = (props) => {
                         >
                           {props.vegetables ?? (
                             <Fragment>
-                              <span className="nav-text26">
+                              <span className="nav-text33">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_sckdO2'),
@@ -271,7 +271,7 @@ const Nav = (props) => {
                         >
                           {props.page3 ?? (
                             <Fragment>
-                              <span className="nav-text27">
+                              <span className="nav-text40">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_bmDZsm'),
@@ -291,7 +291,7 @@ const Nav = (props) => {
                         >
                           {props.page4 ?? (
                             <Fragment>
-                              <span className="nav-text24">
+                              <span className="nav-text28">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_7ow-M-'),
@@ -311,7 +311,7 @@ const Nav = (props) => {
                         >
                           {props.page41 ?? (
                             <Fragment>
-                              <span className="nav-text28">
+                              <span className="nav-text39">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_xacYGA'),
@@ -331,7 +331,7 @@ const Nav = (props) => {
                         >
                           {props.page411 ?? (
                             <Fragment>
-                              <span className="nav-text29">
+                              <span className="nav-text25">
                                 <span
                                   dangerouslySetInnerHTML={{
                                     __html: translate.raw('text_h6wdLO'),
@@ -442,7 +442,7 @@ const Nav = (props) => {
                             <span className="nav-text18">
                               {props.text11 ?? (
                                 <Fragment>
-                                  <span className="nav-text36">
+                                  <span className="nav-text30">
                                     <span
                                       dangerouslySetInnerHTML={{
                                         __html: translate.raw('text_ln7gg7'),
@@ -466,7 +466,7 @@ const Nav = (props) => {
                             <span className="nav-text19">
                               {props.text21 ?? (
                                 <Fragment>
-                                  <span className="nav-text37">
+                                  <span className="nav-text32">
                                     <span
                                       dangerouslySetInnerHTML={{
                                         __html: translate.raw('text_caAIqG'),
@@ -490,7 +490,7 @@ const Nav = (props) => {
                             <span className="nav-text20">
                               {props.text32 ?? (
                                 <Fragment>
-                                  <span className="nav-text38">
+                                  <span className="nav-text26">
                                     <span
                                       dangerouslySetInnerHTML={{
                                         __html: translate.raw('text_dGt6b4'),
@@ -514,7 +514,7 @@ const Nav = (props) => {
                             <span className="nav-text21">
                               {props.text312 ?? (
                                 <Fragment>
-                                  <span className="nav-text39">
+                                  <span className="nav-text35">
                                     <span
                                       dangerouslySetInnerHTML={{
                                         __html: translate.raw('text_BMlZEP'),
@@ -538,7 +538,7 @@ const Nav = (props) => {
                             <span className="nav-text22">
                               {props.text3112 ?? (
                                 <Fragment>
-                                  <span className="nav-text40">
+                                  <span className="nav-text41">
                                     <span
                                       dangerouslySetInnerHTML={{
                                         __html: translate.raw('text_laJiqW'),
@@ -562,7 +562,7 @@ const Nav = (props) => {
                             <span className="nav-text23">
                               {props.text31111 ?? (
                                 <Fragment>
-                                  <span className="nav-text41">
+                                  <span className="nav-text34">
                                     <span
                                       dangerouslySetInnerHTML={{
                                         __html: translate.raw('text_HUdeYh'),
@@ -589,7 +589,7 @@ const Nav = (props) => {
                           >
                             {props.fruits ?? (
                               <Fragment>
-                                <span className="nav-text25">
+                                <span className="nav-text31">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_EDSfO4'),
@@ -609,7 +609,7 @@ const Nav = (props) => {
                           >
                             {props.vegetables ?? (
                               <Fragment>
-                                <span className="nav-text26">
+                                <span className="nav-text33">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_sckdO2'),
@@ -629,7 +629,7 @@ const Nav = (props) => {
                           >
                             {props.page3 ?? (
                               <Fragment>
-                                <span className="nav-text27">
+                                <span className="nav-text40">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_bmDZsm'),
@@ -649,7 +649,7 @@ const Nav = (props) => {
                           >
                             {props.page4 ?? (
                               <Fragment>
-                                <span className="nav-text24">
+                                <span className="nav-text28">
                                   <span
                                     dangerouslySetInnerHTML={{
                                       __html: translate.raw('text_7ow-M-'),
@@ -1681,7 +1681,7 @@ const Nav = (props) => {
               padding: var(--dl-layout-space-unit);
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .nav-dropdown-list1 {
               display: none;
             }
@@ -1720,49 +1720,49 @@ const Nav = (props) => {
 }
 
 Nav.defaultProps = {
+  text1: undefined,
+  page411: undefined,
+  text32: undefined,
+  text3111: undefined,
   page4: undefined,
   rootClassName: '',
-  fruits: undefined,
-  vegetables: undefined,
-  page3: undefined,
-  page1: 'https://www.teleporthq.io',
-  page41: undefined,
-  page411: undefined,
-  text1: undefined,
-  text2: undefined,
   text3: undefined,
+  text11: undefined,
+  fruits: undefined,
+  text21: undefined,
+  vegetables: undefined,
+  text31111: undefined,
+  text312: undefined,
+  text2: undefined,
+  page1: 'https://www.teleporthq.io',
   text31: undefined,
   text311: undefined,
-  text3111: undefined,
-  text11: undefined,
-  text21: undefined,
-  text32: undefined,
-  text312: undefined,
+  page41: undefined,
+  page3: undefined,
   text3112: undefined,
-  text31111: undefined,
 }
 
 Nav.propTypes = {
+  text1: PropTypes.element,
+  page411: PropTypes.element,
+  text32: PropTypes.element,
+  text3111: PropTypes.element,
   page4: PropTypes.element,
   rootClassName: PropTypes.string,
-  fruits: PropTypes.element,
-  vegetables: PropTypes.element,
-  page3: PropTypes.element,
-  page1: PropTypes.string,
-  page41: PropTypes.element,
-  page411: PropTypes.element,
-  text1: PropTypes.element,
-  text2: PropTypes.element,
   text3: PropTypes.element,
+  text11: PropTypes.element,
+  fruits: PropTypes.element,
+  text21: PropTypes.element,
+  vegetables: PropTypes.element,
+  text31111: PropTypes.element,
+  text312: PropTypes.element,
+  text2: PropTypes.element,
+  page1: PropTypes.string,
   text31: PropTypes.element,
   text311: PropTypes.element,
-  text3111: PropTypes.element,
-  text11: PropTypes.element,
-  text21: PropTypes.element,
-  text32: PropTypes.element,
-  text312: PropTypes.element,
+  page41: PropTypes.element,
+  page3: PropTypes.element,
   text3112: PropTypes.element,
-  text31111: PropTypes.element,
 }
 
 export default Nav

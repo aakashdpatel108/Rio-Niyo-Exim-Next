@@ -42,54 +42,9 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="certificates-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GjqiRn'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="certificates-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__fy02Y'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name2"
-          page41={
-            <Fragment>
-              <span className="certificates-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HUfiGk'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="certificates-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zYork8'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="certificates-text16">
+              <span className="certificates-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_grWOC3'),
@@ -100,7 +55,7 @@ const Certificates = (props) => {
           }
           text2={
             <Fragment>
-              <span className="certificates-text17">
+              <span className="certificates-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__Y-2eN'),
@@ -111,10 +66,54 @@ const Certificates = (props) => {
           }
           text3={
             <Fragment>
-              <span className="certificates-text18">
+              <span className="certificates-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_kefLiZ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="certificates-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_GjqiRn'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="certificates-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_HUfiGk'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="certificates-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7vum2o'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="certificates-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gxakXQ'),
                   }}
                 ></span>
               </span>
@@ -131,53 +130,9 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="certificates-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__3WCDF'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="certificates-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7Fpm5k'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="certificates-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7vum2o'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="certificates-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gxakXQ'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="certificates-text24">
+              <span className="certificates-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_xlm-2-'),
@@ -186,9 +141,31 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="certificates-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zYork8'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="certificates-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__3WCDF'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="certificates-text25">
+              <span className="certificates-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_aPS6RZ'),
@@ -197,9 +174,20 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="certificates-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7Fpm5k'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="certificates-text26">
+              <span className="certificates-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Iv0gfk'),
@@ -210,7 +198,7 @@ const Certificates = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="certificates-text27">
+              <span className="certificates-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Hg_GjZ'),
@@ -219,6 +207,18 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="certificates-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__fy02Y'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name2"
           locale={props?.locale ?? ''}
         ></Nav>
         <CertificateBannerComp

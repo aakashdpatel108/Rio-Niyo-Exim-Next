@@ -304,7 +304,7 @@ const Stats13 = (props) => {
               text-align: center;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .stats13-icon1 {
               width: 50px;
               height: 40px;

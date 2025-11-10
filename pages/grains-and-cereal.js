@@ -42,54 +42,9 @@ const GrainsAndCereal = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="grains-and-cereal-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_WfDAYR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="grains-and-cereal-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IBx7tK'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name12"
-          page41={
-            <Fragment>
-              <span className="grains-and-cereal-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_19hK9M'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="grains-and-cereal-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vyeFjK'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="grains-and-cereal-text16">
+              <span className="grains-and-cereal-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_18mC8g'),
@@ -100,7 +55,7 @@ const GrainsAndCereal = (props) => {
           }
           text2={
             <Fragment>
-              <span className="grains-and-cereal-text17">
+              <span className="grains-and-cereal-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_BlgLsh'),
@@ -111,10 +66,54 @@ const GrainsAndCereal = (props) => {
           }
           text3={
             <Fragment>
-              <span className="grains-and-cereal-text18">
+              <span className="grains-and-cereal-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_-BEBZC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="grains-and-cereal-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_WfDAYR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="grains-and-cereal-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_19hK9M'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="grains-and-cereal-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4nimhC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="grains-and-cereal-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_LQHsK3'),
                   }}
                 ></span>
               </span>
@@ -131,53 +130,9 @@ const GrainsAndCereal = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="grains-and-cereal-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xHQFzu'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="grains-and-cereal-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_P1hqN1'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="grains-and-cereal-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4nimhC'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="grains-and-cereal-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_LQHsK3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="grains-and-cereal-text24">
+              <span className="grains-and-cereal-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_IW9V4d'),
@@ -186,9 +141,31 @@ const GrainsAndCereal = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="grains-and-cereal-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_vyeFjK'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="grains-and-cereal-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_xHQFzu'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="grains-and-cereal-text25">
+              <span className="grains-and-cereal-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__Awum0'),
@@ -197,9 +174,20 @@ const GrainsAndCereal = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="grains-and-cereal-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_P1hqN1'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="grains-and-cereal-text26">
+              <span className="grains-and-cereal-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_E3szmc'),
@@ -210,7 +198,7 @@ const GrainsAndCereal = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="grains-and-cereal-text27">
+              <span className="grains-and-cereal-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FTJzvU'),
@@ -219,6 +207,18 @@ const GrainsAndCereal = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="grains-and-cereal-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_IBx7tK'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name12"
           locale={props?.locale ?? ''}
         ></Nav>
         <NotFound21

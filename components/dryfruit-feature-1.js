@@ -31,7 +31,7 @@ const DryfruitFeature1 = (props) => {
                   className="dryfruit-feature-1-feature1-image1 thq-img-ratio-4-3"
                 />
                 <div className="dryfruit-feature-1-content2 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 dryfruit-feature-1-feature1-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_Hs9I3p'),
@@ -47,7 +47,7 @@ const DryfruitFeature1 = (props) => {
                   className="dryfruit-feature-1-feature2-image1 thq-img-ratio-4-3"
                 />
                 <div className="dryfruit-feature-1-content3 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 dryfruit-feature-1-feature2-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_cOfFy3'),
@@ -63,7 +63,7 @@ const DryfruitFeature1 = (props) => {
                   className="dryfruit-feature-1-feature3-image1 thq-img-ratio-4-3"
                 />
                 <div className="dryfruit-feature-1-content4 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 dryfruit-feature-1-feature3-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_MIOHwH'),
@@ -85,7 +85,7 @@ const DryfruitFeature1 = (props) => {
                   className="dryfruit-feature-1-feature1-image2 thq-img-ratio-4-3"
                 />
                 <div className="dryfruit-feature-1-content6 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 dryfruit-feature-1-feature1-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_2oPQlc'),
@@ -101,7 +101,7 @@ const DryfruitFeature1 = (props) => {
                   className="dryfruit-feature-1-feature2-image2 thq-img-ratio-4-3"
                 />
                 <div className="dryfruit-feature-1-content7 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 dryfruit-feature-1-feature2-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_Jr6IPQ'),
@@ -117,7 +117,7 @@ const DryfruitFeature1 = (props) => {
                   className="dryfruit-feature-1-feature3-image2 thq-img-ratio-4-3"
                 />
                 <div className="dryfruit-feature-1-content8 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 dryfruit-feature-1-feature3-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_ZbypOU'),
@@ -273,6 +273,7 @@ const DryfruitFeature1 = (props) => {
               width: 100%;
             }
             .dryfruit-feature-1-text {
+              font-size: 22px;
               text-align: center;
             }
             .dryfruit-feature-1-row1 {
@@ -281,14 +282,23 @@ const DryfruitFeature1 = (props) => {
             .dryfruit-feature-1-feature1-image1 {
               width: 100%;
             }
+            .dryfruit-feature-1-feature1-title1 {
+              font-size: 22px;
+            }
             .dryfruit-feature-1-feature21 {
               width: auto;
             }
             .dryfruit-feature-1-feature2-image1 {
               width: 100%;
             }
+            .dryfruit-feature-1-feature2-title1 {
+              font-size: 22px;
+            }
             .dryfruit-feature-1-feature31 {
               width: auto;
+            }
+            .dryfruit-feature-1-feature3-title1 {
+              font-size: 22px;
             }
             .dryfruit-feature-1-row2 {
               flex-direction: column;
@@ -296,14 +306,46 @@ const DryfruitFeature1 = (props) => {
             .dryfruit-feature-1-feature1-image2 {
               width: 100%;
             }
+            .dryfruit-feature-1-feature1-title2 {
+              font-size: 22px;
+            }
             .dryfruit-feature-1-feature22 {
               width: auto;
             }
             .dryfruit-feature-1-feature2-image2 {
               width: 100%;
             }
+            .dryfruit-feature-1-feature2-title2 {
+              font-size: 22px;
+            }
             .dryfruit-feature-1-feature32 {
               width: auto;
+            }
+            .dryfruit-feature-1-feature3-title2 {
+              font-size: 22px;
+            }
+          }
+          @media (max-width: 344px) {
+            .dryfruit-feature-1-text {
+              font-size: 20px;
+            }
+            .dryfruit-feature-1-feature1-title1 {
+              font-size: 20px;
+            }
+            .dryfruit-feature-1-feature2-title1 {
+              font-size: 20px;
+            }
+            .dryfruit-feature-1-feature3-title1 {
+              font-size: 20px;
+            }
+            .dryfruit-feature-1-feature1-title2 {
+              font-size: 20px;
+            }
+            .dryfruit-feature-1-feature2-title2 {
+              font-size: 20px;
+            }
+            .dryfruit-feature-1-feature3-title2 {
+              font-size: 20px;
             }
           }
         `}

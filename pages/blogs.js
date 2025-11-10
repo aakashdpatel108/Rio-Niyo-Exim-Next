@@ -39,54 +39,9 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="blogs-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_iSaQCX'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="blogs-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_o7spzW'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name8"
-          page41={
-            <Fragment>
-              <span className="blogs-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zaKDVi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="blogs-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Qm-0PQ'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="blogs-text16">
+              <span className="blogs-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ZOwW9I'),
@@ -97,7 +52,7 @@ const Blogs = (props) => {
           }
           text2={
             <Fragment>
-              <span className="blogs-text17">
+              <span className="blogs-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ruUR5o'),
@@ -108,10 +63,54 @@ const Blogs = (props) => {
           }
           text3={
             <Fragment>
-              <span className="blogs-text18">
+              <span className="blogs-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LKwgfx'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="blogs-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_iSaQCX'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="blogs-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zaKDVi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="blogs-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_DDx4do'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="blogs-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_lX0AKa'),
                   }}
                 ></span>
               </span>
@@ -128,53 +127,9 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="blogs-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_j6aeNV'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="blogs-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_CCYzWH'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="blogs-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_DDx4do'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="blogs-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lX0AKa'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="blogs-text24">
+              <span className="blogs-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_A7QCh6'),
@@ -183,9 +138,31 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="blogs-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Qm-0PQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="blogs-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_j6aeNV'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="blogs-text25">
+              <span className="blogs-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_a6-kuW'),
@@ -194,9 +171,20 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="blogs-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_CCYzWH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="blogs-text26">
+              <span className="blogs-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Q8NOCY'),
@@ -207,7 +195,7 @@ const Blogs = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="blogs-text27">
+              <span className="blogs-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_iZPgmH'),
@@ -216,48 +204,27 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="blogs-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_o7spzW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name8"
           locale={props?.locale ?? ''}
         ></Nav>
         <FruitsFeature1
-          slogan1={
+          feature1Title={
             <Fragment>
               <span className="blogs-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FsWJhF'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content1={
-            <Fragment>
-              <span className="blogs-text29">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_u2J_Tw'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="blogs-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_b-9bxv'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature1Title={
-            <Fragment>
-              <span className="blogs-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8wQW31'),
+                    __html: translate.raw('text_m6YuYa'),
                   }}
                 ></span>
               </span>
@@ -265,7 +232,7 @@ const Blogs = (props) => {
           }
           feature2Title={
             <Fragment>
-              <span className="blogs-text32">
+              <span className="blogs-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GOzfGP'),
@@ -276,7 +243,7 @@ const Blogs = (props) => {
           }
           feature3Title={
             <Fragment>
-              <span className="blogs-text33">
+              <span className="blogs-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Uv8tqK'),
@@ -366,14 +333,15 @@ const Blogs = (props) => {
           .blogs-text30 {
             display: inline-block;
           }
-          .blogs-text31 {
-            display: inline-block;
+          @media (max-width: 767px) {
+            .blogs-text28 {
+              font-size: 26px;
+            }
           }
-          .blogs-text32 {
-            display: inline-block;
-          }
-          .blogs-text33 {
-            display: inline-block;
+          @media (max-width: 344px) {
+            .blogs-text28 {
+              font-size: 20px;
+            }
           }
         `}
       </style>

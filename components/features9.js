@@ -47,7 +47,7 @@ const Features9 = (props) => {
             z-index: 2;
             text-align: center;
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .features9-text1 {
               font-size: 22px;
               font-style: normal;

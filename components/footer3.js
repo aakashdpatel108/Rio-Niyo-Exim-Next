@@ -366,7 +366,11 @@ const Footer3 = (props) => {
               height: 637px;
             }
             .footer3-content {
+              height: 63px;
               flex-direction: column;
+            }
+            .footer3-credits {
+              height: 75px;
             }
             .footer3-row {
               flex-direction: column;
@@ -398,7 +402,7 @@ const Footer3 = (props) => {
               justify-content: center;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .footer3-footer4 {
               height: 546px;
               padding: var(--dl-layout-space-unit);
@@ -410,7 +414,8 @@ const Footer3 = (props) => {
             }
             .footer3-image {
               width: 194px;
-              height: 74px;
+              height: 72px;
+              padding-top: var(--dl-layout-space-unit);
             }
             .footer3-links {
               gap: var(--dl-layout-space-unit);

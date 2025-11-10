@@ -42,54 +42,9 @@ const ContactUs = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="contact-us-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_j-GKOi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="contact-us-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ocp7mI'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name3"
-          page41={
-            <Fragment>
-              <span className="contact-us-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_U0z0X-'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="contact-us-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_QURUgH'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="contact-us-text16">
+              <span className="contact-us-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_2eHqmz'),
@@ -100,7 +55,7 @@ const ContactUs = (props) => {
           }
           text2={
             <Fragment>
-              <span className="contact-us-text17">
+              <span className="contact-us-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_2I5DKR'),
@@ -111,10 +66,54 @@ const ContactUs = (props) => {
           }
           text3={
             <Fragment>
-              <span className="contact-us-text18">
+              <span className="contact-us-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_cKJ1HB'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="contact-us-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_j-GKOi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="contact-us-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_U0z0X-'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="contact-us-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ShNdAx'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="contact-us-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_iDN-wU'),
                   }}
                 ></span>
               </span>
@@ -131,53 +130,9 @@ const ContactUs = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="contact-us-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_nzKepN'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="contact-us-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GjhDxA'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="contact-us-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ShNdAx'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="contact-us-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_iDN-wU'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="contact-us-text24">
+              <span className="contact-us-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_t-wAVB'),
@@ -186,9 +141,31 @@ const ContactUs = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="contact-us-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_QURUgH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="contact-us-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_nzKepN'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="contact-us-text25">
+              <span className="contact-us-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_MChk8_'),
@@ -197,9 +174,20 @@ const ContactUs = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="contact-us-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_GjhDxA'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="contact-us-text26">
+              <span className="contact-us-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_A7xWoR'),
@@ -210,7 +198,7 @@ const ContactUs = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="contact-us-text27">
+              <span className="contact-us-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FjZ3gk'),
@@ -219,6 +207,18 @@ const ContactUs = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="contact-us-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ocp7mI'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name3"
           locale={props?.locale ?? ''}
         ></Nav>
         <ContactUsBanner

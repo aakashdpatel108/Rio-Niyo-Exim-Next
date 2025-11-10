@@ -17,7 +17,7 @@ const FruitsFeature3 = (props) => {
           </div>
           <div className="fruits-feature-3-content1">
             <div className="fruits-feature-3-section-title">
-              <span className="thq-body-small">
+              <span className="thq-body-small fruits-feature-3-text1">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_K6msoj'),
@@ -25,14 +25,14 @@ const FruitsFeature3 = (props) => {
                 ></span>
               </span>
               <div className="fruits-feature-3-content2">
-                <h2 className="thq-heading-2">
+                <h2 className="thq-heading-2 fruits-feature-3-text2">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_UHzAPG'),
                     }}
                   ></span>
                 </h2>
-                <p className="thq-body-large">
+                <p className="thq-body-large fruits-feature-3-text3">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_-E08fG'),
@@ -89,6 +89,17 @@ const FruitsFeature3 = (props) => {
             .fruits-feature-3-max-width {
               gap: var(--dl-layout-space-twounits);
               flex-direction: column;
+            }
+          }
+          @media (max-width: 344px) {
+            .fruits-feature-3-text1 {
+              font-size: 12px;
+            }
+            .fruits-feature-3-text2 {
+              font-size: 20px;
+            }
+            .fruits-feature-3-text3 {
+              font-size: 12px;
             }
           }
         `}

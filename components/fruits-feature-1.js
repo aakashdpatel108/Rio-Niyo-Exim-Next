@@ -13,44 +13,26 @@ const FruitsFeature1 = (props) => {
         <div className="fruits-feature-1-max-width thq-section-max-width">
           <div className="fruits-feature-1-section-title">
             <span className="fruits-feature-1-text1 thq-body-small">
-              {props.slogan1 ?? (
-                <Fragment>
-                  <span className="fruits-feature-1-text4">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_dTSXv7'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_Gz5pbx'),
+                }}
+              ></span>
             </span>
             <div className="fruits-feature-1-content1">
               <h2 className="fruits-feature-1-text2 thq-heading-2">
-                {props.heading1 ?? (
-                  <Fragment>
-                    <span className="fruits-feature-1-text8">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_0Kl-Mv'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Guwcum'),
+                  }}
+                ></span>
               </h2>
               <span className="fruits-feature-1-text3 thq-body-large">
-                {props.content1 ?? (
-                  <Fragment>
-                    <span className="fruits-feature-1-text7">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_4pUgtd'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_SoGsh0'),
+                  }}
+                ></span>
               </span>
             </div>
           </div>
@@ -66,7 +48,7 @@ const FruitsFeature1 = (props) => {
                   <h3 className="fruits-feature-1-feature1-title thq-heading-3">
                     {props.feature1Title ?? (
                       <Fragment>
-                        <span className="fruits-feature-1-text9">
+                        <span className="fruits-feature-1-text6">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_tu7Txn'),
@@ -76,7 +58,7 @@ const FruitsFeature1 = (props) => {
                       </Fragment>
                     )}
                   </h3>
-                  <span className="thq-body-small">
+                  <span className="thq-body-small fruits-feature-1-feature1-description">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_S2aZ3P'),
@@ -92,10 +74,10 @@ const FruitsFeature1 = (props) => {
                   className="thq-img-ratio-4-3"
                 />
                 <div className="fruits-feature-1-content4">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 fruits-feature-1-feature2-title">
                     {props.feature2Title ?? (
                       <Fragment>
-                        <span className="fruits-feature-1-text5">
+                        <span className="fruits-feature-1-text4">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_aG_4KZ'),
@@ -105,7 +87,7 @@ const FruitsFeature1 = (props) => {
                       </Fragment>
                     )}
                   </h3>
-                  <span className="thq-body-small">
+                  <span className="thq-body-small fruits-feature-1-feature2-description">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_wPS-7G'),
@@ -121,10 +103,10 @@ const FruitsFeature1 = (props) => {
                   className="thq-img-ratio-4-3"
                 />
                 <div className="fruits-feature-1-content5">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 fruits-feature-1-feature3-title">
                     {props.feature3Title ?? (
                       <Fragment>
-                        <span className="fruits-feature-1-text6">
+                        <span className="fruits-feature-1-text5">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_THCdcJ'),
@@ -134,7 +116,7 @@ const FruitsFeature1 = (props) => {
                       </Fragment>
                     )}
                   </h3>
-                  <span className="thq-body-small">
+                  <span className="thq-body-small fruits-feature-1-feature3-description">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_tP3muh'),
@@ -268,15 +250,6 @@ const FruitsFeature1 = (props) => {
           .fruits-feature-1-text6 {
             display: inline-block;
           }
-          .fruits-feature-1-text7 {
-            display: inline-block;
-          }
-          .fruits-feature-1-text8 {
-            display: inline-block;
-          }
-          .fruits-feature-1-text9 {
-            display: inline-block;
-          }
 
           @media (max-width: 991px) {
             .fruits-feature-1-section-title {
@@ -290,8 +263,15 @@ const FruitsFeature1 = (props) => {
             .fruits-feature-1-section-title {
               width: auto;
             }
+            .fruits-feature-1-text1 {
+              font-size: 15px;
+            }
             .fruits-feature-1-text2 {
+              font-size: 30px;
               text-align: center;
+            }
+            .fruits-feature-1-text3 {
+              font-size: 15px;
             }
             .fruits-feature-1-row {
               flex-direction: column;
@@ -302,6 +282,41 @@ const FruitsFeature1 = (props) => {
             .fruits-feature-1-feature3 {
               width: auto;
             }
+            .fruits-feature-1-text6 {
+              font-size: 26px;
+            }
+          }
+          @media (max-width: 344px) {
+            .fruits-feature-1-text1 {
+              font-size: 12px;
+            }
+            .fruits-feature-1-text2 {
+              font-size: 20px;
+            }
+            .fruits-feature-1-text3 {
+              font-size: 12px;
+            }
+            .fruits-feature-1-feature1-title {
+              font-size: 20px;
+            }
+            .fruits-feature-1-feature1-description {
+              font-size: 12px;
+            }
+            .fruits-feature-1-feature2-title {
+              font-size: 20px;
+            }
+            .fruits-feature-1-feature2-description {
+              font-size: 12px;
+            }
+            .fruits-feature-1-feature3-title {
+              font-size: 20px;
+            }
+            .fruits-feature-1-feature3-description {
+              font-size: 12px;
+            }
+            .fruits-feature-1-text6 {
+              font-size: 20px;
+            }
           }
         `}
       </style>
@@ -310,22 +325,16 @@ const FruitsFeature1 = (props) => {
 }
 
 FruitsFeature1.defaultProps = {
-  slogan1: undefined,
   rootClassName: '',
   feature2Title: undefined,
   feature3Title: undefined,
-  content1: undefined,
-  heading1: undefined,
   feature1Title: undefined,
 }
 
 FruitsFeature1.propTypes = {
-  slogan1: PropTypes.element,
   rootClassName: PropTypes.string,
   feature2Title: PropTypes.element,
   feature3Title: PropTypes.element,
-  content1: PropTypes.element,
-  heading1: PropTypes.element,
   feature1Title: PropTypes.element,
 }
 

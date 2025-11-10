@@ -43,54 +43,9 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="home-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Eg4LKa'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="home-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Run-l1'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name"
-          page41={
-            <Fragment>
-              <span className="home-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4BJ2ep'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="home-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gxhzT7'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="home-text16">
+              <span className="home-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_44D1mv'),
@@ -101,7 +56,7 @@ const Home = (props) => {
           }
           text2={
             <Fragment>
-              <span className="home-text17">
+              <span className="home-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GKlKHd'),
@@ -112,10 +67,54 @@ const Home = (props) => {
           }
           text3={
             <Fragment>
-              <span className="home-text18">
+              <span className="home-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_x9ryaj'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="home-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Eg4LKa'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="home-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4BJ2ep'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="home-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_-9gIh5'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="home-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gfLSu3'),
                   }}
                 ></span>
               </span>
@@ -132,53 +131,9 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="home-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TqoBEN'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="home-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_R5Yy5F'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="home-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-9gIh5'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="home-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gfLSu3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="home-text24">
+              <span className="home-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ovN0Tv'),
@@ -187,9 +142,31 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="home-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gxhzT7'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="home-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_TqoBEN'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="home-text25">
+              <span className="home-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_X2rvQF'),
@@ -198,9 +175,20 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="home-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_R5Yy5F'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="home-text26">
+              <span className="home-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_24snmG'),
@@ -211,7 +199,7 @@ const Home = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="home-text27">
+              <span className="home-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Kw2QUG'),
@@ -220,6 +208,18 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="home-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Run-l1'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name"
           locale={props?.locale ?? ''}
         ></Nav>
         <HomeBannerComp
@@ -396,7 +396,7 @@ const Home = (props) => {
           .home-text31 {
             display: inline-block;
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .home-container2 {
               width: 100%;
             }

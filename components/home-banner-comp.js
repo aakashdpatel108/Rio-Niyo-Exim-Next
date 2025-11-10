@@ -84,6 +84,16 @@ const HomeBannerComp = (props) => {
             .home-banner-comp-image {
               height: 100%;
             }
+            .home-banner-comp-text1 {
+              color: rgb(255, 255, 255);
+              font-family: Taviraj;
+              letter-spacing: 10px;
+            }
+            .home-banner-comp-text2 {
+              color: rgb(255, 255, 255);
+              font-size: 30px;
+              letter-spacing: 6px;
+            }
             .home-banner-comproot-class-name {
               fill: var(--dl-color-theme-neutral-dark);
               color: var(--dl-color-theme-neutral-dark);
@@ -116,7 +126,7 @@ const HomeBannerComp = (props) => {
               letter-spacing: 4px;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .home-banner-comp-text1 {
               font-size: 20px;
               letter-spacing: 2px;

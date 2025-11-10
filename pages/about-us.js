@@ -44,54 +44,9 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="about-us-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__wYPjW'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="about-us-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_MM53Ey'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name1"
-          page41={
-            <Fragment>
-              <span className="about-us-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_bXD2cL'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="about-us-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_LvKXPQ'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="about-us-text16">
+              <span className="about-us-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_32isif'),
@@ -102,7 +57,7 @@ const AboutUs = (props) => {
           }
           text2={
             <Fragment>
-              <span className="about-us-text17">
+              <span className="about-us-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Cwr11O'),
@@ -113,10 +68,54 @@ const AboutUs = (props) => {
           }
           text3={
             <Fragment>
-              <span className="about-us-text18">
+              <span className="about-us-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FDXvg1'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="about-us-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__wYPjW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="about-us-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_bXD2cL'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="about-us-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_SKMrzh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="about-us-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9vBFqA'),
                   }}
                 ></span>
               </span>
@@ -133,53 +132,9 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="about-us-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8ktmza'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="about-us-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_wi-2UE'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="about-us-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_SKMrzh'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="about-us-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9vBFqA'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="about-us-text24">
+              <span className="about-us-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_K-KnOY'),
@@ -188,9 +143,31 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="about-us-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_LvKXPQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="about-us-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_8ktmza'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="about-us-text25">
+              <span className="about-us-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Z2vv1-'),
@@ -199,9 +176,20 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="about-us-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_wi-2UE'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="about-us-text26">
+              <span className="about-us-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_oTTeKH'),
@@ -212,7 +200,7 @@ const AboutUs = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="about-us-text27">
+              <span className="about-us-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_UIH5Cu'),
@@ -221,6 +209,18 @@ const AboutUs = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="about-us-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_MM53Ey'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name1"
           locale={props?.locale ?? ''}
         ></Nav>
         <Banner21
@@ -667,7 +667,7 @@ const AboutUs = (props) => {
           .about-us-text52 {
             display: inline-block;
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .about-us-text32 {
               font-size: inherit;
             }

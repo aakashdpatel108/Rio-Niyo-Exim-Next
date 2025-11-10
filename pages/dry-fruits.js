@@ -40,54 +40,9 @@ const DryFruits = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="dry-fruits-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_q14xpU'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="dry-fruits-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vNPAex'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name7"
-          page41={
-            <Fragment>
-              <span className="dry-fruits-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9A7sUh'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="dry-fruits-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_351uEt'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="dry-fruits-text16">
+              <span className="dry-fruits-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Yp0WhI'),
@@ -98,7 +53,7 @@ const DryFruits = (props) => {
           }
           text2={
             <Fragment>
-              <span className="dry-fruits-text17">
+              <span className="dry-fruits-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ktnKoj'),
@@ -109,10 +64,54 @@ const DryFruits = (props) => {
           }
           text3={
             <Fragment>
-              <span className="dry-fruits-text18">
+              <span className="dry-fruits-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_XTZn_P'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="dry-fruits-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_q14xpU'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="dry-fruits-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9A7sUh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="dry-fruits-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_SgHlfB'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="dry-fruits-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_3UyhxZ'),
                   }}
                 ></span>
               </span>
@@ -129,53 +128,9 @@ const DryFruits = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="dry-fruits-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_X6Wsrt'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="dry-fruits-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_O9biXh'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="dry-fruits-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_SgHlfB'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="dry-fruits-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3UyhxZ'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="dry-fruits-text24">
+              <span className="dry-fruits-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_5gIqlx'),
@@ -184,9 +139,31 @@ const DryFruits = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="dry-fruits-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_351uEt'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="dry-fruits-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_X6Wsrt'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="dry-fruits-text25">
+              <span className="dry-fruits-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_VlqTcv'),
@@ -195,9 +172,20 @@ const DryFruits = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="dry-fruits-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_O9biXh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="dry-fruits-text26">
+              <span className="dry-fruits-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_j9p_po'),
@@ -208,7 +196,7 @@ const DryFruits = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="dry-fruits-text27">
+              <span className="dry-fruits-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_RPaOm1'),
@@ -217,42 +205,21 @@ const DryFruits = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="dry-fruits-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_vNPAex'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name7"
           locale={props?.locale ?? ''}
         ></Nav>
         <Banner33
-          action1={
-            <Fragment>
-              <span className="dry-fruits-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lnjuR3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          content1={
-            <Fragment>
-              <span className="dry-fruits-text29">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_UFiTDg'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="dry-fruits-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xl0DZz'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           image1Src="https://images.unsplash.com/photo-1693812879904-b8161644ce5a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2fHxudXRzfGVufDB8fHx8MTc2MjEyMTI1Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
           locale={props?.locale ?? ''}
         ></Banner33>
@@ -328,16 +295,6 @@ const DryFruits = (props) => {
             display: inline-block;
           }
           .dry-fruits-text27 {
-            display: inline-block;
-          }
-          .dry-fruits-text28 {
-            display: inline-block;
-          }
-          .dry-fruits-text29 {
-            color: #ffffff;
-            display: inline-block;
-          }
-          .dry-fruits-text30 {
             display: inline-block;
           }
         `}
