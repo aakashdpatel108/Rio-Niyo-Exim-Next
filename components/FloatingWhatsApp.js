@@ -1,9 +1,10 @@
 import React from "react";
 import Head from "next/head";
+import CONSTANTS from '@/constants'
 
 const FloatingWhatsApp = () => {
-  const phoneNumber = "+16475546703";
-  const message = "Reach out on WhatsApp for a quicker response.";
+  const phoneNumber = CONSTANTS.phone_number;
+  const message = CONSTANTS.message;
 
   const whatsappURL = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
     phoneNumber

@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
+import MyCustomContactUsComp from "./MyCustomContactUsComp"
 
 const ContactUs = (props) => {
   const translate = useTranslations()
@@ -65,7 +66,7 @@ const ContactUs = (props) => {
               </div>
             </div>
           </div>
-          <form className="contact-us-form">
+          {/* <form className="contact-us-form"  onSubmit={handleSubmit}>
             <div className="contact-us-input1">
               <label
                 htmlFor="contact-form-2-name"
@@ -82,6 +83,8 @@ const ContactUs = (props) => {
                 id="contact-form-2-name"
                 placeholder="Name"
                 className="contact-us-text-input1 thq-input"
+                 value={name}
+                onChange={(e) => setName(e.target.value)}
               />
             </div>
             <div className="contact-us-input2">
@@ -101,6 +104,8 @@ const ContactUs = (props) => {
                 required="true"
                 placeholder="Email"
                 className="contact-us-text-input2 thq-input"
+                value={email}
+  onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div className="contact-us-input3">
@@ -119,6 +124,8 @@ const ContactUs = (props) => {
                 rows="3"
                 placeholder="Enter your message"
                 className="contact-us-textarea thq-input"
+                value={message}
+  onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </div>
             <button type="submit" className="thq-button-filled">
@@ -136,7 +143,10 @@ const ContactUs = (props) => {
                 )}
               </span>
             </button>
-          </form>
+            {loading && <p>Sending...</p>}
+{status && <p style={{ color: status.type === 'error' ? 'red' : 'green' }}>{status.text}</p>}
+          </form> */}
+          <MyCustomContactUsComp />
         </div>
       </div>
       <style jsx>
