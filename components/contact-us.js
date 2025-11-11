@@ -133,7 +133,7 @@ const ContactUs = (props) => {
             <button
               name="button zi77ookwrp"
               type="submit"
-              className="thq-button-filled"
+              className="thq-button-filled contact-us-button"
             >
               <span className="thq-body-small contact-us-action1">
                 {props.action ?? (
@@ -243,10 +243,18 @@ const ContactUs = (props) => {
               width: 100%;
             }
           }
+          @media (max-width: 767px) {
+            .contact-us-text1 {
+              font-size: 25px;
+            }
+            .contact-us-text2 {
+              font-size: 18px;
+            }
+          }
           @media (max-width: 344px) {
             .contact-us-text1 {
               font-size: 20px;
-              font-family: Inter;
+              font-family: Taviraj;
             }
             .contact-us-text2 {
               font-size: 15px;
@@ -276,9 +284,15 @@ const ContactUs = (props) => {
               font-size: 15px;
               font-family: Inter;
             }
+            .contact-us-button {
+              width: 81px;
+            }
             .contact-us-action1 {
               font-size: 15px;
               font-family: Inter;
+            }
+            .contact-us-text6 {
+              font-size: 12px;
             }
           }
         `}

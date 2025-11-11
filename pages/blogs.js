@@ -219,39 +219,6 @@ const Blogs = (props) => {
           locale={props?.locale ?? ''}
         ></Nav>
         <FruitsFeature1
-          feature1Title={
-            <Fragment>
-              <span className="blogs-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_m6YuYa'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Title={
-            <Fragment>
-              <span className="blogs-text29">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GOzfGP'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Title={
-            <Fragment>
-              <span className="blogs-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Uv8tqK'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           rootClassName="fruits-feature1root-class-name"
           locale={props?.locale ?? ''}
         ></FruitsFeature1>
@@ -323,25 +290,6 @@ const Blogs = (props) => {
           }
           .blogs-text27 {
             display: inline-block;
-          }
-          .blogs-text28 {
-            display: inline-block;
-          }
-          .blogs-text29 {
-            display: inline-block;
-          }
-          .blogs-text30 {
-            display: inline-block;
-          }
-          @media (max-width: 767px) {
-            .blogs-text28 {
-              font-size: 26px;
-            }
-          }
-          @media (max-width: 344px) {
-            .blogs-text28 {
-              font-size: 20px;
-            }
           }
         `}
       </style>

@@ -31,7 +31,7 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-feature1-image1 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-content2 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 vegetable-feature-1-feature1-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_kdFr9V'),
@@ -47,7 +47,7 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-feature2-image1 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-content3 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 vegetable-feature-1-feature2-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_G10Ptr'),
@@ -63,7 +63,7 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-feature3-image1 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-content4 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 vegetable-feature-1-feature3-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_biHwnT'),
@@ -86,7 +86,7 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-feature1-image2 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-content6 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 vegetable-feature-1-feature1-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_Q6EzPj'),
@@ -102,7 +102,7 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-feature2-image2 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-content7 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 vegetable-feature-1-feature2-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_CvK2Kv'),
@@ -118,7 +118,7 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-feature3-image2 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-content8 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 vegetable-feature-1-feature3-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_CXUR5e'),
@@ -277,6 +277,7 @@ const VegetableFeature1 = (props) => {
               width: 100%;
             }
             .vegetable-feature-1-text {
+              font-size: 25px;
               text-align: center;
             }
             .vegetable-feature-1-row1 {
@@ -285,14 +286,23 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-feature1-image1 {
               width: 100%;
             }
+            .vegetable-feature-1-feature1-title1 {
+              font-size: 18px;
+            }
             .vegetable-feature-1-feature21 {
               width: auto;
             }
             .vegetable-feature-1-feature2-image1 {
               width: 100%;
             }
+            .vegetable-feature-1-feature2-title1 {
+              font-size: 18px;
+            }
             .vegetable-feature-1-feature31 {
               width: auto;
+            }
+            .vegetable-feature-1-feature3-title1 {
+              font-size: 18px;
             }
             .vegetable-feature-1-row2 {
               flex-direction: column;
@@ -300,14 +310,46 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-feature1-image2 {
               width: 100%;
             }
+            .vegetable-feature-1-feature1-title2 {
+              font-size: 18px;
+            }
             .vegetable-feature-1-feature22 {
               width: auto;
             }
             .vegetable-feature-1-feature2-image2 {
               width: 100%;
             }
+            .vegetable-feature-1-feature2-title2 {
+              font-size: 18px;
+            }
             .vegetable-feature-1-feature32 {
               width: auto;
+            }
+            .vegetable-feature-1-feature3-title2 {
+              font-size: 18px;
+            }
+          }
+          @media (max-width: 344px) {
+            .vegetable-feature-1-text {
+              font-size: 25px;
+            }
+            .vegetable-feature-1-feature1-title1 {
+              font-size: 18px;
+            }
+            .vegetable-feature-1-feature2-title1 {
+              font-size: 18px;
+            }
+            .vegetable-feature-1-feature3-title1 {
+              font-size: 18px;
+            }
+            .vegetable-feature-1-feature1-title2 {
+              font-size: 18px;
+            }
+            .vegetable-feature-1-feature2-title2 {
+              font-size: 18px;
+            }
+            .vegetable-feature-1-feature3-title2 {
+              font-size: 18px;
             }
           }
         `}

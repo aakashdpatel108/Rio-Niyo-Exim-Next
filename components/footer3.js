@@ -414,7 +414,7 @@ const Footer3 = (props) => {
             }
             .footer3-image {
               width: 194px;
-              height: 72px;
+              height: 77px;
               padding-top: var(--dl-layout-space-unit);
             }
             .footer3-links {

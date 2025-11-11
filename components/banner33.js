@@ -86,14 +86,17 @@ const Banner33 = (props) => {
           }
           .banner33-text1 {
             color: #ffffff;
+            font-style: normal;
             text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 400;
           }
           .banner33-link {
             text-decoration: none;
           }
           @media (max-width: 767px) {
             .banner33-title {
-              font-size: 22px;
+              font-size: 25px;
             }
             .banner33-text1 {
               font-size: 12px;

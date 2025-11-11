@@ -91,12 +91,23 @@ const FruitsFeature3 = (props) => {
               flex-direction: column;
             }
           }
+          @media (max-width: 767px) {
+            .fruits-feature-3-text1 {
+              font-size: 12px;
+            }
+            .fruits-feature-3-text2 {
+              font-size: 18px;
+            }
+            .fruits-feature-3-text3 {
+              font-size: 12px;
+            }
+          }
           @media (max-width: 344px) {
             .fruits-feature-3-text1 {
               font-size: 12px;
             }
             .fruits-feature-3-text2 {
-              font-size: 20px;
+              font-size: 18px;
             }
             .fruits-feature-3-text3 {
               font-size: 12px;

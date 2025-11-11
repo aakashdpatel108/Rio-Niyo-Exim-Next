@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -46,17 +46,11 @@ const FruitsFeature1 = (props) => {
                 />
                 <div className="fruits-feature-1-content3">
                   <h3 className="fruits-feature-1-feature1-title thq-heading-3">
-                    {props.feature1Title ?? (
-                      <Fragment>
-                        <span className="fruits-feature-1-text6">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_tu7Txn'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_KQCyQ3'),
+                      }}
+                    ></span>
                   </h3>
                   <span className="thq-body-small fruits-feature-1-feature1-description">
                     <span
@@ -75,17 +69,11 @@ const FruitsFeature1 = (props) => {
                 />
                 <div className="fruits-feature-1-content4">
                   <h3 className="thq-heading-3 fruits-feature-1-feature2-title">
-                    {props.feature2Title ?? (
-                      <Fragment>
-                        <span className="fruits-feature-1-text4">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_aG_4KZ'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_6CCzfz'),
+                      }}
+                    ></span>
                   </h3>
                   <span className="thq-body-small fruits-feature-1-feature2-description">
                     <span
@@ -104,17 +92,11 @@ const FruitsFeature1 = (props) => {
                 />
                 <div className="fruits-feature-1-content5">
                   <h3 className="thq-heading-3 fruits-feature-1-feature3-title">
-                    {props.feature3Title ?? (
-                      <Fragment>
-                        <span className="fruits-feature-1-text5">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_THCdcJ'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_7N4hFl'),
+                      }}
+                    ></span>
                   </h3>
                   <span className="thq-body-small fruits-feature-1-feature3-description">
                     <span
@@ -241,15 +223,6 @@ const FruitsFeature1 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .fruits-feature-1-text4 {
-            display: inline-block;
-          }
-          .fruits-feature-1-text5 {
-            display: inline-block;
-          }
-          .fruits-feature-1-text6 {
-            display: inline-block;
-          }
 
           @media (max-width: 991px) {
             .fruits-feature-1-section-title {
@@ -264,26 +237,41 @@ const FruitsFeature1 = (props) => {
               width: auto;
             }
             .fruits-feature-1-text1 {
-              font-size: 15px;
+              font-size: 12px;
             }
             .fruits-feature-1-text2 {
-              font-size: 30px;
+              font-size: 25px;
               text-align: center;
             }
             .fruits-feature-1-text3 {
-              font-size: 15px;
+              font-size: 12px;
             }
             .fruits-feature-1-row {
               flex-direction: column;
             }
+            .fruits-feature-1-feature1-title {
+              font-size: 18px;
+            }
+            .fruits-feature-1-feature1-description {
+              font-size: 12px;
+            }
             .fruits-feature-1-feature2 {
               width: auto;
+            }
+            .fruits-feature-1-feature2-title {
+              font-size: 18px;
+            }
+            .fruits-feature-1-feature2-description {
+              font-size: 12px;
             }
             .fruits-feature-1-feature3 {
               width: auto;
             }
-            .fruits-feature-1-text6 {
-              font-size: 26px;
+            .fruits-feature-1-feature3-title {
+              font-size: 18px;
+            }
+            .fruits-feature-1-feature3-description {
+              font-size: 12px;
             }
           }
           @media (max-width: 344px) {
@@ -291,31 +279,28 @@ const FruitsFeature1 = (props) => {
               font-size: 12px;
             }
             .fruits-feature-1-text2 {
-              font-size: 20px;
+              font-size: 18px;
             }
             .fruits-feature-1-text3 {
               font-size: 12px;
             }
             .fruits-feature-1-feature1-title {
-              font-size: 20px;
+              font-size: 18px;
             }
             .fruits-feature-1-feature1-description {
               font-size: 12px;
             }
             .fruits-feature-1-feature2-title {
-              font-size: 20px;
+              font-size: 18px;
             }
             .fruits-feature-1-feature2-description {
               font-size: 12px;
             }
             .fruits-feature-1-feature3-title {
-              font-size: 20px;
+              font-size: 18px;
             }
             .fruits-feature-1-feature3-description {
               font-size: 12px;
-            }
-            .fruits-feature-1-text6 {
-              font-size: 20px;
             }
           }
         `}
@@ -326,16 +311,10 @@ const FruitsFeature1 = (props) => {
 
 FruitsFeature1.defaultProps = {
   rootClassName: '',
-  feature2Title: undefined,
-  feature3Title: undefined,
-  feature1Title: undefined,
 }
 
 FruitsFeature1.propTypes = {
   rootClassName: PropTypes.string,
-  feature2Title: PropTypes.element,
-  feature3Title: PropTypes.element,
-  feature1Title: PropTypes.element,
 }
 
 export default FruitsFeature1

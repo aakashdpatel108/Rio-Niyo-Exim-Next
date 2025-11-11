@@ -227,7 +227,7 @@ const Fruits = (props) => {
               <span className="fruits-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Kchrc6'),
+                    __html: translate.raw('text_it7hCb'),
                   }}
                 ></span>
               </span>
@@ -238,7 +238,7 @@ const Fruits = (props) => {
               <span className="fruits-text29">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_sbroSo'),
+                    __html: translate.raw('text_PxBOKG'),
                   }}
                 ></span>
               </span>
@@ -248,56 +248,8 @@ const Fruits = (props) => {
           rootClassName="vegetables-banner-comproot-class-name2"
           locale={props?.locale ?? ''}
         ></VegetablesBannerComp>
-        <FruitsFeature1
-          feature1Title={
-            <Fragment>
-              <span className="fruits-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_KgLMHa'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Title={
-            <Fragment>
-              <span className="fruits-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GtRAtC'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Title={
-            <Fragment>
-              <span className="fruits-text32">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8A5tL9'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></FruitsFeature1>
-        <FruitsFeature2
-          feature1Slogan={
-            <Fragment>
-              <span className="fruits-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_chhn6P'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></FruitsFeature2>
+        <FruitsFeature1 locale={props?.locale ?? ''}></FruitsFeature1>
+        <FruitsFeature2 locale={props?.locale ?? ''}></FruitsFeature2>
         <FruitsFeature3 locale={props?.locale ?? ''}></FruitsFeature3>
         <Footer
           logoSrc="/rioniyoexim.svg"
@@ -375,38 +327,25 @@ const Fruits = (props) => {
           .fruits-text29 {
             display: inline-block;
           }
-          .fruits-text30 {
-            display: inline-block;
-          }
-          .fruits-text31 {
-            display: inline-block;
-          }
-          .fruits-text32 {
-            display: inline-block;
-          }
-          .fruits-text33 {
-            display: inline-block;
+          @media (max-width: 1200px) {
+            .fruits-text29 {
+              font-size: 12px;
+            }
           }
           @media (max-width: 767px) {
             .fruits-text28 {
-              font-size: 15px;
+              font-size: 12px;
             }
             .fruits-text29 {
               font-size: 15px;
-            }
-            .fruits-text30 {
-              font-size: 26px;
             }
           }
           @media (max-width: 344px) {
             .fruits-text28 {
-              font-size: 10px;
+              font-size: 12px;
             }
             .fruits-text29 {
-              font-size: 10px;
-            }
-            .fruits-text30 {
-              font-size: 20px;
+              font-size: 12px;
             }
           }
         `}

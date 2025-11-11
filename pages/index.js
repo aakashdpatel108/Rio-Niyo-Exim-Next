@@ -241,17 +241,6 @@ const Home = (props) => {
                 </span>
               </Fragment>
             }
-            content1={
-              <Fragment>
-                <span className="home-text29">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_Fxr6Li'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             rootClassName="home-page-image-sliderroot-class-name"
             locale={props?.locale ?? ''}
           ></HomePageImageSlider>
@@ -260,7 +249,7 @@ const Home = (props) => {
           <Steps2
             step4Description={
               <Fragment>
-                <span className="home-text30">
+                <span className="home-text29">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_CvQFq4'),
@@ -275,10 +264,10 @@ const Home = (props) => {
         <ContactUs
           action={
             <Fragment>
-              <span className="home-text31">
+              <span className="home-text30">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_009sSQ'),
+                    __html: translate.raw('text_UNZiD_'),
                   }}
                 ></span>
               </span>
@@ -370,10 +359,6 @@ const Home = (props) => {
             display: inline-block;
             font-family: 'Open Sans';
           }
-          .home-text29 {
-            display: inline-block;
-            font-family: 'Open Sans';
-          }
           .home-container3 {
             width: 100%;
             height: 100%;
@@ -389,12 +374,17 @@ const Home = (props) => {
             justify-content: center;
             background-color: #e8f8df;
           }
-          .home-text30 {
+          .home-text29 {
             display: inline-block;
             font-family: 'Open Sans';
           }
-          .home-text31 {
+          .home-text30 {
             display: inline-block;
+          }
+          @media (max-width: 767px) {
+            .home-text29 {
+              font-family: Open Sans;
+            }
           }
           @media (max-width: 344px) {
             .home-container2 {
@@ -405,6 +395,9 @@ const Home = (props) => {
               padding-top: var(--dl-layout-space-unit);
               padding-left: var(--dl-layout-space-unit);
               padding-right: var(--dl-layout-space-unit);
+            }
+            .home-text30 {
+              font-size: 12px;
             }
           }
         `}

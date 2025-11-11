@@ -10,7 +10,7 @@ const Banner32 = (props) => {
       <div className="banner32-container1 thq-section-padding">
         <img
           alt="Pulses"
-          src="https://images.unsplash.com/photo-1705475388190-775066fd69a5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHB1bHNlc3xlbnwwfHx8fDE3NjIwNDA4MDN8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
+          src="https://images.unsplash.com/photo-1664395935803-7d5f88ae6369?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fHB1bHNlc3xlbnwwfHx8fDE3NjI4NzQ1MDZ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
           className="banner32-image thq-img-ratio-16-9"
         />
         <div className="banner32-max-width thq-section-max-width">
@@ -32,7 +32,7 @@ const Banner32 = (props) => {
           </div>
           <Link href="/contact-us">
             <a className="banner32-link thq-button-filled">
-              <span>
+              <span className="banner32-text2">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_NfFf81'),
@@ -76,15 +76,34 @@ const Banner32 = (props) => {
             flex-direction: column;
           }
           .banner32-title {
-            color: #000000;
+            color: #ffffff;
             text-align: center;
           }
           .banner32-text1 {
             color: #ffffff;
+            font-style: normal;
             text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 400;
           }
           .banner32-link {
             text-decoration: none;
+          }
+          @media (max-width: 767px) {
+            .banner32-title {
+              font-size: 25px;
+            }
+            .banner32-text1 {
+              font-size: 12px;
+              padding-top: 0px;
+            }
+            .banner32-link {
+              width: 100px;
+              height: 25px;
+            }
+            .banner32-text2 {
+              font-size: 12px;
+            }
           }
         `}
       </style>

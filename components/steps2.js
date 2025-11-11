@@ -269,9 +269,19 @@ const Steps2 = (props) => {
               font-weight: 900;
               border-width: 0px;
             }
+            .steps2-text11 {
+              font-size: 15px;
+              font-family: Open Sans;
+            }
             .steps2-actions {
               width: 100%;
               align-self: flex-start;
+            }
+            .steps2-link {
+              font-size: 12px;
+            }
+            .steps2-text12 {
+              font-size: 12px;
             }
             .steps2-container4 {
               width: 100%;
@@ -280,11 +290,17 @@ const Steps2 = (props) => {
               font-size: 35px;
               font-family: Taviraj;
             }
+            .steps2-text14 {
+              font-family: Open Sans;
+            }
             .steps2-container5 {
               width: 100%;
             }
             .steps2-heading {
               font-family: Taviraj;
+            }
+            .steps2-text15 {
+              font-family: Open Sans;
             }
             .steps2-container6 {
               width: 100%;
@@ -292,11 +308,17 @@ const Steps2 = (props) => {
             .steps2-text16 {
               font-family: Taviraj;
             }
+            .steps2-text17 {
+              font-family: Open Sans;
+            }
             .steps2-container7 {
               width: 100%;
             }
             .steps2-text18 {
               font-family: Taviraj;
+            }
+            .steps2-text20 {
+              font-family: Open Sans;
             }
           }
           @media (max-width: 479px) {
@@ -313,10 +335,11 @@ const Steps2 = (props) => {
               font-weight: 900;
             }
             .steps2-text11 {
-              font-size: 15px;
+              font-size: 16px;
+              font-family: Open Sans;
             }
             .steps2-text12 {
-              font-size: 15px;
+              font-size: 12px;
             }
             .steps2-text13 {
               font-size: 20px;
@@ -325,6 +348,7 @@ const Steps2 = (props) => {
             .steps2-text14 {
               font-size: 15px;
               text-align: left;
+              font-family: Open Sans;
             }
             .steps2-heading {
               font-size: 20px;

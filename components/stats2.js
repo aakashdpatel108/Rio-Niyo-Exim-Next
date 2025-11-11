@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -17,20 +17,14 @@ const Stats2 = (props) => {
             />
           </div>
           <div className="stats2-container3 thq-flex-column">
-            <span className="thq-body-small">
-              {props.content1 ?? (
-                <Fragment>
-                  <span className="stats2-text3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_SiYafo'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+            <span className="stats2-text1 thq-body-small">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_mLzn1i'),
+                }}
+              ></span>
             </span>
-            <p className="thq-body-large">
+            <p className="thq-body-large stats2-text2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_vR3Qrd'),
@@ -64,12 +58,15 @@ const Stats2 = (props) => {
             align-items: flex-start;
             margin-left: auto;
           }
+          .stats2-text1 {
+            font-size: 35px;
+            font-style: normal;
+            font-family: 'Taviraj';
+            font-weight: 600;
+          }
           .stats2-container4 {
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
-          }
-          .stats2-text3 {
-            display: inline-block;
           }
           @media (max-width: 991px) {
             .stats2-max-width {
@@ -86,6 +83,14 @@ const Stats2 = (props) => {
               margin-left: 0px;
             }
           }
+          @media (max-width: 767px) {
+            .stats2-text1 {
+              font-size: 25px;
+            }
+            .stats2-text2 {
+              font-size: 12px;
+            }
+          }
           @media (max-width: 479px) {
             .stats2-image {
               width: 100%;
@@ -98,14 +103,12 @@ const Stats2 = (props) => {
 }
 
 Stats2.defaultProps = {
-  content1: undefined,
   image1Alt: 'Global Food Exporter',
   image1Src:
     'https://images.unsplash.com/photo-1504281186-f427c16ed131?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTA5MDgwNXw&ixlib=rb-4.1.0&q=80&w=1400',
 }
 
 Stats2.propTypes = {
-  content1: PropTypes.element,
   image1Alt: PropTypes.string,
   image1Src: PropTypes.string,
 }

@@ -321,8 +321,29 @@ const MeetOurTeam = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .meet-our-team-section-title {
+              width: 395px;
+            }
+            .meet-our-team-content1 {
+              width: 358px;
+            }
+            .meet-our-team-text10 {
+              font-size: 25px;
+              text-align: left;
+            }
+            .meet-our-team-text11 {
+              width: 315px;
+              font-size: 18px;
+              text-align: left;
+            }
             .meet-our-team-row {
               flex-direction: column;
+            }
+            .meet-our-team-text14 {
+              font-size: 16px;
+            }
+            .meet-our-team-text17 {
+              font-size: 16px;
             }
           }
           @media (max-width: 479px) {
@@ -331,6 +352,15 @@ const MeetOurTeam = (props) => {
             }
             .meet-our-team-placeholder-image2 {
               height: 450px;
+            }
+          }
+          @media (max-width: 344px) {
+            .meet-our-team-content1 {
+              width: 309px;
+              margin-right: 0px;
+            }
+            .meet-our-team-text11 {
+              width: 274px;
             }
           }
         `}

@@ -226,6 +226,26 @@ const SpiceFeature4 = (props) => {
               width: 100%;
             }
           }
+          @media (max-width: 767px) {
+            .spice-feature-4-title1 {
+              font-size: 18px;
+            }
+            .spice-feature-4-description1 {
+              font-size: 12px;
+            }
+            .spice-feature-4-title21 {
+              font-size: 18px;
+            }
+            .spice-feature-4-description21 {
+              font-size: 12px;
+            }
+            .spice-feature-4-title22 {
+              font-size: 18px;
+            }
+            .spice-feature-4-description22 {
+              font-size: 12px;
+            }
+          }
           @media (max-width: 479px) {
             .spice-feature-4-max-width {
               gap: var(--dl-layout-space-oneandhalfunits);

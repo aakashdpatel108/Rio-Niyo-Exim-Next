@@ -47,6 +47,14 @@ const Features9 = (props) => {
             z-index: 2;
             text-align: center;
           }
+          @media (max-width: 767px) {
+            .features9-text1 {
+              font-size: 25px;
+            }
+            .features9-text2 {
+              font-size: 18px;
+            }
+          }
           @media (max-width: 344px) {
             .features9-text1 {
               font-size: 22px;

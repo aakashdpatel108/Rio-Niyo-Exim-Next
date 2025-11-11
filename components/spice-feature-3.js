@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -20,7 +20,7 @@ const SpiceFeature3 = (props) => {
                   className="thq-img-ratio-4-3 spice-feature-3-feature1-image"
                 />
                 <div className="spice-feature-3-content2 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 spice-feature-3-feature1-title">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_R-6NzQ'),
@@ -28,17 +28,11 @@ const SpiceFeature3 = (props) => {
                     ></span>
                   </h3>
                   <span className="spice-feature-3-feature1-description thq-body-small">
-                    {props.feature1Description ?? (
-                      <Fragment>
-                        <span className="spice-feature-3-text">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('text_qSHYhJ'),
-                            }}
-                          ></span>
-                        </span>
-                      </Fragment>
-                    )}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_RQy0H-'),
+                      }}
+                    ></span>
                   </span>
                 </div>
               </div>
@@ -49,14 +43,14 @@ const SpiceFeature3 = (props) => {
                   className="thq-img-ratio-4-3 spice-feature-3-feature2-image"
                 />
                 <div className="spice-feature-3-content3 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 spice-feature-3-feature2-title">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_wA4jmJ'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small">
+                  <span className="thq-body-small spice-feature-3-feature2-description">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Description_znvVy2'),
@@ -72,14 +66,14 @@ const SpiceFeature3 = (props) => {
                   className="thq-img-ratio-4-3 spice-feature-3-feature3-image"
                 />
                 <div className="spice-feature-3-content4 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 spice-feature-3-feature3-title">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_Zk2hvG'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small">
+                  <span className="thq-body-small spice-feature-3-feature3-description">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Description_tm0kqE'),
@@ -144,9 +138,6 @@ const SpiceFeature3 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .spice-feature-3-text {
-            display: inline-block;
-          }
 
           @media (max-width: 991px) {
             .spice-feature-3-feature1-image {
@@ -166,14 +157,40 @@ const SpiceFeature3 = (props) => {
             .spice-feature-3-feature1-image {
               width: 100%;
             }
+            .spice-feature-3-feature1-title {
+              font-size: 18px;
+            }
+            .spice-feature-3-feature1-description {
+              font-size: 12px;
+            }
             .spice-feature-3-feature2 {
               width: auto;
             }
             .spice-feature-3-feature2-image {
               width: 100%;
             }
+            .spice-feature-3-feature2-title {
+              font-size: 18px;
+            }
+            .spice-feature-3-feature2-description {
+              font-size: 12px;
+            }
             .spice-feature-3-feature3 {
               width: auto;
+            }
+            .spice-feature-3-feature3-title {
+              font-size: 18px;
+            }
+            .spice-feature-3-feature3-description {
+              font-size: 12px;
+            }
+          }
+          @media (max-width: 344px) {
+            .spice-feature-3-feature1-title {
+              font-size: 18px;
+            }
+            .spice-feature-3-feature1-description {
+              font-size: 12px;
             }
           }
         `}
@@ -184,12 +201,10 @@ const SpiceFeature3 = (props) => {
 
 SpiceFeature3.defaultProps = {
   rootClassName: '',
-  feature1Description: undefined,
 }
 
 SpiceFeature3.propTypes = {
   rootClassName: PropTypes.string,
-  feature1Description: PropTypes.element,
 }
 
 export default SpiceFeature3

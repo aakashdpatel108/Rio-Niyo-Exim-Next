@@ -31,7 +31,7 @@ const PulsesFeature1 = (props) => {
                   className="pulses-feature-1-feature1-image1 thq-img-ratio-4-3"
                 />
                 <div className="pulses-feature-1-content2 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 pulses-feature-1-feature1-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_DtVjgX'),
@@ -47,7 +47,7 @@ const PulsesFeature1 = (props) => {
                   className="pulses-feature-1-feature2-image1 thq-img-ratio-4-3"
                 />
                 <div className="pulses-feature-1-content3 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 pulses-feature-1-feature2-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_VjMMab'),
@@ -63,7 +63,7 @@ const PulsesFeature1 = (props) => {
                   className="pulses-feature-1-feature3-image1 thq-img-ratio-4-3"
                 />
                 <div className="pulses-feature-1-content4 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 pulses-feature-1-feature3-title1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_qk5eaT'),
@@ -88,7 +88,7 @@ const PulsesFeature1 = (props) => {
                   className="pulses-feature-1-feature1-image2 thq-img-ratio-4-3"
                 />
                 <div className="pulses-feature-1-content6 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 pulses-feature-1-feature1-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_24zyHy'),
@@ -104,7 +104,7 @@ const PulsesFeature1 = (props) => {
                   className="pulses-feature-1-feature2-image2 thq-img-ratio-4-3"
                 />
                 <div className="pulses-feature-1-content7 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 pulses-feature-1-feature2-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_2-yGIQ'),
@@ -120,7 +120,7 @@ const PulsesFeature1 = (props) => {
                   className="pulses-feature-1-feature3-image2 thq-img-ratio-4-3"
                 />
                 <div className="pulses-feature-1-content8 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 pulses-feature-1-feature3-title2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_B1LHIY'),
@@ -282,6 +282,7 @@ const PulsesFeature1 = (props) => {
               width: 100%;
             }
             .pulses-feature-1-text {
+              font-size: 25px;
               text-align: center;
             }
             .pulses-feature-1-row1 {
@@ -290,14 +291,23 @@ const PulsesFeature1 = (props) => {
             .pulses-feature-1-feature1-image1 {
               width: 100%;
             }
+            .pulses-feature-1-feature1-title1 {
+              font-size: 18px;
+            }
             .pulses-feature-1-feature21 {
               width: auto;
             }
             .pulses-feature-1-feature2-image1 {
               width: 100%;
             }
+            .pulses-feature-1-feature2-title1 {
+              font-size: 18px;
+            }
             .pulses-feature-1-feature31 {
               width: auto;
+            }
+            .pulses-feature-1-feature3-title1 {
+              font-size: 18px;
             }
             .pulses-feature-1-column2 {
               width: 100%;
@@ -308,14 +318,23 @@ const PulsesFeature1 = (props) => {
             .pulses-feature-1-feature1-image2 {
               width: 100%;
             }
+            .pulses-feature-1-feature1-title2 {
+              font-size: 18px;
+            }
             .pulses-feature-1-feature22 {
               width: auto;
             }
             .pulses-feature-1-feature2-image2 {
               width: 100%;
             }
+            .pulses-feature-1-feature2-title2 {
+              font-size: 18px;
+            }
             .pulses-feature-1-feature32 {
               width: auto;
+            }
+            .pulses-feature-1-feature3-title2 {
+              font-size: 18px;
             }
           }
         `}

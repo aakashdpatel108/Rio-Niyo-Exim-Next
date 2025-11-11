@@ -8,7 +8,6 @@ import Banner21 from '../components/banner21'
 import Stats2 from '../components/stats2'
 import Stats13 from '../components/stats13'
 import Logos1 from '../components/logos1'
-import Features1 from '../components/features1'
 import MeetOurTeam from '../components/meet-our-team'
 import Footer from '../components/footer'
 
@@ -223,256 +222,14 @@ const AboutUs = (props) => {
           rootClassName="navroot-class-name1"
           locale={props?.locale ?? ''}
         ></Nav>
-        <Banner21
-          action1={
-            <Fragment>
-              <span className="about-us-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_n2tmZ3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="about-us-text29">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_C666Dq'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></Banner21>
-        <Stats2
-          content1={
-            <Fragment>
-              <span className="about-us-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_I2m5gm'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></Stats2>
-        <Stats13
-          stat1={
-            <Fragment>
-              <span className="about-us-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_q6pps3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          stat2={
-            <Fragment>
-              <span className="about-us-text32">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rWV4my'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          stat3={
-            <Fragment>
-              <span className="about-us-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_pxZ8Gw'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          stat1Description={
-            <Fragment>
-              <span className="about-us-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xiVtUp'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          stat2Description={
-            <Fragment>
-              <span className="about-us-text35">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8cHYbh'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          stat3Description={
-            <Fragment>
-              <span className="about-us-text36">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3QMQQp'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></Stats13>
-        <Logos1
-          heading1={
-            <Fragment>
-              <span className="about-us-text37">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AdNGgf'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></Logos1>
-        <Features1
-          slogan={
-            <Fragment>
-              <span className="about-us-text38">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_bhw4Hr'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          mainAction={
-            <Fragment>
-              <span className="about-us-text39">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_o-WlZ2'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionTitle={
-            <Fragment>
-              <span className="about-us-text40">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_LItllM'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature1Title={
-            <Fragment>
-              <span className="about-us-text41">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Aya4SO'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Title={
-            <Fragment>
-              <span className="about-us-text42">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6Uydy8'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Title={
-            <Fragment>
-              <span className="about-us-text43">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0hZLc4'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          secondaryAction={
-            <Fragment>
-              <span className="about-us-text44">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vqKuk7'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          sectionDescription={
-            <Fragment>
-              <span className="about-us-text45">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_WEjgqL'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature1Description={
-            <Fragment>
-              <span className="about-us-text46">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_DUQVAE'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Description={
-            <Fragment>
-              <span className="about-us-text47">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_iajvmB'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature3Description={
-            <Fragment>
-              <span className="about-us-text48">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_p2Bbia'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></Features1>
+        <Banner21 locale={props?.locale ?? ''}></Banner21>
+        <Stats2 locale={props?.locale ?? ''}></Stats2>
+        <Stats13 locale={props?.locale ?? ''}></Stats13>
+        <Logos1 locale={props?.locale ?? ''}></Logos1>
         <MeetOurTeam
           member1={
             <Fragment>
-              <span className="about-us-text49">
+              <span className="about-us-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_D6RI6t'),
@@ -483,7 +240,7 @@ const AboutUs = (props) => {
           }
           member2={
             <Fragment>
-              <span className="about-us-text50">
+              <span className="about-us-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_EeLP2k'),
@@ -494,7 +251,7 @@ const AboutUs = (props) => {
           }
           member1Job={
             <Fragment>
-              <span className="about-us-text51">
+              <span className="about-us-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_dhQIqj'),
@@ -506,7 +263,7 @@ const AboutUs = (props) => {
           member1Src="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQwfHxwZXJzb258ZW58MHx8fHwxNzU5MDkzMDI4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           member2Job={
             <Fragment>
-              <span className="about-us-text52">
+              <span className="about-us-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Oy6MvF'),
@@ -596,81 +353,9 @@ const AboutUs = (props) => {
           }
           .about-us-text30 {
             display: inline-block;
-            font-size: 30px;
-            font-style: normal;
-            font-weight: 700;
-            letter-spacing: 1px;
           }
           .about-us-text31 {
             display: inline-block;
-          }
-          .about-us-text32 {
-            display: inline-block;
-          }
-          .about-us-text33 {
-            display: inline-block;
-          }
-          .about-us-text34 {
-            display: inline-block;
-          }
-          .about-us-text35 {
-            display: inline-block;
-          }
-          .about-us-text36 {
-            display: inline-block;
-          }
-          .about-us-text37 {
-            display: inline-block;
-          }
-          .about-us-text38 {
-            display: inline-block;
-          }
-          .about-us-text39 {
-            display: inline-block;
-          }
-          .about-us-text40 {
-            display: inline-block;
-          }
-          .about-us-text41 {
-            display: inline-block;
-          }
-          .about-us-text42 {
-            display: inline-block;
-          }
-          .about-us-text43 {
-            display: inline-block;
-          }
-          .about-us-text44 {
-            display: inline-block;
-          }
-          .about-us-text45 {
-            display: inline-block;
-          }
-          .about-us-text46 {
-            display: inline-block;
-          }
-          .about-us-text47 {
-            display: inline-block;
-          }
-          .about-us-text48 {
-            display: inline-block;
-          }
-          .about-us-text49 {
-            display: inline-block;
-          }
-          .about-us-text50 {
-            display: inline-block;
-          }
-          .about-us-text51 {
-            display: inline-block;
-          }
-          .about-us-text52 {
-            display: inline-block;
-          }
-          @media (max-width: 344px) {
-            .about-us-text32 {
-              font-size: inherit;
-            }
           }
         `}
       </style>

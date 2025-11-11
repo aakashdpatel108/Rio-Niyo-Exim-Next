@@ -132,6 +132,11 @@ const VegetablesBannerComp = (props) => {
             height: auto;
             min-height: auto;
           }
+          @media (max-width: 1200px) {
+            .vegetables-banner-comp-text6 {
+              font-size: 12px;
+            }
+          }
           @media (max-width: 991px) {
             .vegetables-banner-comp-container {
               flex-direction: column;
@@ -140,7 +145,7 @@ const VegetablesBannerComp = (props) => {
           @media (max-width: 767px) {
             .vegetables-banner-comp-text1 {
               color: rgb(255, 255, 255);
-              font-size: 30px;
+              font-size: 25px;
               font-family: Taviraj;
             }
             .vegetables-banner-comp-content {
@@ -148,11 +153,14 @@ const VegetablesBannerComp = (props) => {
             }
             .vegetables-banner-comp-text2 {
               color: rgb(255, 255, 255);
-              font-size: 15px;
+              font-size: 12px;
               font-family: Open Sans;
             }
+            .vegetables-banner-comp-text3 {
+              font-size: 12px;
+            }
             .vegetables-banner-comp-text5 {
-              font-size: 15px;
+              font-size: 12px;
             }
             .vegetables-banner-comp-text6 {
               font-size: 15px;
@@ -162,26 +170,29 @@ const VegetablesBannerComp = (props) => {
           @media (max-width: 344px) {
             .vegetables-banner-comp-text1 {
               color: rgb(255, 255, 255);
-              font-size: 20px;
+              font-size: 25px;
               font-family: Taviraj;
             }
             .vegetables-banner-comp-text2 {
               color: rgb(255, 255, 255);
               width: 294px;
-              font-size: 10px;
+              font-size: 12px;
               font-family: Open Sans;
             }
             .vegetables-banner-comp-button1 {
-              width: 125px;
+              width: 151px;
+            }
+            .vegetables-banner-comp-text3 {
+              font-size: 12px;
             }
             .vegetables-banner-comp-button2 {
-              width: 73px;
+              width: 87px;
             }
             .vegetables-banner-comp-text5 {
-              font-size: 10px;
+              font-size: 12px;
             }
             .vegetables-banner-comp-text6 {
-              font-size: 10px;
+              font-size: 12px;
             }
           }
         `}

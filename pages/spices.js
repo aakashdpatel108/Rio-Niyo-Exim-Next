@@ -254,17 +254,6 @@ const Spices = (props) => {
         <SpiceFeature2 locale={props?.locale ?? ''}></SpiceFeature2>
         <SpiceFeature3
           rootClassName="spice-feature3root-class-name"
-          feature1Description={
-            <Fragment>
-              <span className="spices-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1f0g5E'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
         ></SpiceFeature3>
         <SpiceFeature4
@@ -345,9 +334,6 @@ const Spices = (props) => {
             display: inline-block;
           }
           .spices-text29 {
-            display: inline-block;
-          }
-          .spices-text30 {
             display: inline-block;
           }
         `}

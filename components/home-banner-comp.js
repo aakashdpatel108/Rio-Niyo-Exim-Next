@@ -118,11 +118,11 @@ const HomeBannerComp = (props) => {
           }
           @media (max-width: 767px) {
             .home-banner-comp-text1 {
-              font-size: 35px;
+              font-size: 25px;
               letter-spacing: 4px;
             }
             .home-banner-comp-text2 {
-              font-size: 25px;
+              font-size: 18px;
               letter-spacing: 4px;
             }
           }

@@ -273,7 +273,7 @@ const DryfruitFeature1 = (props) => {
               width: 100%;
             }
             .dryfruit-feature-1-text {
-              font-size: 22px;
+              font-size: 18px;
               text-align: center;
             }
             .dryfruit-feature-1-row1 {
@@ -283,7 +283,7 @@ const DryfruitFeature1 = (props) => {
               width: 100%;
             }
             .dryfruit-feature-1-feature1-title1 {
-              font-size: 22px;
+              font-size: 18px;
             }
             .dryfruit-feature-1-feature21 {
               width: auto;
@@ -292,13 +292,13 @@ const DryfruitFeature1 = (props) => {
               width: 100%;
             }
             .dryfruit-feature-1-feature2-title1 {
-              font-size: 22px;
+              font-size: 18px;
             }
             .dryfruit-feature-1-feature31 {
               width: auto;
             }
             .dryfruit-feature-1-feature3-title1 {
-              font-size: 22px;
+              font-size: 18px;
             }
             .dryfruit-feature-1-row2 {
               flex-direction: column;
@@ -307,7 +307,7 @@ const DryfruitFeature1 = (props) => {
               width: 100%;
             }
             .dryfruit-feature-1-feature1-title2 {
-              font-size: 22px;
+              font-size: 18px;
             }
             .dryfruit-feature-1-feature22 {
               width: auto;
@@ -316,7 +316,7 @@ const DryfruitFeature1 = (props) => {
               width: 100%;
             }
             .dryfruit-feature-1-feature2-title2 {
-              font-size: 22px;
+              font-size: 18px;
             }
             .dryfruit-feature-1-feature32 {
               width: auto;

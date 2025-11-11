@@ -22,17 +22,11 @@ const HomePageImageSlider = (props) => {
               ></span>
             </h1>
             <p className="home-page-image-slider-text2 thq-body-large">
-              {props.content1 ?? (
-                <Fragment>
-                  <span className="home-page-image-slider-text4">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_YM9beO'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_PysO3i'),
+                }}
+              ></span>
             </p>
           </div>
           <div className="home-page-image-slider-actions">
@@ -41,7 +35,7 @@ const HomePageImageSlider = (props) => {
                 <a className="home-page-image-slider-link thq-body-small">
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="home-page-image-slider-text5">
+                      <span className="home-page-image-slider-text4">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_5ntxhO'),
@@ -388,9 +382,6 @@ const HomePageImageSlider = (props) => {
           .home-page-image-slider-text4 {
             display: inline-block;
           }
-          .home-page-image-slider-text5 {
-            display: inline-block;
-          }
           .home-page-image-sliderroot-class-name {
             background-color: #f3f3f3;
           }
@@ -413,12 +404,18 @@ const HomePageImageSlider = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-page-image-slider-content1 {
+              width: 541px;
+            }
             .home-page-image-slider-text1 {
-              width: 408px;
-              font-size: 35px;
+              width: 249px;
+              font-size: 25px;
+              text-align: center;
+              margin-right: 0px;
             }
             .home-page-image-slider-text2 {
               width: 514px;
+              font-size: 18px;
             }
             .home-page-image-slider-content2 {
               width: 100%;
@@ -443,8 +440,11 @@ const HomePageImageSlider = (props) => {
               width: 231px;
               font-size: 15px;
             }
+            .home-page-image-slider-button {
+              width: 100%;
+            }
             .home-page-image-slider-link {
-              font-size: 15px;
+              font-size: 12px;
             }
           }
         `}
@@ -456,7 +456,6 @@ const HomePageImageSlider = (props) => {
 HomePageImageSlider.defaultProps = {
   image8Src:
     'https://images.unsplash.com/photo-1639843606783-b2f9c50a7468?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fFNveWElMjBiZWFuc3xlbnwwfHx8fDE3NjIxMDQ1MDd8MA&ixlib=rb-4.1.0&w=1500',
-  content1: undefined,
   rootClassName: '',
   image11Src:
     'https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1500',
@@ -470,7 +469,6 @@ HomePageImageSlider.defaultProps = {
 
 HomePageImageSlider.propTypes = {
   image8Src: PropTypes.string,
-  content1: PropTypes.element,
   rootClassName: PropTypes.string,
   image11Src: PropTypes.string,
   image1Alt: PropTypes.string,

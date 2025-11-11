@@ -282,6 +282,32 @@ const SpiceFeature2 = (props) => {
               width: 100%;
             }
           }
+          @media (max-width: 767px) {
+            .spice-feature-2-title1 {
+              font-size: 18px;
+            }
+            .spice-feature-2-description1 {
+              font-size: 12px;
+            }
+            .spice-feature-2-title2 {
+              font-size: 18px;
+            }
+            .spice-feature-2-description2 {
+              font-size: 12px;
+            }
+            .spice-feature-2-title3 {
+              font-size: 18px;
+            }
+            .spice-feature-2-description3 {
+              font-size: 12px;
+            }
+            .spice-feature-2-title4 {
+              font-size: 18px;
+            }
+            .spice-feature-2-description4 {
+              font-size: 12px;
+            }
+          }
           @media (max-width: 479px) {
             .spice-feature-2-max-width {
               gap: var(--dl-layout-space-oneandhalfunits);

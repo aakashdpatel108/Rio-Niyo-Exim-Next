@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
 import ProductCategoryBanner from '../components/product-category-banner'
-import Features4 from '../components/features4'
+import ProductCategoryFeature1 from '../components/product-category-feature-1'
 import CTA26 from '../components/cta26'
 import Footer from '../components/footer'
 
@@ -224,90 +224,13 @@ const ProductCategories = (props) => {
           locale={props?.locale ?? ''}
         ></Nav>
         <ProductCategoryBanner
-          content1={
-            <Fragment>
-              <span className="product-categories-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TWydlM'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           video1Poster="example.com/video1Poster.jpg"
           locale={props?.locale ?? ''}
         ></ProductCategoryBanner>
-        <Features4
-          sectionTitle={
-            <Fragment>
-              <span className="product-categories-text29">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_YifbX9'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Title={
-            <Fragment>
-              <span className="product-categories-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xlkuOq'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Title1={
-            <Fragment>
-              <span className="product-categories-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AJYoxS'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Title2={
-            <Fragment>
-              <span className="product-categories-text32">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vYjhD3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Title3={
-            <Fragment>
-              <span className="product-categories-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_HulPg9'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Description={
-            <Fragment>
-              <span className="product-categories-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-7qFHi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
+        <ProductCategoryFeature1
           feature2Description1={
             <Fragment>
-              <span className="product-categories-text35">
+              <span className="product-categories-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_y560Kc'),
@@ -316,45 +239,12 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
-          feature2Description2={
-            <Fragment>
-              <span className="product-categories-text36">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_QS6gO2'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Description3={
-            <Fragment>
-              <span className="product-categories-text37">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jFnJyz'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          feature2Description31={
-            <Fragment>
-              <span className="product-categories-text38">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_kcg_JN'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
-        ></Features4>
+        ></ProductCategoryFeature1>
         <CTA26
           action1={
             <Fragment>
-              <span className="product-categories-text39">
+              <span className="product-categories-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Xr_Or7'),
@@ -437,40 +327,8 @@ const ProductCategories = (props) => {
           }
           .product-categories-text28 {
             display: inline-block;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .product-categories-text29 {
-            display: inline-block;
-          }
-          .product-categories-text30 {
-            display: inline-block;
-          }
-          .product-categories-text31 {
-            display: inline-block;
-          }
-          .product-categories-text32 {
-            display: inline-block;
-          }
-          .product-categories-text33 {
-            display: inline-block;
-          }
-          .product-categories-text34 {
-            display: inline-block;
-          }
-          .product-categories-text35 {
-            display: inline-block;
-          }
-          .product-categories-text36 {
-            display: inline-block;
-          }
-          .product-categories-text37 {
-            display: inline-block;
-          }
-          .product-categories-text38 {
-            display: inline-block;
-          }
-          .product-categories-text39 {
             display: inline-block;
           }
         `}
