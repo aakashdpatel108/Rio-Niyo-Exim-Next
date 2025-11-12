@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl'
 import Nav from '../components/nav'
 import Banner33 from '../components/banner33'
 import DryfruitFeature1 from '../components/dryfruit-feature-1'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const DryFruits = (props) => {
   const translate = useTranslations()
@@ -227,11 +227,87 @@ const DryFruits = (props) => {
           rootClassName="dryfruit-feature1root-class-name"
           locale={props?.locale ?? ''}
         ></DryfruitFeature1>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name8"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="dry-fruits-text28">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_AH4a2s'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="dry-fruits-text29">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_0u_17M'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="dry-fruits-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_2usIBC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="dry-fruits-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_HeNPg9'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="dry-fruits-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_skYqlU'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="dry-fruits-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gtv3xN'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="dry-fruits-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_q1k7pg'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name4"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -295,6 +371,27 @@ const DryFruits = (props) => {
             display: inline-block;
           }
           .dry-fruits-text27 {
+            display: inline-block;
+          }
+          .dry-fruits-text28 {
+            display: inline-block;
+          }
+          .dry-fruits-text29 {
+            display: inline-block;
+          }
+          .dry-fruits-text30 {
+            display: inline-block;
+          }
+          .dry-fruits-text31 {
+            display: inline-block;
+          }
+          .dry-fruits-text32 {
+            display: inline-block;
+          }
+          .dry-fruits-text33 {
+            display: inline-block;
+          }
+          .dry-fruits-text34 {
             display: inline-block;
           }
         `}

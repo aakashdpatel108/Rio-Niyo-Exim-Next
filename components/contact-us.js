@@ -245,10 +245,31 @@ const ContactUs = (props) => {
           }
           @media (max-width: 767px) {
             .contact-us-text1 {
-              font-size: 25px;
+              font-size: 20px;
             }
             .contact-us-text2 {
-              font-size: 18px;
+              font-size: 15px;
+            }
+            .contact-us-email {
+              font-size: 15px;
+            }
+            .contact-us-phone {
+              font-size: 15px;
+            }
+            .contact-us-address {
+              font-size: 15px;
+            }
+            .contact-us-text3 {
+              font-size: 15px;
+            }
+            .contact-us-text4 {
+              font-size: 15px;
+            }
+            .contact-us-text5 {
+              font-size: 15px;
+            }
+            .contact-us-action1 {
+              font-size: 15px;
             }
           }
           @media (max-width: 344px) {

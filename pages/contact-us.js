@@ -8,7 +8,7 @@ import ContactUsBanner from '../components/contact-us-banner'
 import ContactForm3 from '../components/contact-form3'
 import Contact14 from '../components/contact14'
 import Contact7 from '../components/contact7'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const ContactUs = (props) => {
   const translate = useTranslations()
@@ -221,38 +221,12 @@ const ContactUs = (props) => {
           rootClassName="navroot-class-name3"
           locale={props?.locale ?? ''}
         ></Nav>
-        <ContactUsBanner
-          heading1={
-            <Fragment>
-              <span className="contact-us-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_2P9GmR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></ContactUsBanner>
-        <ContactForm3
-          action={
-            <Fragment>
-              <span className="contact-us-text29">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_EuArue'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          locale={props?.locale ?? ''}
-        ></ContactForm3>
+        <ContactUsBanner locale={props?.locale ?? ''}></ContactUsBanner>
+        <ContactForm3 locale={props?.locale ?? ''}></ContactForm3>
         <Contact14
           heading1={
             <Fragment>
-              <span className="contact-us-text30">
+              <span className="contact-us-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LH0YEl'),
@@ -266,7 +240,7 @@ const ContactUs = (props) => {
         <Contact7
           content1={
             <Fragment>
-              <span className="contact-us-text31">
+              <span className="contact-us-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Xr20pv'),
@@ -277,7 +251,7 @@ const ContactUs = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="contact-us-text32">
+              <span className="contact-us-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CdEU5L'),
@@ -288,11 +262,87 @@ const ContactUs = (props) => {
           }
           locale={props?.locale ?? ''}
         ></Contact7>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name2"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="contact-us-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4KO-ma'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="contact-us-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_INsr9E'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="contact-us-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_kWXKTh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="contact-us-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_2Ql59d'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="contact-us-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_YpABaM'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="contact-us-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_PWACA1'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="contact-us-text37">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_dbUauB'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name1"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -371,6 +421,21 @@ const ContactUs = (props) => {
             display: inline-block;
           }
           .contact-us-text32 {
+            display: inline-block;
+          }
+          .contact-us-text33 {
+            display: inline-block;
+          }
+          .contact-us-text34 {
+            display: inline-block;
+          }
+          .contact-us-text35 {
+            display: inline-block;
+          }
+          .contact-us-text36 {
+            display: inline-block;
+          }
+          .contact-us-text37 {
             display: inline-block;
           }
         `}

@@ -5,11 +5,11 @@ import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
 import HomeBannerComp from '../components/home-banner-comp'
-import Features9 from '../components/features9'
-import HomePageImageSlider from '../components/home-page-image-slider'
-import Steps2 from '../components/steps2'
+import HomeFeature1 from '../components/home-feature-1'
+import HomeFeatureSlider from '../components/home-feature-slider'
+import HomeFeatureSteps from '../components/home-feature-steps'
 import ContactUs from '../components/contact-us'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const Home = (props) => {
   const translate = useTranslations()
@@ -227,9 +227,9 @@ const Home = (props) => {
           rootClassName="home-banner-comproot-class-name"
           locale={props?.locale ?? ''}
         ></HomeBannerComp>
-        <Features9 locale={props?.locale ?? ''}></Features9>
+        <HomeFeature1 locale={props?.locale ?? ''}></HomeFeature1>
         <div className="home-container2">
-          <HomePageImageSlider
+          <HomeFeatureSlider
             action1={
               <Fragment>
                 <span className="home-text28">
@@ -241,30 +241,20 @@ const Home = (props) => {
                 </span>
               </Fragment>
             }
-            rootClassName="home-page-image-sliderroot-class-name"
+            rootClassName="home-feature-sliderroot-class-name"
             locale={props?.locale ?? ''}
-          ></HomePageImageSlider>
+          ></HomeFeatureSlider>
         </div>
         <div className="home-container3">
-          <Steps2
-            step4Description={
-              <Fragment>
-                <span className="home-text29">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_CvQFq4'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
+          <HomeFeatureSteps
+            rootClassName="home-feature-stepsroot-class-name"
             locale={props?.locale ?? ''}
-          ></Steps2>
+          ></HomeFeatureSteps>
         </div>
         <ContactUs
           action={
             <Fragment>
-              <span className="home-text30">
+              <span className="home-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_UNZiD_'),
@@ -275,11 +265,87 @@ const Home = (props) => {
           }
           locale={props?.locale ?? ''}
         ></ContactUs>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="home-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_lfCLT_'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="home-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_J-4NSr'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="home-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text__I9j3D'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="home-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_DOHWiR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="home-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_MeOuIt'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="home-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ZMQygU'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="home-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_QSOqu1'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -376,15 +442,27 @@ const Home = (props) => {
           }
           .home-text29 {
             display: inline-block;
-            font-family: 'Open Sans';
           }
           .home-text30 {
             display: inline-block;
           }
-          @media (max-width: 767px) {
-            .home-text29 {
-              font-family: Open Sans;
-            }
+          .home-text31 {
+            display: inline-block;
+          }
+          .home-text32 {
+            display: inline-block;
+          }
+          .home-text33 {
+            display: inline-block;
+          }
+          .home-text34 {
+            display: inline-block;
+          }
+          .home-text35 {
+            display: inline-block;
+          }
+          .home-text36 {
+            display: inline-block;
           }
           @media (max-width: 344px) {
             .home-container2 {
@@ -396,7 +474,7 @@ const Home = (props) => {
               padding-left: var(--dl-layout-space-unit);
               padding-right: var(--dl-layout-space-unit);
             }
-            .home-text30 {
+            .home-text29 {
               font-size: 12px;
             }
           }

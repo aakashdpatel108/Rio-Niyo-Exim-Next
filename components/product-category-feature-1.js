@@ -241,49 +241,45 @@ const ProductCategoryFeature1 = (props) => {
                 </div>
               </a>
             </Link>
-            <Link href="/pulses">
-              <a>
-                <div className="product-category-feature-1-feature26">
-                  <img
-                    alt="pulses"
-                    src="https://images.unsplash.com/photo-1705475388190-775066fd69a5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHB1bHNlc3xlbnwwfHx8fDE3NjIwNDA4MDN8MA&amp;ixlib=rb-4.1.0&amp;h=800"
-                    className="thq-img-ratio-4-3"
-                  />
-                  <div className="product-category-feature-1-content6 thq-flex-column">
-                    <div className="product-category-feature-1-section-title6 thq-flex-column">
-                      <strong className="product-category-feature-1-title26 thq-heading-3">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_tIOYIp'),
-                          }}
-                        ></span>
-                      </strong>
-                      <span className="product-category-feature-1-description26 thq-body-small">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_xTsS_w'),
-                          }}
-                        ></span>
-                      </span>
-                    </div>
-                    <div className="product-category-feature-1-action7 thq-flex-row">
-                      <button className="thq-button-flat">
-                        <span className="thq-body-small product-category-feature-1-action26">
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: translate.raw('action2_xsjkOr'),
-                            }}
-                          ></span>
-                        </span>
-                        <svg viewBox="0 0 1024 1024" className="thq-icon-small">
-                          <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
+            <div className="product-category-feature-1-feature26">
+              <img
+                alt="pulses"
+                src="https://images.unsplash.com/photo-1705475388190-775066fd69a5?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHB1bHNlc3xlbnwwfHx8fDE3NjIwNDA4MDN8MA&amp;ixlib=rb-4.1.0&amp;h=800"
+                className="thq-img-ratio-4-3"
+              />
+              <div className="product-category-feature-1-content6 thq-flex-column">
+                <div className="product-category-feature-1-section-title6 thq-flex-column">
+                  <strong className="product-category-feature-1-title26 thq-heading-3">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_tIOYIp'),
+                      }}
+                    ></span>
+                  </strong>
+                  <span className="product-category-feature-1-description26 thq-body-small">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_xTsS_w'),
+                      }}
+                    ></span>
+                  </span>
                 </div>
-              </a>
-            </Link>
+                <div className="product-category-feature-1-action7 thq-flex-row">
+                  <button className="thq-button-flat">
+                    <span className="thq-body-small product-category-feature-1-action26">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: translate.raw('action2_xsjkOr'),
+                        }}
+                      ></span>
+                    </span>
+                    <svg viewBox="0 0 1024 1024" className="thq-icon-small">
+                      <path d="M426 256l256 256-256 256-60-60 196-196-196-196z"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

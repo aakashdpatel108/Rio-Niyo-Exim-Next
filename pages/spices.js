@@ -9,7 +9,7 @@ import SpiceFeature1 from '../components/spice-feature-1'
 import SpiceFeature2 from '../components/spice-feature-2'
 import SpiceFeature3 from '../components/spice-feature-3'
 import SpiceFeature4 from '../components/spice-feature-4'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const Spices = (props) => {
   const translate = useTranslations()
@@ -260,11 +260,87 @@ const Spices = (props) => {
           rootClassName="spice-feature4root-class-name"
           locale={props?.locale ?? ''}
         ></SpiceFeature4>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name9"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="spices-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4SoNtW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="spices-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_BSWzwg'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="spices-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7HAZRc'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="spices-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9y6pNh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="spices-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_tozo_A'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="spices-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_cK4cIy'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="spices-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_moKJ28'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name8"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -334,6 +410,27 @@ const Spices = (props) => {
             display: inline-block;
           }
           .spices-text29 {
+            display: inline-block;
+          }
+          .spices-text30 {
+            display: inline-block;
+          }
+          .spices-text31 {
+            display: inline-block;
+          }
+          .spices-text32 {
+            display: inline-block;
+          }
+          .spices-text33 {
+            display: inline-block;
+          }
+          .spices-text34 {
+            display: inline-block;
+          }
+          .spices-text35 {
+            display: inline-block;
+          }
+          .spices-text36 {
             display: inline-block;
           }
         `}

@@ -184,25 +184,24 @@ const Nav = (props) => {
                     data-thq="thq-dropdown"
                     className="nav-dropdown14 list-item"
                   >
-                    <Link href="/pulses">
-                      <a data-thq="thq-dropdown-toggle">
-                        <div className="nav-dropdown-toggle15">
-                          <span className="nav-text15">
-                            {props.text311 ?? (
-                              <Fragment>
-                                <span className="nav-text38">
-                                  <span
-                                    dangerouslySetInnerHTML={{
-                                      __html: translate.raw('text_-dFJVC'),
-                                    }}
-                                  ></span>
-                                </span>
-                              </Fragment>
-                            )}
-                          </span>
-                        </div>
-                      </a>
-                    </Link>
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="nav-dropdown-toggle15"
+                    >
+                      <span className="nav-text15">
+                        {props.text311 ?? (
+                          <Fragment>
+                            <span className="nav-text38">
+                              <span
+                                dangerouslySetInnerHTML={{
+                                  __html: translate.raw('text_-dFJVC'),
+                                }}
+                              ></span>
+                            </span>
+                          </Fragment>
+                        )}
+                      </span>
+                    </div>
                   </li>
                   <li
                     data-thq="thq-dropdown"
@@ -369,7 +368,7 @@ const Nav = (props) => {
               </div>
               <nav className="nav-links2">
                 <Link href="/">
-                  <a className="nav-link23 thq-body-small thq-link">
+                  <a className="nav-link22 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link1_hbuQ9x'),
@@ -378,7 +377,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/about-us">
-                  <a className="nav-link25 thq-body-small thq-link">
+                  <a className="nav-link24 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link2_dJg7gl'),
@@ -387,7 +386,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/certificates">
-                  <a className="nav-link26 thq-body-small thq-link">
+                  <a className="nav-link25 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link3_DFODdZ'),
@@ -396,7 +395,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/contact-us">
-                  <a className="nav-link27 thq-body-small thq-link">
+                  <a className="nav-link26 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link3_jiTdIq'),
@@ -532,25 +531,24 @@ const Nav = (props) => {
                       data-thq="thq-dropdown"
                       className="nav-dropdown20 list-item"
                     >
-                      <Link href="/pulses">
-                        <a data-thq="thq-dropdown-toggle">
-                          <div className="nav-dropdown-toggle22">
-                            <span className="nav-text22">
-                              {props.text3112 ?? (
-                                <Fragment>
-                                  <span className="nav-text41">
-                                    <span
-                                      dangerouslySetInnerHTML={{
-                                        __html: translate.raw('text_laJiqW'),
-                                      }}
-                                    ></span>
-                                  </span>
-                                </Fragment>
-                              )}
-                            </span>
-                          </div>
-                        </a>
-                      </Link>
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="nav-dropdown-toggle22"
+                      >
+                        <span className="nav-text22">
+                          {props.text3112 ?? (
+                            <Fragment>
+                              <span className="nav-text41">
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: translate.raw('text_laJiqW'),
+                                  }}
+                                ></span>
+                              </span>
+                            </Fragment>
+                          )}
+                        </span>
+                      </div>
                     </li>
                     <li
                       data-thq="thq-dropdown"
@@ -1182,16 +1180,16 @@ const Nav = (props) => {
             align-self: flex-start;
             flex-direction: column;
           }
-          .nav-link23 {
+          .nav-link22 {
+            text-decoration: none;
+          }
+          .nav-link24 {
             text-decoration: none;
           }
           .nav-link25 {
             text-decoration: none;
           }
           .nav-link26 {
-            text-decoration: none;
-          }
-          .nav-link27 {
             text-decoration: none;
           }
           .nav-thq-dropdown2 {

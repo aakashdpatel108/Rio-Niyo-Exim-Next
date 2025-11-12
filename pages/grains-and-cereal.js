@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
 import NotFound21 from '../components/not-found21'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const GrainsAndCereal = (props) => {
   const translate = useTranslations()
@@ -246,10 +246,87 @@ const GrainsAndCereal = (props) => {
           }
           locale={props?.locale ?? ''}
         ></NotFound21>
-        <Footer
-          rootClassName="footerroot-class-name14"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="grains-and-cereal-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Re86rQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="grains-and-cereal-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ZJotpi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="grains-and-cereal-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_pdn6fz'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="grains-and-cereal-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ab9cXY'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="grains-and-cereal-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_2XJUZ6'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="grains-and-cereal-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_z5_RTP'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="grains-and-cereal-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_k52CX3'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name6"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -318,6 +395,27 @@ const GrainsAndCereal = (props) => {
             display: inline-block;
           }
           .grains-and-cereal-text29 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text30 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text31 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text32 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text33 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text34 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text35 {
+            display: inline-block;
+          }
+          .grains-and-cereal-text36 {
             display: inline-block;
           }
         `}

@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
 import FruitsFeature1 from '../components/fruits-feature-1'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const Blogs = (props) => {
   const translate = useTranslations()
@@ -222,10 +222,86 @@ const Blogs = (props) => {
           rootClassName="fruits-feature1root-class-name"
           locale={props?.locale ?? ''}
         ></FruitsFeature1>
-        <Footer
-          rootClassName="footerroot-class-name10"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="blogs-text28">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Goz6zk'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="blogs-text29">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ayYCZv'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="blogs-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_V4C05C'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="blogs-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_BrIZmR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="blogs-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_VhzTyg'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="blogs-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_yx7yBW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="blogs-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Jn6227'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -289,6 +365,27 @@ const Blogs = (props) => {
             display: inline-block;
           }
           .blogs-text27 {
+            display: inline-block;
+          }
+          .blogs-text28 {
+            display: inline-block;
+          }
+          .blogs-text29 {
+            display: inline-block;
+          }
+          .blogs-text30 {
+            display: inline-block;
+          }
+          .blogs-text31 {
+            display: inline-block;
+          }
+          .blogs-text32 {
+            display: inline-block;
+          }
+          .blogs-text33 {
+            display: inline-block;
+          }
+          .blogs-text34 {
             display: inline-block;
           }
         `}

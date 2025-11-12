@@ -8,7 +8,7 @@ import CertificateBannerComp from '../components/certificate-banner-comp'
 import Certificate1 from '../components/certificate-1'
 import Certificate2 from '../components/certificate-2'
 import Certificate3 from '../components/certificate-3'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const Certificates = (props) => {
   const translate = useTranslations()
@@ -305,11 +305,87 @@ const Certificates = (props) => {
           rootClassName="certificate3root-class-name"
           locale={props?.locale ?? ''}
         ></Certificate3>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name5"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="certificates-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_c8FsY-'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="certificates-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_qF2RCR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="certificates-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_SDXxlG'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="certificates-text37">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_1JCxUG'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="certificates-text38">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Uyqygb'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="certificates-text39">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_8hQwBq'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="certificates-text40">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_hGT8gr'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name2"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -391,6 +467,27 @@ const Certificates = (props) => {
             display: inline-block;
           }
           .certificates-text33 {
+            display: inline-block;
+          }
+          .certificates-text34 {
+            display: inline-block;
+          }
+          .certificates-text35 {
+            display: inline-block;
+          }
+          .certificates-text36 {
+            display: inline-block;
+          }
+          .certificates-text37 {
+            display: inline-block;
+          }
+          .certificates-text38 {
+            display: inline-block;
+          }
+          .certificates-text39 {
+            display: inline-block;
+          }
+          .certificates-text40 {
             display: inline-block;
           }
         `}

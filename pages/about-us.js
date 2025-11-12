@@ -9,7 +9,7 @@ import Stats2 from '../components/stats2'
 import Stats13 from '../components/stats13'
 import Logos1 from '../components/logos1'
 import MeetOurTeam from '../components/meet-our-team'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const AboutUs = (props) => {
   const translate = useTranslations()
@@ -275,11 +275,87 @@ const AboutUs = (props) => {
           member2Src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI3fHxwZXJzb258ZW58MHx8fHwxNzU5MDkzMDI4fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           locale={props?.locale ?? ''}
         ></MeetOurTeam>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name1"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="about-us-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ugY1Mq'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="about-us-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FlTXZ6'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="about-us-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_IkH7QO'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="about-us-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7lQQsG'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="about-us-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_1_5iR5'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="about-us-text37">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_-v16nC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="about-us-text38">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_okcr3b'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name3"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -355,6 +431,27 @@ const AboutUs = (props) => {
             display: inline-block;
           }
           .about-us-text31 {
+            display: inline-block;
+          }
+          .about-us-text32 {
+            display: inline-block;
+          }
+          .about-us-text33 {
+            display: inline-block;
+          }
+          .about-us-text34 {
+            display: inline-block;
+          }
+          .about-us-text35 {
+            display: inline-block;
+          }
+          .about-us-text36 {
+            display: inline-block;
+          }
+          .about-us-text37 {
+            display: inline-block;
+          }
+          .about-us-text38 {
             display: inline-block;
           }
         `}

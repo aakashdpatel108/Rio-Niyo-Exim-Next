@@ -8,7 +8,7 @@ import VegetablesBannerComp from '../components/vegetables-banner-comp'
 import FruitsFeature1 from '../components/fruits-feature-1'
 import FruitsFeature2 from '../components/fruits-feature-2'
 import FruitsFeature3 from '../components/fruits-feature-3'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const Fruits = (props) => {
   const translate = useTranslations()
@@ -251,11 +251,87 @@ const Fruits = (props) => {
         <FruitsFeature1 locale={props?.locale ?? ''}></FruitsFeature1>
         <FruitsFeature2 locale={props?.locale ?? ''}></FruitsFeature2>
         <FruitsFeature3 locale={props?.locale ?? ''}></FruitsFeature3>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name6"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="fruits-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_U8oO4O'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="fruits-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zl-91c'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="fruits-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zwr28T'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="fruits-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_CCkBUI'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="fruits-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_XUUslH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="fruits-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_RtHgXf'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="fruits-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FhTyMC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name5"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -325,6 +401,27 @@ const Fruits = (props) => {
             display: inline-block;
           }
           .fruits-text29 {
+            display: inline-block;
+          }
+          .fruits-text30 {
+            display: inline-block;
+          }
+          .fruits-text31 {
+            display: inline-block;
+          }
+          .fruits-text32 {
+            display: inline-block;
+          }
+          .fruits-text33 {
+            display: inline-block;
+          }
+          .fruits-text34 {
+            display: inline-block;
+          }
+          .fruits-text35 {
+            display: inline-block;
+          }
+          .fruits-text36 {
             display: inline-block;
           }
           @media (max-width: 1200px) {

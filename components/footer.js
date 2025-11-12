@@ -141,21 +141,6 @@ const Footer = (props) => {
           .footer-text8 {
             display: inline-block;
           }
-          .footerroot-class-name {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            background-color: #d4d4d4;
-          }
-          .footerroot-class-name1 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            background-color: #d4d4d4;
-          }
-          .footerroot-class-name2 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            background-color: #d4d4d4;
-          }
           .footerroot-class-name3 {
             fill: var(--dl-color-theme-neutral-dark);
             color: #040404;
@@ -166,48 +151,7 @@ const Footer = (props) => {
             color: #040404;
             background-color: #d4d4d4;
           }
-          .footerroot-class-name5 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            background-color: #d4d4d4;
-          }
-          .footerroot-class-name6 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            background-color: #d4d4d4;
-          }
-          .footerroot-class-name7 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            position: static;
-            background-color: #d4d4d4;
-          }
-          .footerroot-class-name8 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            position: static;
-            background-color: #d4d4d4;
-          }
-          .footerroot-class-name9 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            background-color: #d4d4d4;
-          }
 
-          .footerroot-class-name11 {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: #040404;
-            background-color: #d4d4d4;
-          }
-
-          @media (max-width: 991px) {
-            .footerroot-class-name {
-              padding: 0px;
-            }
-            .footerroot-class-name11 {
-              padding: 0px;
-            }
-          }
           @media (max-width: 767px) {
             .footer-container {
               width: 767px;
@@ -228,12 +172,6 @@ const Footer = (props) => {
             }
             .footer-text5 {
               font-size: 12px;
-            }
-            .footerroot-class-name {
-              width: auto;
-            }
-            .footerroot-class-name11 {
-              width: auto;
             }
           }
         `}

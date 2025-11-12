@@ -4,46 +4,36 @@ import Link from 'next/link'
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
-const Footer3 = (props) => {
+const FooterMain = (props) => {
   const translate = useTranslations()
   return (
     <>
       <footer
-        className={`footer3-footer4 thq-section-padding ${props.rootClassName} `}
+        className={`footer-main-footer4 thq-section-padding ${props.rootClassName} `}
       >
-        <div className="footer3-max-width thq-section-max-width">
-          <div className="footer3-content">
-            <div className="footer3-logo">
+        <div className="footer-main-max-width thq-section-max-width">
+          <div className="footer-main-content">
+            <div className="footer-main-logo">
               <img
-                alt={props.imageAlt}
                 src={props.imageSrc}
-                className="footer3-image"
+                alt={props.imageAlt}
+                className="footer-main-image"
               />
             </div>
-            <div className="footer3-links">
+            <div className="footer-main-links">
               <Link href="/">
-                <a className="footer3-link1 thq-body-small">
-                  {props.link2 ?? (
-                    <Fragment>
-                      <span className="footer3-text7">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_YiNVZJ'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <a className="footer-main-link6 thq-body-small">
+                  {props.link11}
                 </a>
               </Link>
               <Link href="/product-categories">
-                <a className="footer3-link6 thq-body-small">
-                  {props.link21 ?? (
+                <a className="footer-main-link7 thq-body-small">
+                  {props.link2 ?? (
                     <Fragment>
-                      <span className="footer3-text8">
+                      <span className="footer-main-text3">
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_Y-H6UI'),
+                            __html: translate.raw('text_aXne_8'),
                           }}
                         ></span>
                       </span>
@@ -52,13 +42,13 @@ const Footer3 = (props) => {
                 </a>
               </Link>
               <Link href="/about-us">
-                <a className="footer3-link7 thq-body-small">
+                <a className="footer-main-link8 thq-body-small">
                   {props.link3 ?? (
                     <Fragment>
-                      <span className="footer3-text4">
+                      <span className="footer-main-text6">
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_kWi-96'),
+                            __html: translate.raw('text_OjuJGI'),
                           }}
                         ></span>
                       </span>
@@ -67,13 +57,13 @@ const Footer3 = (props) => {
                 </a>
               </Link>
               <Link href="/certificates">
-                <a className="footer3-link8 thq-body-small">
+                <a className="footer-main-link9 thq-body-small">
                   {props.link4 ?? (
                     <Fragment>
-                      <span className="footer3-text5">
+                      <span className="footer-main-text5">
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_XvWG_v'),
+                            __html: translate.raw('text_Phhyh9'),
                           }}
                         ></span>
                       </span>
@@ -82,13 +72,13 @@ const Footer3 = (props) => {
                 </a>
               </Link>
               <Link href="/contact-us">
-                <a className="footer3-link9 thq-body-small">
+                <a className="footer-main-link10 thq-body-small">
                   {props.link5 ?? (
                     <Fragment>
-                      <span className="footer3-text3">
+                      <span className="footer-main-text2">
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_WqgGY6'),
+                            __html: translate.raw('text_TKJ7CO'),
                           }}
                         ></span>
                       </span>
@@ -97,7 +87,7 @@ const Footer3 = (props) => {
                 </a>
               </Link>
             </div>
-            <div className="footer3-social-links">
+            <div className="footer-main-social-links">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="thq-icon-small"
@@ -127,62 +117,67 @@ const Footer3 = (props) => {
               </svg>
             </div>
           </div>
-          <div className="footer3-footer-links">
-            <span className="thq-body-small footer3-content3">
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: translate.raw('content3_W_ONXq'),
-                }}
-              ></span>
-            </span>
-            <span className="thq-body-small footer3-link11">
-              {props.privacyLink ?? (
-                <Fragment>
-                  <span className="footer3-text6">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_XhFSFT'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
-            </span>
-            <span className="thq-body-small footer3-link12">
-              {props.termsLink ?? (
-                <Fragment>
-                  <span className="footer3-text1">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_n0CE0W'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
-            </span>
-            <span className="thq-body-small footer3-link13">
-              {props.cookiesLink ?? (
-                <Fragment>
-                  <span className="footer3-text2">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_8apkwb'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
-            </span>
+          <div className="footer-main-credits">
+            <div className="thq-divider-horizontal"></div>
+            <div className="footer-main-row">
+              <div className="footer-main-footer-links">
+                <span className="thq-body-small">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('content3_Ivy8-1'),
+                    }}
+                  ></span>
+                </span>
+                <span className="thq-body-small">
+                  {props.privacyLink ?? (
+                    <Fragment>
+                      <span className="footer-main-text4">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_hH_K7U'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </span>
+                <span className="thq-body-small">
+                  {props.termsLink ?? (
+                    <Fragment>
+                      <span className="footer-main-text1">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_Jq1u8X'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </span>
+                <span className="thq-body-small">
+                  {props.cookiesLink ?? (
+                    <Fragment>
+                      <span className="footer-main-text7">
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: translate.raw('text_ZvUOAI'),
+                          }}
+                        ></span>
+                      </span>
+                    </Fragment>
+                  )}
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
       <style jsx>
         {`
-          .footer3-footer4 {
+          .footer-main-footer4 {
             gap: 80px;
             width: 100%;
-            height: auto;
+            height: 214px;
             display: flex;
             padding: var(--dl-layout-space-fiveunits);
             overflow: hidden;
@@ -191,267 +186,146 @@ const Footer3 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
             justify-content: center;
-          }
-          .footer3-max-width {
-            gap: var(--dl-layout-space-threeunits);
-            width: auto;
-            height: auto;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-          }
-          .footer3-content {
-            gap: 32px;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-self: stretch;
-            align-items: center;
-            flex-shrink: 0;
-            margin-bottom: -25px;
-            padding-bottom: 0px;
-            justify-content: center;
-          }
-          .footer3-logo {
-            gap: 24px;
-            width: 269px;
-            height: 72px;
-            display: flex;
-            overflow: hidden;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .footer3-image {
-            width: 200px;
-            height: 85px;
-            object-fit: cover;
-          }
-          .footer3-links {
-            gap: var(--dl-layout-space-twounits);
-            display: flex;
-            align-items: flex-start;
-          }
-          .footer3-link1 {
-            text-decoration: none;
-          }
-          .footer3-link6 {
-            text-decoration: none;
-          }
-          .footer3-link7 {
-            text-decoration: none;
-          }
-          .footer3-link8 {
-            text-decoration: none;
-          }
-          .footer3-link9 {
-            text-decoration: none;
-          }
-          .footer3-social-links {
-            gap: var(--dl-layout-space-unit);
-            display: flex;
-            flex-grow: 1;
-            align-items: center;
-            justify-content: flex-end;
-          }
-          .footer3-footer-links {
-            gap: var(--dl-layout-space-oneandhalfunits);
-            margin: var(--dl-layout-space-unit);
-            display: flex;
-            align-items: flex-start;
-          }
-          .footer3-text1 {
-            display: inline-block;
-          }
-          .footer3-text2 {
-            display: inline-block;
-          }
-          .footer3-text3 {
-            display: inline-block;
-          }
-          .footer3-text4 {
-            display: inline-block;
-          }
-          .footer3-text5 {
-            display: inline-block;
-          }
-          .footer3-text6 {
-            display: inline-block;
-          }
-          .footer3-text7 {
-            display: inline-block;
-          }
-          .footer3-text8 {
-            display: inline-block;
-          }
-          .footer3root-class-name {
-            padding-top: var(--dl-layout-space-halfunit);
-            padding-left: 0px;
-            padding-right: 0px;
-            padding-bottom: 0px;
             background-image: linear-gradient(
               90deg,
               rgb(189, 195, 199) 0%,
               rgb(135, 215, 129) 100%
             );
           }
+          .footer-main-max-width {
+            gap: var(--dl-layout-space-threeunits);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .footer-main-content {
+            gap: 32px;
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            flex-shrink: 0;
+            margin-bottom: -20px;
+            justify-content: center;
+          }
+          .footer-main-logo {
+            gap: 24px;
+            width: auto;
+            display: flex;
+            overflow: hidden;
+            flex-grow: 1;
+            align-items: flex-start;
+            flex-shrink: 0;
+            flex-direction: column;
+          }
+          .footer-main-image {
+            width: 160px;
+            height: 55px;
+            object-fit: cover;
+          }
+          .footer-main-links {
+            gap: var(--dl-layout-space-twounits);
+            display: flex;
+            align-items: flex-start;
+          }
+          .footer-main-link6 {
+            text-decoration: none;
+          }
+          .footer-main-link7 {
+            text-decoration: none;
+          }
+          .footer-main-link8 {
+            text-decoration: none;
+          }
+          .footer-main-link9 {
+            text-decoration: none;
+          }
+          .footer-main-link10 {
+            text-decoration: none;
+          }
+          .footer-main-social-links {
+            gap: var(--dl-layout-space-unit);
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: flex-end;
+          }
+          .footer-main-credits {
+            gap: var(--dl-layout-space-twounits);
+            display: flex;
+            align-self: stretch;
+            align-items: center;
+            flex-direction: column;
+          }
+          .footer-main-row {
+            gap: 24px;
+            display: flex;
+            align-items: flex-start;
+          }
+          .footer-main-footer-links {
+            gap: var(--dl-layout-space-oneandhalfunits);
+            display: flex;
+            align-items: flex-start;
+          }
+          .footer-main-text1 {
+            display: inline-block;
+          }
+          .footer-main-text2 {
+            display: inline-block;
+          }
+          .footer-main-text3 {
+            display: inline-block;
+          }
+          .footer-main-text4 {
+            display: inline-block;
+          }
+          .footer-main-text5 {
+            display: inline-block;
+          }
+          .footer-main-text6 {
+            display: inline-block;
+          }
+          .footer-main-text7 {
+            display: inline-block;
+          }
 
-          @media (max-width: 1600px) {
-            .footer3-footer4 {
-              width: 1415px;
-            }
-            .footer3-max-width {
-              width: auto;
-            }
-            .footer3-content {
-              width: 100%;
-            }
-            .footer3root-class-name {
-              width: 100%;
-            }
-          }
-          @media (max-width: 1200px) {
-            .footer3-footer4 {
-              width: auto;
-              padding: var(--dl-layout-space-fiveunits);
-            }
-            .footer3-max-width {
-              width: 100%;
-            }
-            .footer3-social-links {
-              margin-right: 5px;
-            }
-            .footer3root-class-name {
-              fill: var(--dl-color-theme-neutral-dark);
-              color: var(--dl-color-theme-neutral-dark);
-              width: 100%;
-            }
-          }
           @media (max-width: 991px) {
-            .footer3-max-width {
+            .footer-main-logo {
               width: auto;
-              height: 166px;
-            }
-            .footer3-content {
-              width: 100%;
-              height: 73px;
-            }
-            .footer3-logo {
-              width: auto;
-            }
-            .footer3root-class-name {
-              width: 100%;
             }
           }
           @media (max-width: 767px) {
-            .footer3-footer4 {
-              height: 885px;
-            }
-            .footer3-max-width {
-              width: 100%;
+            .footer-main-footer4 {
               height: 100%;
             }
-            .footer3-content {
-              height: 63px;
+            .footer-main-content {
               flex-direction: column;
             }
-            .footer3-links {
-              display: flex;
+            .footer-main-links {
+              align-self: center;
               align-items: center;
               flex-direction: column;
-              justify-content: flex-start;
             }
-            .footer3-footer-links {
-              height: 186px;
-              margin: var(--dl-layout-space-threeunits);
+            .footer-main-row {
+              flex-direction: column;
+            }
+            .footer-main-footer-links {
               align-items: center;
               flex-direction: column;
               justify-content: center;
-            }
-            .footer3-content3 {
-              padding-top: var(--dl-layout-space-halfunit);
-            }
-            .footer3root-class-name {
-              width: 100%;
             }
           }
           @media (max-width: 479px) {
-            .footer3-max-width {
+            .footer-main-max-width {
               gap: var(--dl-layout-space-oneandhalfunits);
             }
-            .footer3-content {
+            .footer-main-content {
               width: 100%;
             }
-            .footer3-links {
+            .footer-main-links {
               width: 100%;
               align-items: center;
               flex-direction: column;
               justify-content: center;
-            }
-          }
-          @media (max-width: 344px) {
-            .footer3-footer4 {
-              padding: var(--dl-layout-space-unit);
-              margin-top: 0px;
-            }
-            .footer3-max-width {
-              display: flex;
-            }
-            .footer3-image {
-              width: 194px;
-              height: 77px;
-              padding-top: var(--dl-layout-space-unit);
-            }
-            .footer3-links {
-              gap: var(--dl-layout-space-unit);
-              align-self: center;
-            }
-            .footer3-link1 {
-              font-size: 12px;
-            }
-            .footer3-link6 {
-              font-size: 12px;
-            }
-            .footer3-link7 {
-              font-size: 12px;
-            }
-            .footer3-link8 {
-              font-size: 12px;
-            }
-            .footer3-link9 {
-              font-size: 12px;
-            }
-            .footer3-content3 {
-              font-size: 12px;
-              margin-top: 0px;
-              padding-top: var(--dl-layout-space-unit);
-            }
-            .footer3-link11 {
-              font-size: 12px;
-            }
-            .footer3-link12 {
-              font-size: 12px;
-            }
-            .footer3-link13 {
-              font-size: 12px;
-            }
-            .footer3-text3 {
-              font-size: 12px;
-            }
-            .footer3-text4 {
-              font-size: 12px;
-            }
-            .footer3-text5 {
-              font-size: 12px;
-            }
-            .footer3-text7 {
-              font-size: 12px;
-            }
-            .footer3-text8 {
-              font-size: 12px;
-            }
-            .footer3root-class-name {
-              width: 100%;
             }
           }
         `}
@@ -460,32 +334,32 @@ const Footer3 = (props) => {
   )
 }
 
-Footer3.defaultProps = {
-  imageSrc: '/footer%20logo.svg',
+FooterMain.defaultProps = {
   termsLink: undefined,
-  cookiesLink: undefined,
   link5: undefined,
-  link3: undefined,
-  link4: undefined,
-  privacyLink: undefined,
-  rootClassName: '',
   link2: undefined,
-  link21: undefined,
+  privacyLink: undefined,
+  link4: undefined,
+  link3: undefined,
+  cookiesLink: undefined,
+  imageSrc: '/footer%20logo.svg',
   imageAlt: 'image',
+  link11: 'Home',
+  rootClassName: '',
 }
 
-Footer3.propTypes = {
-  imageSrc: PropTypes.string,
+FooterMain.propTypes = {
   termsLink: PropTypes.element,
-  cookiesLink: PropTypes.element,
   link5: PropTypes.element,
-  link3: PropTypes.element,
-  link4: PropTypes.element,
-  privacyLink: PropTypes.element,
-  rootClassName: PropTypes.string,
   link2: PropTypes.element,
-  link21: PropTypes.element,
+  privacyLink: PropTypes.element,
+  link4: PropTypes.element,
+  link3: PropTypes.element,
+  cookiesLink: PropTypes.element,
+  imageSrc: PropTypes.string,
   imageAlt: PropTypes.string,
+  link11: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
-export default Footer3
+export default FooterMain

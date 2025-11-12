@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
-import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const ContactForm3 = (props) => {
@@ -104,17 +103,11 @@ const ContactForm3 = (props) => {
                 className="contact-form3-button thq-button-filled"
               >
                 <span className="thq-body-small">
-                  {props.action ?? (
-                    <Fragment>
-                      <span className="contact-form3-text6">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_Jxa1gl'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_1tDcBa'),
+                    }}
+                  ></span>
                 </span>
               </button>
             </form>
@@ -194,9 +187,6 @@ const ContactForm3 = (props) => {
           .contact-form3-button {
             align-self: flex-start;
           }
-          .contact-form3-text6 {
-            display: inline-block;
-          }
           @media (max-width: 991px) {
             .contact-form3-max-width {
               flex-direction: column;
@@ -209,19 +199,17 @@ const ContactForm3 = (props) => {
             .contact-form3-image1 {
               width: 100%;
             }
+            .contact-form3-text1 {
+              font-size: 25px;
+            }
+            .contact-form3-text2 {
+              font-size: 16px;
+            }
           }
         `}
       </style>
     </>
   )
-}
-
-ContactForm3.defaultProps = {
-  action: undefined,
-}
-
-ContactForm3.propTypes = {
-  action: PropTypes.element,
 }
 
 export default ContactForm3

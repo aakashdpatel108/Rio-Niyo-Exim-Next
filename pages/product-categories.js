@@ -7,7 +7,7 @@ import Nav from '../components/nav'
 import ProductCategoryBanner from '../components/product-category-banner'
 import ProductCategoryFeature1 from '../components/product-category-feature-1'
 import CTA26 from '../components/cta26'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const ProductCategories = (props) => {
   const translate = useTranslations()
@@ -255,11 +255,87 @@ const ProductCategories = (props) => {
           }
           locale={props?.locale ?? ''}
         ></CTA26>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name11"
+        <FooterMain
+          termsLink={
+            <Fragment>
+              <span className="product-categories-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FCo26P'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="product-categories-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9jzfG3'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="product-categories-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_P2A8ei'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="product-categories-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_POo1Xk'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="product-categories-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9vnA2V'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="product-categories-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_LJeFER'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="product-categories-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_PzSELH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name7"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -329,6 +405,27 @@ const ProductCategories = (props) => {
             display: inline-block;
           }
           .product-categories-text29 {
+            display: inline-block;
+          }
+          .product-categories-text30 {
+            display: inline-block;
+          }
+          .product-categories-text31 {
+            display: inline-block;
+          }
+          .product-categories-text32 {
+            display: inline-block;
+          }
+          .product-categories-text33 {
+            display: inline-block;
+          }
+          .product-categories-text34 {
+            display: inline-block;
+          }
+          .product-categories-text35 {
+            display: inline-block;
+          }
+          .product-categories-text36 {
             display: inline-block;
           }
         `}
