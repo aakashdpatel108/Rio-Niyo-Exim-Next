@@ -33,24 +33,24 @@ const Stats13 = (props) => {
                 className="stats13-icon1"
               >
                 <path
-                  d="M1 23v-5h2v3h3v2zm17 0v-2h3v-3h2v5zm-6-4.5q-3 0-5.437-1.775T3 12q1.125-2.95 3.563-4.725T12 5.5t5.438 1.775T21 12q-1.125 2.95-3.562 4.725T12 18.5m0-2q2.2 0 4.025-1.2t2.8-3.3q-.975-2.1-2.8-3.3T12 7.5T7.975 8.7t-2.8 3.3q.975 2.1 2.8 3.3T12 16.5m0-1q1.45 0 2.475-1.025T15.5 12t-1.025-2.475T12 8.5T9.525 9.525T8.5 12t1.025 2.475T12 15.5m0-2q-.625 0-1.063-.437T10.5 12t.438-1.062T12 10.5t1.063.438T13.5 12t-.437 1.063T12 13.5M1 6V1h5v2H3v3zm20 0V3h-3V1h5v5zm-9 6"
+                  d="M6 23H3q-.825 0-1.412-.587T1 21v-3h2v3h3zm12 0v-2h3v-3h2v3q0 .825-.587 1.413T21 23zm-6-4.5q-3 0-5.437-1.775T3 12q1.125-2.95 3.563-4.725T12 5.5t5.438 1.775T21 12q-1.125 2.95-3.562 4.725T12 18.5m0-2q2.2 0 4.025-1.2t2.8-3.3q-.975-2.1-2.8-3.3T12 7.5T7.975 8.7t-2.8 3.3q.975 2.1 2.8 3.3T12 16.5m0-1q1.45 0 2.475-1.025T15.5 12t-1.025-2.475T12 8.5T9.525 9.525T8.5 12t1.025 2.475T12 15.5m0-2q-.625 0-1.063-.437T10.5 12t.438-1.062T12 10.5t1.063.438T13.5 12t-.437 1.063T12 13.5M1 6V3q0-.825.588-1.412T3 1h3v2H3v3zm20 0V3h-3V1h3q.825 0 1.413.588T23 3v3zm-9 6"
                   fill="currentColor"
                 ></path>
               </svg>
               <h2 className="stats13-text1 thq-heading-2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1pPazq'),
+                    __html: translate.raw('text_Lyu99c'),
                   }}
                 ></span>
               </h2>
-              <p className="stats13-text2 thq-body-small">
+              <span className="stats13-text2 thq-body-small">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_XwjUYC'),
+                    __html: translate.raw('text_8jXh2b'),
                   }}
                 ></span>
-              </p>
+              </span>
             </div>
             <div className="stats13-container5 thq-card">
               <svg
@@ -67,14 +67,14 @@ const Stats13 = (props) => {
               <h2 className="stats13-text3 thq-heading-2">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Lyu99c'),
+                    __html: translate.raw('text_fPsROG'),
                   }}
                 ></span>
               </h2>
               <span className="stats13-text4 thq-body-small">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8jXh2b'),
+                    __html: translate.raw('text_htT0Ch'),
                   }}
                 ></span>
               </span>
@@ -210,11 +210,6 @@ const Stats13 = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          @media (max-width: 991px) {
-            .stats13-text2 {
-              height: 365px;
-            }
-          }
           @media (max-width: 767px) {
             .stats13-max-width {
               flex-direction: column;
@@ -226,22 +221,20 @@ const Stats13 = (props) => {
             .stats13-content {
               font-size: 12px;
             }
-            .stats13-container4 {
-              position: relative;
-              align-self: flex-start;
+            .stats13-container3 {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
             }
-            .stats13-icon1 {
-              width: 26px;
-              height: 164px;
+            .stats13-container4 {
+              align-self: flex-start;
             }
             .stats13-text1 {
               font-size: 18px;
               align-self: center;
             }
             .stats13-text2 {
-              height: 123px;
               font-size: 12px;
-              text-align: center;
             }
             .stats13-container5 {
               align-self: flex-start;
@@ -276,11 +269,6 @@ const Stats13 = (props) => {
             .stats13-title {
               align-self: center;
               text-align: center;
-            }
-          }
-          @media (max-width: 344px) {
-            .stats13-text2 {
-              height: 135px;
             }
           }
         `}

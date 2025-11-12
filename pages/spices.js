@@ -19,6 +19,10 @@ const Spices = (props) => {
         <Head>
           <title>Spices - Rio Niyo Exim</title>
           <meta property="og:title" content="Spices - Rio Niyo Exim" />
+          <link
+            rel="canonical"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/spices"
+          />
         </Head>
         <Nav
           page3={
@@ -261,31 +265,9 @@ const Spices = (props) => {
           locale={props?.locale ?? ''}
         ></SpiceFeature4>
         <FooterMain
-          termsLink={
-            <Fragment>
-              <span className="spices-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4SoNtW'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link5={
-            <Fragment>
-              <span className="spices-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_BSWzwg'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link2={
             <Fragment>
-              <span className="spices-text32">
+              <span className="spices-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_7HAZRc'),
@@ -294,31 +276,9 @@ const Spices = (props) => {
               </span>
             </Fragment>
           }
-          privacyLink={
-            <Fragment>
-              <span className="spices-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9y6pNh'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="spices-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_tozo_A'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link3={
             <Fragment>
-              <span className="spices-text35">
+              <span className="spices-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_cK4cIy'),
@@ -327,12 +287,56 @@ const Spices = (props) => {
               </span>
             </Fragment>
           }
+          link4={
+            <Fragment>
+              <span className="spices-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_tozo_A'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="spices-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_BSWzwg'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="spices-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4SoNtW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           cookiesLink={
+            <Fragment>
+              <span className="spices-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_moKJ28'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
             <Fragment>
               <span className="spices-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_moKJ28'),
+                    __html: translate.raw('text_9y6pNh'),
                   }}
                 ></span>
               </span>

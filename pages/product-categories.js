@@ -20,6 +20,10 @@ const ProductCategories = (props) => {
             property="og:title"
             content="Product-categories - Rio Niyo Exim"
           />
+          <link
+            rel="canonical"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/product-categories"
+          />
         </Head>
         <Nav
           page3={
@@ -256,31 +260,9 @@ const ProductCategories = (props) => {
           locale={props?.locale ?? ''}
         ></CTA26>
         <FooterMain
-          termsLink={
-            <Fragment>
-              <span className="product-categories-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FCo26P'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link5={
-            <Fragment>
-              <span className="product-categories-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9jzfG3'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link2={
             <Fragment>
-              <span className="product-categories-text32">
+              <span className="product-categories-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_P2A8ei'),
@@ -289,31 +271,9 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
-          privacyLink={
-            <Fragment>
-              <span className="product-categories-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_POo1Xk'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="product-categories-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9vnA2V'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link3={
             <Fragment>
-              <span className="product-categories-text35">
+              <span className="product-categories-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LJeFER'),
@@ -322,12 +282,56 @@ const ProductCategories = (props) => {
               </span>
             </Fragment>
           }
+          link4={
+            <Fragment>
+              <span className="product-categories-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9vnA2V'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="product-categories-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9jzfG3'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="product-categories-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FCo26P'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           cookiesLink={
+            <Fragment>
+              <span className="product-categories-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_PzSELH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
             <Fragment>
               <span className="product-categories-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_PzSELH'),
+                    __html: translate.raw('text_POo1Xk'),
                   }}
                 ></span>
               </span>

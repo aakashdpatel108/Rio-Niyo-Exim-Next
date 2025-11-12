@@ -18,6 +18,10 @@ const GrainsAndCereal = (props) => {
             property="og:title"
             content="Grains-and-Cereal - Rio Niyo Exim"
           />
+          <link
+            rel="canonical"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/grains-and-cereal"
+          />
         </Head>
         <Nav
           page3={
@@ -247,31 +251,9 @@ const GrainsAndCereal = (props) => {
           locale={props?.locale ?? ''}
         ></NotFound21>
         <FooterMain
-          termsLink={
-            <Fragment>
-              <span className="grains-and-cereal-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Re86rQ'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link5={
-            <Fragment>
-              <span className="grains-and-cereal-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZJotpi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link2={
             <Fragment>
-              <span className="grains-and-cereal-text32">
+              <span className="grains-and-cereal-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pdn6fz'),
@@ -280,31 +262,9 @@ const GrainsAndCereal = (props) => {
               </span>
             </Fragment>
           }
-          privacyLink={
-            <Fragment>
-              <span className="grains-and-cereal-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ab9cXY'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="grains-and-cereal-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_2XJUZ6'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link3={
             <Fragment>
-              <span className="grains-and-cereal-text35">
+              <span className="grains-and-cereal-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_z5_RTP'),
@@ -313,12 +273,56 @@ const GrainsAndCereal = (props) => {
               </span>
             </Fragment>
           }
+          link4={
+            <Fragment>
+              <span className="grains-and-cereal-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_2XJUZ6'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="grains-and-cereal-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ZJotpi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="grains-and-cereal-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Re86rQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           cookiesLink={
+            <Fragment>
+              <span className="grains-and-cereal-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_k52CX3'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
             <Fragment>
               <span className="grains-and-cereal-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_k52CX3'),
+                    __html: translate.raw('text_ab9cXY'),
                   }}
                 ></span>
               </span>

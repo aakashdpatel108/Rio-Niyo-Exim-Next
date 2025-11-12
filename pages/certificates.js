@@ -18,6 +18,10 @@ const Certificates = (props) => {
         <Head>
           <title>Certificates - Rio Niyo Exim</title>
           <meta property="og:title" content="Certificates - Rio Niyo Exim" />
+          <link
+            rel="canonical"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/certificates"
+          />
         </Head>
         <Nav
           page3={
@@ -306,31 +310,9 @@ const Certificates = (props) => {
           locale={props?.locale ?? ''}
         ></Certificate3>
         <FooterMain
-          termsLink={
-            <Fragment>
-              <span className="certificates-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_c8FsY-'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link5={
-            <Fragment>
-              <span className="certificates-text35">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_qF2RCR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link2={
             <Fragment>
-              <span className="certificates-text36">
+              <span className="certificates-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_SDXxlG'),
@@ -339,31 +321,9 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
-          privacyLink={
-            <Fragment>
-              <span className="certificates-text37">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1JCxUG'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="certificates-text38">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Uyqygb'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link3={
             <Fragment>
-              <span className="certificates-text39">
+              <span className="certificates-text35">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_8hQwBq'),
@@ -372,12 +332,56 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          link4={
+            <Fragment>
+              <span className="certificates-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Uyqygb'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="certificates-text37">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_qF2RCR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="certificates-text38">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_c8FsY-'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           cookiesLink={
+            <Fragment>
+              <span className="certificates-text39">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_hGT8gr'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
             <Fragment>
               <span className="certificates-text40">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_hGT8gr'),
+                    __html: translate.raw('text_1JCxUG'),
                   }}
                 ></span>
               </span>

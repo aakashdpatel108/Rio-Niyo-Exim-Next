@@ -15,8 +15,8 @@ const FooterMain = (props) => {
           <div className="footer-main-content">
             <div className="footer-main-logo">
               <img
-                src={props.imageSrc}
                 alt={props.imageAlt}
+                src={props.imageSrc}
                 className="footer-main-image"
               />
             </div>
@@ -30,7 +30,7 @@ const FooterMain = (props) => {
                 <a className="footer-main-link7 thq-body-small">
                   {props.link2 ?? (
                     <Fragment>
-                      <span className="footer-main-text3">
+                      <span className="footer-main-text1">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_aXne_8'),
@@ -45,7 +45,7 @@ const FooterMain = (props) => {
                 <a className="footer-main-link8 thq-body-small">
                   {props.link3 ?? (
                     <Fragment>
-                      <span className="footer-main-text6">
+                      <span className="footer-main-text5">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_OjuJGI'),
@@ -60,7 +60,7 @@ const FooterMain = (props) => {
                 <a className="footer-main-link9 thq-body-small">
                   {props.link4 ?? (
                     <Fragment>
-                      <span className="footer-main-text5">
+                      <span className="footer-main-text3">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_Phhyh9'),
@@ -75,7 +75,7 @@ const FooterMain = (props) => {
                 <a className="footer-main-link10 thq-body-small">
                   {props.link5 ?? (
                     <Fragment>
-                      <span className="footer-main-text2">
+                      <span className="footer-main-text4">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_TKJ7CO'),
@@ -131,7 +131,7 @@ const FooterMain = (props) => {
                 <span className="thq-body-small">
                   {props.privacyLink ?? (
                     <Fragment>
-                      <span className="footer-main-text4">
+                      <span className="footer-main-text7">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_hH_K7U'),
@@ -144,7 +144,7 @@ const FooterMain = (props) => {
                 <span className="thq-body-small">
                   {props.termsLink ?? (
                     <Fragment>
-                      <span className="footer-main-text1">
+                      <span className="footer-main-text6">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_Jq1u8X'),
@@ -157,7 +157,7 @@ const FooterMain = (props) => {
                 <span className="thq-body-small">
                   {props.cookiesLink ?? (
                     <Fragment>
-                      <span className="footer-main-text7">
+                      <span className="footer-main-text2">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_ZvUOAI'),
@@ -335,31 +335,31 @@ const FooterMain = (props) => {
 }
 
 FooterMain.defaultProps = {
-  termsLink: undefined,
-  link5: undefined,
-  link2: undefined,
-  privacyLink: undefined,
-  link4: undefined,
-  link3: undefined,
-  cookiesLink: undefined,
-  imageSrc: '/footer%20logo.svg',
   imageAlt: 'image',
-  link11: 'Home',
+  link2: undefined,
+  cookiesLink: undefined,
+  link4: undefined,
+  link5: undefined,
   rootClassName: '',
+  imageSrc: '/footer%20logo.svg',
+  link3: undefined,
+  termsLink: undefined,
+  privacyLink: undefined,
+  link11: 'Home',
 }
 
 FooterMain.propTypes = {
-  termsLink: PropTypes.element,
-  link5: PropTypes.element,
-  link2: PropTypes.element,
-  privacyLink: PropTypes.element,
-  link4: PropTypes.element,
-  link3: PropTypes.element,
-  cookiesLink: PropTypes.element,
-  imageSrc: PropTypes.string,
   imageAlt: PropTypes.string,
-  link11: PropTypes.string,
+  link2: PropTypes.element,
+  cookiesLink: PropTypes.element,
+  link4: PropTypes.element,
+  link5: PropTypes.element,
   rootClassName: PropTypes.string,
+  imageSrc: PropTypes.string,
+  link3: PropTypes.element,
+  termsLink: PropTypes.element,
+  privacyLink: PropTypes.element,
+  link11: PropTypes.string,
 }
 
 export default FooterMain

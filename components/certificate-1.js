@@ -229,7 +229,7 @@ const Certificate1 = (props) => {
           }
           @media (max-width: 344px) {
             .certificate-1-image1 {
-              width: 364px;
+              width: 100%;
               height: 514px;
             }
           }

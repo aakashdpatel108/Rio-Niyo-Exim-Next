@@ -199,8 +199,12 @@ const Contact14 = (props) => {
             font-family: 'Open Sans';
           }
           .contact14-email2 {
+            fill: rgb(37, 211, 102);
+            color: rgb(37, 211, 102);
+            cursor: pointer;
             text-align: center;
             font-family: 'Open Sans';
+            text-decoration: underline;
           }
           .contact14-content5 {
             gap: var(--dl-layout-space-oneandhalfunits);

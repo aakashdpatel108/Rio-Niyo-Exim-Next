@@ -103,7 +103,7 @@ const ContactUs = (props) => {
               <input
                 type="email"
                 id="contact-form-2-email"
-                name="contact-form-2-email"
+                name="phone number"
                 required="true"
                 placeholder="Email"
                 data-form-field-id="contact-form-2-email"
@@ -112,8 +112,30 @@ const ContactUs = (props) => {
             </div>
             <div className="contact-us-input3">
               <label
-                htmlFor="contact-form-2-message"
+                htmlFor="contact-form-2-email"
                 className="thq-body-small contact-us-text5"
+              >
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9Uv-3P'),
+                  }}
+                ></span>
+              </label>
+              <input
+                type="text"
+                id="contact-form-2-email"
+                name="contact-form-2-email"
+                required="true"
+                placeholder="Phone Number"
+                enctype="Phone Number"
+                data-form-field-id="contact-form-2-email"
+                className="contact-us-text-input3 thq-input"
+              />
+            </div>
+            <div className="contact-us-input4">
+              <label
+                htmlFor="contact-form-2-message"
+                className="thq-body-small contact-us-text6"
               >
                 <span
                   dangerouslySetInnerHTML={{
@@ -133,12 +155,13 @@ const ContactUs = (props) => {
             <button
               name="button zi77ookwrp"
               type="submit"
+              data-form-field-id="button zi77ookwrp"
               className="thq-button-filled contact-us-button"
             >
               <span className="thq-body-small contact-us-action1">
                 {props.action ?? (
                   <Fragment>
-                    <span className="contact-us-text6">
+                    <span className="contact-us-text7">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_Palvmu'),
@@ -226,10 +249,20 @@ const ContactUs = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .contact-us-text-input3 {
+            width: 100%;
+          }
+          .contact-us-input4 {
+            gap: 8px;
+            display: flex;
+            align-self: stretch;
+            align-items: flex-start;
+            flex-direction: column;
+          }
           .contact-us-textarea {
             width: 100%;
           }
-          .contact-us-text6 {
+          .contact-us-text7 {
             display: inline-block;
           }
           @media (max-width: 991px) {
@@ -266,6 +299,9 @@ const ContactUs = (props) => {
               font-size: 15px;
             }
             .contact-us-text5 {
+              font-size: 15px;
+            }
+            .contact-us-text6 {
               font-size: 15px;
             }
             .contact-us-action1 {
@@ -305,6 +341,10 @@ const ContactUs = (props) => {
               font-size: 15px;
               font-family: Inter;
             }
+            .contact-us-text6 {
+              font-size: 15px;
+              font-family: Inter;
+            }
             .contact-us-button {
               width: 81px;
             }
@@ -312,7 +352,7 @@ const ContactUs = (props) => {
               font-size: 15px;
               font-family: Inter;
             }
-            .contact-us-text6 {
+            .contact-us-text7 {
               font-size: 12px;
             }
           }

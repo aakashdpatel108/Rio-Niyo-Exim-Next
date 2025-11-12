@@ -70,9 +70,30 @@ const ContactForm3 = (props) => {
                 <input
                   type="email"
                   id="contact-form-3-email"
-                  name="contact-form-3-email"
+                  name="phone number"
                   required="true"
                   placeholder="Email"
+                  data-form-field-id="contact-form-3-email"
+                  className="thq-input"
+                />
+              </div>
+              <div className="contact-form3-input3">
+                <label
+                  htmlFor="contact-form-3-email"
+                  className="contact-form3-text5 thq-body-small"
+                >
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_xFN23h'),
+                    }}
+                  ></span>
+                </label>
+                <input
+                  type="text"
+                  id="contact-form-3-email"
+                  name="Phone Number"
+                  required="true"
+                  placeholder="Phone Number"
                   data-form-field-id="contact-form-3-email"
                   className="thq-input"
                 />
@@ -80,7 +101,7 @@ const ContactForm3 = (props) => {
               <div className="contact-form3-container">
                 <label
                   htmlFor="contact-form-3-message"
-                  className="contact-form3-text5 thq-body-small"
+                  className="contact-form3-text6 thq-body-small"
                 >
                   <span
                     dangerouslySetInnerHTML={{
@@ -100,6 +121,7 @@ const ContactForm3 = (props) => {
               <button
                 name="button kqkhww100r"
                 type="submit"
+                data-form-field-id="button kqkhww100r"
                 className="contact-form3-button thq-button-filled"
               >
                 <span className="thq-body-small">
@@ -174,6 +196,15 @@ const ContactForm3 = (props) => {
           .contact-form3-text4 {
             font-family: 'Inter';
           }
+          .contact-form3-input3 {
+            gap: var(--dl-layout-space-halfunit);
+            display: flex;
+            align-self: stretch;
+            flex-direction: column;
+          }
+          .contact-form3-text5 {
+            font-family: 'Inter';
+          }
           .contact-form3-container {
             gap: var(--dl-layout-space-halfunit);
             display: flex;
@@ -181,7 +212,7 @@ const ContactForm3 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .contact-form3-text5 {
+          .contact-form3-text6 {
             font-family: 'Inter';
           }
           .contact-form3-button {

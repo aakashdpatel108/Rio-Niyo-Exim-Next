@@ -18,6 +18,10 @@ const Fruits = (props) => {
         <Head>
           <title>Fruits - Rio Niyo Exim</title>
           <meta property="og:title" content="Fruits - Rio Niyo Exim" />
+          <link
+            rel="canonical"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/fruits"
+          />
         </Head>
         <Nav
           page3={
@@ -252,31 +256,9 @@ const Fruits = (props) => {
         <FruitsFeature2 locale={props?.locale ?? ''}></FruitsFeature2>
         <FruitsFeature3 locale={props?.locale ?? ''}></FruitsFeature3>
         <FooterMain
-          termsLink={
-            <Fragment>
-              <span className="fruits-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_U8oO4O'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link5={
-            <Fragment>
-              <span className="fruits-text31">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zl-91c'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link2={
             <Fragment>
-              <span className="fruits-text32">
+              <span className="fruits-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_zwr28T'),
@@ -285,31 +267,9 @@ const Fruits = (props) => {
               </span>
             </Fragment>
           }
-          privacyLink={
-            <Fragment>
-              <span className="fruits-text33">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_CCkBUI'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="fruits-text34">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_XUUslH'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           link3={
             <Fragment>
-              <span className="fruits-text35">
+              <span className="fruits-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_RtHgXf'),
@@ -318,12 +278,56 @@ const Fruits = (props) => {
               </span>
             </Fragment>
           }
+          link4={
+            <Fragment>
+              <span className="fruits-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_XUUslH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="fruits-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zl-91c'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="fruits-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_U8oO4O'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           cookiesLink={
+            <Fragment>
+              <span className="fruits-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_FhTyMC'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
             <Fragment>
               <span className="fruits-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FhTyMC'),
+                    __html: translate.raw('text_CCkBUI'),
                   }}
                 ></span>
               </span>
