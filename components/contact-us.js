@@ -125,9 +125,9 @@ const ContactUs = (props) => {
                 type="text"
                 id="contact-form-2-email"
                 name="contact-form-2-email"
+                enctype="Phone Number"
                 required="true"
                 placeholder="Phone Number"
-                enctype="Phone Number"
                 data-form-field-id="contact-form-2-email"
                 className="contact-us-text-input3 thq-input"
               />

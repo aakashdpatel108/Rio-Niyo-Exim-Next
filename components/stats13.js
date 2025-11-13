@@ -229,6 +229,10 @@ const Stats13 = (props) => {
             .stats13-container4 {
               align-self: flex-start;
             }
+            .stats13-icon1 {
+              width: 52px;
+              height: 46px;
+            }
             .stats13-text1 {
               font-size: 18px;
               align-self: center;

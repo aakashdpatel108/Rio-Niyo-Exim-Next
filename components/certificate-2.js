@@ -77,21 +77,7 @@ const Certificate2 = (props) => {
               <img
                 alt={props.feature1ImgAlt}
                 src={props.feature1ImgSrc}
-                className="certificate-2-image1 thq-img-ratio-16-9"
-              />
-            )}
-            {activeTab === 1 && (
-              <img
-                alt={props.feature2ImgAlt}
-                src={props.feature2ImgSrc}
-                className="certificate-2-image2 thq-img-ratio-16-9"
-              />
-            )}
-            {activeTab === 2 && (
-              <img
-                alt={props.feature3ImgAlt}
-                src={props.feature3ImgSrc}
-                className="certificate-2-image3 thq-img-ratio-16-9"
+                className="certificate-2-image thq-img-ratio-16-9"
               />
             )}
           </div>
@@ -193,28 +179,12 @@ const Certificate2 = (props) => {
             display: flex;
             position: relative;
           }
-          .certificate-2-image1 {
+          .certificate-2-image {
             width: 643px;
             height: 884px;
             border-color: var(--dl-color-theme-neutral-dark);
             border-style: hidden;
             border-width: 1px;
-            animation-name: fadeIn;
-            animation-delay: 0s;
-            animation-duration: 300ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-          }
-          .certificate-2-image2 {
-            animation-name: fadeIn;
-            animation-delay: 0s;
-            animation-duration: 300ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-          }
-          .certificate-2-image3 {
             animation-name: fadeIn;
             animation-delay: 0s;
             animation-duration: 300ms;
@@ -233,7 +203,7 @@ const Certificate2 = (props) => {
             color: var(--dl-color-theme-neutral-dark);
           }
           @media (max-width: 1200px) {
-            .certificate-2-image1 {
+            .certificate-2-image {
               width: 638px;
               height: 898px;
             }
@@ -249,14 +219,14 @@ const Certificate2 = (props) => {
             .certificate-2-image-container {
               justify-content: center;
             }
-            .certificate-2-image1 {
+            .certificate-2-image {
               width: 478px;
               height: 667px;
               margin-right: 0px;
             }
           }
           @media (max-width: 344px) {
-            .certificate-2-image1 {
+            .certificate-2-image {
               width: 364px;
               height: 514px;
             }
@@ -269,13 +239,7 @@ const Certificate2 = (props) => {
 
 Certificate2.defaultProps = {
   feature1ImgAlt: 'High-Quality Standards Image Alt',
-  feature2ImgSrc:
-    'https://images.unsplash.com/photo-1750165023743-1ce8d4d03ce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
-  feature3ImgSrc:
-    'https://images.unsplash.com/photo-1706407281811-eec5d826864b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
   feature1Description: undefined,
-  feature3ImgAlt: 'Wide Range of Products Image Alt',
-  feature2ImgAlt: 'Global Reach Image Alt',
   feature1ImgSrc: '/gst-1400w.png',
   rootClassName: '',
   feature1Title: undefined,
@@ -283,11 +247,7 @@ Certificate2.defaultProps = {
 
 Certificate2.propTypes = {
   feature1ImgAlt: PropTypes.string,
-  feature2ImgSrc: PropTypes.string,
-  feature3ImgSrc: PropTypes.string,
   feature1Description: PropTypes.element,
-  feature3ImgAlt: PropTypes.string,
-  feature2ImgAlt: PropTypes.string,
   feature1ImgSrc: PropTypes.string,
   rootClassName: PropTypes.string,
   feature1Title: PropTypes.element,
