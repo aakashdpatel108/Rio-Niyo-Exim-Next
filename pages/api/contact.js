@@ -6,7 +6,7 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: 'Method not allowed' });
     }
 
-    const { name, email, message } = req.body || {};
+    const { name, email, message, phonenumber } = req.body || {};
     if (!email || !message) {
         return res.status(400).json({ error: 'Missing required fields' });
     }
@@ -57,9 +57,10 @@ export default async function handler(req, res) {
         to: process.env.receiveremail,
         replyTo: email,
         subject: `New contact form message${name ? ` from ${name}` : ''}`,
-        text: `Name: ${name || '—'}\nEmail: ${email}\n\nMessage:\n${message}`,
+        text: `Name: ${name || '—'}\nEmail: ${email}\n\nMessage:\n${message}\nPhone Number:\n${phonenumber}`,
         html: `<p><strong>Name:</strong> ${name || '—'}</p>
            <p><strong>Email:</strong> ${email}</p>
+           <p><strong>Phone Number:</strong> ${phonenumber}</p>
            <p><strong>Message:</strong><br/>${message.replace(/\n/g, '<br/>')}</p>`,
     };
 

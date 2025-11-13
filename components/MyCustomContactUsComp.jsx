@@ -9,6 +9,7 @@ const MyCustomContactUsComp = (props) => {
   // === States ===
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
+  const [phonenumber, setPhonenumber] = useState('')
   const [message, setMessage] = useState('')
   const [status, setStatus] = useState(null)
   const [loading, setLoading] = useState(false)
@@ -28,12 +29,12 @@ const MyCustomContactUsComp = (props) => {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, message }),
+        body: JSON.stringify({ name, email, phonenumber, message }),
       })
       const data = await res.json()
       if (res.ok) {
         setStatus({ type: 'success', text: 'Message sent — thanks!' })
-        setName(''); setEmail(''); setMessage('')
+        setName(''); setEmail(''); setMessage(''); setPhonenumber('');
       } else {
         setStatus({ type: 'error', text: data?.error || 'Failed to send message' })
       }
@@ -56,7 +57,7 @@ const MyCustomContactUsComp = (props) => {
           >
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_oFMJQG') || 'Name',
+                __html: 'Name *',
               }}
             ></span>
           </label>
@@ -70,6 +71,28 @@ const MyCustomContactUsComp = (props) => {
           />
         </div>
 
+        {/* === Name === */}
+        <div className="contact-us-input1">
+          <label
+            htmlFor="contact-form-phonenumber"
+            className="thq-body-small contact-us-text3"
+          >
+            <span
+              dangerouslySetInnerHTML={{
+                __html: 'Phone Number',
+              }}
+            ></span>
+          </label>
+          <input
+            type="number"
+            id="contact-form-phonenumber"
+            placeholder="Phone Number"
+            className="contact-us-text-input1 thq-input"
+            value={phonenumber}
+            onChange={(e) => setPhonenumber(e.target.value)}
+          />
+        </div>
+
         {/* === Email === */}
         <div className="contact-us-input2">
           <label
@@ -78,7 +101,7 @@ const MyCustomContactUsComp = (props) => {
           >
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_IYfRJb') || 'Email',
+                __html: 'Email *',
               }}
             ></span>
           </label>
@@ -101,7 +124,7 @@ const MyCustomContactUsComp = (props) => {
           >
             <span
               dangerouslySetInnerHTML={{
-                __html: translate.raw('text_T9R41w') || 'Message',
+                __html: 'Message *',
               }}
             ></span>
           </label>
