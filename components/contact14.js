@@ -161,15 +161,15 @@ const Contact14 = (props) => {
           .contact14-text1 {
             align-self: stretch;
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .contact14-text2 {
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .contact14-email1 {
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .contact14-content3 {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -202,15 +202,19 @@ const Contact14 = (props) => {
           .contact14-text3 {
             align-self: stretch;
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .contact14-text4 {
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .contact14-email2 {
+            fill: rgb(37, 211, 102);
+            color: rgb(37, 211, 102);
+            cursor: pointer;
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
+            text-decoration: underline;
           }
           .contact14-content5 {
             gap: var(--dl-layout-space-oneandhalfunits);
@@ -238,15 +242,15 @@ const Contact14 = (props) => {
           .contact14-text5 {
             align-self: stretch;
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .contact14-text6 {
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .contact14-phone {
             text-align: center;
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .contact14-text7 {
             display: inline-block;

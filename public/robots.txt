@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/sitemap.xml

@@ -30,17 +30,11 @@ const CertificateBannerComp = (props) => {
           </h2>
           <div className="certificate-banner-comp-content">
             <p className="certificate-banner-comp-text2 thq-body-large">
-              {props.content11 ?? (
-                <Fragment>
-                  <span className="certificate-banner-comp-text7">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_XEeJP8'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_AuwMD_'),
+                }}
+              ></span>
             </p>
             <div className="certificate-banner-comp-actions">
               <Link href="/product-categories">
@@ -65,7 +59,7 @@ const CertificateBannerComp = (props) => {
                   <span>
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="certificate-banner-comp-text8">
+                        <span className="certificate-banner-comp-text7">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_7Zu-wD'),
@@ -136,9 +130,6 @@ const CertificateBannerComp = (props) => {
           .certificate-banner-comp-text7 {
             display: inline-block;
           }
-          .certificate-banner-comp-text8 {
-            display: inline-block;
-          }
           .certificate-banner-comproot-class-name {
             height: auto;
             min-height: auto;
@@ -154,13 +145,44 @@ const CertificateBannerComp = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .certificate-banner-comp-container {
+              align-self: center;
+              align-items: center;
+            }
+            .certificate-banner-comp-text1 {
+              display: flex;
+              font-size: 25px;
+              justify-content: center;
+            }
             .certificate-banner-comp-content {
               width: auto;
+              align-items: center;
+              flex-direction: column;
+            }
+            .certificate-banner-comp-text2 {
+              color: rgb(255, 255, 255);
+              display: flex;
+              font-size: 12px;
+              font-family: Inter;
+              border-color: var(--dl-color-theme-neutral-dark);
+              border-width: 1px;
+              justify-content: center;
+            }
+            .certificate-banner-comp-text5 {
+              font-size: 12px;
+            }
+            .certificate-banner-comp-text7 {
+              font-size: 12px;
             }
           }
           @media (max-width: 479px) {
             .certificate-banner-comp-container {
               gap: var(--dl-layout-space-oneandhalfunits);
+            }
+          }
+          @media (max-width: 344px) {
+            .certificate-banner-comp-text2 {
+              height: auto;
             }
           }
         `}
@@ -173,7 +195,6 @@ CertificateBannerComp.defaultProps = {
   action1: undefined,
   heading11: undefined,
   backgroundImageAlt: 'Image of fresh fruits and vegetables',
-  content11: undefined,
   action2: undefined,
   rootClassName: '',
   backgroundImageSrc:
@@ -184,7 +205,6 @@ CertificateBannerComp.propTypes = {
   action1: PropTypes.element,
   heading11: PropTypes.element,
   backgroundImageAlt: PropTypes.string,
-  content11: PropTypes.element,
   action2: PropTypes.element,
   rootClassName: PropTypes.string,
   backgroundImageSrc: PropTypes.string,

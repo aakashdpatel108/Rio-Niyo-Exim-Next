@@ -31,7 +31,7 @@ const SpiceFeature1 = (props) => {
                   className="thq-img-ratio-4-3 spice-feature-1-feature1-image"
                 />
                 <div className="spice-feature-1-content2 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 spice-feature-1-feature1-title">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_aHb-uS'),
@@ -60,14 +60,14 @@ const SpiceFeature1 = (props) => {
                   className="thq-img-ratio-4-3 spice-feature-1-feature2-image"
                 />
                 <div className="spice-feature-1-content3 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 spice-feature-1-feature2-title">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_ap_BTz'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small">
+                  <span className="thq-body-small spice-feature-1-feature2-description">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_ot8CaP'),
@@ -83,14 +83,14 @@ const SpiceFeature1 = (props) => {
                   className="thq-img-ratio-4-3 spice-feature-1-feature3-image"
                 />
                 <div className="spice-feature-1-content4 thq-flex-column">
-                  <h3 className="thq-heading-3">
+                  <h3 className="thq-heading-3 spice-feature-1-feature3-title">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_1mHuaS'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small">
+                  <span className="thq-body-small spice-feature-1-feature3-description">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_bbxktn'),
@@ -184,6 +184,7 @@ const SpiceFeature1 = (props) => {
               width: 100%;
             }
             .spice-feature-1-text1 {
+              font-size: 25px;
               text-align: center;
             }
             .spice-feature-1-row {
@@ -192,14 +193,32 @@ const SpiceFeature1 = (props) => {
             .spice-feature-1-feature1-image {
               width: 100%;
             }
+            .spice-feature-1-feature1-title {
+              font-size: 18px;
+            }
+            .spice-feature-1-feature1-description {
+              font-size: 12px;
+            }
             .spice-feature-1-feature2 {
               width: auto;
             }
             .spice-feature-1-feature2-image {
               width: 100%;
             }
+            .spice-feature-1-feature2-title {
+              font-size: 18px;
+            }
+            .spice-feature-1-feature2-description {
+              font-size: 12px;
+            }
             .spice-feature-1-feature3 {
               width: auto;
+            }
+            .spice-feature-1-feature3-title {
+              font-size: 18px;
+            }
+            .spice-feature-1-feature3-description {
+              font-size: 12px;
             }
           }
         `}

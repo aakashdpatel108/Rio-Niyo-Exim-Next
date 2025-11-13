@@ -40,54 +40,9 @@ const Pulses = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="pulses-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6ZG1lk'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="pulses-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_mzX1Au'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name10"
-          page41={
-            <Fragment>
-              <span className="pulses-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_usjWz7'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="pulses-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_J9_a_C'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="pulses-text16">
+              <span className="pulses-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_bAyABM'),
@@ -98,7 +53,7 @@ const Pulses = (props) => {
           }
           text2={
             <Fragment>
-              <span className="pulses-text17">
+              <span className="pulses-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_B6dNAq'),
@@ -109,10 +64,54 @@ const Pulses = (props) => {
           }
           text3={
             <Fragment>
-              <span className="pulses-text18">
+              <span className="pulses-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_N0tVbm'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="pulses-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_6ZG1lk'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="pulses-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_usjWz7'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="pulses-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_P-hhr5'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="pulses-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7YgB9k'),
                   }}
                 ></span>
               </span>
@@ -129,53 +128,9 @@ const Pulses = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="pulses-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_S4qZgn'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="pulses-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_857cfa'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="pulses-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_P-hhr5'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="pulses-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7YgB9k'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="pulses-text24">
+              <span className="pulses-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_-EC0KT'),
@@ -184,9 +139,31 @@ const Pulses = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="pulses-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_J9_a_C'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="pulses-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_S4qZgn'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="pulses-text25">
+              <span className="pulses-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_IwGYiq'),
@@ -195,9 +172,20 @@ const Pulses = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="pulses-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_857cfa'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="pulses-text26">
+              <span className="pulses-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Xx5o1h'),
@@ -208,7 +196,7 @@ const Pulses = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="pulses-text27">
+              <span className="pulses-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_V4pzLG'),
@@ -217,6 +205,18 @@ const Pulses = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="pulses-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_mzX1Au'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name10"
           locale={props?.locale ?? ''}
         ></Nav>
         <Banner32 locale={props?.locale ?? ''}></Banner32>

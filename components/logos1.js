@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -9,18 +9,12 @@ const Logos1 = (props) => {
     <>
       <div className="logos1-container1 thq-section-padding">
         <div className="logos1-max-width thq-section-max-width">
-          <h2 className="logos1-text1 thq-heading-2">
-            {props.heading1 ?? (
-              <Fragment>
-                <span className="logos1-text2">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_Q0r7wa'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            )}
+          <h2 className="logos1-text thq-heading-2">
+            <span
+              dangerouslySetInnerHTML={{
+                __html: translate.raw('text_U3yty0'),
+              }}
+            ></span>
           </h2>
           <div className="thq-grid-6">
             <img
@@ -73,7 +67,8 @@ const Logos1 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .logos1-text1 {
+          .logos1-text {
+            font-size: 36px;
             text-align: center;
           }
           .logos1-logo1 {
@@ -94,8 +89,20 @@ const Logos1 = (props) => {
           .logos1-logo6 {
             object-fit: contain;
           }
-          .logos1-text2 {
-            display: inline-block;
+          @media (max-width: 1600px) {
+            .logos1-text {
+              font-size: 36px;
+            }
+          }
+          @media (max-width: 1200px) {
+            .logos1-text {
+              font-size: 36px;
+            }
+          }
+          @media (max-width: 991px) {
+            .logos1-text {
+              font-size: 36px;
+            }
           }
           @media (max-width: 767px) {
             .logos1-container1 {
@@ -103,6 +110,14 @@ const Logos1 = (props) => {
             }
             .logos1-max-width {
               gap: var(--dl-layout-space-twounits);
+            }
+            .logos1-text {
+              font-size: 25px;
+            }
+          }
+          @media (max-width: 344px) {
+            .logos1-text {
+              font-size: 25px;
             }
           }
         `}
@@ -130,7 +145,6 @@ Logos1.defaultProps = {
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/838a2368-6357-4526-a3f3-57fee519d8ec?org_if_sml=1&q=80&force_format=original',
   logo6Src:
     'https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/07f56a12-c428-4896-8819-194d1fef39f2?org_if_sml=1&q=80&force_format=original',
-  heading1: undefined,
 }
 
 Logos1.propTypes = {
@@ -146,7 +160,6 @@ Logos1.propTypes = {
   logo2Src: PropTypes.string,
   logo1Src: PropTypes.string,
   logo6Src: PropTypes.string,
-  heading1: PropTypes.element,
 }
 
 export default Logos1

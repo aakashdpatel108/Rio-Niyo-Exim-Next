@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
-import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 import MyCustomContactUsComp from "./MyCustomContactUsComp"
 
@@ -49,7 +48,9 @@ const ContactForm3 = (props) => {
                 <input
                   type="text"
                   id="contact-form-3-name"
+                  name="contact-form-3-name"
                   placeholder="Name"
+                  data-form-field-id="contact-form-3-name"
                   className="thq-input"
                 />
               </div>
@@ -67,15 +68,38 @@ const ContactForm3 = (props) => {
                 <input
                   type="email"
                   id="contact-form-3-email"
+                  name="phone number"
                   required="true"
                   placeholder="Email"
+                  data-form-field-id="contact-form-3-email"
+                  className="thq-input"
+                />
+              </div>
+              <div className="contact-form3-input3">
+                <label
+                  htmlFor="contact-form-3-email"
+                  className="contact-form3-text5 thq-body-small"
+                >
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_xFN23h'),
+                    }}
+                  ></span>
+                </label>
+                <input
+                  type="text"
+                  id="contact-form-3-email"
+                  name="Phone Number"
+                  required="true"
+                  placeholder="Phone Number"
+                  data-form-field-id="contact-form-3-email"
                   className="thq-input"
                 />
               </div>
               <div className="contact-form3-container">
                 <label
                   htmlFor="contact-form-3-message"
-                  className="contact-form3-text5 thq-body-small"
+                  className="contact-form3-text6 thq-body-small"
                 >
                   <span
                     dangerouslySetInnerHTML={{
@@ -85,27 +109,25 @@ const ContactForm3 = (props) => {
                 </label>
                 <textarea
                   id="contact-form-3-message"
+                  name="contact-form-3-message"
                   rows="3"
                   placeholder="Enter your message"
+                  data-form-field-id="contact-form-3-message"
                   className="thq-input"
                 ></textarea>
               </div>
               <button
+                name="button kqkhww100r"
                 type="submit"
+                data-form-field-id="button kqkhww100r"
                 className="contact-form3-button thq-button-filled"
               >
                 <span className="thq-body-small">
-                  {props.action ?? (
-                    <Fragment>
-                      <span className="contact-form3-text6">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_Jxa1gl'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_1tDcBa'),
+                    }}
+                  ></span>
                 </span>
               </button>
             </form> */}
@@ -173,6 +195,15 @@ const ContactForm3 = (props) => {
           .contact-form3-text4 {
             font-family: 'Inter';
           }
+          .contact-form3-input3 {
+            gap: var(--dl-layout-space-halfunit);
+            display: flex;
+            align-self: stretch;
+            flex-direction: column;
+          }
+          .contact-form3-text5 {
+            font-family: 'Inter';
+          }
           .contact-form3-container {
             gap: var(--dl-layout-space-halfunit);
             display: flex;
@@ -180,14 +211,11 @@ const ContactForm3 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .contact-form3-text5 {
+          .contact-form3-text6 {
             font-family: 'Inter';
           }
           .contact-form3-button {
             align-self: flex-start;
-          }
-          .contact-form3-text6 {
-            display: inline-block;
           }
           @media (max-width: 991px) {
             .contact-form3-max-width {
@@ -201,19 +229,17 @@ const ContactForm3 = (props) => {
             .contact-form3-image1 {
               width: 100%;
             }
+            .contact-form3-text1 {
+              font-size: 25px;
+            }
+            .contact-form3-text2 {
+              font-size: 16px;
+            }
           }
         `}
       </style>
     </>
   )
-}
-
-ContactForm3.defaultProps = {
-  action: undefined,
-}
-
-ContactForm3.propTypes = {
-  action: PropTypes.element,
 }
 
 export default ContactForm3

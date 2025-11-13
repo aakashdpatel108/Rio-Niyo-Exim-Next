@@ -9,7 +9,7 @@ import SpiceFeature1 from '../components/spice-feature-1'
 import SpiceFeature2 from '../components/spice-feature-2'
 import SpiceFeature3 from '../components/spice-feature-3'
 import SpiceFeature4 from '../components/spice-feature-4'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const Spices = (props) => {
   const translate = useTranslations()
@@ -19,6 +19,10 @@ const Spices = (props) => {
         <Head>
           <title>Spices - Rio Niyo Exim</title>
           <meta property="og:title" content="Spices - Rio Niyo Exim" />
+          <link
+            rel="canonical"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/spices"
+          />
         </Head>
         <Nav
           page3={
@@ -43,54 +47,9 @@ const Spices = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="spices-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_KmQFqs'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="spices-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_nVjni-'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name5"
-          page41={
-            <Fragment>
-              <span className="spices-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_nASC_9'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="spices-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-KlCoX'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="spices-text16">
+              <span className="spices-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ew5o_T'),
@@ -101,7 +60,7 @@ const Spices = (props) => {
           }
           text2={
             <Fragment>
-              <span className="spices-text17">
+              <span className="spices-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_S12xWR'),
@@ -112,10 +71,54 @@ const Spices = (props) => {
           }
           text3={
             <Fragment>
-              <span className="spices-text18">
+              <span className="spices-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_CC5GA_'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="spices-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_KmQFqs'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="spices-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_nASC_9'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="spices-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ORWuB6'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="spices-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_TKtcHn'),
                   }}
                 ></span>
               </span>
@@ -132,53 +135,9 @@ const Spices = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="spices-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TSq62Z'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="spices-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TWoLxd'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="spices-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ORWuB6'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="spices-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TKtcHn'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="spices-text24">
+              <span className="spices-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_TTI0KI'),
@@ -187,9 +146,31 @@ const Spices = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="spices-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_-KlCoX'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="spices-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_TSq62Z'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="spices-text25">
+              <span className="spices-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_cBi1gF'),
@@ -198,9 +179,20 @@ const Spices = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="spices-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_TWoLxd'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="spices-text26">
+              <span className="spices-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ZTvh2U'),
@@ -211,7 +203,7 @@ const Spices = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="spices-text27">
+              <span className="spices-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GZJqi-'),
@@ -220,6 +212,18 @@ const Spices = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="spices-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_nVjni-'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name5"
           locale={props?.locale ?? ''}
         ></Nav>
         <Banner3
@@ -254,28 +258,93 @@ const Spices = (props) => {
         <SpiceFeature2 locale={props?.locale ?? ''}></SpiceFeature2>
         <SpiceFeature3
           rootClassName="spice-feature3root-class-name"
-          feature1Description={
-            <Fragment>
-              <span className="spices-text30">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1f0g5E'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           locale={props?.locale ?? ''}
         ></SpiceFeature3>
         <SpiceFeature4
           rootClassName="spice-feature4root-class-name"
           locale={props?.locale ?? ''}
         ></SpiceFeature4>
-        <Footer
-          logoSrc="/rioniyoexim.svg"
-          rootClassName="footerroot-class-name9"
+        <FooterMain
+          link2={
+            <Fragment>
+              <span className="spices-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_7HAZRc'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="spices-text31">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_cK4cIy'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="spices-text32">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_tozo_A'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="spices-text33">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_BSWzwg'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="spices-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_4SoNtW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="spices-text35">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_moKJ28'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="spices-text36">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_9y6pNh'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="footer-mainroot-class-name8"
           locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -348,6 +417,24 @@ const Spices = (props) => {
             display: inline-block;
           }
           .spices-text30 {
+            display: inline-block;
+          }
+          .spices-text31 {
+            display: inline-block;
+          }
+          .spices-text32 {
+            display: inline-block;
+          }
+          .spices-text33 {
+            display: inline-block;
+          }
+          .spices-text34 {
+            display: inline-block;
+          }
+          .spices-text35 {
+            display: inline-block;
+          }
+          .spices-text36 {
             display: inline-block;
           }
         `}

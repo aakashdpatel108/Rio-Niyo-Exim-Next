@@ -32,8 +32,8 @@ const MeetOurTeam = (props) => {
               <div className="meet-our-team-row">
                 <div className="meet-our-team-card1">
                   <img
-                    alt="Image of John Doe"
-                    src="https://images.unsplash.com/photo-1583314965950-cd54a8b6db84?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTA5MjkxM3w&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=600"
+                    alt="Divyesh patel"
+                    src="/divyesh%20patel%20profile-600w.jpg"
                     className="thq-img-ratio-1-1 meet-our-team-placeholder-image1"
                   />
                   <div className="meet-our-team-content4">
@@ -321,8 +321,29 @@ const MeetOurTeam = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .meet-our-team-section-title {
+              width: 395px;
+            }
+            .meet-our-team-content1 {
+              width: 358px;
+            }
+            .meet-our-team-text10 {
+              font-size: 25px;
+              text-align: left;
+            }
+            .meet-our-team-text11 {
+              width: 315px;
+              font-size: 18px;
+              text-align: left;
+            }
             .meet-our-team-row {
               flex-direction: column;
+            }
+            .meet-our-team-text14 {
+              font-size: 16px;
+            }
+            .meet-our-team-text17 {
+              font-size: 16px;
             }
           }
           @media (max-width: 479px) {
@@ -331,6 +352,15 @@ const MeetOurTeam = (props) => {
             }
             .meet-our-team-placeholder-image2 {
               height: 450px;
+            }
+          }
+          @media (max-width: 344px) {
+            .meet-our-team-content1 {
+              width: 309px;
+              margin-right: 0px;
+            }
+            .meet-our-team-text11 {
+              width: 274px;
             }
           }
         `}

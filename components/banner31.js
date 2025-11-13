@@ -30,7 +30,7 @@ const Banner31 = (props) => {
               ></span>
             </h3>
           </div>
-          <button type="button" className="thq-button-filled">
+          <button type="button" className="thq-button-filled banner31-button">
             <Link href="/contact-us">
               <a className="banner31-link">
                 <span
@@ -80,11 +80,81 @@ const Banner31 = (props) => {
             text-align: center;
           }
           .banner31-text {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
+            font-style: normal;
             text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 400;
           }
           .banner31-link {
             text-decoration: none;
+          }
+          @media (max-width: 991px) {
+            .banner31-title {
+              color: rgb(255, 255, 255);
+            }
+            .banner31-text {
+              color: rgb(255, 255, 255);
+              font-style: normal;
+              font-family: Open Sans;
+              font-weight: 400;
+            }
+          }
+          @media (max-width: 767px) {
+            .banner31-title {
+              color: rgb(255, 255, 255);
+              width: 670px;
+              font-size: 25px;
+              text-align: left;
+              font-family: Taviraj;
+            }
+            .banner31-text {
+              color: rgb(255, 255, 255);
+              font-size: 16px;
+              font-style: normal;
+              text-align: left;
+              font-family: Open Sans;
+              font-weight: 400;
+            }
+            .banner31-button {
+              text-align: left;
+            }
+            .banner31-link {
+              text-decoration: none;
+            }
+          }
+          @media (max-width: 344px) {
+            .banner31-max-width {
+              align-self: center;
+            }
+            .banner31-container2 {
+              align-self: flex-start;
+            }
+            .banner31-title {
+              color: rgb(255, 255, 255);
+              width: 295px;
+              font-size: 25px;
+              text-align: left;
+              font-family: Taviraj;
+            }
+            .banner31-text {
+              color: rgb(255, 255, 255);
+              font-size: 16px;
+              font-style: normal;
+              text-align: left;
+              font-family: Open Sans;
+              font-weight: 400;
+            }
+            .banner31-button {
+              width: 98px;
+              height: 32px;
+              text-align: left;
+              margin-right: 1px;
+            }
+            .banner31-link {
+              font-size: 12px;
+              text-decoration: none;
+            }
           }
         `}
       </style>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const Certificate1 = (props) => {
@@ -14,22 +13,9 @@ const Certificate1 = (props) => {
             {activeTab === 0 && (
               <img
                 alt="OFICE"
-                src="/iec-1400w.png"
-                className="certificate-1-image1 thq-img-ratio-16-9"
-              />
-            )}
-            {activeTab === 1 && (
-              <img
-                alt={props.feature2ImgAlt}
-                src={props.feature2ImgSrc}
-                className="certificate-1-image2 thq-img-ratio-16-9"
-              />
-            )}
-            {activeTab === 2 && (
-              <img
-                alt={props.feature3ImgAlt}
-                src={props.feature3ImgSrc}
-                className="certificate-1-image3 thq-img-ratio-16-9"
+                src="/iec-1000h.png"
+                loading="eager"
+                className="certificate-1-image thq-img-ratio-16-9"
               />
             )}
           </div>
@@ -102,27 +88,11 @@ const Certificate1 = (props) => {
             display: flex;
             position: relative;
           }
-          .certificate-1-image1 {
+          .certificate-1-image {
             height: 990px;
             border-color: var(--dl-color-theme-neutral-dark);
             border-style: solid;
             border-width: 3px;
-            animation-name: fadeIn;
-            animation-delay: 0s;
-            animation-duration: 300ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-          }
-          .certificate-1-image2 {
-            animation-name: fadeIn;
-            animation-delay: 0s;
-            animation-duration: 300ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
-          }
-          .certificate-1-image3 {
             animation-name: fadeIn;
             animation-delay: 0s;
             animation-duration: 300ms;
@@ -207,18 +177,21 @@ const Certificate1 = (props) => {
             background-color: var(--dl-color-theme-neutral-dark);
           }
           @media (max-width: 1600px) {
-            .certificate-1-image1 {
+            .certificate-1-image {
               border-style: solid;
               border-width: 3px;
             }
           }
           @media (max-width: 1200px) {
-            .certificate-1-image1 {
+            .certificate-1-image {
               width: 478px;
               height: 667px;
             }
           }
           @media (max-width: 991px) {
+            .certificate-1-container1 {
+              width: 795px;
+            }
             .certificate-1-container2 {
               grid-gap: var(--dl-layout-space-twounits);
               grid-template-columns: 1fr;
@@ -227,9 +200,21 @@ const Certificate1 = (props) => {
               justify-content: center;
             }
           }
-          @media (max-width: 414px) {
-            .certificate-1-image1 {
-              width: 364px;
+          @media (max-width: 767px) {
+            .certificate-1-image-container {
+              width: auto;
+              height: auto;
+              padding-left: var(--dl-layout-space-halfunit);
+              padding-right: var(--dl-layout-space-halfunit);
+            }
+            .certificate-1-image {
+              width: 478px;
+              height: 667px;
+            }
+          }
+          @media (max-width: 344px) {
+            .certificate-1-image {
+              width: 100%;
               height: 514px;
             }
           }
@@ -237,22 +222,6 @@ const Certificate1 = (props) => {
       </style>
     </>
   )
-}
-
-Certificate1.defaultProps = {
-  feature3ImgAlt: 'Global connections icon',
-  feature2ImgAlt: 'Quality check icon',
-  feature3ImgSrc:
-    'https://images.unsplash.com/photo-1706407281811-eec5d826864b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
-  feature2ImgSrc:
-    'https://images.unsplash.com/photo-1750165023743-1ce8d4d03ce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
-}
-
-Certificate1.propTypes = {
-  feature3ImgAlt: PropTypes.string,
-  feature2ImgAlt: PropTypes.string,
-  feature3ImgSrc: PropTypes.string,
-  feature2ImgSrc: PropTypes.string,
 }
 
 export default Certificate1

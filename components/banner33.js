@@ -1,7 +1,6 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Link from 'next/link'
 
-import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
 const Banner33 = (props) => {
@@ -17,46 +16,28 @@ const Banner33 = (props) => {
         <div className="banner33-max-width thq-section-max-width">
           <div className="banner33-container2">
             <h2 className="banner33-title thq-heading-2">
-              {props.heading1 ?? (
-                <Fragment>
-                  <span className="banner33-text4">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_PfqVcx'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_0ZouBH'),
+                }}
+              ></span>
             </h2>
             <h3 className="banner33-text1 thq-heading-3">
-              {props.content1 ?? (
-                <Fragment>
-                  <span className="banner33-text5">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_oK_ia5'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_GS7Ugo'),
+                }}
+              ></span>
             </h3>
           </div>
           <Link href="/contact-us">
             <a className="banner33-link thq-button-filled">
-              <span>
-                {props.action1 ?? (
-                  <Fragment>
-                    <span className="banner33-text3">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_42hOGg'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+              <span className="banner33-text2">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_OF37ZY'),
+                  }}
+                ></span>
               </span>
               <span
                 dangerouslySetInnerHTML={{
@@ -100,41 +81,50 @@ const Banner33 = (props) => {
             flex-direction: column;
           }
           .banner33-title {
+            color: #ffffff;
             text-align: center;
           }
           .banner33-text1 {
+            color: #ffffff;
+            font-style: normal;
             text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 400;
           }
           .banner33-link {
             text-decoration: none;
           }
-          .banner33-text3 {
-            display: inline-block;
+          @media (max-width: 767px) {
+            .banner33-title {
+              font-size: 25px;
+            }
+            .banner33-text1 {
+              font-size: 12px;
+            }
+            .banner33-text2 {
+              font-size: 12px;
+            }
           }
-          .banner33-text4 {
-            color: rgb(255, 255, 255);
-            display: inline-block;
-          }
-          .banner33-text5 {
-            color: #ffffff;
-            display: inline-block;
+          @media (max-width: 344px) {
+            .banner33-title {
+              color: #ffffff;
+              font-size: 20px;
+            }
+            .banner33-text1 {
+              color: #ffffff;
+              font-size: 10px;
+            }
+            .banner33-link {
+              width: 101px;
+            }
+            .banner33-text2 {
+              font-size: 10px;
+            }
           }
         `}
       </style>
     </>
   )
-}
-
-Banner33.defaultProps = {
-  action1: undefined,
-  heading1: undefined,
-  content1: undefined,
-}
-
-Banner33.propTypes = {
-  action1: PropTypes.element,
-  heading1: PropTypes.element,
-  content1: PropTypes.element,
 }
 
 export default Banner33

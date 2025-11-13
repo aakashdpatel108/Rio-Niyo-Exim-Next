@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
 import FruitsFeature1 from '../components/fruits-feature-1'
-import Footer from '../components/footer'
+import FooterMain from '../components/footer-main'
 
 const Blogs = (props) => {
   const translate = useTranslations()
@@ -15,6 +15,10 @@ const Blogs = (props) => {
         <Head>
           <title>Blogs - Rio Niyo Exim</title>
           <meta property="og:title" content="Blogs - Rio Niyo Exim" />
+          <link
+            rel="canonical"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/blogs"
+          />
         </Head>
         <Nav
           page3={
@@ -39,54 +43,9 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
-          fruits={
-            <Fragment>
-              <span className="blogs-text12">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_iSaQCX'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          vegetables={
-            <Fragment>
-              <span className="blogs-text13">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_o7spzW'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          rootClassName="navroot-class-name8"
-          page41={
-            <Fragment>
-              <span className="blogs-text14">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_zaKDVi'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          page411={
-            <Fragment>
-              <span className="blogs-text15">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Qm-0PQ'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text1={
             <Fragment>
-              <span className="blogs-text16">
+              <span className="blogs-text12">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ZOwW9I'),
@@ -97,7 +56,7 @@ const Blogs = (props) => {
           }
           text2={
             <Fragment>
-              <span className="blogs-text17">
+              <span className="blogs-text13">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ruUR5o'),
@@ -108,10 +67,54 @@ const Blogs = (props) => {
           }
           text3={
             <Fragment>
-              <span className="blogs-text18">
+              <span className="blogs-text14">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LKwgfx'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          fruits={
+            <Fragment>
+              <span className="blogs-text15">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_iSaQCX'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          page41={
+            <Fragment>
+              <span className="blogs-text16">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_zaKDVi'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text11={
+            <Fragment>
+              <span className="blogs-text17">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_DDx4do'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text21={
+            <Fragment>
+              <span className="blogs-text18">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_lX0AKa'),
                   }}
                 ></span>
               </span>
@@ -128,53 +131,9 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
-          text311={
-            <Fragment>
-              <span className="blogs-text20">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_j6aeNV'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text3111={
-            <Fragment>
-              <span className="blogs-text21">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_CCYzWH'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text11={
-            <Fragment>
-              <span className="blogs-text22">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_DDx4do'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text21={
-            <Fragment>
-              <span className="blogs-text23">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lX0AKa'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text32={
             <Fragment>
-              <span className="blogs-text24">
+              <span className="blogs-text20">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_A7QCh6'),
@@ -183,9 +142,31 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          page411={
+            <Fragment>
+              <span className="blogs-text21">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Qm-0PQ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text311={
+            <Fragment>
+              <span className="blogs-text22">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_j6aeNV'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text312={
             <Fragment>
-              <span className="blogs-text25">
+              <span className="blogs-text23">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_a6-kuW'),
@@ -194,9 +175,20 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          text3111={
+            <Fragment>
+              <span className="blogs-text24">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_CCYzWH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           text3112={
             <Fragment>
-              <span className="blogs-text26">
+              <span className="blogs-text25">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Q8NOCY'),
@@ -207,7 +199,7 @@ const Blogs = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="blogs-text27">
+              <span className="blogs-text26">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_iZPgmH'),
@@ -216,82 +208,104 @@ const Blogs = (props) => {
               </span>
             </Fragment>
           }
+          vegetables={
+            <Fragment>
+              <span className="blogs-text27">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_o7spzW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="navroot-class-name8"
           locale={props?.locale ?? ''}
         ></Nav>
         <FruitsFeature1
-          slogan1={
+          rootClassName="fruits-feature1root-class-name"
+          locale={props?.locale ?? ''}
+        ></FruitsFeature1>
+        <FooterMain
+          link2={
             <Fragment>
               <span className="blogs-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FsWJhF'),
+                    __html: translate.raw('text_V4C05C'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          content1={
+          link3={
             <Fragment>
               <span className="blogs-text29">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_u2J_Tw'),
+                    __html: translate.raw('text_yx7yBW'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          heading1={
+          link4={
             <Fragment>
               <span className="blogs-text30">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_b-9bxv'),
+                    __html: translate.raw('text_VhzTyg'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          feature1Title={
+          link5={
             <Fragment>
               <span className="blogs-text31">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8wQW31'),
+                    __html: translate.raw('text_ayYCZv'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          feature2Title={
+          termsLink={
             <Fragment>
               <span className="blogs-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_GOzfGP'),
+                    __html: translate.raw('text_Goz6zk'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          feature3Title={
+          cookiesLink={
             <Fragment>
               <span className="blogs-text33">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Uv8tqK'),
+                    __html: translate.raw('text_Jn6227'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="fruits-feature1root-class-name"
+          privacyLink={
+            <Fragment>
+              <span className="blogs-text34">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_BrIZmR'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
           locale={props?.locale ?? ''}
-        ></FruitsFeature1>
-        <Footer
-          rootClassName="footerroot-class-name10"
-          locale={props?.locale ?? ''}
-        ></Footer>
+        ></FooterMain>
       </div>
       <style jsx>
         {`
@@ -373,6 +387,9 @@ const Blogs = (props) => {
             display: inline-block;
           }
           .blogs-text33 {
+            display: inline-block;
+          }
+          .blogs-text34 {
             display: inline-block;
           }
         `}
