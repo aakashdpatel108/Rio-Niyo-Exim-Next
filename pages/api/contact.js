@@ -53,10 +53,10 @@ export default async function handler(req, res) {
 
     // ---- EMAIL CONTENT ----
     const mailOptions = {
-        from: `"${name ?? 'Website Contact'}" <${process.env.senderemail}>`,
+        from: `"Website Contact" <${process.env.senderemail}>`,
         to: process.env.receiveremail,
         replyTo: email,
-        subject: `New contact form message${name ? ` from ${name}` : ''}`,
+        subject: `New inquiry from ${name ? ` from ${name}` : ''}`,
         text: `Name: ${name || '—'}\nEmail: ${email}\n\nMessage:\n${message}\nPhone Number:\n${phonenumber}`,
         html: `<p><strong>Name:</strong> ${name || '—'}</p>
            <p><strong>Email:</strong> ${email}</p>

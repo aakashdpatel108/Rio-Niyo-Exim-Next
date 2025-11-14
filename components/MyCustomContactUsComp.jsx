@@ -19,8 +19,8 @@ const MyCustomContactUsComp = (props) => {
     e.preventDefault()
     setStatus(null)
 
-    if (!email || !message) {
-      setStatus({ type: 'error', text: 'Please provide email and message.' })
+    if (!name || !email || !message) {
+      setStatus({ type: 'error', text: 'Please provide name, email and message.' })
       return
     }
 
@@ -84,12 +84,16 @@ const MyCustomContactUsComp = (props) => {
             ></span>
           </label>
           <input
-            type="number"
+            type="text"
             id="contact-form-phonenumber"
             placeholder="Phone Number"
             className="contact-us-text-input1 thq-input"
             value={phonenumber}
-            onChange={(e) => setPhonenumber(e.target.value)}
+            onChange={(e) => {
+              const value = e.target.value
+              const cleaned = value.replace(/[^0-9+]/g, '')
+              setPhonenumber(cleaned)
+            }}
           />
         </div>
 
