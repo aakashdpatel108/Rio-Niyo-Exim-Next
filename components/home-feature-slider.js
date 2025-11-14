@@ -44,11 +44,6 @@ const HomeFeatureSlider = (props) => {
                   )}
                 </a>
               </Link>
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: translate.raw('text_QwPhGx'),
-                }}
-              ></span>
             </button>
           </div>
         </div>
