@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -17,18 +17,12 @@ const ProductCategoryBanner = (props) => {
                 }}
               ></span>
             </h2>
-            <h3 className="product-category-banner-text1 thq-heading-3">
-              {props.content1 ?? (
-                <Fragment>
-                  <span className="product-category-banner-text2">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_KV8d_S'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+            <h3 className="product-category-banner-text thq-heading-3">
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_IAK-lI'),
+                }}
+              ></span>
             </h3>
           </div>
           <video
@@ -71,8 +65,12 @@ const ProductCategoryBanner = (props) => {
               rgb(135, 223, 87) 100%
             );
           }
-          .product-category-banner-text1 {
+          .product-category-banner-text {
+            font-size: 20px;
+            font-style: normal;
             text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 400;
           }
           .product-category-banner-video {
             top: 0px;
@@ -96,11 +94,51 @@ const ProductCategoryBanner = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .product-category-banner-text2 {
-            display: inline-block;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
+          @media (max-width: 991px) {
+            .product-category-banner-title {
+              background-image: linear-gradient(
+                90deg,
+                rgb(189, 195, 199) 0%,
+                rgb(135, 223, 87) 100%
+              );
+            }
+            .product-category-banner-text {
+              font-style: normal;
+              font-family: Open Sans;
+              font-weight: 400;
+            }
+          }
+          @media (max-width: 767px) {
+            .product-category-banner-title {
+              font-size: 25px;
+              background-image: linear-gradient(
+                90deg,
+                rgb(189, 195, 199) 0%,
+                rgb(135, 223, 87) 100%
+              );
+            }
+            .product-category-banner-text {
+              font-size: 12px;
+              font-style: normal;
+              font-family: Open Sans;
+              font-weight: 400;
+            }
+          }
+          @media (max-width: 344px) {
+            .product-category-banner-title {
+              font-size: 25px;
+              background-image: linear-gradient(
+                90deg,
+                rgb(189, 195, 199) 0%,
+                rgb(135, 223, 87) 100%
+              );
+            }
+            .product-category-banner-text {
+              font-size: 15px;
+              font-style: normal;
+              font-family: Open Sans;
+              font-weight: 400;
+            }
           }
         `}
       </style>
@@ -110,13 +148,11 @@ const ProductCategoryBanner = (props) => {
 
 ProductCategoryBanner.defaultProps = {
   video1Src: '',
-  content1: undefined,
   video1Poster: 'example.com/video1Poster.jpg',
 }
 
 ProductCategoryBanner.propTypes = {
   video1Src: PropTypes.string,
-  content1: PropTypes.element,
   video1Poster: PropTypes.string,
 }
 

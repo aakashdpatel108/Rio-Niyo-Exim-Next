@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Link from 'next/link'
 
 import PropTypes from 'prop-types'
@@ -12,33 +12,21 @@ const Banner21 = (props) => {
         <div className="banner21-max-width thq-section-max-width">
           <div className="banner21-container2">
             <h2 className="banner21-title thq-heading-2">
-              {props.heading1 ?? (
-                <Fragment>
-                  <span className="banner21-text3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_zLh7Xg'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_81G-9t'),
+                }}
+              ></span>
             </h2>
           </div>
           <Link href="/product-categories">
             <a className="banner21-link thq-button-filled">
-              <span>
-                {props.action1 ?? (
-                  <Fragment>
-                    <span className="banner21-text2">
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_wGDkZ2'),
-                        }}
-                      ></span>
-                    </span>
-                  </Fragment>
-                )}
+              <span className="banner21-text">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ES_rkI'),
+                  }}
+                ></span>
               </span>
             </a>
           </Link>
@@ -91,11 +79,20 @@ const Banner21 = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .banner21-text2 {
-            display: inline-block;
-          }
-          .banner21-text3 {
-            display: inline-block;
+          @media (max-width: 767px) {
+            .banner21-title {
+              color: var(--dl-color-theme-secondary1);
+              font-size: 25px;
+              font-family: Taviraj;
+            }
+            .banner21-link {
+              width: 140px;
+              padding-left: 3px;
+              padding-right: 0px;
+            }
+            .banner21-text {
+              font-size: 12px;
+            }
           }
         `}
       </style>
@@ -106,16 +103,12 @@ const Banner21 = (props) => {
 Banner21.defaultProps = {
   video1Poster:
     'https://images.pexels.com/videos/3365440/pictures/preview-0.jpg',
-  action1: undefined,
-  heading1: undefined,
   video1Src:
     'https://videos.pexels.com/video-files/3365440/3365440-hd_1280_720_30fps.mp4',
 }
 
 Banner21.propTypes = {
   video1Poster: PropTypes.string,
-  action1: PropTypes.element,
-  heading1: PropTypes.element,
   video1Src: PropTypes.string,
 }
 

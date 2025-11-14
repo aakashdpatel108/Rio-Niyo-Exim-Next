@@ -33,7 +33,7 @@ const Banner3 = (props) => {
           </div>
           <Link href="/contact-us">
             <a className="banner3-link thq-button-filled">
-              <span>
+              <span className="banner3-text2">
                 {props.action1 ?? (
                   <Fragment>
                     <span className="banner3-text3">
@@ -88,13 +88,27 @@ const Banner3 = (props) => {
           }
           .banner3-text1 {
             color: rgb(255, 255, 255);
+            font-style: normal;
             text-align: center;
+            font-family: 'Open Sans';
+            font-weight: 400;
           }
           .banner3-link {
             text-decoration: none;
           }
           .banner3-text3 {
             display: inline-block;
+          }
+          @media (max-width: 767px) {
+            .banner3-title {
+              font-size: 25px;
+            }
+            .banner3-text1 {
+              font-size: 18px;
+            }
+            .banner3-text2 {
+              font-size: 12px;
+            }
           }
         `}
       </style>

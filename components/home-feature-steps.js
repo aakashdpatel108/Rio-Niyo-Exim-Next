@@ -1,35 +1,37 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
-const Steps2 = (props) => {
+const HomeFeatureSteps = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="steps2-container1 thq-section-padding">
-        <div className="steps2-max-width thq-section-max-width">
-          <div className="steps2-container2 thq-grid-2">
-            <div className="steps2-section-header">
-              <span className="steps2-text10">
+      <div
+        className={`home-feature-steps-container1 thq-section-padding ${props.rootClassName} `}
+      >
+        <div className="home-feature-steps-max-width thq-section-max-width">
+          <div className="home-feature-steps-container2 thq-grid-2">
+            <div className="home-feature-steps-section-header">
+              <span className="home-feature-steps-text10">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_uDyrR_'),
                   }}
                 ></span>
               </span>
-              <p className="steps2-text11 thq-body-large">
+              <p className="home-feature-steps-text11 thq-body-large">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ri3SQv'),
                   }}
                 ></span>
               </p>
-              <div className="steps2-actions">
+              <div className="home-feature-steps-actions">
                 <Link href="/about-us">
-                  <a className="steps2-link thq-button-filled thq-button-animated">
-                    <span className="thq-body-small steps2-text12">
+                  <a className="home-feature-steps-link thq-button-filled thq-button-animated">
+                    <span className="thq-body-small home-feature-steps-text12">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_d4qUKE'),
@@ -40,16 +42,16 @@ const Steps2 = (props) => {
                 </Link>
               </div>
             </div>
-            <div className="steps2-container3">
-              <div className="steps2-container4 thq-card">
-                <h2 className="steps2-text13 thq-heading-2">
+            <div className="home-feature-steps-container3">
+              <div className="home-feature-steps-container4 thq-card">
+                <h2 className="home-feature-steps-text13 thq-heading-2">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_9Z2lf5'),
                     }}
                   ></span>
                 </h2>
-                <span className="steps2-text14 thq-body-small">
+                <span className="home-feature-steps-text14 thq-body-small">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_zde29O'),
@@ -57,15 +59,15 @@ const Steps2 = (props) => {
                   ></span>
                 </span>
               </div>
-              <div className="steps2-container5 thq-card">
-                <h2 className="steps2-heading thq-heading-2">
+              <div className="home-feature-steps-container5 thq-card">
+                <h2 className="home-feature-steps-heading thq-heading-2">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_Q1-6zR'),
                     }}
                   ></span>
                 </h2>
-                <span className="steps2-text15 thq-body-small">
+                <span className="home-feature-steps-text15 thq-body-small">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_o-ziXF'),
@@ -73,15 +75,15 @@ const Steps2 = (props) => {
                   ></span>
                 </span>
               </div>
-              <div className="steps2-container6 thq-card">
-                <h2 className="steps2-text16 thq-heading-2">
+              <div className="home-feature-steps-container6 thq-card">
+                <h2 className="home-feature-steps-text16 thq-heading-2">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_UmhFnz'),
                     }}
                   ></span>
                 </h2>
-                <span className="steps2-text17 thq-body-small">
+                <span className="home-feature-steps-text17 thq-body-small">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_fkNTLU'),
@@ -89,26 +91,20 @@ const Steps2 = (props) => {
                   ></span>
                 </span>
               </div>
-              <div className="steps2-container7 thq-card">
-                <h2 className="steps2-text18 thq-heading-2">
+              <div className="home-feature-steps-container7 thq-card">
+                <h2 className="home-feature-steps-text18 thq-heading-2">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_Cj29TQ'),
                     }}
                   ></span>
                 </h2>
-                <span className="steps2-text19 thq-body-small">
-                  {props.step4Description ?? (
-                    <Fragment>
-                      <span className="steps2-text20">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_TewuTW'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                <span className="home-feature-steps-text19 thq-body-small">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_JOj98Y'),
+                    }}
+                  ></span>
                 </span>
               </div>
             </div>
@@ -117,7 +113,7 @@ const Steps2 = (props) => {
       </div>
       <style jsx>
         {`
-          .steps2-container1 {
+          .home-feature-steps-container1 {
             width: 100%;
             display: flex;
             position: relative;
@@ -125,17 +121,17 @@ const Steps2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .steps2-max-width {
+          .home-feature-steps-max-width {
             gap: var(--dl-layout-space-fourunits);
             width: 100%;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
           }
-          .steps2-container2 {
+          .home-feature-steps-container2 {
             align-items: start;
           }
-          .steps2-section-header {
+          .home-feature-steps-section-header {
             gap: var(--dl-layout-space-oneandhalfunits);
             top: 10%;
             display: flex;
@@ -143,7 +139,7 @@ const Steps2 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .steps2-text10 {
+          .home-feature-steps-text10 {
             color: rgb(65, 63, 63);
             width: 100%;
             height: auto;
@@ -157,224 +153,256 @@ const Steps2 = (props) => {
             border-color: var(--dl-color-theme-neutral-dark);
             border-width: 0px;
           }
-          .steps2-text11 {
+          .home-feature-steps-text11 {
             font-family: 'Open Sans';
           }
-          .steps2-actions {
+          .home-feature-steps-actions {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-items: flex-start;
           }
-          .steps2-link {
+          .home-feature-steps-link {
             text-decoration: none;
           }
-          .steps2-container3 {
+          .home-feature-steps-container3 {
             grid-area: span 1 / span 1 / span 1 / span 1;
           }
-          .steps2-container4 {
+          .home-feature-steps-container4 {
             top: 10%;
             position: sticky;
             transform: rotate(-2deg);
             margin-bottom: var(--dl-layout-space-twounits);
             background-color: var(--dl-color-theme-accent1);
           }
-          .steps2-text13 {
+          .home-feature-steps-text13 {
             font-size: 35px;
             text-align: left;
             font-family: 'Taviraj';
           }
-          .steps2-text14 {
+          .home-feature-steps-text14 {
             text-align: left;
             font-family: 'Open Sans';
           }
-          .steps2-container5 {
+          .home-feature-steps-container5 {
             top: 10%;
             position: sticky;
             transform: rotate(2deg);
             margin-bottom: var(--dl-layout-space-twounits);
             background-color: var(--dl-color-theme-accent2);
           }
-          .steps2-heading {
+          .home-feature-steps-heading {
             text-align: left;
             font-family: 'Taviraj';
           }
-          .steps2-text15 {
+          .home-feature-steps-text15 {
             text-align: left;
             font-family: 'Open Sans';
           }
-          .steps2-container6 {
+          .home-feature-steps-container6 {
             top: 10%;
             position: sticky;
             transform: rotate(-2deg);
             margin-bottom: var(--dl-layout-space-twounits);
             background-color: var(--dl-color-theme-accent1);
           }
-          .steps2-text16 {
+          .home-feature-steps-text16 {
             text-align: left;
             font-family: 'Taviraj';
           }
-          .steps2-text17 {
+          .home-feature-steps-text17 {
             text-align: left;
             font-family: 'Open Sans';
           }
-          .steps2-container7 {
+          .home-feature-steps-container7 {
             top: 10%;
             position: sticky;
             transform: rotate(2deg);
             background-color: var(--dl-color-theme-accent2);
           }
-          .steps2-text18 {
+          .home-feature-steps-text18 {
             font-family: 'Taviraj';
           }
-          .steps2-text19 {
+          .home-feature-steps-text19 {
             text-align: left;
           }
-          .steps2-text20 {
-            display: inline-block;
-            font-family: 'Open Sans';
-          }
+
           @media (max-width: 1600px) {
-            .steps2-text10 {
+            .home-feature-steps-text10 {
               border-width: 0px;
             }
           }
           @media (max-width: 991px) {
-            .steps2-max-width {
+            .home-feature-steps-max-width {
               flex-direction: column;
             }
-            .steps2-text10 {
+            .home-feature-steps-text10 {
               color: rgb(65, 63, 63);
               font-size: 55px;
               font-style: normal;
               font-family: Inter;
               font-weight: 900;
             }
-            .steps2-text11 {
+            .home-feature-steps-text11 {
               font-size: 16px;
             }
-            .steps2-text18 {
+            .home-feature-steps-text18 {
               font-family: Taviraj;
+            }
+            .home-feature-stepsroot-class-name {
+              width: auto;
             }
           }
           @media (max-width: 767px) {
-            .steps2-section-header {
+            .home-feature-steps-container1 {
+              height: auto;
+            }
+            .home-feature-steps-section-header {
+              width: auto;
               position: static;
               margin-bottom: var(--dl-layout-space-twounits);
             }
-            .steps2-text10 {
+            .home-feature-steps-text10 {
               color: rgb(65, 63, 63);
+              width: 100%;
               font-size: 50px;
               font-style: normal;
               font-family: Inter;
               font-weight: 900;
               border-width: 0px;
             }
-            .steps2-text11 {
+            .home-feature-steps-text11 {
               font-size: 15px;
               font-family: Open Sans;
             }
-            .steps2-actions {
+            .home-feature-steps-actions {
               width: 100%;
               align-self: flex-start;
             }
-            .steps2-link {
+            .home-feature-steps-link {
+              width: 102px;
               font-size: 12px;
             }
-            .steps2-text12 {
+            .home-feature-steps-text12 {
               font-size: 12px;
             }
-            .steps2-container4 {
+            .home-feature-steps-container3 {
+              width: auto;
+            }
+            .home-feature-steps-container4 {
               width: 100%;
             }
-            .steps2-text13 {
-              font-size: 35px;
+            .home-feature-steps-text13 {
+              font-size: 20px;
               font-family: Taviraj;
             }
-            .steps2-text14 {
+            .home-feature-steps-text14 {
+              font-size: 15px;
               font-family: Open Sans;
             }
-            .steps2-container5 {
+            .home-feature-steps-container5 {
               width: 100%;
             }
-            .steps2-heading {
+            .home-feature-steps-heading {
+              font-size: 20px;
               font-family: Taviraj;
             }
-            .steps2-text15 {
+            .home-feature-steps-text15 {
+              font-size: 15px;
               font-family: Open Sans;
             }
-            .steps2-container6 {
+            .home-feature-steps-container6 {
               width: 100%;
             }
-            .steps2-text16 {
+            .home-feature-steps-text16 {
+              font-size: 20px;
               font-family: Taviraj;
             }
-            .steps2-text17 {
+            .home-feature-steps-text17 {
+              font-size: 15px;
               font-family: Open Sans;
             }
-            .steps2-container7 {
+            .home-feature-steps-container7 {
               width: 100%;
             }
-            .steps2-text18 {
+            .home-feature-steps-text18 {
+              font-size: 20px;
               font-family: Taviraj;
             }
-            .steps2-text20 {
-              font-family: Open Sans;
+            .home-feature-steps-text19 {
+              font-size: 15px;
+            }
+            .home-feature-stepsroot-class-name {
+              height: auto;
             }
           }
           @media (max-width: 479px) {
-            .steps2-link {
+            .home-feature-steps-link {
               width: 100%;
             }
           }
           @media (max-width: 344px) {
-            .steps2-text10 {
+            .home-feature-steps-container1 {
+              height: 100%;
+            }
+            .home-feature-steps-section-header {
+              width: 100%;
+            }
+            .home-feature-steps-text10 {
               color: rgb(65, 63, 63);
               font-size: 40px;
               font-style: normal;
               font-family: Inter;
               font-weight: 900;
             }
-            .steps2-text11 {
-              font-size: 16px;
+            .home-feature-steps-text11 {
+              font-size: 12px;
               font-family: Open Sans;
             }
-            .steps2-text12 {
+            .home-feature-steps-text12 {
               font-size: 12px;
             }
-            .steps2-text13 {
+            .home-feature-steps-container3 {
+              width: 100%;
+            }
+            .home-feature-steps-container4 {
+              width: 100%;
+            }
+            .home-feature-steps-text13 {
               font-size: 20px;
               text-align: left;
             }
-            .steps2-text14 {
+            .home-feature-steps-text14 {
               font-size: 15px;
               text-align: left;
               font-family: Open Sans;
             }
-            .steps2-heading {
+            .home-feature-steps-heading {
               font-size: 20px;
-              font-family: Inter;
+              font-family: Taviraj;
             }
-            .steps2-text15 {
+            .home-feature-steps-text15 {
               font-size: 15px;
               text-align: left;
             }
-            .steps2-text16 {
+            .home-feature-steps-text16 {
               font-size: 20px;
               text-align: left;
-              font-family: Inter;
+              font-family: Taviraj;
             }
-            .steps2-text17 {
+            .home-feature-steps-text17 {
               font-size: 15px;
               text-align: left;
             }
-            .steps2-text18 {
-              font-size: 20px;
+            .home-feature-steps-text18 {
               text-align: left;
-              font-family: Inter;
+              font-family: Taviraj;
             }
-            .steps2-text19 {
+            .home-feature-steps-text19 {
               font-size: 15px;
               text-align: left;
+            }
+            .home-feature-stepsroot-class-name {
+              width: 100%;
             }
           }
         `}
@@ -383,12 +411,12 @@ const Steps2 = (props) => {
   )
 }
 
-Steps2.defaultProps = {
-  step4Description: undefined,
+HomeFeatureSteps.defaultProps = {
+  rootClassName: '',
 }
 
-Steps2.propTypes = {
-  step4Description: PropTypes.element,
+HomeFeatureSteps.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
-export default Steps2
+export default HomeFeatureSteps

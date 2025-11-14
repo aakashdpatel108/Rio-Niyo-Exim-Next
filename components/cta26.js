@@ -14,14 +14,14 @@ const CTA26 = (props) => {
             <div className="cta26-accent1-bg">
               <div className="cta26-container2">
                 <div className="cta26-content">
-                  <span className="thq-heading-2">
+                  <span className="thq-heading-2 cta26-text1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_cTw3Er'),
                       }}
                     ></span>
                   </span>
-                  <p className="thq-body-large">
+                  <p className="thq-body-large cta26-text2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_FDhLjL'),
@@ -128,6 +128,16 @@ const CTA26 = (props) => {
               flex-direction: column;
               justify-content: flex-start;
             }
+            .cta26-content {
+              align-items: center;
+            }
+            .cta26-text1 {
+              font-size: 25px;
+              text-align: center;
+            }
+            .cta26-text2 {
+              text-align: center;
+            }
           }
           @media (max-width: 479px) {
             .cta26-actions {
@@ -137,6 +147,11 @@ const CTA26 = (props) => {
             }
             .cta26-button {
               flex: 1;
+            }
+          }
+          @media (max-width: 344px) {
+            .cta26-text2 {
+              text-align: center;
             }
           }
         `}

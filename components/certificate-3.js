@@ -231,7 +231,7 @@ const Certificate3 = (props) => {
               justify-content: center;
             }
           }
-          @media (max-width: 414px) {
+          @media (max-width: 344px) {
             .certificate-3-image1 {
               width: 364px;
               height: 514px;

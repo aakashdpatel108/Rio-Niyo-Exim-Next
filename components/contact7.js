@@ -77,10 +77,10 @@ const Contact7 = (props) => {
             flex-direction: column;
           }
           .contact7-text1 {
-            font-family: 'Inter';
+            font-family: 'Taviraj';
           }
           .contact7-text2 {
-            font-family: 'Inter';
+            font-family: 'Open Sans';
           }
           .contact7-content3 {
             width: 100%;
@@ -114,6 +114,12 @@ const Contact7 = (props) => {
           @media (max-width: 767px) {
             .contact7-content1 {
               gap: var(--dl-layout-space-oneandhalfunits);
+            }
+            .contact7-text1 {
+              font-size: 26px;
+            }
+            .contact7-text2 {
+              font-size: 16px;
             }
           }
         `}

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
@@ -11,19 +11,13 @@ const ContactUsBanner = (props) => {
         <div className="contact-us-banner-max-width thq-section-max-width">
           <div className="contact-us-banner-container2">
             <h2 className="contact-us-banner-title thq-heading-2">
-              {props.heading1 ?? (
-                <Fragment>
-                  <span className="contact-us-banner-text2">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('text_qAOqEt'),
-                      }}
-                    ></span>
-                  </span>
-                </Fragment>
-              )}
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: translate.raw('text_qgzUpY'),
+                }}
+              ></span>
             </h2>
-            <h3 className="contact-us-banner-text1 thq-heading-3">
+            <h3 className="contact-us-banner-text thq-heading-3">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_kjceeZ'),
@@ -67,7 +61,7 @@ const ContactUsBanner = (props) => {
             color: #fdfdfd;
             text-align: center;
           }
-          .contact-us-banner-text1 {
+          .contact-us-banner-text {
             color: rgb(247, 247, 247);
             text-align: center;
           }
@@ -79,8 +73,13 @@ const ContactUsBanner = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .contact-us-banner-text2 {
-            display: inline-block;
+          @media (max-width: 767px) {
+            .contact-us-banner-title {
+              font-size: 25px;
+            }
+            .contact-us-banner-text {
+              font-size: 18px;
+            }
           }
         `}
       </style>
@@ -93,13 +92,11 @@ ContactUsBanner.defaultProps = {
     'https://images.pexels.com/videos/5293017/pictures/preview-0.jpg',
   video1Src:
     'https://videos.pexels.com/video-files/5293017/5293017-hd_1280_720_30fps.mp4',
-  heading1: undefined,
 }
 
 ContactUsBanner.propTypes = {
   video1Poster: PropTypes.string,
   video1Src: PropTypes.string,
-  heading1: PropTypes.element,
 }
 
 export default ContactUsBanner
