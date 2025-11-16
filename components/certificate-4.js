@@ -3,46 +3,46 @@ import React, { useState, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
-const Certificate2 = (props) => {
+const Certificate4 = (props) => {
   const translate = useTranslations()
   const [activeTab, setActiveTab] = useState(0)
   return (
     <>
       <div
-        className={`certificate-2-container1 thq-section-padding ${props.rootClassName} `}
+        className={`certificate-4-container1 thq-section-padding ${props.rootClassName} `}
       >
-        <div className="certificate-2-container2 thq-section-max-width">
-          <div className="certificate-2-tabs-menu">
+        <div className="certificate-4-container2 thq-section-max-width">
+          <div className="certificate-4-tabs-menu">
             <div
               onClick={() => setActiveTab(0)}
-              className="certificate-2-tab-horizontal1"
+              className="certificate-4-tab-horizontal1"
             >
-              <div className="certificate-2-divider-container1">
+              <div className="certificate-4-divider-container1">
                 {activeTab === 0 && (
-                  <div className="certificate-2-container3"></div>
+                  <div className="certificate-4-container3"></div>
                 )}
               </div>
-              <div className="certificate-2-content">
-                <h2 className="thq-heading-2 certificate-2-feature1-title">
+              <div className="certificate-4-content">
+                <h2 className="thq-heading-2 certificate-4-feature1-title">
                   {props.feature1Title ?? (
                     <Fragment>
-                      <span className="certificate-2-text2">
+                      <span className="certificate-4-text1">
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_khDPVo'),
+                            __html: translate.raw('text_NCBvEZ'),
                           }}
                         ></span>
                       </span>
                     </Fragment>
                   )}
                 </h2>
-                <span className="thq-body-small certificate-2-feature1-description">
+                <span className="thq-body-small certificate-4-feature1-description">
                   {props.feature1Description ?? (
                     <Fragment>
-                      <span className="certificate-2-text1">
+                      <span className="certificate-4-text2">
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_9Z7QEO'),
+                            __html: translate.raw('text_9e3M3a'),
                           }}
                         ></span>
                       </span>
@@ -53,31 +53,31 @@ const Certificate2 = (props) => {
             </div>
             <div
               onClick={() => setActiveTab(1)}
-              className="certificate-2-tab-horizontal2"
+              className="certificate-4-tab-horizontal2"
             >
-              <div className="certificate-2-divider-container2">
+              <div className="certificate-4-divider-container2">
                 {activeTab === 1 && (
-                  <div className="certificate-2-container4"></div>
+                  <div className="certificate-4-container4"></div>
                 )}
               </div>
             </div>
             <div
               onClick={() => setActiveTab(2)}
-              className="certificate-2-tab-horizontal3"
+              className="certificate-4-tab-horizontal3"
             >
-              <div className="certificate-2-divider-container3">
+              <div className="certificate-4-divider-container3">
                 {activeTab === 2 && (
-                  <div className="certificate-2-container5"></div>
+                  <div className="certificate-4-container5"></div>
                 )}
               </div>
             </div>
           </div>
-          <div className="certificate-2-image-container">
+          <div className="certificate-4-image-container">
             {activeTab === 0 && (
               <img
                 alt={props.feature1ImgAlt}
                 src={props.feature1ImgSrc}
-                className="certificate-2-image thq-img-ratio-16-9"
+                className="certificate-4-image thq-img-ratio-16-9"
               />
             )}
           </div>
@@ -85,20 +85,20 @@ const Certificate2 = (props) => {
       </div>
       <style jsx>
         {`
-          .certificate-2-container1 {
+          .certificate-4-container1 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             border-color: var(--dl-color-theme-neutral-dark);
             border-style: solid;
             border-width: 0px;
           }
-          .certificate-2-container2 {
+          .certificate-4-container2 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-layout-space-fiveunits);
             position: relative;
             grid-template-columns: 1fr 1fr;
           }
-          .certificate-2-tabs-menu {
+          .certificate-4-tabs-menu {
             gap: var(--dl-layout-space-twounits);
             width: 100%;
             display: flex;
@@ -106,7 +106,7 @@ const Certificate2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .certificate-2-tab-horizontal1 {
+          .certificate-4-tab-horizontal1 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -115,17 +115,17 @@ const Certificate2 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-2-divider-container1 {
+          .certificate-4-divider-container1 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
           }
-          .certificate-2-container3 {
+          .certificate-4-container3 {
             width: 2px;
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-2-content {
+          .certificate-4-content {
             gap: 16px;
             flex: 1;
             display: flex;
@@ -136,7 +136,7 @@ const Certificate2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .certificate-2-tab-horizontal2 {
+          .certificate-4-tab-horizontal2 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -145,17 +145,17 @@ const Certificate2 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-2-divider-container2 {
+          .certificate-4-divider-container2 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
           }
-          .certificate-2-container4 {
+          .certificate-4-container4 {
             width: 2px;
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-2-tab-horizontal3 {
+          .certificate-4-tab-horizontal3 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -164,24 +164,24 @@ const Certificate2 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-2-divider-container3 {
+          .certificate-4-divider-container3 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
           }
-          .certificate-2-container5 {
+          .certificate-4-container5 {
             width: 2px;
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-2-image-container {
+          .certificate-4-image-container {
             height: 100%;
             display: flex;
             position: relative;
             align-items: center;
             justify-content: center;
           }
-          .certificate-2-image {
+          .certificate-4-image {
             width: 643px;
             height: 856px;
             object-fit: contain;
@@ -192,35 +192,32 @@ const Certificate2 = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .certificate-2-text1 {
+          .certificate-4-text1 {
             display: inline-block;
           }
-          .certificate-2-text2 {
+          .certificate-4-text2 {
             display: inline-block;
           }
-          .certificate-2root-class-name {
-            fill: var(--dl-color-theme-neutral-dark);
-            color: var(--dl-color-theme-neutral-dark);
-          }
+
           @media (max-width: 1200px) {
-            .certificate-2-image {
+            .certificate-4-image {
               width: 638px;
               height: 929px;
               margin-top: 0px;
             }
           }
           @media (max-width: 991px) {
-            .certificate-2-container2 {
+            .certificate-4-container2 {
               grid-gap: var(--dl-layout-space-twounits);
               grid-template-columns: 1fr;
             }
-            .certificate-2-tabs-menu {
+            .certificate-4-tabs-menu {
               order: 2;
             }
-            .certificate-2-image-container {
+            .certificate-4-image-container {
               justify-content: center;
             }
-            .certificate-2-image {
+            .certificate-4-image {
               width: 100%;
               height: 954px;
               margin-right: 0px;
@@ -228,23 +225,23 @@ const Certificate2 = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .certificate-2-feature1-title {
+            .certificate-4-feature1-title {
               font-size: 25px;
             }
-            .certificate-2-feature1-description {
+            .certificate-4-feature1-description {
               font-size: 12px;
             }
-            .certificate-2-image-container {
+            .certificate-4-image-container {
               width: 100%;
               height: 100%;
             }
-            .certificate-2-image {
+            .certificate-4-image {
               width: 100%;
               height: 462px;
             }
           }
           @media (max-width: 344px) {
-            .certificate-2-image {
+            .certificate-4-image {
               width: 100%;
               height: 396px;
             }
@@ -255,20 +252,20 @@ const Certificate2 = (props) => {
   )
 }
 
-Certificate2.defaultProps = {
+Certificate4.defaultProps = {
   feature1ImgAlt: 'High-Quality Standards Image Alt',
-  feature1Description: undefined,
-  feature1ImgSrc: '/gst-1400w.png',
+  feature1ImgSrc: '/fssai-1400w.png',
   rootClassName: '',
   feature1Title: undefined,
+  feature1Description: undefined,
 }
 
-Certificate2.propTypes = {
+Certificate4.propTypes = {
   feature1ImgAlt: PropTypes.string,
-  feature1Description: PropTypes.element,
   feature1ImgSrc: PropTypes.string,
   rootClassName: PropTypes.string,
   feature1Title: PropTypes.element,
+  feature1Description: PropTypes.element,
 }
 
-export default Certificate2
+export default Certificate4
