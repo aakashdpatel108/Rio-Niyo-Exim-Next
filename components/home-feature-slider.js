@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Link from 'next/link'
 
 import Script from 'dangerous-html/react'
@@ -31,17 +31,11 @@ const HomeFeatureSlider = (props) => {
             <button className="home-feature-slider-button thq-button-filled">
               <Link href="/product-categories">
                 <a className="home-feature-slider-link thq-body-small">
-                  {props.action1 ?? (
-                    <Fragment>
-                      <span className="home-feature-slider-text4">
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: translate.raw('text_5ntxhO'),
-                          }}
-                        ></span>
-                      </span>
-                    </Fragment>
-                  )}
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_hUiVqN'),
+                    }}
+                  ></span>
                 </a>
               </Link>
               <span
@@ -381,9 +375,6 @@ const HomeFeatureSlider = (props) => {
           .home-feature-slider-container2 {
             display: contents;
           }
-          .home-feature-slider-text4 {
-            display: inline-block;
-          }
           .home-feature-sliderroot-class-name {
             background-color: #f3f3f3;
           }
@@ -470,7 +461,6 @@ HomeFeatureSlider.defaultProps = {
   image11Src:
     'https://images.unsplash.com/photo-1583663848850-46af132dc08e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTMyNjcxMXw&ixlib=rb-4.1.0&q=80&w=1500',
   image1Alt: 'Fresh fruits and vegetables',
-  action1: undefined,
   image8Alt: 'International quality standards',
   image1Src:
     'https://images.unsplash.com/photo-1519096845289-95806ee03a1a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDExfHxtYW5nb3xlbnwwfHx8fDE3NTk2OTg3NDh8MA&ixlib=rb-4.1.0&w=1500',
@@ -482,7 +472,6 @@ HomeFeatureSlider.propTypes = {
   rootClassName: PropTypes.string,
   image11Src: PropTypes.string,
   image1Alt: PropTypes.string,
-  action1: PropTypes.element,
   image8Alt: PropTypes.string,
   image1Src: PropTypes.string,
   image11Alt: PropTypes.string,
