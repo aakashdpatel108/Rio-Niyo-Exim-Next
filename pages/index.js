@@ -234,17 +234,6 @@ const Home = (props) => {
         <HomeFeature1 locale={props?.locale ?? ''}></HomeFeature1>
         <div className="home-container2">
           <HomeFeatureSlider
-            action1={
-              <Fragment>
-                <span className="home-text28">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_PZ0pyv'),
-                    }}
-                  ></span>
-                </span>
-              </Fragment>
-            }
             rootClassName="home-feature-sliderroot-class-name"
             locale={props?.locale ?? ''}
           ></HomeFeatureSlider>
@@ -258,7 +247,7 @@ const Home = (props) => {
         <ContactUs
           action={
             <Fragment>
-              <span className="home-text29">
+              <span className="home-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_UNZiD_'),
@@ -272,7 +261,7 @@ const Home = (props) => {
         <FooterMain
           link2={
             <Fragment>
-              <span className="home-text30">
+              <span className="home-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__I9j3D'),
@@ -283,7 +272,7 @@ const Home = (props) => {
           }
           link3={
             <Fragment>
-              <span className="home-text31">
+              <span className="home-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ZMQygU'),
@@ -294,7 +283,7 @@ const Home = (props) => {
           }
           link4={
             <Fragment>
-              <span className="home-text32">
+              <span className="home-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_MeOuIt'),
@@ -305,7 +294,7 @@ const Home = (props) => {
           }
           link5={
             <Fragment>
-              <span className="home-text33">
+              <span className="home-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_J-4NSr'),
@@ -316,7 +305,7 @@ const Home = (props) => {
           }
           termsLink={
             <Fragment>
-              <span className="home-text34">
+              <span className="home-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_lfCLT_'),
@@ -327,7 +316,7 @@ const Home = (props) => {
           }
           cookiesLink={
             <Fragment>
-              <span className="home-text35">
+              <span className="home-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_QSOqu1'),
@@ -338,7 +327,7 @@ const Home = (props) => {
           }
           privacyLink={
             <Fragment>
-              <span className="home-text36">
+              <span className="home-text35">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_DOHWiR'),
@@ -425,10 +414,6 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-text28 {
-            display: inline-block;
-            font-family: 'Open Sans';
-          }
           .home-container3 {
             width: 100%;
             height: 100%;
@@ -443,6 +428,9 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
             background-color: #e8f8df;
+          }
+          .home-text28 {
+            display: inline-block;
           }
           .home-text29 {
             display: inline-block;
@@ -465,9 +453,6 @@ const Home = (props) => {
           .home-text35 {
             display: inline-block;
           }
-          .home-text36 {
-            display: inline-block;
-          }
           @media (max-width: 344px) {
             .home-container2 {
               width: 100%;
@@ -478,7 +463,7 @@ const Home = (props) => {
               padding-left: var(--dl-layout-space-unit);
               padding-right: var(--dl-layout-space-unit);
             }
-            .home-text29 {
+            .home-text28 {
               font-size: 12px;
             }
           }
