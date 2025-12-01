@@ -328,6 +328,11 @@ const FooterMain = (props) => {
               justify-content: center;
             }
           }
+          @media (max-width: 344px) {
+            .footer-main-footer-links {
+              width: 173px;
+            }
+          }
         `}
       </style>
     </>

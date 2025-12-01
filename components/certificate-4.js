@@ -254,7 +254,7 @@ const Certificate4 = (props) => {
 
 Certificate4.defaultProps = {
   feature1ImgAlt: 'High-Quality Standards Image Alt',
-  feature1ImgSrc: '/fssai-1400w.png',
+  feature1ImgSrc: '/Certificates/fssai-1400w.png',
   rootClassName: '',
   feature1Title: undefined,
   feature1Description: undefined,

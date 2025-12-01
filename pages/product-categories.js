@@ -309,7 +309,7 @@ const ProductCategories = (props) => {
               <span className="product-categories-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FCo26P'),
+                    __html: translate.raw('text_-bGPDj'),
                   }}
                 ></span>
               </span>

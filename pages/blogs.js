@@ -276,7 +276,7 @@ const Blogs = (props) => {
               <span className="blogs-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Goz6zk'),
+                    __html: translate.raw('text_jCS8R0'),
                   }}
                 ></span>
               </span>

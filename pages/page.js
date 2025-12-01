@@ -34,7 +34,7 @@ const Page = (props) => {
             object-fit: contain;
             flex-direction: row;
             background-size: contain;
-            background-image: url('/certificateofiec-1500w.png');
+            background-image: url('/Certificates/certificateofiec-1500w.png');
             background-repeat: no-repeat;
             background-position: center;
           }

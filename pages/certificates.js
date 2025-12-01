@@ -374,7 +374,7 @@ const Certificates = (props) => {
               <span className="certificates-text39">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_c8FsY-'),
+                    __html: translate.raw('text_tHhcfe'),
                   }}
                 ></span>
               </span>

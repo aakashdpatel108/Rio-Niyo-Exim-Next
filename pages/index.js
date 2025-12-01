@@ -308,7 +308,7 @@ const Home = (props) => {
               <span className="home-text33">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lfCLT_'),
+                    __html: translate.raw('text_CdOF82'),
                   }}
                 ></span>
               </span>

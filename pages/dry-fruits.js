@@ -281,7 +281,7 @@ const DryFruits = (props) => {
               <span className="dry-fruits-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AH4a2s'),
+                    __html: translate.raw('text_XS88UU'),
                   }}
                 ></span>
               </span>

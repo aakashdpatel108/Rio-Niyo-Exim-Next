@@ -540,6 +540,322 @@
  
 
  
+.product-table-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  position: relative;
+  max-width: 900px;
+  font-family: "Inter", sans-serif;
+}
+ 
+.table-header-accent {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  overflow: hidden;
+  position: absolute;
+}
+ 
+.table-wrapper {
+  overflow: hidden;
+  position: relative;
+  transform: translateY(0);
+  background: #ffffff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 16px;
+}
+ 
+.table-footer-decoration {
+  gap: 8px;
+  display: flex;
+  opacity: 0;
+  animation: fadeIn 0.6s ease 0.8s forwards;
+  margin-top: 24px;
+  justify-content: center;
+}
+ 
+.accent-line {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: lineExpand 1.5s ease-out forwards;
+  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+  transform-origin: left center;
+}
+ 
+.accent-glow {
+  top: 0;
+  left: -100%;
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  animation: glowSlide 2s ease-in-out 1s infinite;
+  background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.8),
+      transparent
+    );
+}
+ 
+.product-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+ 
+.decoration-circle {
+  width: 8px;
+  height: 8px;
+  animation: pulse 2s ease-in-out infinite;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 50%;
+}
+ 
+.th-content {
+  gap: 10px;
+  display: flex;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+  align-items: center;
+}
+ 
+.td-content {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+ 
+.th-icon {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  opacity: 0.9;
+}
+ 
+.property-label {
+  color: #4a5568;
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+}
+ 
+.value-text {
+  color: #2d3748;
+  position: relative;
+  font-weight: 500;
+}
+ 
+.table-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+ 
+.product-table  thead {
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+ 
+.product-table  thead::after {
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.3)
+    );
+}
+ 
+.product-table  th {
+  color: #ffffff;
+  border: none;
+  padding: 24px 32px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ 
+.product-table  th:nth-child(1) .th-content {
+  animation-delay: 0.2s;
+}
+ 
+.product-table  th:nth-child(2) .th-content {
+  animation-delay: 0.3s;
+}
+ 
+.product-table  tbody tr {
+  position: relative;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+ 
+.product-table  tbody tr::before {
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  content: "";
+  position: absolute;
+  transform: scaleY(0);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: transform 0.3s ease;
+}
+ 
+.product-table  tbody tr:hover {
+  transform: translateX(4px);
+  background: linear-gradient(
+      135deg,
+      rgba(102, 126, 234, 0.03) 0%,
+      rgba(118, 75, 162, 0.03) 100%
+    );
+}
+ 
+.product-table  tbody tr:hover::before {
+  transform: scaleY(1);
+}
+ 
+.product-table  tbody tr:nth-child(odd) {
+  background: rgba(102, 126, 234, 0.02);
+}
+ 
+.product-table  tbody tr:nth-child(odd):hover {
+  background: linear-gradient(
+      135deg,
+      rgba(102, 126, 234, 0.05) 0%,
+      rgba(118, 75, 162, 0.05) 100%
+    );
+}
+ 
+.product-table  td {
+  color: #1a1a1a;
+  padding: 20px 32px;
+  font-size: 15px;
+  line-height: 1.6;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+ 
+.product-table  tbody tr:last-child td {
+  border-bottom: none;
+}
+ 
+.product-table  tbody tr:nth-child(1) td .td-content {
+  animation-delay: 0.4s;
+}
+ 
+.product-table  tbody tr:nth-child(2) td .td-content {
+  animation-delay: 0.5s;
+}
+ 
+.product-table  tbody tr:nth-child(3) td .td-content {
+  animation-delay: 0.6s;
+}
+ 
+.product-table  tbody tr:hover .property-label::after {
+  width: 100%;
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+.property-label::after {
+  left: 0;
+  width: 0;
+  bottom: -2px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  transition: width 0.3s ease;
+}
+ 
+.decoration-circle:nth-child(2) {
+  animation-delay: 0.3s;
+}
+ 
+.decoration-circle:nth-child(3) {
+  animation-delay: 0.6s;
+}
+ 
+.product-table  th:nth-child(1) {
+  width: 35%;
+}
+ 
+.product-table  td:nth-child(1) {
+  width: 35%;
+}
+ 
+.product-table  th:nth-child(2) {
+  width: 65%;
+}
+ 
+.product-table  td:nth-child(2) {
+  width: 65%;
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+.Title {
+  font-size: 35px;
+  font-family: "Taviraj";
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.TitleXR {
+  font-size: 25px;
+  font-family: "Taviraj";
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Inter;
@@ -551,7 +867,11 @@
  
 
  
-
+@media(max-width: 1200px) {
+  .product-table-container {
+    max-width: 100%;
+  }
+}
  
 @media(max-width: 991px) {
   .thq-grid-4 {
@@ -595,6 +915,53 @@
   }
   .thq-img-scale {
     width: 100%;
+  }
+  .product-table-container {
+    padding: 30px 16px;
+  }
+  .table-wrapper {
+    border-radius: 12px;
+  }
+  .td-content {
+    display: block;
+    text-align: right;
+  }
+  .property-label {
+    display: none;
+  }
+  .value-text {
+    font-size: 14px;
+  }
+  .product-table  tbody tr:last-child {
+    margin-bottom: 0;
+  }
+  .product-table  tbody tr td:last-child {
+    border-bottom: none;
+  }
+  .product-table  td::before {
+    top: 50%;
+    left: 20px;
+    color: #667eea;
+    content: attr(data-label);
+    position: absolute;
+    font-size: 12px;
+    transform: translateY(-50%);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .product-table  td[data-label="Property"] {
+    color: #ffffff;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-weight: 600;
+  }
+  .product-table  td[data-label="Property"]::before {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .product-table  td[data-label="Property"] .value-text {
+    color: #ffffff;
+    text-align: right;
   }
 }
  
