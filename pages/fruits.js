@@ -305,7 +305,7 @@ const Fruits = (props) => {
               <span className="fruits-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_U8oO4O'),
+                    __html: translate.raw('text_JNW-90'),
                   }}
                 ></span>
               </span>

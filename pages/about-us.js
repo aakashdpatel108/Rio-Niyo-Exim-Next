@@ -329,7 +329,7 @@ const AboutUs = (props) => {
               <span className="about-us-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ugY1Mq'),
+                    __html: translate.raw('text_zaiOq7'),
                   }}
                 ></span>
               </span>

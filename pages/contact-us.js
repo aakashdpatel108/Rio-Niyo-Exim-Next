@@ -316,7 +316,7 @@ const ContactUs = (props) => {
               <span className="contact-us-text35">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4KO-ma'),
+                    __html: translate.raw('text_MYHbmV'),
                   }}
                 ></span>
               </span>

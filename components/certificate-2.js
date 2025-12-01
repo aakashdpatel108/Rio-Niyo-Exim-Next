@@ -258,7 +258,7 @@ const Certificate2 = (props) => {
 Certificate2.defaultProps = {
   feature1ImgAlt: 'High-Quality Standards Image Alt',
   feature1Description: undefined,
-  feature1ImgSrc: '/gst-1400w.png',
+  feature1ImgSrc: '/Certificates/gst-1400w.png',
   rootClassName: '',
   feature1Title: undefined,
 }

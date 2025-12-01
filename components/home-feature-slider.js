@@ -412,9 +412,7 @@ const HomeFeatureSlider = (props) => {
               font-size: 15px;
             }
             .home-feature-slider-button {
-              width: 185px;
-              margin-left: 0px;
-              padding-right: var(--dl-layout-space-twounits);
+              width: auto;
             }
             .home-feature-slider-link {
               font-size: 12px;
@@ -442,7 +440,7 @@ const HomeFeatureSlider = (props) => {
               width: 231px;
             }
             .home-feature-slider-button {
-              width: 100%;
+              width: auto;
             }
             .home-feature-slider-link {
               font-size: 12px;
