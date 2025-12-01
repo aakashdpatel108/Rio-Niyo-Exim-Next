@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import { useTranslations } from 'next-intl'
 
@@ -32,6 +33,20 @@ const FruitsFeature2 = (props) => {
                     }}
                   ></span>
                 </p>
+                <button
+                  type="button"
+                  className="thq-button-filled fruits-feature-2-button"
+                >
+                  <Link href="/mango">
+                    <a className="fruits-feature-2-link">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: translate.raw('text_D09wJl'),
+                        }}
+                      ></span>
+                    </a>
+                  </Link>
+                </button>
               </div>
             </div>
           </div>
@@ -79,6 +94,10 @@ const FruitsFeature2 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .fruits-feature-2-link {
+            font-family: 'Open Sans';
+            text-decoration: none;
+          }
           .fruits-feature-2-image-container {
             flex: 1;
             display: flex;
@@ -101,6 +120,9 @@ const FruitsFeature2 = (props) => {
             .fruits-feature-2-text3 {
               font-size: 12px;
             }
+            .fruits-feature-2-link {
+              font-size: 12px;
+            }
           }
           @media (max-width: 344px) {
             .fruits-feature-2-text1 {
@@ -110,6 +132,14 @@ const FruitsFeature2 = (props) => {
               font-size: 18px;
             }
             .fruits-feature-2-text3 {
+              font-size: 12px;
+            }
+            .fruits-feature-2-button {
+              width: 171px;
+              margin-right: 0px;
+              padding-right: var(--dl-layout-space-oneandhalfunits);
+            }
+            .fruits-feature-2-link {
               font-size: 12px;
             }
           }

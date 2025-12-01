@@ -300,7 +300,7 @@ const GrainsAndCereal = (props) => {
               <span className="grains-and-cereal-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Re86rQ'),
+                    __html: translate.raw('text_cIykfY'),
                   }}
                 ></span>
               </span>

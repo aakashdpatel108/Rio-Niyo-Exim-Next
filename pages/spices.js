@@ -314,7 +314,7 @@ const Spices = (props) => {
               <span className="spices-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4SoNtW'),
+                    __html: translate.raw('text_ycDKT9'),
                   }}
                 ></span>
               </span>

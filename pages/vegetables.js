@@ -278,7 +278,7 @@ const Vegetables = (props) => {
               <span className="vegetables-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0QGtkH'),
+                    __html: translate.raw('text_Uk4IUU'),
                   }}
                 ></span>
               </span>
