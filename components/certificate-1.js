@@ -211,6 +211,11 @@ const Certificate1 = (props) => {
             background-color: var(--dl-color-theme-neutral-dark);
           }
 
+          @media (max-width: 1600px) {
+            .certificate-1-image1 {
+              border-width: 0px;
+            }
+          }
           @media (max-width: 1200px) {
             .certificate-1-image1 {
               width: 638px;

@@ -33,20 +33,17 @@ const FruitsFeature2 = (props) => {
                     }}
                   ></span>
                 </p>
-                <button
-                  type="button"
-                  className="thq-button-filled fruits-feature-2-button"
-                >
-                  <Link href="/mango">
-                    <a className="fruits-feature-2-link">
+                <Link href="/mango">
+                  <a className="fruits-feature-2-link thq-button-filled">
+                    <span className="fruits-feature-2-text4">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_D09wJl'),
                         }}
                       ></span>
-                    </a>
-                  </Link>
-                </button>
+                    </span>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -95,8 +92,10 @@ const FruitsFeature2 = (props) => {
             flex-direction: column;
           }
           .fruits-feature-2-link {
-            font-family: 'Open Sans';
             text-decoration: none;
+          }
+          .fruits-feature-2-text4 {
+            font-family: 'Open Sans';
           }
           .fruits-feature-2-image-container {
             flex: 1;
@@ -120,7 +119,7 @@ const FruitsFeature2 = (props) => {
             .fruits-feature-2-text3 {
               font-size: 12px;
             }
-            .fruits-feature-2-link {
+            .fruits-feature-2-text4 {
               font-size: 12px;
             }
           }
@@ -134,13 +133,14 @@ const FruitsFeature2 = (props) => {
             .fruits-feature-2-text3 {
               font-size: 12px;
             }
-            .fruits-feature-2-button {
+            .fruits-feature-2-link {
               width: 171px;
               margin-right: 0px;
               padding-right: var(--dl-layout-space-oneandhalfunits);
             }
-            .fruits-feature-2-link {
+            .fruits-feature-2-text4 {
               font-size: 12px;
+              font-family: Open Sans;
             }
           }
         `}

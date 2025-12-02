@@ -27,19 +27,21 @@ const HomeFeatureSlider = (props) => {
               ></span>
             </p>
           </div>
-          <div className="home-feature-slider-actions">
-            <button className="home-feature-slider-button thq-button-filled">
-              <Link href="/product-categories">
-                <a className="home-feature-slider-link thq-body-small">
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_hUiVqN'),
-                    }}
-                  ></span>
-                </a>
-              </Link>
-            </button>
-          </div>
+          <Link href="/product-categories">
+            <a className="home-feature-slider-link">
+              <div className="home-feature-slider-actions">
+                <button className="thq-button-filled home-feature-slider-button">
+                  <span className="thq-body-small home-feature-slider-text3">
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: translate.raw('text_2bOIVt'),
+                      }}
+                    ></span>
+                  </span>
+                </button>
+              </div>
+            </a>
+          </Link>
         </div>
         <div className="home-feature-slider-content2">
           <div className="home-feature-slider-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
@@ -244,17 +246,13 @@ const HomeFeatureSlider = (props) => {
           .home-feature-slider-text2 {
             text-align: center;
           }
+          .home-feature-slider-link {
+            display: contents;
+          }
           .home-feature-slider-actions {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-items: flex-start;
-            padding-top: var(--dl-layout-space-unit);
-          }
-          .home-feature-slider-button {
-            display: flex;
-            flex-direction: row;
-          }
-          .home-feature-slider-link {
             text-decoration: none;
           }
           .home-feature-slider-content2 {
@@ -406,10 +404,7 @@ const HomeFeatureSlider = (props) => {
               width: 319px;
               font-size: 15px;
             }
-            .home-feature-slider-button {
-              width: auto;
-            }
-            .home-feature-slider-link {
+            .home-feature-slider-text3 {
               font-size: 12px;
             }
             .home-feature-slider-content2 {
@@ -434,10 +429,7 @@ const HomeFeatureSlider = (props) => {
             .home-feature-slider-text2 {
               width: 231px;
             }
-            .home-feature-slider-button {
-              width: auto;
-            }
-            .home-feature-slider-link {
+            .home-feature-slider-text3 {
               font-size: 12px;
             }
           }
