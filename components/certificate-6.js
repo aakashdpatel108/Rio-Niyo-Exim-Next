@@ -75,8 +75,8 @@ const Certificate6 = (props) => {
           <div className="certificate-6-image-container">
             {activeTab === 0 && (
               <img
-                src="/Certificates/apeda%20rcmc-1400w.png"
                 alt="High-Quality Standards Image Alt"
+                src="/Certificates/apeda%20rcmc-1400w.png"
                 className="certificate-6-image thq-img-ratio-16-9"
               />
             )}
@@ -253,14 +253,14 @@ const Certificate6 = (props) => {
 }
 
 Certificate6.defaultProps = {
-  rootClassName: '',
   feature1Title: undefined,
+  rootClassName: '',
   feature1Description: undefined,
 }
 
 Certificate6.propTypes = {
-  rootClassName: PropTypes.string,
   feature1Title: PropTypes.element,
+  rootClassName: PropTypes.string,
   feature1Description: PropTypes.element,
 }
 

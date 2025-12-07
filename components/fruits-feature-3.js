@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import { useTranslations } from 'next-intl'
 
@@ -41,6 +42,17 @@ const FruitsFeature3 = (props) => {
                 </p>
               </div>
             </div>
+            <Link href="/dragon-fruit">
+              <a className="fruits-feature-3-link thq-button-filled">
+                <span className="fruits-feature-3-text4">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: translate.raw('text_3SPJ1h'),
+                    }}
+                  ></span>
+                </span>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -85,6 +97,12 @@ const FruitsFeature3 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .fruits-feature-3-link {
+            text-decoration: none;
+          }
+          .fruits-feature-3-text4 {
+            font-family: 'Open Sans';
+          }
           @media (max-width: 991px) {
             .fruits-feature-3-max-width {
               gap: var(--dl-layout-space-twounits);
@@ -101,6 +119,9 @@ const FruitsFeature3 = (props) => {
             .fruits-feature-3-text3 {
               font-size: 12px;
             }
+            .fruits-feature-3-text4 {
+              font-size: 12px;
+            }
           }
           @media (max-width: 344px) {
             .fruits-feature-3-text1 {
@@ -111,6 +132,15 @@ const FruitsFeature3 = (props) => {
             }
             .fruits-feature-3-text3 {
               font-size: 12px;
+            }
+            .fruits-feature-3-link {
+              width: 171px;
+              margin-right: 0px;
+              padding-right: var(--dl-layout-space-oneandhalfunits);
+            }
+            .fruits-feature-3-text4 {
+              font-size: 12px;
+              font-family: Open Sans;
             }
           }
         `}

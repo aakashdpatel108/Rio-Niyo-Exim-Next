@@ -4,31 +4,32 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import MangoHero from '../components/mango-hero'
-import TableComponent from '../components/table-component'
-import MangoFeature1 from '../components/mango-feature-1'
+import Banner34 from '../components/banner34'
+import DragonHero from '../components/dragon-hero'
+import DragonFruitTable from '../components/dragon-fruit-table'
+import DragonfruitFeature1 from '../components/dragonfruit-feature-1'
 import FooterMain from '../components/footer-main'
 
-const Mango = (props) => {
+const DragonFruit = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="mango-container">
+      <div className="dragon-fruit-container">
         <Head>
-          <title>Mango - Rio Niyo Exim</title>
-          <meta property="og:title" content="Mango - Rio Niyo Exim" />
+          <title>Dragon-fruit - Rio Niyo Exim</title>
+          <meta property="og:title" content="Dragon-fruit - Rio Niyo Exim" />
           <link
             rel="canonical"
-            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/mango"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/dragon-fruit"
           />
         </Head>
         <Nav
           page3={
             <Fragment>
-              <span className="mango-text10">
+              <span className="dragon-fruit-text10">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Avp_ip'),
+                    __html: translate.raw('text_Ufbfc0'),
                   }}
                 ></span>
               </span>
@@ -36,10 +37,10 @@ const Mango = (props) => {
           }
           page4={
             <Fragment>
-              <span className="mango-text11">
+              <span className="dragon-fruit-text11">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IFn7wR'),
+                    __html: translate.raw('text_u1zcfu'),
                   }}
                 ></span>
               </span>
@@ -47,10 +48,10 @@ const Mango = (props) => {
           }
           text1={
             <Fragment>
-              <span className="mango-text12">
+              <span className="dragon-fruit-text12">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AqD-4n'),
+                    __html: translate.raw('text_n9abEk'),
                   }}
                 ></span>
               </span>
@@ -58,10 +59,10 @@ const Mango = (props) => {
           }
           text2={
             <Fragment>
-              <span className="mango-text13">
+              <span className="dragon-fruit-text13">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4laA_q'),
+                    __html: translate.raw('text_V6VGub'),
                   }}
                 ></span>
               </span>
@@ -69,10 +70,10 @@ const Mango = (props) => {
           }
           text3={
             <Fragment>
-              <span className="mango-text14">
+              <span className="dragon-fruit-text14">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jUbjtD'),
+                    __html: translate.raw('text_oUg8ja'),
                   }}
                 ></span>
               </span>
@@ -80,10 +81,10 @@ const Mango = (props) => {
           }
           fruits={
             <Fragment>
-              <span className="mango-text15">
+              <span className="dragon-fruit-text15">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_fB-Ylw'),
+                    __html: translate.raw('text_PgaDkY'),
                   }}
                 ></span>
               </span>
@@ -91,10 +92,10 @@ const Mango = (props) => {
           }
           page41={
             <Fragment>
-              <span className="mango-text16">
+              <span className="dragon-fruit-text16">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_y12wyx'),
+                    __html: translate.raw('text_nQnjXY'),
                   }}
                 ></span>
               </span>
@@ -102,10 +103,10 @@ const Mango = (props) => {
           }
           text11={
             <Fragment>
-              <span className="mango-text17">
+              <span className="dragon-fruit-text17">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_UnPHG3'),
+                    __html: translate.raw('text_3f07I5'),
                   }}
                 ></span>
               </span>
@@ -113,10 +114,10 @@ const Mango = (props) => {
           }
           text21={
             <Fragment>
-              <span className="mango-text18">
+              <span className="dragon-fruit-text18">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-W6In2'),
+                    __html: translate.raw('text_WRD4NS'),
                   }}
                 ></span>
               </span>
@@ -124,10 +125,10 @@ const Mango = (props) => {
           }
           text31={
             <Fragment>
-              <span className="mango-text19">
+              <span className="dragon-fruit-text19">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_igZe-O'),
+                    __html: translate.raw('text_MIr7OE'),
                   }}
                 ></span>
               </span>
@@ -135,10 +136,10 @@ const Mango = (props) => {
           }
           text32={
             <Fragment>
-              <span className="mango-text20">
+              <span className="dragon-fruit-text20">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_NwbnMv'),
+                    __html: translate.raw('text_hLoeuB'),
                   }}
                 ></span>
               </span>
@@ -146,10 +147,10 @@ const Mango = (props) => {
           }
           page411={
             <Fragment>
-              <span className="mango-text21">
+              <span className="dragon-fruit-text21">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_nycGzH'),
+                    __html: translate.raw('text_7g9DIu'),
                   }}
                 ></span>
               </span>
@@ -157,10 +158,10 @@ const Mango = (props) => {
           }
           text311={
             <Fragment>
-              <span className="mango-text22">
+              <span className="dragon-fruit-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4r3AOm'),
+                    __html: translate.raw('text_0QwQ-0'),
                   }}
                 ></span>
               </span>
@@ -168,10 +169,10 @@ const Mango = (props) => {
           }
           text312={
             <Fragment>
-              <span className="mango-text23">
+              <span className="dragon-fruit-text23">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_76c5xW'),
+                    __html: translate.raw('text_4tvBxd'),
                   }}
                 ></span>
               </span>
@@ -179,10 +180,10 @@ const Mango = (props) => {
           }
           text3111={
             <Fragment>
-              <span className="mango-text24">
+              <span className="dragon-fruit-text24">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6oqoWV'),
+                    __html: translate.raw('text_8A62NB'),
                   }}
                 ></span>
               </span>
@@ -190,10 +191,10 @@ const Mango = (props) => {
           }
           text3112={
             <Fragment>
-              <span className="mango-text25">
+              <span className="dragon-fruit-text25">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Rym7yk'),
+                    __html: translate.raw('text_Nlelsh'),
                   }}
                 ></span>
               </span>
@@ -201,10 +202,10 @@ const Mango = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="mango-text26">
+              <span className="dragon-fruit-text26">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-EZjiP'),
+                    __html: translate.raw('text_iPROF9'),
                   }}
                 ></span>
               </span>
@@ -212,29 +213,41 @@ const Mango = (props) => {
           }
           vegetables={
             <Fragment>
-              <span className="mango-text27">
+              <span className="dragon-fruit-text27">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_bZw-xE'),
+                    __html: translate.raw('text_az5BNj'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="navroot-class-name13"
+          rootClassName="navroot-class-name14"
           locale={props?.locale ?? ''}
         ></Nav>
-        <MangoHero
-          image1Src="https://images.unsplash.com/photo-1582655299221-2b6bff351df0?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxtYW5nb2VzfGVufDB8fHx8MTc2NDQ0ODczNnww&amp;ixlib=rb-4.1.0&amp;w=1500"
+        <Banner34 locale={props?.locale ?? ''}></Banner34>
+        <DragonHero
+          rootClassName="dragon-heroroot-class-name"
           locale={props?.locale ?? ''}
-        ></MangoHero>
-        <TableComponent
-          text={
+        ></DragonHero>
+        <DragonFruitTable
+          heading={
             <Fragment>
-              <span className="mango-text28">
+              <span className="dragon-fruit-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_KDrSSj'),
+                    __html: translate.raw('text_toii4P'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text={
+            <Fragment>
+              <span className="dragon-fruit-text29">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ZihAUp'),
                   }}
                 ></span>
               </span>
@@ -242,10 +255,10 @@ const Mango = (props) => {
           }
           text1={
             <Fragment>
-              <span className="mango-text29">
+              <span className="dragon-fruit-text30">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AmUGbR'),
+                    __html: translate.raw('text_1ZCjZa'),
                   }}
                 ></span>
               </span>
@@ -253,10 +266,10 @@ const Mango = (props) => {
           }
           text2={
             <Fragment>
-              <span className="mango-text30">
+              <span className="dragon-fruit-text31">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Le_ObW'),
+                    __html: translate.raw('text_qz-A7g'),
                   }}
                 ></span>
               </span>
@@ -264,10 +277,10 @@ const Mango = (props) => {
           }
           text4={
             <Fragment>
-              <span className="mango-text31">
+              <span className="dragon-fruit-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7vzB3r'),
+                    __html: translate.raw('text_9fLcm1'),
                   }}
                 ></span>
               </span>
@@ -275,10 +288,10 @@ const Mango = (props) => {
           }
           text5={
             <Fragment>
-              <span className="mango-text32">
+              <span className="dragon-fruit-text33">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AYHfsh'),
+                    __html: translate.raw('text_bWMXYJ'),
                   }}
                 ></span>
               </span>
@@ -286,10 +299,10 @@ const Mango = (props) => {
           }
           text6={
             <Fragment>
-              <span className="mango-text33">
+              <span className="dragon-fruit-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Od31vZ'),
+                    __html: translate.raw('text_ysn-xD'),
                   }}
                 ></span>
               </span>
@@ -297,10 +310,10 @@ const Mango = (props) => {
           }
           text7={
             <Fragment>
-              <span className="mango-text34">
+              <span className="dragon-fruit-text35">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AXtdDq'),
+                    __html: translate.raw('text_6BENKW'),
                   }}
                 ></span>
               </span>
@@ -308,10 +321,10 @@ const Mango = (props) => {
           }
           text8={
             <Fragment>
-              <span className="mango-text35">
+              <span className="dragon-fruit-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TNPVMm'),
+                    __html: translate.raw('text_l0ioZR'),
                   }}
                 ></span>
               </span>
@@ -319,10 +332,10 @@ const Mango = (props) => {
           }
           text9={
             <Fragment>
-              <span className="mango-text36">
+              <span className="dragon-fruit-text37">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_LW5nlt'),
+                    __html: translate.raw('text_lq03Kw'),
                   }}
                 ></span>
               </span>
@@ -330,10 +343,10 @@ const Mango = (props) => {
           }
           text10={
             <Fragment>
-              <span className="mango-text37">
+              <span className="dragon-fruit-text38">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_oeev64'),
+                    __html: translate.raw('text_dfM3mW'),
                   }}
                 ></span>
               </span>
@@ -341,10 +354,10 @@ const Mango = (props) => {
           }
           text11={
             <Fragment>
-              <span className="mango-text38">
+              <span className="dragon-fruit-text39">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_jRrO_M'),
+                    __html: translate.raw('text_lhu3q3'),
                   }}
                 ></span>
               </span>
@@ -352,10 +365,10 @@ const Mango = (props) => {
           }
           text12={
             <Fragment>
-              <span className="mango-text39">
+              <span className="dragon-fruit-text40">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_RqjRsZ'),
+                    __html: translate.raw('text_BREky1'),
                   }}
                 ></span>
               </span>
@@ -363,10 +376,10 @@ const Mango = (props) => {
           }
           text13={
             <Fragment>
-              <span className="mango-text40">
+              <span className="dragon-fruit-text41">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_v4YmqN'),
+                    __html: translate.raw('text_xclnsR'),
                   }}
                 ></span>
               </span>
@@ -374,10 +387,10 @@ const Mango = (props) => {
           }
           text14={
             <Fragment>
-              <span className="mango-text41">
+              <span className="dragon-fruit-text42">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6n0sVS'),
+                    __html: translate.raw('text_tVrinY'),
                   }}
                 ></span>
               </span>
@@ -385,10 +398,10 @@ const Mango = (props) => {
           }
           text15={
             <Fragment>
-              <span className="mango-text42">
+              <span className="dragon-fruit-text43">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_TncpUb'),
+                    __html: translate.raw('text_bKL7Nh'),
                   }}
                 ></span>
               </span>
@@ -396,58 +409,70 @@ const Mango = (props) => {
           }
           text16={
             <Fragment>
-              <span className="mango-text43">
-                <span>Magnesium</span>
+              <span className="dragon-fruit-text44">
+                <span>Magnesium - 10 mg</span>
                 <br />
-              </span>
-            </Fragment>
-          }
-          text17={
-            <Fragment>
-              <span className="mango-text46">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6k3m8z'),
-                  }}
-                ></span>
               </span>
             </Fragment>
           }
           text18={
             <Fragment>
-              <span className="mango-text47">
+              <span className="dragon-fruit-text47">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZeNWdc'),
+                    __html: translate.raw('text_R0U953'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          heading={
+          rootClassName="dragon-fruit-tableroot-class-name"
+          text131={
             <Fragment>
-              <span className="mango-text48">
+              <span className="dragon-fruit-text48">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_BBjwc7'),
+                    __html: translate.raw('text_DQxHab'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text71={
+            <Fragment>
+              <span className="dragon-fruit-text49">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_rdqVoO'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text81={
+            <Fragment>
+              <span className="dragon-fruit-text50">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_gY_xtV'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
           locale={props?.locale ?? ''}
-        ></TableComponent>
-        <MangoFeature1
-          rootClassName="mango-feature1root-class-name"
+        ></DragonFruitTable>
+        <DragonfruitFeature1
+          rootClassName="dragonfruit-feature1root-class-name"
           locale={props?.locale ?? ''}
-        ></MangoFeature1>
+        ></DragonfruitFeature1>
         <FooterMain
           link2={
             <Fragment>
-              <span className="mango-text49">
+              <span className="dragon-fruit-text51">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_nO1mm8'),
+                    __html: translate.raw('text_7ASVAV'),
                   }}
                 ></span>
               </span>
@@ -455,10 +480,10 @@ const Mango = (props) => {
           }
           link3={
             <Fragment>
-              <span className="mango-text50">
+              <span className="dragon-fruit-text52">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_kbTWQO'),
+                    __html: translate.raw('text_s83d8e'),
                   }}
                 ></span>
               </span>
@@ -466,10 +491,10 @@ const Mango = (props) => {
           }
           link4={
             <Fragment>
-              <span className="mango-text51">
+              <span className="dragon-fruit-text53">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ygu-GE'),
+                    __html: translate.raw('text_er38nX'),
                   }}
                 ></span>
               </span>
@@ -477,10 +502,10 @@ const Mango = (props) => {
           }
           link5={
             <Fragment>
-              <span className="mango-text52">
+              <span className="dragon-fruit-text54">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_T3DFkx'),
+                    __html: translate.raw('text__aFjJe'),
                   }}
                 ></span>
               </span>
@@ -488,10 +513,10 @@ const Mango = (props) => {
           }
           termsLink={
             <Fragment>
-              <span className="mango-text53">
+              <span className="dragon-fruit-text55">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_x09BjG'),
+                    __html: translate.raw('text_0hsYx5'),
                   }}
                 ></span>
               </span>
@@ -499,10 +524,10 @@ const Mango = (props) => {
           }
           cookiesLink={
             <Fragment>
-              <span className="mango-text54">
+              <span className="dragon-fruit-text56">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_t8w_Ki'),
+                    __html: translate.raw('text_ZtArrN'),
                   }}
                 ></span>
               </span>
@@ -510,22 +535,22 @@ const Mango = (props) => {
           }
           privacyLink={
             <Fragment>
-              <span className="mango-text55">
+              <span className="dragon-fruit-text57">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_MFz9l2'),
+                    __html: translate.raw('text_-Remu0'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="footer-mainroot-class-name10"
+          rootClassName="footer-mainroot-class-name11"
           locale={props?.locale ?? ''}
         ></FooterMain>
       </div>
       <style jsx>
         {`
-          .mango-container {
+          .dragon-fruit-container {
             width: 100%;
             display: flex;
             min-height: 100vh;
@@ -533,146 +558,152 @@ const Mango = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .mango-text10 {
+          .dragon-fruit-text10 {
             display: inline-block;
           }
-          .mango-text11 {
+          .dragon-fruit-text11 {
             display: inline-block;
           }
-          .mango-text12 {
+          .dragon-fruit-text12 {
             display: inline-block;
           }
-          .mango-text13 {
+          .dragon-fruit-text13 {
             display: inline-block;
           }
-          .mango-text14 {
+          .dragon-fruit-text14 {
             display: inline-block;
           }
-          .mango-text15 {
+          .dragon-fruit-text15 {
             display: inline-block;
           }
-          .mango-text16 {
+          .dragon-fruit-text16 {
             display: inline-block;
           }
-          .mango-text17 {
+          .dragon-fruit-text17 {
             display: inline-block;
           }
-          .mango-text18 {
+          .dragon-fruit-text18 {
             display: inline-block;
           }
-          .mango-text19 {
+          .dragon-fruit-text19 {
             display: inline-block;
           }
-          .mango-text20 {
+          .dragon-fruit-text20 {
             display: inline-block;
           }
-          .mango-text21 {
+          .dragon-fruit-text21 {
             display: inline-block;
           }
-          .mango-text22 {
+          .dragon-fruit-text22 {
             display: inline-block;
           }
-          .mango-text23 {
+          .dragon-fruit-text23 {
             display: inline-block;
           }
-          .mango-text24 {
+          .dragon-fruit-text24 {
             display: inline-block;
           }
-          .mango-text25 {
+          .dragon-fruit-text25 {
             display: inline-block;
           }
-          .mango-text26 {
+          .dragon-fruit-text26 {
             display: inline-block;
           }
-          .mango-text27 {
+          .dragon-fruit-text27 {
             display: inline-block;
           }
-          .mango-text28 {
+          .dragon-fruit-text28 {
             display: inline-block;
           }
-          .mango-text29 {
+          .dragon-fruit-text29 {
             display: inline-block;
           }
-          .mango-text30 {
+          .dragon-fruit-text30 {
             display: inline-block;
           }
-          .mango-text31 {
+          .dragon-fruit-text31 {
             display: inline-block;
           }
-          .mango-text32 {
+          .dragon-fruit-text32 {
             display: inline-block;
           }
-          .mango-text33 {
+          .dragon-fruit-text33 {
             display: inline-block;
           }
-          .mango-text34 {
+          .dragon-fruit-text34 {
             display: inline-block;
           }
-          .mango-text35 {
+          .dragon-fruit-text35 {
             display: inline-block;
           }
-          .mango-text36 {
+          .dragon-fruit-text36 {
             display: inline-block;
           }
-          .mango-text37 {
+          .dragon-fruit-text37 {
             display: inline-block;
           }
-          .mango-text38 {
+          .dragon-fruit-text38 {
             display: inline-block;
           }
-          .mango-text39 {
+          .dragon-fruit-text39 {
             display: inline-block;
           }
-          .mango-text40 {
+          .dragon-fruit-text40 {
             display: inline-block;
           }
-          .mango-text41 {
+          .dragon-fruit-text41 {
             display: inline-block;
           }
-          .mango-text42 {
+          .dragon-fruit-text42 {
             display: inline-block;
           }
-          .mango-text43 {
+          .dragon-fruit-text43 {
             display: inline-block;
           }
-          .mango-text46 {
+          .dragon-fruit-text44 {
             display: inline-block;
           }
-          .mango-text47 {
+          .dragon-fruit-text47 {
             display: inline-block;
           }
-          .mango-text48 {
+          .dragon-fruit-text48 {
             display: inline-block;
           }
-          .mango-text49 {
+          .dragon-fruit-text49 {
             display: inline-block;
           }
-          .mango-text50 {
+          .dragon-fruit-text50 {
             display: inline-block;
           }
-          .mango-text51 {
+          .dragon-fruit-text51 {
             display: inline-block;
           }
-          .mango-text52 {
+          .dragon-fruit-text52 {
             display: inline-block;
           }
-          .mango-text53 {
+          .dragon-fruit-text53 {
             display: inline-block;
           }
-          .mango-text54 {
+          .dragon-fruit-text54 {
             display: inline-block;
           }
-          .mango-text55 {
+          .dragon-fruit-text55 {
+            display: inline-block;
+          }
+          .dragon-fruit-text56 {
+            display: inline-block;
+          }
+          .dragon-fruit-text57 {
             display: inline-block;
           }
           @media (max-width: 991px) {
-            .mango-text29 {
-              font-family: Taviraj;
-            }
-            .mango-text30 {
+            .dragon-fruit-text28 {
               font-family: Open Sans;
             }
-            .mango-text48 {
+            .dragon-fruit-text30 {
+              font-family: Taviraj;
+            }
+            .dragon-fruit-text31 {
               font-family: Open Sans;
             }
           }
@@ -682,7 +713,7 @@ const Mango = (props) => {
   )
 }
 
-export default Mango
+export default DragonFruit
 
 export async function getStaticProps(context) {
   const messages = (await import('/locales/' + context.locale + '.json'))

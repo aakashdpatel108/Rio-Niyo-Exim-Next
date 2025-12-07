@@ -268,20 +268,20 @@ const Certificate5 = (props) => {
 
 Certificate5.defaultProps = {
   rootClassName: '',
-  feature2ImgSrc:
-    'https://images.unsplash.com/photo-1750165023743-1ce8d4d03ce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
-  feature2ImgAlt: 'Quality check icon',
+  feature3ImgAlt: 'Global connections icon',
   feature3ImgSrc:
     'https://images.unsplash.com/photo-1706407281811-eec5d826864b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
-  feature3ImgAlt: 'Global connections icon',
+  feature2ImgAlt: 'Quality check icon',
+  feature2ImgSrc:
+    'https://images.unsplash.com/photo-1750165023743-1ce8d4d03ce2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1OTQ5NzA4OHw&ixlib=rb-4.1.0&q=80&w=1080',
 }
 
 Certificate5.propTypes = {
   rootClassName: PropTypes.string,
-  feature2ImgSrc: PropTypes.string,
-  feature2ImgAlt: PropTypes.string,
-  feature3ImgSrc: PropTypes.string,
   feature3ImgAlt: PropTypes.string,
+  feature3ImgSrc: PropTypes.string,
+  feature2ImgAlt: PropTypes.string,
+  feature2ImgSrc: PropTypes.string,
 }
 
 export default Certificate5

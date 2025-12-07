@@ -429,6 +429,9 @@ const HomeFeatureSlider = (props) => {
             .home-feature-slider-text2 {
               width: 231px;
             }
+            .home-feature-slider-actions {
+              width: auto;
+            }
             .home-feature-slider-text3 {
               font-size: 12px;
             }

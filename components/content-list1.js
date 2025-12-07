@@ -125,9 +125,6 @@ const ContentList1 = (props) => {
             font-size: 35px;
             align-self: flex-start;
           }
-          .content-list1root-class-name {
-            background-color: #faffcf;
-          }
           @media (max-width: 991px) {
             .content-list1-heading1 {
               align-self: flex-start;
