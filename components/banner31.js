@@ -13,9 +13,9 @@ const Banner31 = (props) => {
           src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDh8fHZlZ2V0YWJsZXN8ZW58MHx8fHwxNzYyMDM2NzM5fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           className="banner31-image thq-img-ratio-16-9"
         />
-        <div className="banner31-max-width thq-section-max-width">
+        <div className="banner31-thq-max-width-elm thq-section-max-width">
           <div className="banner31-container2">
-            <h2 className="banner31-title thq-heading-2">
+            <h2 className="banner31-thq-title-elm thq-heading-2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_VBUi_y'),
@@ -59,7 +59,7 @@ const Banner31 = (props) => {
             height: 100%;
             position: absolute;
           }
-          .banner31-max-width {
+          .banner31-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             height: 100%;
@@ -75,7 +75,7 @@ const Banner31 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .banner31-title {
+          .banner31-thq-title-elm {
             color: #ffffff;
             text-align: center;
           }
@@ -90,7 +90,7 @@ const Banner31 = (props) => {
             text-decoration: none;
           }
           @media (max-width: 991px) {
-            .banner31-title {
+            .banner31-thq-title-elm {
               color: rgb(255, 255, 255);
             }
             .banner31-text {
@@ -101,7 +101,7 @@ const Banner31 = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .banner31-title {
+            .banner31-thq-title-elm {
               color: rgb(255, 255, 255);
               width: 670px;
               font-size: 25px;
@@ -124,13 +124,13 @@ const Banner31 = (props) => {
             }
           }
           @media (max-width: 344px) {
-            .banner31-max-width {
+            .banner31-thq-max-width-elm {
               align-self: center;
             }
             .banner31-container2 {
               align-self: flex-start;
             }
-            .banner31-title {
+            .banner31-thq-title-elm {
               color: rgb(255, 255, 255);
               width: 295px;
               font-size: 25px;

@@ -6,23 +6,23 @@ const MangoHero = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="mango-hero-header26 thq-section-padding">
-        <div className="mango-hero-max-width thq-flex-column thq-section-max-width">
-          <div className="mango-hero-column">
+      <div className="mango-hero-thq-header26-elm thq-section-padding">
+        <div className="mango-hero-thq-max-width-elm thq-flex-column thq-section-max-width">
+          <div className="mango-hero-thq-column-elm">
             <img
               alt="Mango"
               src="https://images.unsplash.com/photo-1623497718131-46ace0d4d707?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQ0fHxtYW5nb3xlbnwwfHx8fDE3NjUxMjg2MTh8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
               className="thq-img-ratio-16-9"
             />
-            <div className="mango-hero-content">
-              <h1 className="mango-hero-text1 thq-heading-1">
+            <div className="mango-hero-thq-content-elm">
+              <h1 className="mango-hero-thq-text-elm1 thq-heading-1">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_GNdtDV'),
                   }}
                 ></span>
               </h1>
-              <p className="mango-hero-text2 thq-body-large">
+              <p className="mango-hero-thq-text-elm2 thq-body-large">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_BVRxDr'),
@@ -35,13 +35,13 @@ const MangoHero = (props) => {
       </div>
       <style jsx>
         {`
-          .mango-hero-header26 {
+          .mango-hero-thq-header26-elm {
             gap: var(--dl-layout-space-twounits);
           }
-          .mango-hero-max-width {
+          .mango-hero-thq-max-width-elm {
             align-self: center;
           }
-          .mango-hero-column {
+          .mango-hero-thq-column-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -49,7 +49,7 @@ const MangoHero = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .mango-hero-content {
+          .mango-hero-thq-content-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -57,29 +57,29 @@ const MangoHero = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .mango-hero-text1 {
+          .mango-hero-thq-text-elm1 {
             font-size: 35px;
             text-align: center;
           }
-          .mango-hero-text2 {
+          .mango-hero-thq-text-elm2 {
             font-size: 16px;
             text-align: center;
           }
           @media (max-width: 1200px) {
-            .mango-hero-text1 {
+            .mango-hero-thq-text-elm1 {
               text-align: center;
             }
-            .mango-hero-text2 {
+            .mango-hero-thq-text-elm2 {
               text-align: center;
             }
           }
           @media (max-width: 767px) {
-            .mango-hero-text1 {
+            .mango-hero-thq-text-elm1 {
               font-size: 25px;
               text-align: center;
               font-family: Taviraj;
             }
-            .mango-hero-text2 {
+            .mango-hero-thq-text-elm2 {
               font-size: 12px;
               text-align: center;
             }

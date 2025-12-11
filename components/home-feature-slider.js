@@ -9,17 +9,19 @@ const HomeFeatureSlider = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className={`home-feature-slider-header78 ${props.rootClassName} `}>
-        <div className="home-feature-slider-column thq-section-padding thq-section-max-width">
-          <div className="home-feature-slider-content1">
-            <h1 className="home-feature-slider-text1 thq-heading-1">
+      <div
+        className={`home-feature-slider-thq-header78-elm ${props.rootClassName} `}
+      >
+        <div className="home-feature-slider-thq-column-elm thq-section-padding thq-section-max-width">
+          <div className="home-feature-slider-thq-content-elm1">
+            <h1 className="home-feature-slider-thq-text-elm1 thq-heading-1">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_7IVpwh'),
                 }}
               ></span>
             </h1>
-            <p className="home-feature-slider-text2 thq-body-large">
+            <p className="home-feature-slider-thq-text-elm2 thq-body-large">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_PysO3i'),
@@ -29,9 +31,9 @@ const HomeFeatureSlider = (props) => {
           </div>
           <Link href="/product-categories">
             <a className="home-feature-slider-link">
-              <div className="home-feature-slider-actions">
-                <button className="thq-button-filled home-feature-slider-button">
-                  <span className="thq-body-small home-feature-slider-text3">
+              <div className="home-feature-slider-thq-actions-elm">
+                <button className="thq-button-filled home-feature-slider-thq-button-elm">
+                  <span className="thq-body-small home-feature-slider-thq-text-elm3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_2bOIVt'),
@@ -43,136 +45,136 @@ const HomeFeatureSlider = (props) => {
             </a>
           </Link>
         </div>
-        <div className="home-feature-slider-content2">
-          <div className="home-feature-slider-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
+        <div className="home-feature-slider-thq-content-elm2">
+          <div className="home-feature-slider-thq-row-container-elm1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
             <div className="thq-animated-group-horizontal">
               <img
                 alt={props.image1Alt}
                 src={props.image1Src}
-                className="home-feature-slider-placeholder-image10 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm10 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Sesame seeds"
                 src="https://images.unsplash.com/photo-1628317321557-68729bee6644?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fFNlc2FtZSUyMHNlZWRzfGVufDB8fHx8MTc2MjEwNDQwMnww&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image11 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm11 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="lady fingers"
                 src="https://images.unsplash.com/photo-1664289242854-e99d345cfa92?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGxhZHklMjBmaW5nZXJ8ZW58MHx8fHwxNzYyMDM4NTU2fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image12 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm12 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="rice"
                 src="https://images.unsplash.com/photo-1686820740687-426a7b9b2043?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fHJpY2V8ZW58MHx8fHwxNzYyMDM3NzAwfDA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image13 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm13 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="kidney beans"
                 src="https://images.unsplash.com/photo-1612504258838-fbf14fe4437d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI1fHxraWRuZXklMjBiZWFuc3xlbnwwfHx8fDE3NjIwMzk2MzJ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image14 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm14 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="coriander"
                 src="https://images.unsplash.com/photo-1608797179072-4268dd68eff2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fGNvcmlhbmRlcnxlbnwwfHx8fDE3NjE1MTM1NjF8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm15 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
             <div className="thq-animated-group-horizontal">
               <img
                 alt={props.image1Alt}
                 src={props.image1Src}
-                className="home-feature-slider-placeholder-image16 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm16 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Onions"
                 src="https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fE9uaW9uc3xlbnwwfHx8fDE3NjIxMDQ0NTJ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm17 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Turmeric"
                 src="https://images.unsplash.com/photo-1606951444141-e5533feb55be?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fFR1cm1lcmljfGVufDB8fHx8MTc2MjEwNDE5OXww&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm18 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="banana"
                 src="https://images.unsplash.com/photo-1603833665858-e61d17a86224?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGJhbmFuYXxlbnwwfHx8fDE3NTk2OTg4ODV8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm19 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Cumin"
                 src="https://images.unsplash.com/photo-1676619357571-b4f086f81299?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fEN1bWlufGVufDB8fHx8MTc2MjEwNDIxNnww&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm20 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Hero Image"
                 src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
-                className="home-feature-slider-placeholder-image21 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm21 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
           </div>
-          <div className="home-feature-slider-row-container2 thq-animated-group-container-horizontal thq-mask-image-horizontal">
+          <div className="home-feature-slider-thq-row-container-elm2 thq-animated-group-container-horizontal thq-mask-image-horizontal">
             <div className="thq-animated-group-horizontal-reverse">
               <img
                 alt="Papaya"
                 src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2fHxwYXBheWF8ZW58MHx8fHwxNzYyMTA1MDczfDA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image22 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm22 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt={props.image8Alt}
                 src={props.image8Src}
-                className="home-feature-slider-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm23 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Cloves"
                 src="https://images.unsplash.com/photo-1733938942778-c2e510c02dc9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxDbG92ZXN8ZW58MHx8fHwxNzYyMTA1MjI5fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image24 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm24 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Dragon fruit"
                 src="https://images.unsplash.com/photo-1740759781409-9d1d6985c866?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIyfHxEcmFnb24lMjBmcnVpdHxlbnwwfHx8fDE3NjIxMDQxNTJ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image25 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm25 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Chickpeas"
                 src="https://images.unsplash.com/photo-1724418020207-144b3ba54d2d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDQ4fHxDaGlja3BlYXN8ZW58MHx8fHwxNzYyMTA0ODUwfDA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image26 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm26 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Cinnamon"
                 src="https://images.unsplash.com/photo-1553499944-e4297a0af1bd?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fENpbm5hbW9ufGVufDB8fHx8MTc2MjEwNDc3Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm27 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
             <div className="thq-animated-group-horizontal-reverse">
               <img
                 alt="Guava"
                 src="https://images.unsplash.com/photo-1689996647099-a7a0b67fd2f6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fEd1YXZhfGVufDB8fHx8MTc2MjEwNDU3Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image28 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm28 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Soya beans"
                 src="https://images.unsplash.com/photo-1639843606783-b2f9c50a7468?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fFNveWElMjBiZWFuc3xlbnwwfHx8fDE3NjIxMDQ1MDd8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image29 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm29 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Green chilli"
                 src="https://images.unsplash.com/photo-1524593410820-38510f580a77?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGdyZWVuJTIwcGVwcGVyfGVufDB8fHx8MTc2MjAzODg2N3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image30 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm30 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Cardamom"
                 src="https://images.unsplash.com/photo-1701166627787-12d9fdd437cc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGNhcmRhbW9tfGVufDB8fHx8MTc2MjEwNDk0N3ww&amp;ixlib=rb-4.1.0&amp;w=1500"
-                className="home-feature-slider-placeholder-image31 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm31 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt={props.image11Alt}
                 src={props.image11Src}
-                className="home-feature-slider-placeholder-image32 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm32 thq-img-scale thq-img-ratio-1-1"
               />
               <img
                 alt="Hero Image"
                 src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
-                className="home-feature-slider-placeholder-image33 thq-img-scale thq-img-ratio-1-1"
+                className="home-feature-slider-thq-placeholder-image-elm33 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
           </div>
@@ -206,7 +208,7 @@ const HomeFeatureSlider = (props) => {
       </div>
       <style jsx>
         {`
-          .home-feature-slider-header78 {
+          .home-feature-slider-thq-header78-elm {
             gap: var(--dl-layout-space-threeunits);
             width: 100%;
             height: auto;
@@ -224,7 +226,7 @@ const HomeFeatureSlider = (props) => {
             border-top-left-radius: 40%;
             border-top-right-radius: 40%;
           }
-          .home-feature-slider-column {
+          .home-feature-slider-thq-column-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: auto;
             display: flex;
@@ -232,30 +234,30 @@ const HomeFeatureSlider = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-layout-space-unit);
           }
-          .home-feature-slider-content1 {
+          .home-feature-slider-thq-content-elm1 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .home-feature-slider-text1 {
+          .home-feature-slider-thq-text-elm1 {
             font-size: 35px;
             text-align: center;
           }
-          .home-feature-slider-text2 {
+          .home-feature-slider-thq-text-elm2 {
             text-align: center;
           }
           .home-feature-slider-link {
             display: contents;
           }
-          .home-feature-slider-actions {
+          .home-feature-slider-thq-actions-elm {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-items: flex-start;
             text-decoration: none;
           }
-          .home-feature-slider-content2 {
+          .home-feature-slider-thq-content-elm2 {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -263,105 +265,105 @@ const HomeFeatureSlider = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-feature-slider-row-container1 {
+          .home-feature-slider-thq-row-container-elm1 {
             width: 100%;
           }
-          .home-feature-slider-placeholder-image10 {
+          .home-feature-slider-thq-placeholder-image-elm10 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image11 {
+          .home-feature-slider-thq-placeholder-image-elm11 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image12 {
+          .home-feature-slider-thq-placeholder-image-elm12 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image13 {
+          .home-feature-slider-thq-placeholder-image-elm13 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image14 {
+          .home-feature-slider-thq-placeholder-image-elm14 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image15 {
+          .home-feature-slider-thq-placeholder-image-elm15 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image16 {
+          .home-feature-slider-thq-placeholder-image-elm16 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image17 {
+          .home-feature-slider-thq-placeholder-image-elm17 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image18 {
+          .home-feature-slider-thq-placeholder-image-elm18 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image19 {
+          .home-feature-slider-thq-placeholder-image-elm19 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image20 {
+          .home-feature-slider-thq-placeholder-image-elm20 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image21 {
+          .home-feature-slider-thq-placeholder-image-elm21 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-row-container2 {
+          .home-feature-slider-thq-row-container-elm2 {
             width: 100%;
           }
-          .home-feature-slider-placeholder-image22 {
+          .home-feature-slider-thq-placeholder-image-elm22 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image23 {
+          .home-feature-slider-thq-placeholder-image-elm23 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image24 {
+          .home-feature-slider-thq-placeholder-image-elm24 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image25 {
+          .home-feature-slider-thq-placeholder-image-elm25 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image26 {
+          .home-feature-slider-thq-placeholder-image-elm26 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image27 {
+          .home-feature-slider-thq-placeholder-image-elm27 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image28 {
+          .home-feature-slider-thq-placeholder-image-elm28 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image29 {
+          .home-feature-slider-thq-placeholder-image-elm29 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image30 {
+          .home-feature-slider-thq-placeholder-image-elm30 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image31 {
+          .home-feature-slider-thq-placeholder-image-elm31 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image32 {
+          .home-feature-slider-thq-placeholder-image-elm32 {
             width: 400px;
             height: 400px;
           }
-          .home-feature-slider-placeholder-image33 {
+          .home-feature-slider-thq-placeholder-image-elm33 {
             width: 400px;
             height: 400px;
           }
@@ -372,67 +374,67 @@ const HomeFeatureSlider = (props) => {
             background-color: #f3f3f3;
           }
           @media (max-width: 1600px) {
-            .home-feature-slider-header78 {
+            .home-feature-slider-thq-header78-elm {
               border-top-width: 1px;
               border-right-width: 6px;
             }
           }
           @media (max-width: 991px) {
-            .home-feature-slider-header78 {
+            .home-feature-slider-thq-header78-elm {
               border-top-width: 0px;
               border-left-width: 3px;
               border-right-width: 3px;
               border-top-left-radius: 30%;
               border-top-right-radius: 30%;
             }
-            .home-feature-slider-text1 {
+            .home-feature-slider-thq-text-elm1 {
               font-size: 35px;
             }
           }
           @media (max-width: 767px) {
-            .home-feature-slider-content1 {
+            .home-feature-slider-thq-content-elm1 {
               width: 480px;
               margin-right: 0px;
             }
-            .home-feature-slider-text1 {
+            .home-feature-slider-thq-text-elm1 {
               width: 249px;
               font-size: 20px;
               text-align: center;
               margin-right: 0px;
             }
-            .home-feature-slider-text2 {
+            .home-feature-slider-thq-text-elm2 {
               width: 319px;
               font-size: 15px;
             }
-            .home-feature-slider-text3 {
+            .home-feature-slider-thq-text-elm3 {
               font-size: 12px;
             }
-            .home-feature-slider-content2 {
+            .home-feature-slider-thq-content-elm2 {
               width: 100%;
             }
           }
           @media (max-width: 479px) {
-            .home-feature-slider-actions {
+            .home-feature-slider-thq-actions-elm {
               width: 100%;
               flex-direction: column;
             }
-            .home-feature-slider-button {
+            .home-feature-slider-thq-button-elm {
               width: 100%;
             }
           }
           @media (max-width: 344px) {
-            .home-feature-slider-text1 {
+            .home-feature-slider-thq-text-elm1 {
               width: 194px;
               font-size: 20px;
               padding-right: 0px;
             }
-            .home-feature-slider-text2 {
+            .home-feature-slider-thq-text-elm2 {
               width: 231px;
             }
-            .home-feature-slider-actions {
+            .home-feature-slider-thq-actions-elm {
               width: auto;
             }
-            .home-feature-slider-text3 {
+            .home-feature-slider-thq-text-elm3 {
               font-size: 12px;
             }
           }

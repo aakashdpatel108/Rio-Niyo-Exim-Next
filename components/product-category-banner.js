@@ -8,9 +8,9 @@ const ProductCategoryBanner = (props) => {
   return (
     <>
       <div className="product-category-banner-container1 thq-section-padding">
-        <div className="product-category-banner-max-width thq-section-max-width">
+        <div className="product-category-banner-thq-max-width-elm thq-section-max-width">
           <div className="product-category-banner-container2">
-            <h2 className="product-category-banner-title thq-heading-2">
+            <h2 className="product-category-banner-thq-title-elm thq-heading-2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_alav-S'),
@@ -44,7 +44,7 @@ const ProductCategoryBanner = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .product-category-banner-max-width {
+          .product-category-banner-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: center;
@@ -57,7 +57,7 @@ const ProductCategoryBanner = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .product-category-banner-title {
+          .product-category-banner-thq-title-elm {
             text-align: center;
             background-image: linear-gradient(
               90deg,
@@ -95,7 +95,7 @@ const ProductCategoryBanner = (props) => {
             animation-timing-function: ease;
           }
           @media (max-width: 991px) {
-            .product-category-banner-title {
+            .product-category-banner-thq-title-elm {
               background-image: linear-gradient(
                 90deg,
                 rgb(189, 195, 199) 0%,
@@ -109,7 +109,7 @@ const ProductCategoryBanner = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .product-category-banner-title {
+            .product-category-banner-thq-title-elm {
               font-size: 25px;
               background-image: linear-gradient(
                 90deg,
@@ -125,7 +125,7 @@ const ProductCategoryBanner = (props) => {
             }
           }
           @media (max-width: 344px) {
-            .product-category-banner-title {
+            .product-category-banner-thq-title-elm {
               font-size: 25px;
               background-image: linear-gradient(
                 90deg,

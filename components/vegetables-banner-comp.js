@@ -11,9 +11,9 @@ const VegetablesBannerComp = (props) => {
         <img
           alt="Image of fresh fruits and vegetables"
           src="https://images.unsplash.com/photo-1476837579993-f1d3948f17c2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDkwfHxmcnVpdHN8ZW58MHx8fHwxNzU5NTAzMTcyfDA&amp;ixlib=rb-4.1.0&amp;w=1500"
-          className="vegetables-banner-comp-background-image thq-img-ratio-16-9"
+          className="vegetables-banner-comp-thq-background-image-elm thq-img-ratio-16-9"
         />
-        <div className="vegetables-banner-comp-container thq-flex-row">
+        <div className="vegetables-banner-comp-thq-container-elm thq-flex-row">
           <h2 className="vegetables-banner-comp-text1 thq-heading-2">
             <span
               dangerouslySetInnerHTML={{
@@ -21,23 +21,23 @@ const VegetablesBannerComp = (props) => {
               }}
             ></span>
           </h2>
-          <div className="vegetables-banner-comp-content">
-            <p className="vegetables-banner-comp-text2 thq-body-large">
+          <div className="vegetables-banner-comp-thq-content-elm">
+            <p className="vegetables-banner-comp-thq-text-elm thq-body-large">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_YolJ4R'),
                 }}
               ></span>
             </p>
-            <div className="vegetables-banner-comp-actions">
+            <div className="vegetables-banner-comp-thq-actions-elm">
               <button
                 type="button"
                 className="thq-button-filled vegetables-banner-comp-button1"
               >
-                <span className="vegetables-banner-comp-text3">
+                <span className="vegetables-banner-comp-text2">
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="vegetables-banner-comp-text5">
+                      <span className="vegetables-banner-comp-text4">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_cvXKRW'),
@@ -52,10 +52,10 @@ const VegetablesBannerComp = (props) => {
                 type="button"
                 className="thq-button-outline vegetables-banner-comp-button2"
               >
-                <span className="vegetables-banner-comp-text4">
+                <span className="vegetables-banner-comp-text3">
                   {props.action2 ?? (
                     <Fragment>
-                      <span className="vegetables-banner-comp-text6">
+                      <span className="vegetables-banner-comp-text5">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_pSZH3N'),
@@ -72,7 +72,7 @@ const VegetablesBannerComp = (props) => {
       </div>
       <style jsx>
         {`
-          .vegetables-banner-comp-background-image {
+          .vegetables-banner-comp-thq-background-image-elm {
             left: 0px;
             width: 100%;
             bottom: 0px;
@@ -80,7 +80,7 @@ const VegetablesBannerComp = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .vegetables-banner-comp-container {
+          .vegetables-banner-comp-thq-container-elm {
             display: flex;
             overflow: visible;
             align-self: stretch;
@@ -91,7 +91,7 @@ const VegetablesBannerComp = (props) => {
             color: #ffffff;
             font-family: 'Taviraj';
           }
-          .vegetables-banner-comp-content {
+          .vegetables-banner-comp-thq-content-elm {
             gap: 24px;
             width: 616px;
             display: flex;
@@ -100,24 +100,24 @@ const VegetablesBannerComp = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .vegetables-banner-comp-text2 {
+          .vegetables-banner-comp-thq-text-elm {
             color: #ffffff;
             font-family: 'Open Sans';
           }
-          .vegetables-banner-comp-actions {
+          .vegetables-banner-comp-thq-actions-elm {
             display: flex;
             align-items: flex-start;
+          }
+          .vegetables-banner-comp-text2 {
+            font-family: 'Open Sans';
           }
           .vegetables-banner-comp-text3 {
             font-family: 'Open Sans';
           }
           .vegetables-banner-comp-text4 {
-            font-family: 'Open Sans';
-          }
-          .vegetables-banner-comp-text5 {
             display: inline-block;
           }
-          .vegetables-banner-comp-text6 {
+          .vegetables-banner-comp-text5 {
             display: inline-block;
           }
           .vegetables-banner-comproot-class-name {
@@ -133,12 +133,12 @@ const VegetablesBannerComp = (props) => {
             min-height: auto;
           }
           @media (max-width: 1200px) {
-            .vegetables-banner-comp-text6 {
+            .vegetables-banner-comp-text5 {
               font-size: 12px;
             }
           }
           @media (max-width: 991px) {
-            .vegetables-banner-comp-container {
+            .vegetables-banner-comp-thq-container-elm {
               flex-direction: column;
             }
           }
@@ -148,21 +148,21 @@ const VegetablesBannerComp = (props) => {
               font-size: 25px;
               font-family: Taviraj;
             }
-            .vegetables-banner-comp-content {
+            .vegetables-banner-comp-thq-content-elm {
               width: auto;
             }
-            .vegetables-banner-comp-text2 {
+            .vegetables-banner-comp-thq-text-elm {
               color: rgb(255, 255, 255);
               font-size: 12px;
               font-family: Open Sans;
             }
-            .vegetables-banner-comp-text3 {
+            .vegetables-banner-comp-text2 {
+              font-size: 12px;
+            }
+            .vegetables-banner-comp-text4 {
               font-size: 12px;
             }
             .vegetables-banner-comp-text5 {
-              font-size: 12px;
-            }
-            .vegetables-banner-comp-text6 {
               font-size: 15px;
             }
           }
@@ -173,7 +173,7 @@ const VegetablesBannerComp = (props) => {
               font-size: 25px;
               font-family: Taviraj;
             }
-            .vegetables-banner-comp-text2 {
+            .vegetables-banner-comp-thq-text-elm {
               color: rgb(255, 255, 255);
               width: 294px;
               font-size: 12px;
@@ -182,16 +182,16 @@ const VegetablesBannerComp = (props) => {
             .vegetables-banner-comp-button1 {
               width: 151px;
             }
-            .vegetables-banner-comp-text3 {
+            .vegetables-banner-comp-text2 {
               font-size: 12px;
             }
             .vegetables-banner-comp-button2 {
               width: 87px;
             }
-            .vegetables-banner-comp-text5 {
+            .vegetables-banner-comp-text4 {
               font-size: 12px;
             }
-            .vegetables-banner-comp-text6 {
+            .vegetables-banner-comp-text5 {
               font-size: 12px;
             }
           }

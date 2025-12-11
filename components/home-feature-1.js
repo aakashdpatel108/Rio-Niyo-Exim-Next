@@ -6,16 +6,16 @@ const HomeFeature1 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="home-feature-1-layout186 thq-section-padding">
+      <div className="home-feature-1-thq-layout186-elm thq-section-padding">
         <div className="thq-flex-column thq-section-max-width">
-          <h2 className="home-feature-1-text1 thq-heading-2">
+          <h2 className="home-feature-1-thq-text-elm1 thq-heading-2">
             <span
               dangerouslySetInnerHTML={{
                 __html: translate.raw('text_LX4FqK'),
               }}
             ></span>
           </h2>
-          <p className="home-feature-1-text2 thq-body-large">
+          <p className="home-feature-1-thq-text-elm2 thq-body-large">
             <span
               dangerouslySetInnerHTML={{
                 __html: translate.raw('text_hH1rDp'),
@@ -26,7 +26,7 @@ const HomeFeature1 = (props) => {
       </div>
       <style jsx>
         {`
-          .home-feature-1-layout186 {
+          .home-feature-1-thq-layout186-elm {
             width: 100%;
             height: auto;
             display: flex;
@@ -37,31 +37,31 @@ const HomeFeature1 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-feature-1-text1 {
+          .home-feature-1-thq-text-elm1 {
             z-index: 2;
             font-style: normal;
             text-align: center;
             font-weight: 800;
           }
-          .home-feature-1-text2 {
+          .home-feature-1-thq-text-elm2 {
             z-index: 2;
             text-align: center;
           }
           @media (max-width: 767px) {
-            .home-feature-1-text1 {
+            .home-feature-1-thq-text-elm1 {
               font-size: 20px;
             }
-            .home-feature-1-text2 {
+            .home-feature-1-thq-text-elm2 {
               font-size: 15px;
             }
           }
           @media (max-width: 344px) {
-            .home-feature-1-text1 {
+            .home-feature-1-thq-text-elm1 {
               font-size: 20px;
               font-style: normal;
               font-weight: 800;
             }
-            .home-feature-1-text2 {
+            .home-feature-1-thq-text-elm2 {
               font-size: 15px;
             }
           }

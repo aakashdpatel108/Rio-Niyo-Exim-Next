@@ -4,32 +4,32 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import DragonFruitBanner from '../components/dragon-fruit-banner'
-import DragonHero from '../components/dragon-hero'
-import DragonFruitTable from '../components/dragon-fruit-table'
-import DragonfruitFeature1 from '../components/dragonfruit-feature-1'
+import PomegranateBanner from '../components/pomegranate-banner'
+import PomegranateHero from '../components/pomegranate-hero'
+import PomegranateTable from '../components/pomegranate-table'
+import PomegranateFeature1 from '../components/pomegranate-feature-1'
 import FooterMain from '../components/footer-main'
 
-const DragonFruit = (props) => {
+const Pomegranate = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="dragon-fruit-container">
+      <div className="pomegranate-container">
         <Head>
-          <title>Dragon-fruit - Rio Niyo Exim</title>
-          <meta property="og:title" content="Dragon-fruit - Rio Niyo Exim" />
+          <title>Pomegranate - Rio Niyo Exim</title>
+          <meta property="og:title" content="Pomegranate - Rio Niyo Exim" />
           <link
             rel="canonical"
-            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/dragon-fruit"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/pomegranate"
           />
         </Head>
         <Nav
           page3={
             <Fragment>
-              <span className="dragon-fruit-text10">
+              <span className="pomegranate-text10">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Ufbfc0'),
+                    __html: translate.raw('text_sVRVQN'),
                   }}
                 ></span>
               </span>
@@ -37,10 +37,10 @@ const DragonFruit = (props) => {
           }
           page4={
             <Fragment>
-              <span className="dragon-fruit-text11">
+              <span className="pomegranate-text11">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_u1zcfu'),
+                    __html: translate.raw('text_yrBRkJ'),
                   }}
                 ></span>
               </span>
@@ -48,10 +48,10 @@ const DragonFruit = (props) => {
           }
           text1={
             <Fragment>
-              <span className="dragon-fruit-text12">
+              <span className="pomegranate-text12">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_n9abEk'),
+                    __html: translate.raw('text_zOgoZU'),
                   }}
                 ></span>
               </span>
@@ -59,10 +59,10 @@ const DragonFruit = (props) => {
           }
           text2={
             <Fragment>
-              <span className="dragon-fruit-text13">
+              <span className="pomegranate-text13">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_V6VGub'),
+                    __html: translate.raw('text_Qyh_EM'),
                   }}
                 ></span>
               </span>
@@ -70,10 +70,10 @@ const DragonFruit = (props) => {
           }
           text3={
             <Fragment>
-              <span className="dragon-fruit-text14">
+              <span className="pomegranate-text14">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_oUg8ja'),
+                    __html: translate.raw('text_bS4hGf'),
                   }}
                 ></span>
               </span>
@@ -81,10 +81,10 @@ const DragonFruit = (props) => {
           }
           fruits={
             <Fragment>
-              <span className="dragon-fruit-text15">
+              <span className="pomegranate-text15">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_PgaDkY'),
+                    __html: translate.raw('text_gCKdsi'),
                   }}
                 ></span>
               </span>
@@ -92,10 +92,10 @@ const DragonFruit = (props) => {
           }
           page41={
             <Fragment>
-              <span className="dragon-fruit-text16">
+              <span className="pomegranate-text16">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_nQnjXY'),
+                    __html: translate.raw('text_5qxjsO'),
                   }}
                 ></span>
               </span>
@@ -103,10 +103,10 @@ const DragonFruit = (props) => {
           }
           text11={
             <Fragment>
-              <span className="dragon-fruit-text17">
+              <span className="pomegranate-text17">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_3f07I5'),
+                    __html: translate.raw('text_jd06-9'),
                   }}
                 ></span>
               </span>
@@ -114,10 +114,10 @@ const DragonFruit = (props) => {
           }
           text21={
             <Fragment>
-              <span className="dragon-fruit-text18">
+              <span className="pomegranate-text18">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_WRD4NS'),
+                    __html: translate.raw('text_zS7Jui'),
                   }}
                 ></span>
               </span>
@@ -125,10 +125,10 @@ const DragonFruit = (props) => {
           }
           text31={
             <Fragment>
-              <span className="dragon-fruit-text19">
+              <span className="pomegranate-text19">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_MIr7OE'),
+                    __html: translate.raw('text_UBqc6U'),
                   }}
                 ></span>
               </span>
@@ -136,10 +136,10 @@ const DragonFruit = (props) => {
           }
           text32={
             <Fragment>
-              <span className="dragon-fruit-text20">
+              <span className="pomegranate-text20">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_hLoeuB'),
+                    __html: translate.raw('text_jRzjG1'),
                   }}
                 ></span>
               </span>
@@ -147,10 +147,10 @@ const DragonFruit = (props) => {
           }
           page411={
             <Fragment>
-              <span className="dragon-fruit-text21">
+              <span className="pomegranate-text21">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7g9DIu'),
+                    __html: translate.raw('text_Ad1w9S'),
                   }}
                 ></span>
               </span>
@@ -158,10 +158,10 @@ const DragonFruit = (props) => {
           }
           text311={
             <Fragment>
-              <span className="dragon-fruit-text22">
+              <span className="pomegranate-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0QwQ-0'),
+                    __html: translate.raw('text_ugAqWp'),
                   }}
                 ></span>
               </span>
@@ -169,10 +169,10 @@ const DragonFruit = (props) => {
           }
           text312={
             <Fragment>
-              <span className="dragon-fruit-text23">
+              <span className="pomegranate-text23">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4tvBxd'),
+                    __html: translate.raw('text_nvXLRW'),
                   }}
                 ></span>
               </span>
@@ -180,10 +180,10 @@ const DragonFruit = (props) => {
           }
           text3111={
             <Fragment>
-              <span className="dragon-fruit-text24">
+              <span className="pomegranate-text24">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_8A62NB'),
+                    __html: translate.raw('text_4NBlWA'),
                   }}
                 ></span>
               </span>
@@ -191,10 +191,10 @@ const DragonFruit = (props) => {
           }
           text3112={
             <Fragment>
-              <span className="dragon-fruit-text25">
+              <span className="pomegranate-text25">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Nlelsh'),
+                    __html: translate.raw('text_zdc0WI'),
                   }}
                 ></span>
               </span>
@@ -202,10 +202,10 @@ const DragonFruit = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="dragon-fruit-text26">
+              <span className="pomegranate-text26">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_iPROF9'),
+                    __html: translate.raw('text_tCmAz_'),
                   }}
                 ></span>
               </span>
@@ -213,30 +213,44 @@ const DragonFruit = (props) => {
           }
           vegetables={
             <Fragment>
-              <span className="dragon-fruit-text27">
+              <span className="pomegranate-text27">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_az5BNj'),
+                    __html: translate.raw('text_G58TaH'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="navroot-class-name14"
+          rootClassName="navroot-class-name15"
           locale={props?.locale ?? ''}
         ></Nav>
-        <DragonFruitBanner locale={props?.locale ?? ''}></DragonFruitBanner>
-        <DragonHero
-          rootClassName="dragon-heroroot-class-name"
+        <PomegranateBanner
+          rootClassName="pomegranate-bannerroot-class-name"
           locale={props?.locale ?? ''}
-        ></DragonHero>
-        <DragonFruitTable
-          text={
+        ></PomegranateBanner>
+        <PomegranateHero
+          rootClassName="pomegranate-heroroot-class-name"
+          locale={props?.locale ?? ''}
+        ></PomegranateHero>
+        <PomegranateTable
+          heading={
             <Fragment>
-              <span className="dragon-fruit-text28">
+              <span className="pomegranate-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZihAUp'),
+                    __html: translate.raw('text_T3vNuK'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text={
+            <Fragment>
+              <span className="pomegranate-text29">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_SDTXe3'),
                   }}
                 ></span>
               </span>
@@ -244,10 +258,10 @@ const DragonFruit = (props) => {
           }
           text1={
             <Fragment>
-              <span className="dragon-fruit-text29">
+              <span className="pomegranate-text30">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_1ZCjZa'),
+                    __html: translate.raw('text_FUGU6S'),
                   }}
                 ></span>
               </span>
@@ -255,10 +269,10 @@ const DragonFruit = (props) => {
           }
           text2={
             <Fragment>
-              <span className="dragon-fruit-text30">
+              <span className="pomegranate-text31">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_qz-A7g'),
+                    __html: translate.raw('text_l1xHbE'),
                   }}
                 ></span>
               </span>
@@ -266,10 +280,10 @@ const DragonFruit = (props) => {
           }
           text4={
             <Fragment>
-              <span className="dragon-fruit-text31">
+              <span className="pomegranate-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_9fLcm1'),
+                    __html: translate.raw('text_oq4LgX'),
                   }}
                 ></span>
               </span>
@@ -277,10 +291,10 @@ const DragonFruit = (props) => {
           }
           text5={
             <Fragment>
-              <span className="dragon-fruit-text32">
+              <span className="pomegranate-text33">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_bWMXYJ'),
+                    __html: translate.raw('text_jVWboK'),
                   }}
                 ></span>
               </span>
@@ -288,10 +302,10 @@ const DragonFruit = (props) => {
           }
           text6={
             <Fragment>
-              <span className="dragon-fruit-text33">
+              <span className="pomegranate-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ysn-xD'),
+                    __html: translate.raw('text_UmzVW8'),
                   }}
                 ></span>
               </span>
@@ -299,10 +313,10 @@ const DragonFruit = (props) => {
           }
           text7={
             <Fragment>
-              <span className="dragon-fruit-text34">
+              <span className="pomegranate-text35">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_6BENKW'),
+                    __html: translate.raw('text_st9sU7'),
                   }}
                 ></span>
               </span>
@@ -310,10 +324,10 @@ const DragonFruit = (props) => {
           }
           text8={
             <Fragment>
-              <span className="dragon-fruit-text35">
+              <span className="pomegranate-text36">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_l0ioZR'),
+                    __html: translate.raw('text_3IluFQ'),
                   }}
                 ></span>
               </span>
@@ -321,10 +335,10 @@ const DragonFruit = (props) => {
           }
           text9={
             <Fragment>
-              <span className="dragon-fruit-text36">
+              <span className="pomegranate-text37">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lq03Kw'),
+                    __html: translate.raw('text__w_nJG'),
                   }}
                 ></span>
               </span>
@@ -332,10 +346,10 @@ const DragonFruit = (props) => {
           }
           text10={
             <Fragment>
-              <span className="dragon-fruit-text37">
+              <span className="pomegranate-text38">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_dfM3mW'),
+                    __html: translate.raw('text_b5xZf8'),
                   }}
                 ></span>
               </span>
@@ -343,10 +357,10 @@ const DragonFruit = (props) => {
           }
           text11={
             <Fragment>
-              <span className="dragon-fruit-text38">
+              <span className="pomegranate-text39">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_lhu3q3'),
+                    __html: translate.raw('text_7JnUI4'),
                   }}
                 ></span>
               </span>
@@ -354,10 +368,10 @@ const DragonFruit = (props) => {
           }
           text12={
             <Fragment>
-              <span className="dragon-fruit-text39">
+              <span className="pomegranate-text40">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_BREky1'),
+                    __html: translate.raw('text_hCBbz6'),
                   }}
                 ></span>
               </span>
@@ -365,84 +379,10 @@ const DragonFruit = (props) => {
           }
           text13={
             <Fragment>
-              <span className="dragon-fruit-text40">
+              <span className="pomegranate-text41">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xclnsR'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text14={
-            <Fragment>
-              <span className="dragon-fruit-text41">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_tVrinY'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text15={
-            <Fragment>
-              <span className="dragon-fruit-text42">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_bKL7Nh'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text16={
-            <Fragment>
-              <span className="dragon-fruit-text43">
-                <span>Magnesium - 10 mg</span>
-                <br />
-              </span>
-            </Fragment>
-          }
-          text18={
-            <Fragment>
-              <span className="dragon-fruit-text46">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_R0U953'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text71={
-            <Fragment>
-              <span className="dragon-fruit-text47">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rdqVoO'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          text81={
-            <Fragment>
-              <span className="dragon-fruit-text48">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_gY_xtV'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading={
-            <Fragment>
-              <span className="dragon-fruit-text49">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_toii4P'),
+                    __html: translate.raw('text_xekVNf'),
                   }}
                 ></span>
               </span>
@@ -450,29 +390,92 @@ const DragonFruit = (props) => {
           }
           text131={
             <Fragment>
-              <span className="dragon-fruit-text50">
+              <span className="pomegranate-text42">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_DQxHab'),
+                    __html: translate.raw('text_Q6vPbl'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="dragon-fruit-tableroot-class-name"
+          text14={
+            <Fragment>
+              <span className="pomegranate-text43">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_ONd-IH'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text15={
+            <Fragment>
+              <span className="pomegranate-text44">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_M2HsfM'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text16={
+            <Fragment>
+              <span className="pomegranate-text45">
+                <span>Magnesium – 12 mg</span>
+                <br />
+              </span>
+            </Fragment>
+          }
+          text18={
+            <Fragment>
+              <span className="pomegranate-text48">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Sp1Vda'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text71={
+            <Fragment>
+              <span className="pomegranate-text49">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_pRAgVZ'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text81={
+            <Fragment>
+              <span className="pomegranate-text50">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_LJHvgj'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="pomegranate-tableroot-class-name"
           locale={props?.locale ?? ''}
-        ></DragonFruitTable>
-        <DragonfruitFeature1
-          rootClassName="dragonfruit-feature1root-class-name"
+        ></PomegranateTable>
+        <PomegranateFeature1
+          rootClassName="pomegranate-feature1root-class-name"
           locale={props?.locale ?? ''}
-        ></DragonfruitFeature1>
+        ></PomegranateFeature1>
         <FooterMain
           link2={
             <Fragment>
-              <span className="dragon-fruit-text51">
+              <span className="pomegranate-text51">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_7ASVAV'),
+                    __html: translate.raw('text_BarmM7'),
                   }}
                 ></span>
               </span>
@@ -480,10 +483,10 @@ const DragonFruit = (props) => {
           }
           link3={
             <Fragment>
-              <span className="dragon-fruit-text52">
+              <span className="pomegranate-text52">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_s83d8e'),
+                    __html: translate.raw('text_6fQ7dJ'),
                   }}
                 ></span>
               </span>
@@ -491,10 +494,10 @@ const DragonFruit = (props) => {
           }
           link4={
             <Fragment>
-              <span className="dragon-fruit-text53">
+              <span className="pomegranate-text53">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_er38nX'),
+                    __html: translate.raw('text_hEt45H'),
                   }}
                 ></span>
               </span>
@@ -502,10 +505,10 @@ const DragonFruit = (props) => {
           }
           link5={
             <Fragment>
-              <span className="dragon-fruit-text54">
+              <span className="pomegranate-text54">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__aFjJe'),
+                    __html: translate.raw('text_kTY532'),
                   }}
                 ></span>
               </span>
@@ -513,10 +516,10 @@ const DragonFruit = (props) => {
           }
           termsLink={
             <Fragment>
-              <span className="dragon-fruit-text55">
+              <span className="pomegranate-text55">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_0hsYx5'),
+                    __html: translate.raw('text_dyHsTF'),
                   }}
                 ></span>
               </span>
@@ -524,10 +527,10 @@ const DragonFruit = (props) => {
           }
           cookiesLink={
             <Fragment>
-              <span className="dragon-fruit-text56">
+              <span className="pomegranate-text56">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZtArrN'),
+                    __html: translate.raw('text_T-WlMO'),
                   }}
                 ></span>
               </span>
@@ -535,22 +538,22 @@ const DragonFruit = (props) => {
           }
           privacyLink={
             <Fragment>
-              <span className="dragon-fruit-text57">
+              <span className="pomegranate-text57">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-Remu0'),
+                    __html: translate.raw('text_ffnL6d'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="footer-mainroot-class-name11"
+          rootClassName="footer-mainroot-class-name12"
           locale={props?.locale ?? ''}
         ></FooterMain>
       </div>
       <style jsx>
         {`
-          .dragon-fruit-container {
+          .pomegranate-container {
             width: 100%;
             display: flex;
             min-height: 100vh;
@@ -558,152 +561,152 @@ const DragonFruit = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .dragon-fruit-text10 {
+          .pomegranate-text10 {
             display: inline-block;
           }
-          .dragon-fruit-text11 {
+          .pomegranate-text11 {
             display: inline-block;
           }
-          .dragon-fruit-text12 {
+          .pomegranate-text12 {
             display: inline-block;
           }
-          .dragon-fruit-text13 {
+          .pomegranate-text13 {
             display: inline-block;
           }
-          .dragon-fruit-text14 {
+          .pomegranate-text14 {
             display: inline-block;
           }
-          .dragon-fruit-text15 {
+          .pomegranate-text15 {
             display: inline-block;
           }
-          .dragon-fruit-text16 {
+          .pomegranate-text16 {
             display: inline-block;
           }
-          .dragon-fruit-text17 {
+          .pomegranate-text17 {
             display: inline-block;
           }
-          .dragon-fruit-text18 {
+          .pomegranate-text18 {
             display: inline-block;
           }
-          .dragon-fruit-text19 {
+          .pomegranate-text19 {
             display: inline-block;
           }
-          .dragon-fruit-text20 {
+          .pomegranate-text20 {
             display: inline-block;
           }
-          .dragon-fruit-text21 {
+          .pomegranate-text21 {
             display: inline-block;
           }
-          .dragon-fruit-text22 {
+          .pomegranate-text22 {
             display: inline-block;
           }
-          .dragon-fruit-text23 {
+          .pomegranate-text23 {
             display: inline-block;
           }
-          .dragon-fruit-text24 {
+          .pomegranate-text24 {
             display: inline-block;
           }
-          .dragon-fruit-text25 {
+          .pomegranate-text25 {
             display: inline-block;
           }
-          .dragon-fruit-text26 {
+          .pomegranate-text26 {
             display: inline-block;
           }
-          .dragon-fruit-text27 {
+          .pomegranate-text27 {
             display: inline-block;
           }
-          .dragon-fruit-text28 {
+          .pomegranate-text28 {
             display: inline-block;
           }
-          .dragon-fruit-text29 {
+          .pomegranate-text29 {
             display: inline-block;
           }
-          .dragon-fruit-text30 {
+          .pomegranate-text30 {
             display: inline-block;
           }
-          .dragon-fruit-text31 {
+          .pomegranate-text31 {
             display: inline-block;
           }
-          .dragon-fruit-text32 {
+          .pomegranate-text32 {
             display: inline-block;
           }
-          .dragon-fruit-text33 {
+          .pomegranate-text33 {
             display: inline-block;
           }
-          .dragon-fruit-text34 {
+          .pomegranate-text34 {
             display: inline-block;
           }
-          .dragon-fruit-text35 {
+          .pomegranate-text35 {
             display: inline-block;
           }
-          .dragon-fruit-text36 {
+          .pomegranate-text36 {
             display: inline-block;
           }
-          .dragon-fruit-text37 {
+          .pomegranate-text37 {
             display: inline-block;
           }
-          .dragon-fruit-text38 {
+          .pomegranate-text38 {
             display: inline-block;
           }
-          .dragon-fruit-text39 {
+          .pomegranate-text39 {
             display: inline-block;
           }
-          .dragon-fruit-text40 {
+          .pomegranate-text40 {
             display: inline-block;
           }
-          .dragon-fruit-text41 {
+          .pomegranate-text41 {
             display: inline-block;
           }
-          .dragon-fruit-text42 {
+          .pomegranate-text42 {
             display: inline-block;
           }
-          .dragon-fruit-text43 {
+          .pomegranate-text43 {
             display: inline-block;
           }
-          .dragon-fruit-text46 {
+          .pomegranate-text44 {
             display: inline-block;
           }
-          .dragon-fruit-text47 {
+          .pomegranate-text45 {
             display: inline-block;
           }
-          .dragon-fruit-text48 {
+          .pomegranate-text48 {
             display: inline-block;
           }
-          .dragon-fruit-text49 {
+          .pomegranate-text49 {
             display: inline-block;
           }
-          .dragon-fruit-text50 {
+          .pomegranate-text50 {
             display: inline-block;
           }
-          .dragon-fruit-text51 {
+          .pomegranate-text51 {
             display: inline-block;
           }
-          .dragon-fruit-text52 {
+          .pomegranate-text52 {
             display: inline-block;
           }
-          .dragon-fruit-text53 {
+          .pomegranate-text53 {
             display: inline-block;
           }
-          .dragon-fruit-text54 {
+          .pomegranate-text54 {
             display: inline-block;
           }
-          .dragon-fruit-text55 {
+          .pomegranate-text55 {
             display: inline-block;
           }
-          .dragon-fruit-text56 {
+          .pomegranate-text56 {
             display: inline-block;
           }
-          .dragon-fruit-text57 {
+          .pomegranate-text57 {
             display: inline-block;
           }
           @media (max-width: 991px) {
-            .dragon-fruit-text29 {
-              font-family: Taviraj;
-            }
-            .dragon-fruit-text30 {
+            .pomegranate-text28 {
               font-family: Open Sans;
             }
-            .dragon-fruit-text49 {
+            .pomegranate-text30 {
+              font-family: Taviraj;
+            }
+            .pomegranate-text31 {
               font-family: Open Sans;
             }
           }
@@ -713,7 +716,7 @@ const DragonFruit = (props) => {
   )
 }
 
-export default DragonFruit
+export default Pomegranate
 
 export async function getStaticProps(context) {
   const messages = (await import('/locales/' + context.locale + '.json'))

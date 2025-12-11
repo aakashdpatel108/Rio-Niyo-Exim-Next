@@ -12,13 +12,13 @@ const CertificateBannerComp = (props) => {
         <img
           alt={props.backgroundImageAlt}
           src={props.backgroundImageSrc}
-          className="certificate-banner-comp-background-image thq-img-ratio-16-9"
+          className="certificate-banner-comp-thq-background-image-elm thq-img-ratio-16-9"
         />
-        <div className="certificate-banner-comp-container thq-flex-row">
+        <div className="certificate-banner-comp-thq-container-elm thq-flex-row">
           <h2 className="certificate-banner-comp-text1 thq-heading-2">
             {props.heading11 ?? (
               <Fragment>
-                <span className="certificate-banner-comp-text6">
+                <span className="certificate-banner-comp-text5">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_jbW35s'),
@@ -28,21 +28,21 @@ const CertificateBannerComp = (props) => {
               </Fragment>
             )}
           </h2>
-          <div className="certificate-banner-comp-content">
-            <p className="certificate-banner-comp-text2 thq-body-large">
+          <div className="certificate-banner-comp-thq-content-elm">
+            <p className="certificate-banner-comp-thq-text-elm thq-body-large">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_AuwMD_'),
                 }}
               ></span>
             </p>
-            <div className="certificate-banner-comp-actions">
+            <div className="certificate-banner-comp-thq-actions-elm">
               <Link href="/product-categories">
                 <a className="certificate-banner-comp-link1 thq-button-filled">
                   <span>
                     {props.action1 ?? (
                       <Fragment>
-                        <span className="certificate-banner-comp-text5">
+                        <span className="certificate-banner-comp-text4">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_bVrutg'),
@@ -59,7 +59,7 @@ const CertificateBannerComp = (props) => {
                   <span>
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="certificate-banner-comp-text7">
+                        <span className="certificate-banner-comp-text6">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_7Zu-wD'),
@@ -77,7 +77,7 @@ const CertificateBannerComp = (props) => {
       </div>
       <style jsx>
         {`
-          .certificate-banner-comp-background-image {
+          .certificate-banner-comp-thq-background-image-elm {
             left: 0px;
             width: 100%;
             bottom: 0px;
@@ -85,7 +85,7 @@ const CertificateBannerComp = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .certificate-banner-comp-container {
+          .certificate-banner-comp-thq-container-elm {
             gap: var(--dl-layout-space-fiveunits);
             display: flex;
             overflow: visible;
@@ -97,7 +97,7 @@ const CertificateBannerComp = (props) => {
             color: #ffffff;
             font-family: 'Inter';
           }
-          .certificate-banner-comp-content {
+          .certificate-banner-comp-thq-content-elm {
             gap: 24px;
             width: 616px;
             display: flex;
@@ -106,11 +106,11 @@ const CertificateBannerComp = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .certificate-banner-comp-text2 {
+          .certificate-banner-comp-thq-text-elm {
             color: #ffffff;
             font-family: 'Inter';
           }
-          .certificate-banner-comp-actions {
+          .certificate-banner-comp-thq-actions-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -121,13 +121,13 @@ const CertificateBannerComp = (props) => {
           .certificate-banner-comp-link2 {
             text-decoration: none;
           }
+          .certificate-banner-comp-text4 {
+            display: inline-block;
+          }
           .certificate-banner-comp-text5 {
             display: inline-block;
           }
           .certificate-banner-comp-text6 {
-            display: inline-block;
-          }
-          .certificate-banner-comp-text7 {
             display: inline-block;
           }
           .certificate-banner-comproot-class-name {
@@ -139,13 +139,13 @@ const CertificateBannerComp = (props) => {
             min-height: auto;
           }
           @media (max-width: 991px) {
-            .certificate-banner-comp-container {
+            .certificate-banner-comp-thq-container-elm {
               gap: var(--dl-layout-space-twounits);
               flex-direction: column;
             }
           }
           @media (max-width: 767px) {
-            .certificate-banner-comp-container {
+            .certificate-banner-comp-thq-container-elm {
               align-self: center;
               align-items: center;
             }
@@ -154,12 +154,12 @@ const CertificateBannerComp = (props) => {
               font-size: 25px;
               justify-content: center;
             }
-            .certificate-banner-comp-content {
+            .certificate-banner-comp-thq-content-elm {
               width: auto;
               align-items: center;
               flex-direction: column;
             }
-            .certificate-banner-comp-text2 {
+            .certificate-banner-comp-thq-text-elm {
               color: rgb(255, 255, 255);
               display: flex;
               font-size: 12px;
@@ -168,20 +168,20 @@ const CertificateBannerComp = (props) => {
               border-width: 1px;
               justify-content: center;
             }
-            .certificate-banner-comp-text5 {
+            .certificate-banner-comp-text4 {
               font-size: 12px;
             }
-            .certificate-banner-comp-text7 {
+            .certificate-banner-comp-text6 {
               font-size: 12px;
             }
           }
           @media (max-width: 479px) {
-            .certificate-banner-comp-container {
+            .certificate-banner-comp-thq-container-elm {
               gap: var(--dl-layout-space-oneandhalfunits);
             }
           }
           @media (max-width: 344px) {
-            .certificate-banner-comp-text2 {
+            .certificate-banner-comp-thq-text-elm {
               height: auto;
             }
           }

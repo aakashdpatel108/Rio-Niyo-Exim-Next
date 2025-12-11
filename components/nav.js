@@ -11,20 +11,23 @@ const Nav = (props) => {
   return (
     <>
       <header className={`nav-container1 ${props.rootClassName} `}>
-        <header data-thq="thq-navbar" className="nav-navbar-interactive">
+        <header
+          data-thq="thq-navbar"
+          className="nav-thq-navbar-interactive-elm"
+        >
           <Link href="/">
             <a className="nav-link10">
               <img
                 alt="RioNiyo EXIM Logo"
                 src="/rioniyoexim.svg"
-                className="nav-image1"
+                className="nav-thq-image1-elm"
               />
             </a>
           </Link>
-          <div data-thq="thq-navbar-nav" className="nav-desktop-menu">
-            <nav className="nav-links1">
+          <div data-thq="thq-navbar-nav" className="nav-thq-desktop-menu-elm">
+            <nav className="nav-thq-links-elm1">
               <Link href="/">
-                <a className="nav-link12 thq-body-small thq-link">
+                <a className="nav-link11 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link1_dFMFNM'),
@@ -33,7 +36,7 @@ const Nav = (props) => {
                 </a>
               </Link>
               <Link href="/about-us">
-                <a className="nav-link13 thq-body-small thq-link">
+                <a className="nav-link12 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link2_tHtuHa'),
@@ -42,7 +45,7 @@ const Nav = (props) => {
                 </a>
               </Link>
               <Link href="/certificates">
-                <a className="nav-link14 thq-body-small thq-link">
+                <a className="nav-link13 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link3_Q0-Pyo'),
@@ -51,7 +54,7 @@ const Nav = (props) => {
                 </a>
               </Link>
               <Link href="/contact-us">
-                <a className="nav-link15 thq-body-small thq-link">
+                <a className="nav-link14 thq-body-small thq-link">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('link3_d0wioP'),
@@ -65,7 +68,7 @@ const Nav = (props) => {
               >
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="nav-dropdown-toggle10"
+                  className="nav-thq-dropdown-toggle-elm10"
                 >
                   <span className="nav-text10">
                     <span
@@ -76,21 +79,24 @@ const Nav = (props) => {
                   </span>
                   <div
                     data-thq="thq-dropdown-arrow"
-                    className="nav-dropdown-arrow1"
+                    className="nav-thq-dropdown-arrow-elm1"
                   >
                     <svg viewBox="0 0 1024 1024" className="nav-icon10">
                       <path d="M426 726v-428l214 214z"></path>
                     </svg>
                   </div>
                 </div>
-                <ul data-thq="thq-dropdown-list" className="nav-dropdown-list1">
+                <ul
+                  data-thq="thq-dropdown-list"
+                  className="nav-thq-dropdown-list-elm1"
+                >
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-dropdown10 list-item"
+                    className="nav-thq-dropdown-elm10 list-item"
                   >
                     <Link href="/fruits">
                       <a data-thq="thq-dropdown-toggle">
-                        <div className="nav-dropdown-toggle11">
+                        <div className="nav-thq-dropdown-toggle-elm11">
                           <span className="nav-text11">
                             {props.text1 ?? (
                               <Fragment>
@@ -110,11 +116,11 @@ const Nav = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-dropdown11 list-item"
+                    className="nav-thq-dropdown-elm11 list-item"
                   >
                     <Link href="/vegetables">
                       <a data-thq="thq-dropdown-toggle">
-                        <div className="nav-dropdown-toggle12">
+                        <div className="nav-thq-dropdown-toggle-elm12">
                           <span className="nav-text12">
                             {props.text2 ?? (
                               <Fragment>
@@ -134,11 +140,11 @@ const Nav = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-dropdown12 list-item"
+                    className="nav-thq-dropdown-elm12 list-item"
                   >
                     <Link href="/spices">
                       <a data-thq="thq-dropdown-toggle">
-                        <div className="nav-dropdown-toggle13">
+                        <div className="nav-thq-dropdown-toggle-elm13">
                           <span className="nav-text13">
                             {props.text3 ?? (
                               <Fragment>
@@ -158,11 +164,11 @@ const Nav = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-dropdown13 list-item"
+                    className="nav-thq-dropdown-elm13 list-item"
                   >
                     <Link href="/grains-and-cereal">
                       <a data-thq="thq-dropdown-toggle">
-                        <div className="nav-dropdown-toggle14">
+                        <div className="nav-thq-dropdown-toggle-elm14">
                           <span className="nav-text14">
                             {props.text31 ?? (
                               <Fragment>
@@ -182,11 +188,11 @@ const Nav = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-dropdown14 list-item"
+                    className="nav-thq-dropdown-elm14 list-item"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
-                      className="nav-dropdown-toggle15"
+                      className="nav-thq-dropdown-toggle-elm15"
                     >
                       <span className="nav-text15">
                         {props.text311 ?? (
@@ -205,11 +211,11 @@ const Nav = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-dropdown15 list-item"
+                    className="nav-thq-dropdown-elm15 list-item"
                   >
                     <Link href="/dry-fruits">
                       <a data-thq="thq-dropdown-toggle">
-                        <div className="nav-dropdown-toggle16">
+                        <div className="nav-thq-dropdown-toggle-elm16">
                           <span className="nav-text16">
                             {props.text3111 ?? (
                               <Fragment>
@@ -232,21 +238,21 @@ const Nav = (props) => {
               <div className="nav-container2">
                 {link5DropdownVisible === true && (
                   <div className="nav-container3 thq-box-shadow">
-                    <div className="nav-menu-item10">
-                      <div className="nav-content10">
+                    <div className="nav-thq-menu-item-elm10">
+                      <div className="nav-thq-content-elm10">
                         <a
                           href="https://www.teleporthq.io"
-                          className="nav-fruits thq-body-large"
+                          className="nav-thq-fruits-elm thq-body-large"
                         >
                           {props.page1}
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item11">
-                      <div className="nav-content11">
+                    <div className="nav-thq-menu-item-elm11">
+                      <div className="nav-thq-content-elm11">
                         <a
                           href="https://www.teleporthq.io"
-                          className="nav-page21 thq-body-large"
+                          className="nav-thq-page2-elm1 thq-body-large"
                         >
                           {props.vegetables ?? (
                             <Fragment>
@@ -262,11 +268,11 @@ const Nav = (props) => {
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item12">
-                      <div className="nav-content12">
+                    <div className="nav-thq-menu-item-elm12">
+                      <div className="nav-thq-content-elm12">
                         <a
                           href="https://www.teleporthq.io"
-                          className="nav-page31 thq-body-large"
+                          className="nav-thq-page3-elm1 thq-body-large"
                         >
                           {props.page3 ?? (
                             <Fragment>
@@ -282,11 +288,11 @@ const Nav = (props) => {
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item13">
-                      <div className="nav-content13">
+                    <div className="nav-thq-menu-item-elm13">
+                      <div className="nav-thq-content-elm13">
                         <a
                           href="https://www.teleporthq.io"
-                          className="nav-page41 thq-body-large"
+                          className="nav-thq-page4-elm1 thq-body-large"
                         >
                           {props.page4 ?? (
                             <Fragment>
@@ -302,11 +308,11 @@ const Nav = (props) => {
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item14">
-                      <div className="nav-content14">
+                    <div className="nav-thq-menu-item-elm14">
+                      <div className="nav-thq-content-elm14">
                         <a
                           href="https://www.teleporthq.io"
-                          className="nav-page5 thq-body-large"
+                          className="nav-thq-page5-elm thq-body-large"
                         >
                           {props.page41 ?? (
                             <Fragment>
@@ -322,11 +328,11 @@ const Nav = (props) => {
                         </a>
                       </div>
                     </div>
-                    <div className="nav-menu-item15">
-                      <div className="nav-content15">
+                    <div className="nav-thq-menu-item-elm15">
+                      <div className="nav-thq-content-elm15">
                         <a
                           href="https://www.teleporthq.io"
-                          className="nav-page6 thq-body-large"
+                          className="nav-thq-page6-elm thq-body-large"
                         >
                           {props.page411 ?? (
                             <Fragment>
@@ -347,28 +353,31 @@ const Nav = (props) => {
               </div>
             </nav>
           </div>
-          <div data-thq="thq-burger-menu" className="nav-burger-menu">
+          <div data-thq="thq-burger-menu" className="nav-thq-burger-menu-elm">
             <svg viewBox="0 0 1024 1024" className="nav-icon12">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
           </div>
-          <div data-thq="thq-mobile-menu" className="nav-mobile-menu">
-            <div className="nav-nav">
-              <div className="nav-top">
+          <div data-thq="thq-mobile-menu" className="nav-thq-mobile-menu-elm">
+            <div className="nav-thq-nav-elm">
+              <div className="nav-thq-top-elm">
                 <img
                   alt="RioNiyo EXIM Logo"
                   src="/rioniyoexim.svg"
-                  className="nav-logo"
+                  className="nav-thq-logo-elm"
                 />
-                <div data-thq="thq-close-menu" className="nav-close-menu">
+                <div
+                  data-thq="thq-close-menu"
+                  className="nav-thq-close-menu-elm"
+                >
                   <svg viewBox="0 0 1024 1024" className="nav-icon14">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                   </svg>
                 </div>
               </div>
-              <nav className="nav-links2">
+              <nav className="nav-thq-links-elm2">
                 <Link href="/">
-                  <a className="nav-link22 thq-body-small thq-link">
+                  <a className="nav-link20 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link1_hbuQ9x'),
@@ -377,7 +386,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/about-us">
-                  <a className="nav-link24 thq-body-small thq-link">
+                  <a className="nav-link21 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link2_dJg7gl'),
@@ -386,7 +395,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/certificates">
-                  <a className="nav-link25 thq-body-small thq-link">
+                  <a className="nav-link22 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link3_DFODdZ'),
@@ -395,7 +404,7 @@ const Nav = (props) => {
                   </a>
                 </Link>
                 <Link href="/contact-us">
-                  <a className="nav-link26 thq-body-small thq-link">
+                  <a className="nav-link23 thq-body-small thq-link">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('link3_jiTdIq'),
@@ -409,7 +418,7 @@ const Nav = (props) => {
                 >
                   <div
                     data-thq="thq-dropdown-toggle"
-                    className="nav-dropdown-toggle17"
+                    className="nav-thq-dropdown-toggle-elm17"
                   >
                     <span className="nav-text17">
                       <span
@@ -420,7 +429,7 @@ const Nav = (props) => {
                     </span>
                     <div
                       data-thq="thq-dropdown-arrow"
-                      className="nav-dropdown-arrow2"
+                      className="nav-thq-dropdown-arrow-elm2"
                     >
                       <svg viewBox="0 0 1024 1024" className="nav-icon16">
                         <path d="M426 726v-428l214 214z"></path>
@@ -429,15 +438,15 @@ const Nav = (props) => {
                   </div>
                   <ul
                     data-thq="thq-dropdown-list"
-                    className="nav-dropdown-list2"
+                    className="nav-thq-dropdown-list-elm2"
                   >
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-dropdown16 list-item"
+                      className="nav-thq-dropdown-elm16 list-item"
                     >
                       <Link href="/fruits">
                         <a data-thq="thq-dropdown-toggle">
-                          <div className="nav-dropdown-toggle18">
+                          <div className="nav-thq-dropdown-toggle-elm18">
                             <span className="nav-text18">
                               {props.text11 ?? (
                                 <Fragment>
@@ -457,11 +466,11 @@ const Nav = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-dropdown17 list-item"
+                      className="nav-thq-dropdown-elm17 list-item"
                     >
                       <Link href="/vegetables">
                         <a data-thq="thq-dropdown-toggle">
-                          <div className="nav-dropdown-toggle19">
+                          <div className="nav-thq-dropdown-toggle-elm19">
                             <span className="nav-text19">
                               {props.text21 ?? (
                                 <Fragment>
@@ -481,11 +490,11 @@ const Nav = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-dropdown18 list-item"
+                      className="nav-thq-dropdown-elm18 list-item"
                     >
                       <Link href="/spices">
                         <a data-thq="thq-dropdown-toggle">
-                          <div className="nav-dropdown-toggle20">
+                          <div className="nav-thq-dropdown-toggle-elm20">
                             <span className="nav-text20">
                               {props.text32 ?? (
                                 <Fragment>
@@ -505,11 +514,11 @@ const Nav = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-dropdown19 list-item"
+                      className="nav-thq-dropdown-elm19 list-item"
                     >
                       <Link href="/grains-and-cereal">
                         <a data-thq="thq-dropdown-toggle">
-                          <div className="nav-dropdown-toggle21">
+                          <div className="nav-thq-dropdown-toggle-elm21">
                             <span className="nav-text21">
                               {props.text312 ?? (
                                 <Fragment>
@@ -529,11 +538,11 @@ const Nav = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-dropdown20 list-item"
+                      className="nav-thq-dropdown-elm20 list-item"
                     >
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="nav-dropdown-toggle22"
+                        className="nav-thq-dropdown-toggle-elm22"
                       >
                         <span className="nav-text22">
                           {props.text3112 ?? (
@@ -552,11 +561,11 @@ const Nav = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-dropdown21 list-item"
+                      className="nav-thq-dropdown-elm21 list-item"
                     >
                       <Link href="/dry-fruits">
                         <a data-thq="thq-dropdown-toggle">
-                          <div className="nav-dropdown-toggle23">
+                          <div className="nav-thq-dropdown-toggle-elm23">
                             <span className="nav-text23">
                               {props.text31111 ?? (
                                 <Fragment>
@@ -576,14 +585,14 @@ const Nav = (props) => {
                     </li>
                   </ul>
                 </div>
-                <div className="nav-link4-accordion">
+                <div className="nav-thq-link4-accordion-elm">
                   {link5AccordionOpen === true && (
                     <div className="nav-container4">
-                      <div className="nav-menu-item16">
-                        <div className="nav-content16">
+                      <div className="nav-thq-menu-item-elm16">
+                        <div className="nav-thq-content-elm16">
                           <a
                             href="https://www.teleporthq.io"
-                            className="nav-page1 thq-body-large"
+                            className="nav-thq-page1-elm thq-body-large"
                           >
                             {props.fruits ?? (
                               <Fragment>
@@ -599,11 +608,11 @@ const Nav = (props) => {
                           </a>
                         </div>
                       </div>
-                      <div className="nav-menu-item17">
-                        <div className="nav-content17">
+                      <div className="nav-thq-menu-item-elm17">
+                        <div className="nav-thq-content-elm17">
                           <a
                             href="https://www.teleporthq.io"
-                            className="nav-page22 thq-body-large"
+                            className="nav-thq-page2-elm2 thq-body-large"
                           >
                             {props.vegetables ?? (
                               <Fragment>
@@ -619,11 +628,11 @@ const Nav = (props) => {
                           </a>
                         </div>
                       </div>
-                      <div className="nav-menu-item18">
-                        <div className="nav-content18">
+                      <div className="nav-thq-menu-item-elm18">
+                        <div className="nav-thq-content-elm18">
                           <a
                             href="https://www.teleporthq.io"
-                            className="nav-page32 thq-body-large"
+                            className="nav-thq-page3-elm2 thq-body-large"
                           >
                             {props.page3 ?? (
                               <Fragment>
@@ -639,11 +648,11 @@ const Nav = (props) => {
                           </a>
                         </div>
                       </div>
-                      <div className="nav-menu-item19">
-                        <div className="nav-content19">
+                      <div className="nav-thq-menu-item-elm19">
+                        <div className="nav-thq-content-elm19">
                           <a
                             href="https://www.teleporthq.io"
-                            className="nav-page42 thq-body-large"
+                            className="nav-thq-page4-elm2 thq-body-large"
                           >
                             {props.page4 ?? (
                               <Fragment>
@@ -664,7 +673,7 @@ const Nav = (props) => {
                 </div>
               </nav>
             </div>
-            <div className="nav-icon-group">
+            <div className="nav-thq-icon-group-elm">
               <svg
                 viewBox="0 0 950.8571428571428 1024"
                 className="thq-icon-x-small"
@@ -703,7 +712,7 @@ const Nav = (props) => {
             justify-content: center;
             background-color: var(--dl-color-theme-neutral-light);
           }
-          .nav-navbar-interactive {
+          .nav-thq-navbar-interactive-elm {
             width: 100%;
             display: flex;
             z-index: 100;
@@ -716,17 +725,17 @@ const Nav = (props) => {
           .nav-link10 {
             display: contents;
           }
-          .nav-image1 {
+          .nav-thq-image1-elm {
             width: 124px;
             height: 112px;
             text-decoration: none;
           }
-          .nav-desktop-menu {
+          .nav-thq-desktop-menu-elm {
             flex: 1;
             display: flex;
             justify-content: space-between;
           }
-          .nav-links1 {
+          .nav-thq-links-elm1 {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             display: flex;
@@ -734,6 +743,9 @@ const Nav = (props) => {
             align-items: center;
             flex-direction: row;
             justify-content: flex-end;
+          }
+          .nav-link11 {
+            text-decoration: none;
           }
           .nav-link12 {
             text-decoration: none;
@@ -744,16 +756,13 @@ const Nav = (props) => {
           .nav-link14 {
             text-decoration: none;
           }
-          .nav-link15 {
-            text-decoration: none;
-          }
           .nav-thq-dropdown1 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle10 {
+          .nav-thq-dropdown-toggle-elm10 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -771,7 +780,7 @@ const Nav = (props) => {
             margin-right: 4px;
             vertical-align: middle;
           }
-          .nav-dropdown-arrow1 {
+          .nav-thq-dropdown-arrow-elm1 {
             transition: 0.3s;
           }
           .nav-icon10 {
@@ -780,7 +789,7 @@ const Nav = (props) => {
             height: 18px;
             transition: 0.3s;
           }
-          .nav-dropdown-list1 {
+          .nav-thq-dropdown-list-elm1 {
             left: 0%;
             width: max-content;
             display: none;
@@ -797,13 +806,13 @@ const Nav = (props) => {
             list-style-type: none;
             list-style-position: inside;
           }
-          .nav-dropdown10 {
+          .nav-thq-dropdown-elm10 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle11 {
+          .nav-thq-dropdown-toggle-elm11 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -817,7 +826,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle11:hover {
+          .nav-thq-dropdown-toggle-elm11:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -831,13 +840,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown11 {
+          .nav-thq-dropdown-elm11 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle12 {
+          .nav-thq-dropdown-toggle-elm12 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -851,7 +860,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle12:hover {
+          .nav-thq-dropdown-toggle-elm12:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -865,13 +874,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown12 {
+          .nav-thq-dropdown-elm12 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle13 {
+          .nav-thq-dropdown-toggle-elm13 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -885,7 +894,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle13:hover {
+          .nav-thq-dropdown-toggle-elm13:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -899,13 +908,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown13 {
+          .nav-thq-dropdown-elm13 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle14 {
+          .nav-thq-dropdown-toggle-elm14 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -919,7 +928,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle14:hover {
+          .nav-thq-dropdown-toggle-elm14:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -933,13 +942,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown14 {
+          .nav-thq-dropdown-elm14 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle15 {
+          .nav-thq-dropdown-toggle-elm15 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -953,7 +962,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle15:hover {
+          .nav-thq-dropdown-toggle-elm15:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -967,13 +976,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown15 {
+          .nav-thq-dropdown-elm15 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle16 {
+          .nav-thq-dropdown-toggle-elm16 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -987,7 +996,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle16:hover {
+          .nav-thq-dropdown-toggle-elm16:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1025,7 +1034,7 @@ const Nav = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .nav-menu-item10 {
+          .nav-thq-menu-item-elm10 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1034,15 +1043,15 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content10 {
+          .nav-thq-content-elm10 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-fruits {
+          .nav-thq-fruits-elm {
             white-space: nowrap;
           }
-          .nav-menu-item11 {
+          .nav-thq-menu-item-elm11 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1051,15 +1060,15 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content11 {
+          .nav-thq-content-elm11 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-page21 {
+          .nav-thq-page2-elm1 {
             white-space: nowrap;
           }
-          .nav-menu-item12 {
+          .nav-thq-menu-item-elm12 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1068,15 +1077,15 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content12 {
+          .nav-thq-content-elm12 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-page31 {
+          .nav-thq-page3-elm1 {
             white-space: nowrap;
           }
-          .nav-menu-item13 {
+          .nav-thq-menu-item-elm13 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1085,15 +1094,15 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content13 {
+          .nav-thq-content-elm13 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-page41 {
+          .nav-thq-page4-elm1 {
             white-space: nowrap;
           }
-          .nav-menu-item14 {
+          .nav-thq-menu-item-elm14 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1102,15 +1111,15 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content14 {
+          .nav-thq-content-elm14 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-page5 {
+          .nav-thq-page5-elm {
             white-space: nowrap;
           }
-          .nav-menu-item15 {
+          .nav-thq-menu-item-elm15 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1119,22 +1128,22 @@ const Nav = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .nav-content15 {
+          .nav-thq-content-elm15 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .nav-page6 {
+          .nav-thq-page6-elm {
             white-space: nowrap;
           }
-          .nav-burger-menu {
+          .nav-thq-burger-menu-elm {
             display: none;
           }
           .nav-icon12 {
             width: var(--dl-layout-size-xsmall);
             height: var(--dl-layout-size-xsmall);
           }
-          .nav-mobile-menu {
+          .nav-thq-mobile-menu-elm {
             top: 0px;
             left: 0px;
             width: 100%;
@@ -1149,22 +1158,22 @@ const Nav = (props) => {
             justify-content: space-between;
             background-color: var(--dl-color-theme-neutral-light);
           }
-          .nav-nav {
+          .nav-thq-nav-elm {
             display: flex;
             align-items: stretch;
             flex-direction: column;
           }
-          .nav-top {
+          .nav-thq-top-elm {
             width: 100%;
             display: flex;
             align-items: center;
             margin-bottom: var(--dl-layout-space-threeunits);
             justify-content: space-between;
           }
-          .nav-logo {
+          .nav-thq-logo-elm {
             height: 2rem;
           }
-          .nav-close-menu {
+          .nav-thq-close-menu-elm {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1173,23 +1182,23 @@ const Nav = (props) => {
             width: var(--dl-layout-size-xsmall);
             height: var(--dl-layout-size-xsmall);
           }
-          .nav-links2 {
+          .nav-thq-links-elm2 {
             gap: var(--dl-layout-space-unit);
             width: 100%;
             display: flex;
             align-self: flex-start;
             flex-direction: column;
           }
+          .nav-link20 {
+            text-decoration: none;
+          }
+          .nav-link21 {
+            text-decoration: none;
+          }
           .nav-link22 {
             text-decoration: none;
           }
-          .nav-link24 {
-            text-decoration: none;
-          }
-          .nav-link25 {
-            text-decoration: none;
-          }
-          .nav-link26 {
+          .nav-link23 {
             text-decoration: none;
           }
           .nav-thq-dropdown2 {
@@ -1198,7 +1207,7 @@ const Nav = (props) => {
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle17 {
+          .nav-thq-dropdown-toggle-elm17 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -1215,7 +1224,7 @@ const Nav = (props) => {
             margin-right: 4px;
             vertical-align: middle;
           }
-          .nav-dropdown-arrow2 {
+          .nav-thq-dropdown-arrow-elm2 {
             transition: 0.3s;
           }
           .nav-icon16 {
@@ -1224,7 +1233,7 @@ const Nav = (props) => {
             height: 18px;
             transition: 0.3s;
           }
-          .nav-dropdown-list2 {
+          .nav-thq-dropdown-list-elm2 {
             left: 0%;
             width: max-content;
             display: none;
@@ -1241,13 +1250,13 @@ const Nav = (props) => {
             list-style-type: none;
             list-style-position: inside;
           }
-          .nav-dropdown16 {
+          .nav-thq-dropdown-elm16 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle18 {
+          .nav-thq-dropdown-toggle-elm18 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -1261,7 +1270,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle18:hover {
+          .nav-thq-dropdown-toggle-elm18:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1275,13 +1284,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown17 {
+          .nav-thq-dropdown-elm17 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle19 {
+          .nav-thq-dropdown-toggle-elm19 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -1295,7 +1304,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle19:hover {
+          .nav-thq-dropdown-toggle-elm19:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1309,13 +1318,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown18 {
+          .nav-thq-dropdown-elm18 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle20 {
+          .nav-thq-dropdown-toggle-elm20 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -1329,7 +1338,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle20:hover {
+          .nav-thq-dropdown-toggle-elm20:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1343,13 +1352,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown19 {
+          .nav-thq-dropdown-elm19 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle21 {
+          .nav-thq-dropdown-toggle-elm21 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -1363,7 +1372,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle21:hover {
+          .nav-thq-dropdown-toggle-elm21:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1377,13 +1386,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown20 {
+          .nav-thq-dropdown-elm20 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle22 {
+          .nav-thq-dropdown-toggle-elm22 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -1397,7 +1406,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle22:hover {
+          .nav-thq-dropdown-toggle-elm22:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1411,13 +1420,13 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-dropdown21 {
+          .nav-thq-dropdown-elm21 {
             cursor: pointer;
             display: inline-block;
             position: relative;
             border-radius: var(--dl-layout-radius-radius2);
           }
-          .nav-dropdown-toggle23 {
+          .nav-thq-dropdown-toggle-elm23 {
             fill: #595959;
             color: #1a1a1a;
             width: 100%;
@@ -1431,7 +1440,7 @@ const Nav = (props) => {
             text-decoration: none;
             background-color: #ffffff;
           }
-          .nav-dropdown-toggle23:hover {
+          .nav-thq-dropdown-toggle-elm23:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1445,7 +1454,7 @@ const Nav = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-link4-accordion {
+          .nav-thq-link4-accordion-elm {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -1458,7 +1467,7 @@ const Nav = (props) => {
             padding-left: var(--dl-layout-space-oneandhalfunits);
             flex-direction: column;
           }
-          .nav-menu-item16 {
+          .nav-thq-menu-item-elm16 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1468,15 +1477,15 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content16 {
+          .nav-thq-content-elm16 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
           }
-          .nav-page1 {
+          .nav-thq-page1-elm {
             white-space: nowrap;
           }
-          .nav-menu-item17 {
+          .nav-thq-menu-item-elm17 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1486,15 +1495,15 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content17 {
+          .nav-thq-content-elm17 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
           }
-          .nav-page22 {
+          .nav-thq-page2-elm2 {
             white-space: nowrap;
           }
-          .nav-menu-item18 {
+          .nav-thq-menu-item-elm18 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1504,15 +1513,15 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content18 {
+          .nav-thq-content-elm18 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
           }
-          .nav-page32 {
+          .nav-thq-page3-elm2 {
             white-space: nowrap;
           }
-          .nav-menu-item19 {
+          .nav-thq-menu-item-elm19 {
             gap: 12px;
             cursor: pointer;
             display: flex;
@@ -1522,15 +1531,15 @@ const Nav = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .nav-content19 {
+          .nav-thq-content-elm19 {
             display: flex;
             align-items: stretch;
             flex-direction: column;
           }
-          .nav-page42 {
+          .nav-thq-page4-elm2 {
             white-space: nowrap;
           }
-          .nav-icon-group {
+          .nav-thq-icon-group-elm {
             gap: var(--dl-layout-space-twounits);
             display: flex;
           }
@@ -1605,13 +1614,13 @@ const Nav = (props) => {
           }
 
           @media (max-width: 1600px) {
-            .nav-navbar-interactive {
+            .nav-thq-navbar-interactive-elm {
               justify-content: space-between;
             }
             .nav-icon12 {
               display: flex;
             }
-            .nav-logo {
+            .nav-thq-logo-elm {
               width: 67px;
               height: 52px;
             }
@@ -1625,88 +1634,88 @@ const Nav = (props) => {
             }
           }
           @media (max-width: 991px) {
-            .nav-navbar-interactive {
+            .nav-thq-navbar-interactive-elm {
               justify-content: space-between;
             }
           }
           @media (max-width: 767px) {
-            .nav-navbar-interactive {
+            .nav-thq-navbar-interactive-elm {
               padding-left: var(--dl-layout-space-twounits);
               padding-right: var(--dl-layout-space-twounits);
             }
-            .nav-image1 {
+            .nav-thq-image1-elm {
               width: 73px;
               height: 81px;
             }
-            .nav-desktop-menu {
+            .nav-thq-desktop-menu-elm {
               display: none;
             }
-            .nav-burger-menu {
+            .nav-thq-burger-menu-elm {
               display: flex;
               align-items: center;
               justify-content: center;
             }
-            .nav-dropdown-toggle18 {
+            .nav-thq-dropdown-toggle-elm18 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle19 {
+            .nav-thq-dropdown-toggle-elm19 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle20 {
+            .nav-thq-dropdown-toggle-elm20 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle21 {
+            .nav-thq-dropdown-toggle-elm21 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle22 {
+            .nav-thq-dropdown-toggle-elm22 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle23 {
+            .nav-thq-dropdown-toggle-elm23 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
           }
           @media (max-width: 479px) {
-            .nav-navbar-interactive {
+            .nav-thq-navbar-interactive-elm {
               padding: var(--dl-layout-space-unit);
             }
-            .nav-mobile-menu {
+            .nav-thq-mobile-menu-elm {
               padding: var(--dl-layout-space-unit);
             }
           }
           @media (max-width: 344px) {
-            .nav-dropdown-list1 {
+            .nav-thq-dropdown-list-elm1 {
               display: none;
             }
-            .nav-dropdown-list2 {
+            .nav-thq-dropdown-list-elm2 {
               display: none;
             }
-            .nav-dropdown-toggle18 {
+            .nav-thq-dropdown-toggle-elm18 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle19 {
+            .nav-thq-dropdown-toggle-elm19 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle20 {
+            .nav-thq-dropdown-toggle-elm20 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle21 {
+            .nav-thq-dropdown-toggle-elm21 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle22 {
+            .nav-thq-dropdown-toggle-elm22 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }
-            .nav-dropdown-toggle23 {
+            .nav-thq-dropdown-toggle-elm23 {
               padding-top: var(--dl-layout-space-unit);
               padding-bottom: var(--dl-layout-space-unit);
             }

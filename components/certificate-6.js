@@ -12,18 +12,18 @@ const Certificate6 = (props) => {
         className={`certificate-6-container1 thq-section-padding ${props.rootClassName} `}
       >
         <div className="certificate-6-container2 thq-section-max-width">
-          <div className="certificate-6-tabs-menu">
+          <div className="certificate-6-thq-tabs-menu-elm">
             <div
               onClick={() => setActiveTab(0)}
-              className="certificate-6-tab-horizontal1"
+              className="certificate-6-thq-tab-horizontal-elm1"
             >
-              <div className="certificate-6-divider-container1">
+              <div className="certificate-6-thq-divider-container-elm1">
                 {activeTab === 0 && (
                   <div className="certificate-6-container3"></div>
                 )}
               </div>
-              <div className="certificate-6-content">
-                <h2 className="thq-heading-2 certificate-6-feature1-title">
+              <div className="certificate-6-thq-content-elm">
+                <h2 className="thq-heading-2 certificate-6-thq-feature1-title-elm">
                   {props.feature1Title ?? (
                     <Fragment>
                       <span className="certificate-6-text1">
@@ -36,7 +36,7 @@ const Certificate6 = (props) => {
                     </Fragment>
                   )}
                 </h2>
-                <span className="thq-body-small certificate-6-feature1-description">
+                <span className="thq-body-small certificate-6-thq-feature1-description-elm">
                   {props.feature1Description ?? (
                     <Fragment>
                       <span className="certificate-6-text2">
@@ -53,9 +53,9 @@ const Certificate6 = (props) => {
             </div>
             <div
               onClick={() => setActiveTab(1)}
-              className="certificate-6-tab-horizontal2"
+              className="certificate-6-thq-tab-horizontal-elm2"
             >
-              <div className="certificate-6-divider-container2">
+              <div className="certificate-6-thq-divider-container-elm2">
                 {activeTab === 1 && (
                   <div className="certificate-6-container4"></div>
                 )}
@@ -63,16 +63,16 @@ const Certificate6 = (props) => {
             </div>
             <div
               onClick={() => setActiveTab(2)}
-              className="certificate-6-tab-horizontal3"
+              className="certificate-6-thq-tab-horizontal-elm3"
             >
-              <div className="certificate-6-divider-container3">
+              <div className="certificate-6-thq-divider-container-elm3">
                 {activeTab === 2 && (
                   <div className="certificate-6-container5"></div>
                 )}
               </div>
             </div>
           </div>
-          <div className="certificate-6-image-container">
+          <div className="certificate-6-thq-image-container-elm">
             {activeTab === 0 && (
               <img
                 alt="High-Quality Standards Image Alt"
@@ -98,7 +98,7 @@ const Certificate6 = (props) => {
             position: relative;
             grid-template-columns: 1fr 1fr;
           }
-          .certificate-6-tabs-menu {
+          .certificate-6-thq-tabs-menu-elm {
             gap: var(--dl-layout-space-twounits);
             width: 100%;
             display: flex;
@@ -106,7 +106,7 @@ const Certificate6 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .certificate-6-tab-horizontal1 {
+          .certificate-6-thq-tab-horizontal-elm1 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -115,7 +115,7 @@ const Certificate6 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-6-divider-container1 {
+          .certificate-6-thq-divider-container-elm1 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -125,7 +125,7 @@ const Certificate6 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-6-content {
+          .certificate-6-thq-content-elm {
             gap: 16px;
             flex: 1;
             display: flex;
@@ -136,7 +136,7 @@ const Certificate6 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .certificate-6-tab-horizontal2 {
+          .certificate-6-thq-tab-horizontal-elm2 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -145,7 +145,7 @@ const Certificate6 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-6-divider-container2 {
+          .certificate-6-thq-divider-container-elm2 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -155,7 +155,7 @@ const Certificate6 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-6-tab-horizontal3 {
+          .certificate-6-thq-tab-horizontal-elm3 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -164,7 +164,7 @@ const Certificate6 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-6-divider-container3 {
+          .certificate-6-thq-divider-container-elm3 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -174,7 +174,7 @@ const Certificate6 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-6-image-container {
+          .certificate-6-thq-image-container-elm {
             height: 100%;
             display: flex;
             position: relative;
@@ -211,10 +211,10 @@ const Certificate6 = (props) => {
               grid-gap: var(--dl-layout-space-twounits);
               grid-template-columns: 1fr;
             }
-            .certificate-6-tabs-menu {
+            .certificate-6-thq-tabs-menu-elm {
               order: 2;
             }
-            .certificate-6-image-container {
+            .certificate-6-thq-image-container-elm {
               justify-content: center;
             }
             .certificate-6-image {
@@ -225,13 +225,13 @@ const Certificate6 = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .certificate-6-feature1-title {
+            .certificate-6-thq-feature1-title-elm {
               font-size: 25px;
             }
-            .certificate-6-feature1-description {
+            .certificate-6-thq-feature1-description-elm {
               font-size: 12px;
             }
-            .certificate-6-image-container {
+            .certificate-6-thq-image-container-elm {
               width: 100%;
               height: 100%;
             }

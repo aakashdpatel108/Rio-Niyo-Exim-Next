@@ -9,18 +9,18 @@ const Footer3 = (props) => {
   return (
     <>
       <footer
-        className={`footer3-footer4 thq-section-padding ${props.rootClassName} `}
+        className={`footer3-thq-footer4-elm thq-section-padding ${props.rootClassName} `}
       >
-        <div className="footer3-max-width thq-section-max-width">
-          <div className="footer3-content">
-            <div className="footer3-logo">
+        <div className="footer3-thq-max-width-elm thq-section-max-width">
+          <div className="footer3-thq-content-elm">
+            <div className="footer3-thq-logo-elm">
               <img
                 alt={props.imageAlt}
                 src={props.imageSrc}
                 className="footer3-image"
               />
             </div>
-            <div className="footer3-links">
+            <div className="footer3-thq-links-elm">
               <Link href="/">
                 <a className="footer3-link1 thq-body-small">
                   {props.link2 ?? (
@@ -37,7 +37,7 @@ const Footer3 = (props) => {
                 </a>
               </Link>
               <Link href="/product-categories">
-                <a className="footer3-link6 thq-body-small">
+                <a className="footer3-link2 thq-body-small">
                   {props.link21 ?? (
                     <Fragment>
                       <span className="footer3-text8">
@@ -52,7 +52,7 @@ const Footer3 = (props) => {
                 </a>
               </Link>
               <Link href="/about-us">
-                <a className="footer3-link7 thq-body-small">
+                <a className="footer3-link3 thq-body-small">
                   {props.link3 ?? (
                     <Fragment>
                       <span className="footer3-text4">
@@ -67,7 +67,7 @@ const Footer3 = (props) => {
                 </a>
               </Link>
               <Link href="/certificates">
-                <a className="footer3-link8 thq-body-small">
+                <a className="footer3-link4 thq-body-small">
                   {props.link4 ?? (
                     <Fragment>
                       <span className="footer3-text5">
@@ -82,7 +82,7 @@ const Footer3 = (props) => {
                 </a>
               </Link>
               <Link href="/contact-us">
-                <a className="footer3-link9 thq-body-small">
+                <a className="footer3-link5 thq-body-small">
                   {props.link5 ?? (
                     <Fragment>
                       <span className="footer3-text3">
@@ -97,7 +97,7 @@ const Footer3 = (props) => {
                 </a>
               </Link>
             </div>
-            <div className="footer3-social-links">
+            <div className="footer3-thq-social-links-elm">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="thq-icon-small"
@@ -127,15 +127,15 @@ const Footer3 = (props) => {
               </svg>
             </div>
           </div>
-          <div className="footer3-footer-links">
-            <span className="thq-body-small footer3-content3">
+          <div className="footer3-thq-footer-links-elm">
+            <span className="thq-body-small footer3-thq-content3-elm">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('content3_W_ONXq'),
                 }}
               ></span>
             </span>
-            <span className="thq-body-small footer3-link11">
+            <span className="thq-body-small footer3-thq-link11-elm">
               {props.privacyLink ?? (
                 <Fragment>
                   <span className="footer3-text6">
@@ -148,7 +148,7 @@ const Footer3 = (props) => {
                 </Fragment>
               )}
             </span>
-            <span className="thq-body-small footer3-link12">
+            <span className="thq-body-small footer3-thq-link12-elm">
               {props.termsLink ?? (
                 <Fragment>
                   <span className="footer3-text1">
@@ -161,7 +161,7 @@ const Footer3 = (props) => {
                 </Fragment>
               )}
             </span>
-            <span className="thq-body-small footer3-link13">
+            <span className="thq-body-small footer3-thq-link13-elm">
               {props.cookiesLink ?? (
                 <Fragment>
                   <span className="footer3-text2">
@@ -179,7 +179,7 @@ const Footer3 = (props) => {
       </footer>
       <style jsx>
         {`
-          .footer3-footer4 {
+          .footer3-thq-footer4-elm {
             gap: 80px;
             width: 100%;
             height: auto;
@@ -192,7 +192,7 @@ const Footer3 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .footer3-max-width {
+          .footer3-thq-max-width-elm {
             gap: var(--dl-layout-space-threeunits);
             width: auto;
             height: auto;
@@ -200,7 +200,7 @@ const Footer3 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .footer3-content {
+          .footer3-thq-content-elm {
             gap: 32px;
             width: 100%;
             height: 100%;
@@ -212,7 +212,7 @@ const Footer3 = (props) => {
             padding-bottom: 0px;
             justify-content: center;
           }
-          .footer3-logo {
+          .footer3-thq-logo-elm {
             gap: 24px;
             width: 269px;
             height: 72px;
@@ -227,7 +227,7 @@ const Footer3 = (props) => {
             height: 85px;
             object-fit: cover;
           }
-          .footer3-links {
+          .footer3-thq-links-elm {
             gap: var(--dl-layout-space-twounits);
             display: flex;
             align-items: flex-start;
@@ -235,26 +235,26 @@ const Footer3 = (props) => {
           .footer3-link1 {
             text-decoration: none;
           }
-          .footer3-link6 {
+          .footer3-link2 {
             text-decoration: none;
           }
-          .footer3-link7 {
+          .footer3-link3 {
             text-decoration: none;
           }
-          .footer3-link8 {
+          .footer3-link4 {
             text-decoration: none;
           }
-          .footer3-link9 {
+          .footer3-link5 {
             text-decoration: none;
           }
-          .footer3-social-links {
+          .footer3-thq-social-links-elm {
             gap: var(--dl-layout-space-unit);
             display: flex;
             flex-grow: 1;
             align-items: center;
             justify-content: flex-end;
           }
-          .footer3-footer-links {
+          .footer3-thq-footer-links-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             margin: var(--dl-layout-space-unit);
             display: flex;
@@ -297,13 +297,13 @@ const Footer3 = (props) => {
           }
 
           @media (max-width: 1600px) {
-            .footer3-footer4 {
+            .footer3-thq-footer4-elm {
               width: 1415px;
             }
-            .footer3-max-width {
+            .footer3-thq-max-width-elm {
               width: auto;
             }
-            .footer3-content {
+            .footer3-thq-content-elm {
               width: 100%;
             }
             .footer3root-class-name {
@@ -311,14 +311,14 @@ const Footer3 = (props) => {
             }
           }
           @media (max-width: 1200px) {
-            .footer3-footer4 {
+            .footer3-thq-footer4-elm {
               width: auto;
               padding: var(--dl-layout-space-fiveunits);
             }
-            .footer3-max-width {
+            .footer3-thq-max-width-elm {
               width: 100%;
             }
-            .footer3-social-links {
+            .footer3-thq-social-links-elm {
               margin-right: 5px;
             }
             .footer3root-class-name {
@@ -328,15 +328,15 @@ const Footer3 = (props) => {
             }
           }
           @media (max-width: 991px) {
-            .footer3-max-width {
+            .footer3-thq-max-width-elm {
               width: auto;
               height: 166px;
             }
-            .footer3-content {
+            .footer3-thq-content-elm {
               width: 100%;
               height: 73px;
             }
-            .footer3-logo {
+            .footer3-thq-logo-elm {
               width: auto;
             }
             .footer3root-class-name {
@@ -344,31 +344,31 @@ const Footer3 = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .footer3-footer4 {
+            .footer3-thq-footer4-elm {
               height: 885px;
             }
-            .footer3-max-width {
+            .footer3-thq-max-width-elm {
               width: 100%;
               height: 100%;
             }
-            .footer3-content {
+            .footer3-thq-content-elm {
               height: 63px;
               flex-direction: column;
             }
-            .footer3-links {
+            .footer3-thq-links-elm {
               display: flex;
               align-items: center;
               flex-direction: column;
               justify-content: flex-start;
             }
-            .footer3-footer-links {
+            .footer3-thq-footer-links-elm {
               height: 186px;
               margin: var(--dl-layout-space-threeunits);
               align-items: center;
               flex-direction: column;
               justify-content: center;
             }
-            .footer3-content3 {
+            .footer3-thq-content3-elm {
               padding-top: var(--dl-layout-space-halfunit);
             }
             .footer3root-class-name {
@@ -376,13 +376,13 @@ const Footer3 = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .footer3-max-width {
+            .footer3-thq-max-width-elm {
               gap: var(--dl-layout-space-oneandhalfunits);
             }
-            .footer3-content {
+            .footer3-thq-content-elm {
               width: 100%;
             }
-            .footer3-links {
+            .footer3-thq-links-elm {
               width: 100%;
               align-items: center;
               flex-direction: column;
@@ -390,11 +390,11 @@ const Footer3 = (props) => {
             }
           }
           @media (max-width: 344px) {
-            .footer3-footer4 {
+            .footer3-thq-footer4-elm {
               padding: var(--dl-layout-space-unit);
               margin-top: 0px;
             }
-            .footer3-max-width {
+            .footer3-thq-max-width-elm {
               display: flex;
             }
             .footer3-image {
@@ -402,37 +402,37 @@ const Footer3 = (props) => {
               height: 77px;
               padding-top: var(--dl-layout-space-unit);
             }
-            .footer3-links {
+            .footer3-thq-links-elm {
               gap: var(--dl-layout-space-unit);
               align-self: center;
             }
             .footer3-link1 {
               font-size: 12px;
             }
-            .footer3-link6 {
+            .footer3-link2 {
               font-size: 12px;
             }
-            .footer3-link7 {
+            .footer3-link3 {
               font-size: 12px;
             }
-            .footer3-link8 {
+            .footer3-link4 {
               font-size: 12px;
             }
-            .footer3-link9 {
+            .footer3-link5 {
               font-size: 12px;
             }
-            .footer3-content3 {
+            .footer3-thq-content3-elm {
               font-size: 12px;
               margin-top: 0px;
               padding-top: var(--dl-layout-space-unit);
             }
-            .footer3-link11 {
+            .footer3-thq-link11-elm {
               font-size: 12px;
             }
-            .footer3-link12 {
+            .footer3-thq-link12-elm {
               font-size: 12px;
             }
-            .footer3-link13 {
+            .footer3-thq-link13-elm {
               font-size: 12px;
             }
             .footer3-text3 {

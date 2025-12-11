@@ -8,19 +8,19 @@ const Contact14 = (props) => {
   return (
     <>
       <div
-        className={`contact14-contact20 thq-section-padding ${props.rootClassName} `}
+        className={`contact14-thq-contact20-elm thq-section-padding ${props.rootClassName} `}
       >
-        <div className="contact14-max-width thq-section-max-width">
-          <div className="contact14-content1">
+        <div className="contact14-thq-max-width-elm thq-section-max-width">
+          <div className="contact14-thq-content-elm1">
             <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
               <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
             </svg>
-            <div className="contact14-contact-info1">
-              <div className="contact14-content2">
-                <h3 className="contact14-text1 thq-heading-3">
+            <div className="contact14-thq-contact-info-elm1">
+              <div className="contact14-thq-content-elm2">
+                <h3 className="contact14-thq-text-elm1 thq-heading-3">
                   {props.heading1 ?? (
                     <Fragment>
-                      <span className="contact14-text7">
+                      <span className="contact14-text">
                         <span
                           dangerouslySetInnerHTML={{
                             __html: translate.raw('text_v-bJAx'),
@@ -30,7 +30,7 @@ const Contact14 = (props) => {
                     </Fragment>
                   )}
                 </h3>
-                <p className="contact14-text2 thq-body-large">
+                <p className="contact14-thq-text-elm2 thq-body-large">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_qnL27v'),
@@ -38,7 +38,7 @@ const Contact14 = (props) => {
                   ></span>
                 </p>
               </div>
-              <span className="contact14-email1 thq-body-small">
+              <span className="contact14-thq-email-elm1 thq-body-small">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_zvVBGa'),
@@ -47,20 +47,20 @@ const Contact14 = (props) => {
               </span>
             </div>
           </div>
-          <div className="contact14-content3">
+          <div className="contact14-thq-content-elm3">
             <svg viewBox="0 0 1024 1024" className="contact14-icon3">
               <path d="M768 342v-86h-512v86h512zM768 470v-86h-512v86h512zM768 598v-86h-512v86h512zM854 86q34 0 59 25t25 59v512q0 34-25 60t-59 26h-598l-170 170v-768q0-34 25-59t59-25h684z"></path>
             </svg>
-            <div className="contact14-contact-info2">
-              <div className="contact14-content4">
-                <h3 className="contact14-text3 thq-heading-3">
+            <div className="contact14-thq-contact-info-elm2">
+              <div className="contact14-thq-content-elm4">
+                <h3 className="contact14-thq-text-elm3 thq-heading-3">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_BDU7mv'),
                     }}
                   ></span>
                 </h3>
-                <p className="contact14-text4 thq-body-large">
+                <p className="contact14-thq-text-elm4 thq-body-large">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_1LNzAD'),
@@ -68,7 +68,7 @@ const Contact14 = (props) => {
                   ></span>
                 </p>
               </div>
-              <span className="contact14-email2 thq-body-small">
+              <span className="contact14-thq-email-elm2 thq-body-small">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Klb-2-'),
@@ -77,20 +77,20 @@ const Contact14 = (props) => {
               </span>
             </div>
           </div>
-          <div className="contact14-content5">
+          <div className="contact14-thq-content-elm5">
             <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
               <path d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"></path>
             </svg>
-            <div className="contact14-contact-info3">
-              <div className="contact14-content6">
-                <h3 className="contact14-text5 thq-heading-3">
+            <div className="contact14-thq-contact-info-elm3">
+              <div className="contact14-thq-content-elm6">
+                <h3 className="contact14-thq-text-elm5 thq-heading-3">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_3ElNLf'),
                     }}
                   ></span>
                 </h3>
-                <p className="contact14-text6 thq-body-large">
+                <p className="contact14-thq-text-elm6 thq-body-large">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_SNoXU_'),
@@ -98,7 +98,7 @@ const Contact14 = (props) => {
                   ></span>
                 </p>
               </div>
-              <span className="contact14-phone thq-body-small">
+              <span className="contact14-thq-phone-elm thq-body-small">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_vEmFdW'),
@@ -111,20 +111,20 @@ const Contact14 = (props) => {
       </div>
       <style jsx>
         {`
-          .contact14-contact20 {
+          .contact14-thq-contact20-elm {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
             overflow: hidden;
             position: relative;
             flex-direction: column;
           }
-          .contact14-max-width {
+          .contact14-thq-max-width-elm {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .contact14-content1 {
+          .contact14-thq-content-elm1 {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             width: auto;
@@ -134,34 +134,34 @@ const Contact14 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .contact14-contact-info1 {
+          .contact14-thq-contact-info-elm1 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .contact14-content2 {
+          .contact14-thq-content-elm2 {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .contact14-text1 {
+          .contact14-thq-text-elm1 {
             align-self: stretch;
             text-align: center;
             font-family: 'Taviraj';
           }
-          .contact14-text2 {
+          .contact14-thq-text-elm2 {
             text-align: center;
             font-family: 'Open Sans';
           }
-          .contact14-email1 {
+          .contact14-thq-email-elm1 {
             text-align: center;
             font-family: 'Open Sans';
           }
-          .contact14-content3 {
+          .contact14-thq-content-elm3 {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             width: auto;
@@ -175,30 +175,30 @@ const Contact14 = (props) => {
             width: var(--dl-layout-size-small);
             height: var(--dl-layout-size-small);
           }
-          .contact14-contact-info2 {
+          .contact14-thq-contact-info-elm2 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .contact14-content4 {
+          .contact14-thq-content-elm4 {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .contact14-text3 {
+          .contact14-thq-text-elm3 {
             align-self: stretch;
             text-align: center;
             font-family: 'Taviraj';
           }
-          .contact14-text4 {
+          .contact14-thq-text-elm4 {
             text-align: center;
             font-family: 'Open Sans';
           }
-          .contact14-email2 {
+          .contact14-thq-email-elm2 {
             fill: rgb(37, 211, 102);
             color: rgb(37, 211, 102);
             cursor: pointer;
@@ -206,7 +206,7 @@ const Contact14 = (props) => {
             font-family: 'Open Sans';
             text-decoration: underline;
           }
-          .contact14-content5 {
+          .contact14-thq-content-elm5 {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             width: auto;
@@ -215,39 +215,39 @@ const Contact14 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .contact14-contact-info3 {
+          .contact14-thq-contact-info-elm3 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .contact14-content6 {
+          .contact14-thq-content-elm6 {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .contact14-text5 {
+          .contact14-thq-text-elm5 {
             align-self: stretch;
             text-align: center;
             font-family: 'Taviraj';
           }
-          .contact14-text6 {
+          .contact14-thq-text-elm6 {
             text-align: center;
             font-family: 'Open Sans';
           }
-          .contact14-phone {
+          .contact14-thq-phone-elm {
             text-align: center;
             font-family: 'Open Sans';
           }
-          .contact14-text7 {
+          .contact14-text {
             display: inline-block;
           }
 
           @media (max-width: 767px) {
-            .contact14-max-width {
+            .contact14-thq-max-width-elm {
               flex-direction: column;
             }
           }

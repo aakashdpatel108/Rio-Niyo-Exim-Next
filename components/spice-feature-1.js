@@ -8,12 +8,12 @@ const SpiceFeature1 = (props) => {
   return (
     <>
       <div
-        className={`spice-feature-1-layout251 thq-section-padding ${props.rootClassName} `}
+        className={`spice-feature-1-thq-layout251-elm thq-section-padding ${props.rootClassName} `}
       >
-        <div className="spice-feature-1-max-width thq-section-max-width">
-          <div className="thq-flex-row spice-feature-1-section-title">
-            <div className="spice-feature-1-column thq-flex-column">
-              <h2 className="thq-heading-2 spice-feature-1-text1">
+        <div className="spice-feature-1-thq-max-width-elm thq-section-max-width">
+          <div className="thq-flex-row spice-feature-1-thq-section-title-elm">
+            <div className="spice-feature-1-thq-column-elm thq-flex-column">
+              <h2 className="thq-heading-2 spice-feature-1-thq-text-elm">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pBUSc8'),
@@ -22,26 +22,26 @@ const SpiceFeature1 = (props) => {
               </h2>
             </div>
           </div>
-          <div className="spice-feature-1-content1">
-            <div className="spice-feature-1-row thq-flex-row">
-              <div className="spice-feature-1-feature1 thq-flex-column">
+          <div className="spice-feature-1-thq-content-elm1">
+            <div className="spice-feature-1-thq-row-elm thq-flex-row">
+              <div className="spice-feature-1-thq-feature1-elm thq-flex-column">
                 <img
                   alt="Turmeric (Haldi)"
                   src="https://images.unsplash.com/photo-1606951444141-e5533feb55be?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHR1cm1lcmljfGVufDB8fHx8MTc2MTUxMjY0M3ww&amp;ixlib=rb-4.1.0&amp;w=1400"
-                  className="thq-img-ratio-4-3 spice-feature-1-feature1-image"
+                  className="thq-img-ratio-4-3 spice-feature-1-thq-feature1-image-elm"
                 />
-                <div className="spice-feature-1-content2 thq-flex-column">
-                  <h3 className="thq-heading-3 spice-feature-1-feature1-title">
+                <div className="spice-feature-1-thq-content-elm2 thq-flex-column">
+                  <h3 className="thq-heading-3 spice-feature-1-thq-feature1-title-elm">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_aHb-uS'),
                       }}
                     ></span>
                   </h3>
-                  <span className="spice-feature-1-feature1-description thq-body-small">
+                  <span className="spice-feature-1-thq-feature1-description-elm thq-body-small">
                     {props.feature1Description ?? (
                       <Fragment>
-                        <span className="spice-feature-1-text2">
+                        <span className="spice-feature-1-text">
                           <span
                             dangerouslySetInnerHTML={{
                               __html: translate.raw('text_kUem1f'),
@@ -53,21 +53,21 @@ const SpiceFeature1 = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="spice-feature-1-feature2 thq-flex-column">
+              <div className="spice-feature-1-thq-feature2-elm thq-flex-column">
                 <img
                   alt="Cumin (Jeera)"
                   src="https://images.unsplash.com/photo-1601723897386-e5df0c749fb7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGN1bWluJTIwc2VlZHN8ZW58MHx8fHwxNzYxNTEzNDE2fDA&amp;ixlib=rb-4.1.0&amp;h=300"
-                  className="thq-img-ratio-4-3 spice-feature-1-feature2-image"
+                  className="thq-img-ratio-4-3 spice-feature-1-thq-feature2-image-elm"
                 />
-                <div className="spice-feature-1-content3 thq-flex-column">
-                  <h3 className="thq-heading-3 spice-feature-1-feature2-title">
+                <div className="spice-feature-1-thq-content-elm3 thq-flex-column">
+                  <h3 className="thq-heading-3 spice-feature-1-thq-feature2-title-elm">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_ap_BTz'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small spice-feature-1-feature2-description">
+                  <span className="thq-body-small spice-feature-1-thq-feature2-description-elm">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_ot8CaP'),
@@ -76,21 +76,21 @@ const SpiceFeature1 = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="spice-feature-1-feature3 thq-flex-column">
+              <div className="spice-feature-1-thq-feature3-elm thq-flex-column">
                 <img
                   alt="Coriander (Dhania)"
                   src="https://images.unsplash.com/photo-1608797179072-4268dd68eff2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fGNvcmlhbmRlcnxlbnwwfHx8fDE3NjE1MTM1NjF8MA&amp;ixlib=rb-4.1.0&amp;h=300"
-                  className="thq-img-ratio-4-3 spice-feature-1-feature3-image"
+                  className="thq-img-ratio-4-3 spice-feature-1-thq-feature3-image-elm"
                 />
-                <div className="spice-feature-1-content4 thq-flex-column">
-                  <h3 className="thq-heading-3 spice-feature-1-feature3-title">
+                <div className="spice-feature-1-thq-content-elm4 thq-flex-column">
+                  <h3 className="thq-heading-3 spice-feature-1-thq-feature3-title-elm">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_1mHuaS'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small spice-feature-1-feature3-description">
+                  <span className="thq-body-small spice-feature-1-thq-feature3-description-elm">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_bbxktn'),
@@ -105,7 +105,7 @@ const SpiceFeature1 = (props) => {
       </div>
       <style jsx>
         {`
-          .spice-feature-1-layout251 {
+          .spice-feature-1-thq-layout251-elm {
             width: 100%;
             height: auto;
             display: flex;
@@ -115,109 +115,109 @@ const SpiceFeature1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .spice-feature-1-max-width {
+          .spice-feature-1-thq-max-width-elm {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .spice-feature-1-column {
+          .spice-feature-1-thq-column-elm {
             gap: var(--dl-layout-space-halfunit);
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .spice-feature-1-content1 {
+          .spice-feature-1-thq-content-elm1 {
             gap: 48px;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
           }
-          .spice-feature-1-row {
+          .spice-feature-1-thq-row-elm {
             align-items: flex-start;
           }
-          .spice-feature-1-feature1 {
+          .spice-feature-1-thq-feature1-elm {
             flex: 1;
           }
-          .spice-feature-1-content2 {
+          .spice-feature-1-thq-content-elm2 {
             align-self: stretch;
             align-items: flex-start;
           }
-          .spice-feature-1-feature1-description {
+          .spice-feature-1-thq-feature1-description-elm {
             align-self: flex-start;
           }
-          .spice-feature-1-feature2 {
+          .spice-feature-1-thq-feature2-elm {
             flex: 1;
           }
-          .spice-feature-1-content3 {
+          .spice-feature-1-thq-content-elm3 {
             align-self: stretch;
             align-items: flex-start;
           }
-          .spice-feature-1-feature3 {
+          .spice-feature-1-thq-feature3-elm {
             flex: 1;
           }
-          .spice-feature-1-content4 {
+          .spice-feature-1-thq-content-elm4 {
             align-self: stretch;
             align-items: flex-start;
           }
-          .spice-feature-1-text2 {
+          .spice-feature-1-text {
             display: inline-block;
           }
 
           @media (max-width: 991px) {
-            .spice-feature-1-section-title {
+            .spice-feature-1-thq-section-title-elm {
               align-items: flex-start;
               flex-direction: column;
             }
-            .spice-feature-1-feature1-image {
+            .spice-feature-1-thq-feature1-image-elm {
               height: 260px;
             }
-            .spice-feature-1-feature2-image {
+            .spice-feature-1-thq-feature2-image-elm {
               height: 260px;
             }
-            .spice-feature-1-feature3-image {
+            .spice-feature-1-thq-feature3-image-elm {
               height: 260px;
             }
           }
           @media (max-width: 767px) {
-            .spice-feature-1-column {
+            .spice-feature-1-thq-column-elm {
               width: 100%;
             }
-            .spice-feature-1-text1 {
+            .spice-feature-1-thq-text-elm {
               font-size: 25px;
               text-align: center;
             }
-            .spice-feature-1-row {
+            .spice-feature-1-thq-row-elm {
               flex-direction: column;
             }
-            .spice-feature-1-feature1-image {
+            .spice-feature-1-thq-feature1-image-elm {
               width: 100%;
             }
-            .spice-feature-1-feature1-title {
+            .spice-feature-1-thq-feature1-title-elm {
               font-size: 18px;
             }
-            .spice-feature-1-feature1-description {
+            .spice-feature-1-thq-feature1-description-elm {
               font-size: 12px;
             }
-            .spice-feature-1-feature2 {
+            .spice-feature-1-thq-feature2-elm {
               width: auto;
             }
-            .spice-feature-1-feature2-image {
+            .spice-feature-1-thq-feature2-image-elm {
               width: 100%;
             }
-            .spice-feature-1-feature2-title {
+            .spice-feature-1-thq-feature2-title-elm {
               font-size: 18px;
             }
-            .spice-feature-1-feature2-description {
+            .spice-feature-1-thq-feature2-description-elm {
               font-size: 12px;
             }
-            .spice-feature-1-feature3 {
+            .spice-feature-1-thq-feature3-elm {
               width: auto;
             }
-            .spice-feature-1-feature3-title {
+            .spice-feature-1-thq-feature3-title-elm {
               font-size: 18px;
             }
-            .spice-feature-1-feature3-description {
+            .spice-feature-1-thq-feature3-description-elm {
               font-size: 12px;
             }
           }

@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl'
 const Page = (props) => {
   return (
     <>
-      <div className="page-container1">
+      <div className="page-container">
         <Head>
           <title>Page - Rio Niyo Exim</title>
           <meta property="og:title" content="Page - Rio Niyo Exim" />
@@ -15,11 +15,11 @@ const Page = (props) => {
             href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/page"
           />
         </Head>
-        <div className="page-container2"></div>
+        <div className="page-thq-container-elm"></div>
       </div>
       <style jsx>
         {`
-          .page-container1 {
+          .page-container {
             width: 100%;
             display: flex;
             min-height: 100vh;
@@ -27,7 +27,7 @@ const Page = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .page-container2 {
+          .page-thq-container-elm {
             width: 100%;
             height: var(--dl-layout-size-maxwidth);
             display: block;
@@ -39,24 +39,24 @@ const Page = (props) => {
             background-position: center;
           }
           @media (max-width: 1600px) {
-            .page-container2 {
+            .page-thq-container-elm {
               width: 100%;
               height: var(--dl-layout-size-maxwidth);
             }
           }
           @media (max-width: 991px) {
-            .page-container2 {
+            .page-thq-container-elm {
               height: var(--dl-layout-size-maxwidth);
             }
           }
           @media (max-width: 767px) {
-            .page-container2 {
+            .page-thq-container-elm {
               width: 100%;
               height: 1000px;
             }
           }
           @media (max-width: 344px) {
-            .page-container2 {
+            .page-thq-container-elm {
               width: 100%;
               height: 500px;
             }

@@ -7,16 +7,16 @@ const Stats13 = (props) => {
   return (
     <>
       <div className="thq-section-padding">
-        <div className="stats13-max-width thq-section-max-width">
+        <div className="stats13-thq-max-width-elm thq-section-max-width">
           <div className="stats13-container2">
-            <h2 className="stats13-title thq-heading-2">
+            <h2 className="stats13-thq-title-elm thq-heading-2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_X61cVG'),
                 }}
               ></span>
             </h2>
-            <span className="stats13-content thq-body-small">
+            <span className="stats13-thq-content-elm thq-body-small">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_qMMqNN'),
@@ -116,7 +116,7 @@ const Stats13 = (props) => {
       </div>
       <style jsx>
         {`
-          .stats13-max-width {
+          .stats13-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 0 0 auto;
             width: 100%;
@@ -135,11 +135,11 @@ const Stats13 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .stats13-title {
+          .stats13-thq-title-elm {
             color: #ffffff;
             text-align: center;
           }
-          .stats13-content {
+          .stats13-thq-content-elm {
             color: rgb(255, 255, 255);
             font-size: 16px;
             text-align: center;
@@ -211,14 +211,14 @@ const Stats13 = (props) => {
             object-fit: cover;
           }
           @media (max-width: 767px) {
-            .stats13-max-width {
+            .stats13-thq-max-width-elm {
               flex-direction: column;
             }
-            .stats13-title {
+            .stats13-thq-title-elm {
               font-size: 25px;
               text-align: center;
             }
-            .stats13-content {
+            .stats13-thq-content-elm {
               font-size: 12px;
             }
             .stats13-container3 {
@@ -270,7 +270,7 @@ const Stats13 = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .stats13-title {
+            .stats13-thq-title-elm {
               align-self: center;
               text-align: center;
             }

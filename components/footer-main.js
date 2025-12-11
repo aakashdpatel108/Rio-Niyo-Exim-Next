@@ -9,25 +9,25 @@ const FooterMain = (props) => {
   return (
     <>
       <footer
-        className={`footer-main-footer4 thq-section-padding ${props.rootClassName} `}
+        className={`footer-main-thq-footer4-elm thq-section-padding ${props.rootClassName} `}
       >
-        <div className="footer-main-max-width thq-section-max-width">
-          <div className="footer-main-content">
-            <div className="footer-main-logo">
+        <div className="footer-main-thq-max-width-elm thq-section-max-width">
+          <div className="footer-main-thq-content-elm">
+            <div className="footer-main-thq-logo-elm">
               <img
                 alt={props.imageAlt}
                 src={props.imageSrc}
                 className="footer-main-image"
               />
             </div>
-            <div className="footer-main-links">
+            <div className="footer-main-thq-links-elm">
               <Link href="/">
-                <a className="footer-main-link6 thq-body-small">
+                <a className="footer-main-link1 thq-body-small">
                   {props.link11}
                 </a>
               </Link>
               <Link href="/product-categories">
-                <a className="footer-main-link7 thq-body-small">
+                <a className="footer-main-link2 thq-body-small">
                   {props.link2 ?? (
                     <Fragment>
                       <span className="footer-main-text1">
@@ -42,7 +42,7 @@ const FooterMain = (props) => {
                 </a>
               </Link>
               <Link href="/about-us">
-                <a className="footer-main-link8 thq-body-small">
+                <a className="footer-main-link3 thq-body-small">
                   {props.link3 ?? (
                     <Fragment>
                       <span className="footer-main-text5">
@@ -57,7 +57,7 @@ const FooterMain = (props) => {
                 </a>
               </Link>
               <Link href="/certificates">
-                <a className="footer-main-link9 thq-body-small">
+                <a className="footer-main-link4 thq-body-small">
                   {props.link4 ?? (
                     <Fragment>
                       <span className="footer-main-text3">
@@ -72,7 +72,7 @@ const FooterMain = (props) => {
                 </a>
               </Link>
               <Link href="/contact-us">
-                <a className="footer-main-link10 thq-body-small">
+                <a className="footer-main-link5 thq-body-small">
                   {props.link5 ?? (
                     <Fragment>
                       <span className="footer-main-text4">
@@ -87,7 +87,7 @@ const FooterMain = (props) => {
                 </a>
               </Link>
             </div>
-            <div className="footer-main-social-links">
+            <div className="footer-main-thq-social-links-elm">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="thq-icon-small"
@@ -117,10 +117,10 @@ const FooterMain = (props) => {
               </svg>
             </div>
           </div>
-          <div className="footer-main-credits">
+          <div className="footer-main-thq-credits-elm">
             <div className="thq-divider-horizontal"></div>
-            <div className="footer-main-row">
-              <div className="footer-main-footer-links">
+            <div className="footer-main-thq-row-elm">
+              <div className="footer-main-thq-footer-links-elm">
                 <span className="thq-body-small">
                   <span
                     dangerouslySetInnerHTML={{
@@ -174,7 +174,7 @@ const FooterMain = (props) => {
       </footer>
       <style jsx>
         {`
-          .footer-main-footer4 {
+          .footer-main-thq-footer4-elm {
             gap: 80px;
             width: 100%;
             height: 214px;
@@ -192,13 +192,13 @@ const FooterMain = (props) => {
               rgb(135, 215, 129) 100%
             );
           }
-          .footer-main-max-width {
+          .footer-main-thq-max-width-elm {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .footer-main-content {
+          .footer-main-thq-content-elm {
             gap: 32px;
             display: flex;
             align-self: stretch;
@@ -207,7 +207,7 @@ const FooterMain = (props) => {
             margin-bottom: -20px;
             justify-content: center;
           }
-          .footer-main-logo {
+          .footer-main-thq-logo-elm {
             gap: 24px;
             width: auto;
             display: flex;
@@ -222,46 +222,46 @@ const FooterMain = (props) => {
             height: 55px;
             object-fit: cover;
           }
-          .footer-main-links {
+          .footer-main-thq-links-elm {
             gap: var(--dl-layout-space-twounits);
             display: flex;
             align-items: flex-start;
           }
-          .footer-main-link6 {
+          .footer-main-link1 {
             text-decoration: none;
           }
-          .footer-main-link7 {
+          .footer-main-link2 {
             text-decoration: none;
           }
-          .footer-main-link8 {
+          .footer-main-link3 {
             text-decoration: none;
           }
-          .footer-main-link9 {
+          .footer-main-link4 {
             text-decoration: none;
           }
-          .footer-main-link10 {
+          .footer-main-link5 {
             text-decoration: none;
           }
-          .footer-main-social-links {
+          .footer-main-thq-social-links-elm {
             gap: var(--dl-layout-space-unit);
             display: flex;
             flex-grow: 1;
             align-items: center;
             justify-content: flex-end;
           }
-          .footer-main-credits {
+          .footer-main-thq-credits-elm {
             gap: var(--dl-layout-space-twounits);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .footer-main-row {
+          .footer-main-thq-row-elm {
             gap: 24px;
             display: flex;
             align-items: flex-start;
           }
-          .footer-main-footer-links {
+          .footer-main-thq-footer-links-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
@@ -289,39 +289,39 @@ const FooterMain = (props) => {
           }
 
           @media (max-width: 991px) {
-            .footer-main-logo {
+            .footer-main-thq-logo-elm {
               width: auto;
             }
           }
           @media (max-width: 767px) {
-            .footer-main-footer4 {
+            .footer-main-thq-footer4-elm {
               height: 100%;
             }
-            .footer-main-content {
+            .footer-main-thq-content-elm {
               flex-direction: column;
             }
-            .footer-main-links {
+            .footer-main-thq-links-elm {
               align-self: center;
               align-items: center;
               flex-direction: column;
             }
-            .footer-main-row {
+            .footer-main-thq-row-elm {
               flex-direction: column;
             }
-            .footer-main-footer-links {
+            .footer-main-thq-footer-links-elm {
               align-items: center;
               flex-direction: column;
               justify-content: center;
             }
           }
           @media (max-width: 479px) {
-            .footer-main-max-width {
+            .footer-main-thq-max-width-elm {
               gap: var(--dl-layout-space-oneandhalfunits);
             }
-            .footer-main-content {
+            .footer-main-thq-content-elm {
               width: 100%;
             }
-            .footer-main-links {
+            .footer-main-thq-links-elm {
               width: 100%;
               align-items: center;
               flex-direction: column;
@@ -329,7 +329,7 @@ const FooterMain = (props) => {
             }
           }
           @media (max-width: 344px) {
-            .footer-main-footer-links {
+            .footer-main-thq-footer-links-elm {
               width: 173px;
             }
           }

@@ -3,37 +3,37 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { useTranslations } from 'next-intl'
 
-const DragonFruitTable = (props) => {
+const PomegranateTable = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className={`dragon-fruit-table-container1 ${props.rootClassName} `}>
-        <div className="dragon-fruit-table-container2">
-          <h2 className="dragon-fruit-table-text10">
+      <div className={`pomegranate-table-container1 ${props.rootClassName} `}>
+        <div className="pomegranate-table-container2">
+          <h2 className="pomegranate-table-text10">
             {props.heading ?? (
               <Fragment>
-                <span className="dragon-fruit-table-text49">
+                <span className="pomegranate-table-text32">
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: translate.raw('text_JGxbLK'),
+                      __html: translate.raw('text_kZ647T'),
                     }}
                   ></span>
                 </span>
               </Fragment>
             )}
           </h2>
-          <div className="dragon-fruit-table-container3">
-            <table className="dragon-fruit-table-table">
-              <thead className="dragon-fruit-table-thead">
+          <div className="pomegranate-table-container3">
+            <table className="pomegranate-table-table">
+              <thead className="pomegranate-table-thead">
                 <tr>
-                  <th className="dragon-fruit-table-th1">
-                    <span className="dragon-fruit-table-text11">
+                  <th className="pomegranate-table-th1">
+                    <span className="pomegranate-table-text11">
                       {props.text ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text34">
+                          <span className="pomegranate-table-text33">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_p3pIYC'),
+                                __html: translate.raw('text_WcXHE3'),
                               }}
                             ></span>
                           </span>
@@ -41,14 +41,14 @@ const DragonFruitTable = (props) => {
                       )}
                     </span>
                   </th>
-                  <th className="dragon-fruit-table-th2">
+                  <th className="pomegranate-table-th2">
                     <span>
                       {props.text1 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text37">
+                          <span className="pomegranate-table-text34">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_XMgvTp'),
+                                __html: translate.raw('text_L9fA9O'),
                               }}
                             ></span>
                           </span>
@@ -62,16 +62,16 @@ const DragonFruitTable = (props) => {
                 <tr
                   onmouseout="this.style.background='white'; this.style.transform='scale(1)'"
                   onmouseover="this.style.background='#d8ffe8'; this.style.transform='scale(1.01)'"
-                  className="dragon-fruit-table-tr2"
+                  className="pomegranate-table-tr2"
                 >
-                  <td className="dragon-fruit-table-td10">
-                    <span className="dragon-fruit-table-text13">
+                  <td className="pomegranate-table-td10">
+                    <span className="pomegranate-table-text13">
                       {props.text2 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text54">
+                          <span className="pomegranate-table-text35">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_OUdVWL'),
+                                __html: translate.raw('text_z3IikF'),
                               }}
                             ></span>
                           </span>
@@ -79,47 +79,47 @@ const DragonFruitTable = (props) => {
                       )}
                     </span>
                   </td>
-                  <td className="dragon-fruit-table-td11">
-                    <span className="dragon-fruit-table-text14">
+                  <td className="pomegranate-table-td11">
+                    <span className="pomegranate-table-text14">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: translate.raw('text_ha8tti'),
+                          __html: translate.raw('text_A6AnJW'),
                         }}
                       ></span>
                     </span>
-                    <span className="dragon-fruit-table-text15">
+                    <span className="pomegranate-table-text15">
                       {props.text4 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text36">
+                          <span className="pomegranate-table-text36">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_HAoqTY'),
+                                __html: translate.raw('text_He9GIa'),
                               }}
                             ></span>
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span className="dragon-fruit-table-text16">
+                    <span className="pomegranate-table-text16">
                       {props.text5 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text47">
+                          <span className="pomegranate-table-text37">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_jpdTdx'),
+                                __html: translate.raw('text_NS_wJb'),
                               }}
                             ></span>
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span className="dragon-fruit-table-text17">
+                    <span className="pomegranate-table-text17">
                       {props.text6 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text50">
+                          <span className="pomegranate-table-text38">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_1b2npp'),
+                                __html: translate.raw('text_l9az3H'),
                               }}
                             ></span>
                           </span>
@@ -131,16 +131,16 @@ const DragonFruitTable = (props) => {
                 <tr
                   onmouseout="this.style.background='white'; this.style.transform='scale(1)'"
                   onmouseover="this.style.background='#d8ffe8'; this.style.transform='scale(1.01)'"
-                  className="dragon-fruit-table-tr3"
+                  className="pomegranate-table-tr3"
                 >
-                  <td className="dragon-fruit-table-td12">
-                    <span className="dragon-fruit-table-text18">
+                  <td className="pomegranate-table-td12">
+                    <span className="pomegranate-table-text18">
                       {props.text7 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text51">
+                          <span className="pomegranate-table-text39">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_dSiI37'),
+                                __html: translate.raw('text_RWD3dB'),
                               }}
                             ></span>
                           </span>
@@ -148,14 +148,14 @@ const DragonFruitTable = (props) => {
                       )}
                     </span>
                   </td>
-                  <td className="dragon-fruit-table-td13">
-                    <span className="dragon-fruit-table-text19">
+                  <td className="pomegranate-table-td13">
+                    <span className="pomegranate-table-text19">
                       {props.text8 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text44">
+                          <span className="pomegranate-table-text40">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_7g8sgZ'),
+                                __html: translate.raw('text_EsxohA'),
                               }}
                             ></span>
                           </span>
@@ -167,16 +167,16 @@ const DragonFruitTable = (props) => {
                 <tr
                   onmouseout="this.style.background='white'; this.style.transform='scale(1)'"
                   onmouseover="this.style.background='#d8ffe8'; this.style.transform='scale(1.01)'"
-                  className="dragon-fruit-table-tr4"
+                  className="pomegranate-table-tr4"
                 >
-                  <td className="dragon-fruit-table-td14">
-                    <span className="dragon-fruit-table-text20">
+                  <td className="pomegranate-table-td14">
+                    <span className="pomegranate-table-text20">
                       {props.text9 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text45">
+                          <span className="pomegranate-table-text41">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_fgrcV2'),
+                                __html: translate.raw('text_xwE81L'),
                               }}
                             ></span>
                           </span>
@@ -184,14 +184,14 @@ const DragonFruitTable = (props) => {
                       )}
                     </span>
                   </td>
-                  <td className="dragon-fruit-table-td15">
-                    <span className="dragon-fruit-table-text21">
+                  <td className="pomegranate-table-td15">
+                    <span className="pomegranate-table-text21">
                       {props.text10 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text40">
+                          <span className="pomegranate-table-text42">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_lxWpMS'),
+                                __html: translate.raw('text_PrhxXY'),
                               }}
                             ></span>
                           </span>
@@ -203,16 +203,16 @@ const DragonFruitTable = (props) => {
                 <tr
                   onmouseout="this.style.background='white'; this.style.transform='scale(1)'"
                   onmouseover="this.style.background='#d8ffe8'; this.style.transform='scale(1.01)'"
-                  className="dragon-fruit-table-tr5"
+                  className="pomegranate-table-tr5"
                 >
-                  <td className="dragon-fruit-table-td16">
-                    <span className="dragon-fruit-table-text22">
+                  <td className="pomegranate-table-td16">
+                    <span className="pomegranate-table-text22">
                       {props.text11 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text38">
+                          <span className="pomegranate-table-text43">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_G2JO3L'),
+                                __html: translate.raw('text_kGO3h1'),
                               }}
                             ></span>
                           </span>
@@ -220,40 +220,40 @@ const DragonFruitTable = (props) => {
                       )}
                     </span>
                   </td>
-                  <td className="dragon-fruit-table-td17">
-                    <span className="dragon-fruit-table-text23">
+                  <td className="pomegranate-table-td17">
+                    <span className="pomegranate-table-text23">
                       {props.text12 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text53">
+                          <span className="pomegranate-table-text44">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_KgOo1o'),
+                                __html: translate.raw('text_3NquhJ'),
                               }}
                             ></span>
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span className="dragon-fruit-table-text24">
+                    <span className="pomegranate-table-text24">
                       {props.text13 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text39">
+                          <span className="pomegranate-table-text45">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_SLmDil'),
+                                __html: translate.raw('text_99hFvY'),
                               }}
                             ></span>
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span className="dragon-fruit-table-text25">
+                    <span className="pomegranate-table-text25">
                       {props.text131 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text33">
+                          <span className="pomegranate-table-text46">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_qGrccX'),
+                                __html: translate.raw('text_tequIr'),
                               }}
                             ></span>
                           </span>
@@ -265,16 +265,16 @@ const DragonFruitTable = (props) => {
                 <tr
                   onmouseout="this.style.background='white'; this.style.transform='scale(1)'"
                   onmouseover="this.style.background='#d8ffe8'; this.style.transform='scale(1.01)'"
-                  className="dragon-fruit-table-tr6"
+                  className="pomegranate-table-tr6"
                 >
-                  <td className="dragon-fruit-table-td18">
-                    <span className="dragon-fruit-table-text26">
+                  <td className="pomegranate-table-td18">
+                    <span className="pomegranate-table-text26">
                       {props.text14 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text46">
+                          <span className="pomegranate-table-text47">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_8WqT08'),
+                                __html: translate.raw('text_D0LoLv'),
                               }}
                             ></span>
                           </span>
@@ -282,37 +282,37 @@ const DragonFruitTable = (props) => {
                       )}
                     </span>
                   </td>
-                  <td className="dragon-fruit-table-td19">
-                    <span className="dragon-fruit-table-text27">
+                  <td className="pomegranate-table-td19">
+                    <span className="pomegranate-table-text27">
                       {props.text15 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text48">
+                          <span className="pomegranate-table-text48">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_6V3H_e'),
+                                __html: translate.raw('text_ZV930F'),
                               }}
                             ></span>
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span className="dragon-fruit-table-text28">
+                    <span className="pomegranate-table-text28">
                       {props.text16 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text41">
-                            <span>Magnesium - 10 mg</span>
+                          <span className="pomegranate-table-text49">
+                            <span>Magnesium – 12 mg</span>
                             <br />
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span className="dragon-fruit-table-text29">
+                    <span className="pomegranate-table-text29">
                       {props.text18 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text35">
+                          <span className="pomegranate-table-text52">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_B7r2U_'),
+                                __html: translate.raw('text_12Xzb3'),
                               }}
                             ></span>
                           </span>
@@ -324,16 +324,16 @@ const DragonFruitTable = (props) => {
                 <tr
                   onmouseout="this.style.background='white'; this.style.transform='scale(1)'"
                   onmouseover="this.style.background='#d8ffe8'; this.style.transform='scale(1.01)'"
-                  className="dragon-fruit-table-tr7"
+                  className="pomegranate-table-tr7"
                 >
-                  <td className="dragon-fruit-table-td20">
-                    <span className="dragon-fruit-table-text30">
+                  <td className="pomegranate-table-td20">
+                    <span className="pomegranate-table-text30">
                       {props.text71 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text52">
+                          <span className="pomegranate-table-text53">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_yc8S6f'),
+                                __html: translate.raw('text_6jQGNj'),
                               }}
                             ></span>
                           </span>
@@ -341,14 +341,14 @@ const DragonFruitTable = (props) => {
                       )}
                     </span>
                   </td>
-                  <td className="dragon-fruit-table-td21">
-                    <span className="dragon-fruit-table-text31">
+                  <td className="pomegranate-table-td21">
+                    <span className="pomegranate-table-text31">
                       {props.text81 ?? (
                         <Fragment>
-                          <span className="dragon-fruit-table-text32">
+                          <span className="pomegranate-table-text54">
                             <span
                               dangerouslySetInnerHTML={{
-                                __html: translate.raw('text_jbd4Nw'),
+                                __html: translate.raw('text_Z8zPQj'),
                               }}
                             ></span>
                           </span>
@@ -364,7 +364,7 @@ const DragonFruitTable = (props) => {
       </div>
       <style jsx>
         {`
-          .dragon-fruit-table-container1 {
+          .pomegranate-table-container1 {
             width: 100%;
             margin: 0 auto;
             padding: 20px;
@@ -372,7 +372,7 @@ const DragonFruitTable = (props) => {
             max-width: 900px;
             font-family: Arial, sans-serif;
           }
-          .dragon-fruit-table-container2 {
+          .pomegranate-table-container2 {
             width: 100%;
             border: 2px solid #17a058;
             padding: 16px;
@@ -380,29 +380,29 @@ const DragonFruitTable = (props) => {
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
             border-radius: 14px;
           }
-          .dragon-fruit-table-text10 {
+          .pomegranate-table-text10 {
             color: rgb(0, 0, 0);
             margin: 0 0 14px;
             font-size: 20px;
             font-weight: 700;
           }
-          .dragon-fruit-table-container3 {
+          .pomegranate-table-container3 {
             width: 100%;
             border: 1px solid #17a058;
             overflow-x: auto;
             border-radius: 12px;
           }
-          .dragon-fruit-table-table {
+          .pomegranate-table-table {
             color: #000;
             width: 100%;
             font-size: 15px;
             background: white;
             border-collapse: collapse;
           }
-          .dragon-fruit-table-thead {
+          .pomegranate-table-thead {
             background: linear-gradient(90deg, #0f4d2c, #17a058);
           }
-          .dragon-fruit-table-th1 {
+          .pomegranate-table-th1 {
             color: white;
             font-size: 12px;
             text-align: left;
@@ -414,7 +414,7 @@ const DragonFruitTable = (props) => {
             padding-bottom: 14px;
             text-transform: uppercase;
           }
-          .dragon-fruit-table-th2 {
+          .pomegranate-table-th2 {
             color: white;
             padding: 14px;
             font-size: 12px;
@@ -424,17 +424,17 @@ const DragonFruitTable = (props) => {
             letter-spacing: 0.1em;
             text-transform: uppercase;
           }
-          .dragon-fruit-table-tr2 {
+          .pomegranate-table-tr2 {
             background: white;
             transition: all 180ms ease;
           }
-          .dragon-fruit-table-td10 {
+          .pomegranate-table-td10 {
             color: #000;
             padding: 14px;
             font-weight: 600;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-td11 {
+          .pomegranate-table-td11 {
             gap: var(--dl-layout-space-halfunit);
             color: #333;
             display: grid;
@@ -442,47 +442,47 @@ const DragonFruitTable = (props) => {
             padding-left: 14px;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-tr3 {
+          .pomegranate-table-tr3 {
             background: white;
             transition: all 180ms ease;
           }
-          .dragon-fruit-table-td12 {
+          .pomegranate-table-td12 {
             color: #000;
             padding: 14px;
             font-weight: 600;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-td13 {
+          .pomegranate-table-td13 {
             color: #333;
             padding: 14px;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-tr4 {
+          .pomegranate-table-tr4 {
             background: white;
             transition: all 180ms ease;
           }
-          .dragon-fruit-table-td14 {
+          .pomegranate-table-td14 {
             color: #000;
             padding: 14px;
             font-weight: 600;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-td15 {
+          .pomegranate-table-td15 {
             color: #333;
             padding: 14px;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-tr5 {
+          .pomegranate-table-tr5 {
             background: white;
             transition: all 180ms ease;
           }
-          .dragon-fruit-table-td16 {
+          .pomegranate-table-td16 {
             color: #000;
             padding: 14px;
             font-weight: 600;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-td17 {
+          .pomegranate-table-td17 {
             gap: var(--dl-layout-space-halfunit);
             color: #333;
             display: grid;
@@ -490,17 +490,17 @@ const DragonFruitTable = (props) => {
             padding-left: 14px;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-tr6 {
+          .pomegranate-table-tr6 {
             background: white;
             transition: all 180ms ease;
           }
-          .dragon-fruit-table-td18 {
+          .pomegranate-table-td18 {
             color: #000;
             padding: 14px;
             font-weight: 600;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-td19 {
+          .pomegranate-table-td19 {
             gap: var(--dl-layout-space-halfunit);
             color: #333;
             display: grid;
@@ -508,153 +508,153 @@ const DragonFruitTable = (props) => {
             padding-left: 14px;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-tr7 {
+          .pomegranate-table-tr7 {
             background: white;
             transition: all 180ms ease;
           }
-          .dragon-fruit-table-td20 {
+          .pomegranate-table-td20 {
             color: #000;
             padding: 14px;
             font-weight: 600;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-td21 {
+          .pomegranate-table-td21 {
             color: #333;
             padding: 14px;
             border-bottom: 1px solid #cce3d5;
           }
-          .dragon-fruit-table-text32 {
+          .pomegranate-table-text32 {
             display: inline-block;
           }
-          .dragon-fruit-table-text33 {
+          .pomegranate-table-text33 {
             display: inline-block;
           }
-          .dragon-fruit-table-text34 {
+          .pomegranate-table-text34 {
             display: inline-block;
           }
-          .dragon-fruit-table-text35 {
+          .pomegranate-table-text35 {
             display: inline-block;
           }
-          .dragon-fruit-table-text36 {
+          .pomegranate-table-text36 {
             display: inline-block;
           }
-          .dragon-fruit-table-text37 {
+          .pomegranate-table-text37 {
             display: inline-block;
           }
-          .dragon-fruit-table-text38 {
+          .pomegranate-table-text38 {
             display: inline-block;
           }
-          .dragon-fruit-table-text39 {
+          .pomegranate-table-text39 {
             display: inline-block;
           }
-          .dragon-fruit-table-text40 {
+          .pomegranate-table-text40 {
             display: inline-block;
           }
-          .dragon-fruit-table-text41 {
+          .pomegranate-table-text41 {
             display: inline-block;
           }
-          .dragon-fruit-table-text44 {
+          .pomegranate-table-text42 {
             display: inline-block;
           }
-          .dragon-fruit-table-text45 {
+          .pomegranate-table-text43 {
             display: inline-block;
           }
-          .dragon-fruit-table-text46 {
+          .pomegranate-table-text44 {
             display: inline-block;
           }
-          .dragon-fruit-table-text47 {
+          .pomegranate-table-text45 {
             display: inline-block;
           }
-          .dragon-fruit-table-text48 {
+          .pomegranate-table-text46 {
             display: inline-block;
           }
-          .dragon-fruit-table-text49 {
+          .pomegranate-table-text47 {
             display: inline-block;
           }
-          .dragon-fruit-table-text50 {
+          .pomegranate-table-text48 {
             display: inline-block;
           }
-          .dragon-fruit-table-text51 {
+          .pomegranate-table-text49 {
             display: inline-block;
           }
-          .dragon-fruit-table-text52 {
+          .pomegranate-table-text52 {
             display: inline-block;
           }
-          .dragon-fruit-table-text53 {
+          .pomegranate-table-text53 {
             display: inline-block;
           }
-          .dragon-fruit-table-text54 {
+          .pomegranate-table-text54 {
             display: inline-block;
           }
 
           @media (max-width: 991px) {
-            .dragon-fruit-table-text11 {
+            .pomegranate-table-text11 {
               font-family: Taviraj;
             }
-            .dragon-fruit-table-text13 {
+            .pomegranate-table-text13 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text14 {
+            .pomegranate-table-text14 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text15 {
+            .pomegranate-table-text15 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text16 {
+            .pomegranate-table-text16 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text17 {
+            .pomegranate-table-text17 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text18 {
+            .pomegranate-table-text18 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text19 {
+            .pomegranate-table-text19 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text20 {
+            .pomegranate-table-text20 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text21 {
+            .pomegranate-table-text21 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text22 {
+            .pomegranate-table-text22 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text23 {
+            .pomegranate-table-text23 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text24 {
+            .pomegranate-table-text24 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text25 {
+            .pomegranate-table-text25 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text26 {
+            .pomegranate-table-text26 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text27 {
+            .pomegranate-table-text27 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text28 {
+            .pomegranate-table-text28 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text29 {
+            .pomegranate-table-text29 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text30 {
+            .pomegranate-table-text30 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text31 {
+            .pomegranate-table-text31 {
               font-family: Open Sans;
             }
-            .dragon-fruit-table-text37 {
+            .pomegranate-table-text32 {
+              font-family: Open Sans;
+            }
+            .pomegranate-table-text34 {
               font-family: Taviraj;
             }
-            .dragon-fruit-table-text49 {
-              font-family: Open Sans;
-            }
-            .dragon-fruit-table-text54 {
+            .pomegranate-table-text35 {
               font-family: Open Sans;
             }
           }
@@ -664,54 +664,54 @@ const DragonFruitTable = (props) => {
   )
 }
 
-DragonFruitTable.defaultProps = {
-  text81: undefined,
-  text131: undefined,
-  text: undefined,
-  text18: undefined,
-  text4: undefined,
-  text1: undefined,
-  text11: undefined,
-  text13: undefined,
-  text10: undefined,
-  text16: undefined,
-  text8: undefined,
+PomegranateTable.defaultProps = {
   rootClassName: '',
-  text9: undefined,
-  text14: undefined,
-  text5: undefined,
-  text15: undefined,
   heading: undefined,
+  text: undefined,
+  text1: undefined,
+  text2: undefined,
+  text4: undefined,
+  text5: undefined,
   text6: undefined,
   text7: undefined,
-  text71: undefined,
+  text8: undefined,
+  text9: undefined,
+  text10: undefined,
+  text11: undefined,
   text12: undefined,
-  text2: undefined,
+  text13: undefined,
+  text131: undefined,
+  text14: undefined,
+  text15: undefined,
+  text16: undefined,
+  text18: undefined,
+  text71: undefined,
+  text81: undefined,
 }
 
-DragonFruitTable.propTypes = {
-  text81: PropTypes.element,
-  text131: PropTypes.element,
-  text: PropTypes.element,
-  text18: PropTypes.element,
-  text4: PropTypes.element,
-  text1: PropTypes.element,
-  text11: PropTypes.element,
-  text13: PropTypes.element,
-  text10: PropTypes.element,
-  text16: PropTypes.element,
-  text8: PropTypes.element,
+PomegranateTable.propTypes = {
   rootClassName: PropTypes.string,
-  text9: PropTypes.element,
-  text14: PropTypes.element,
-  text5: PropTypes.element,
-  text15: PropTypes.element,
   heading: PropTypes.element,
+  text: PropTypes.element,
+  text1: PropTypes.element,
+  text2: PropTypes.element,
+  text4: PropTypes.element,
+  text5: PropTypes.element,
   text6: PropTypes.element,
   text7: PropTypes.element,
-  text71: PropTypes.element,
+  text8: PropTypes.element,
+  text9: PropTypes.element,
+  text10: PropTypes.element,
+  text11: PropTypes.element,
   text12: PropTypes.element,
-  text2: PropTypes.element,
+  text13: PropTypes.element,
+  text131: PropTypes.element,
+  text14: PropTypes.element,
+  text15: PropTypes.element,
+  text16: PropTypes.element,
+  text18: PropTypes.element,
+  text71: PropTypes.element,
+  text81: PropTypes.element,
 }
 
-export default DragonFruitTable
+export default PomegranateTable

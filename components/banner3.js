@@ -14,9 +14,9 @@ const Banner3 = (props) => {
           src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fHNwaWNlc3xlbnwwfHx8fDE3NjE1MTIzMjJ8MA&amp;ixlib=rb-4.1.0&amp;w=1500"
           className="banner3-image thq-img-ratio-16-9"
         />
-        <div className="banner3-max-width thq-section-max-width">
+        <div className="banner3-thq-max-width-elm thq-section-max-width">
           <div className="banner3-container2">
-            <h2 className="banner3-title thq-heading-2">
+            <h2 className="banner3-thq-title-elm thq-heading-2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_TxMqGw'),
@@ -66,7 +66,7 @@ const Banner3 = (props) => {
             height: 100%;
             position: absolute;
           }
-          .banner3-max-width {
+          .banner3-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             height: 100%;
@@ -82,7 +82,7 @@ const Banner3 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .banner3-title {
+          .banner3-thq-title-elm {
             color: rgb(255, 255, 255);
             text-align: center;
           }
@@ -100,7 +100,7 @@ const Banner3 = (props) => {
             display: inline-block;
           }
           @media (max-width: 767px) {
-            .banner3-title {
+            .banner3-thq-title-elm {
               font-size: 25px;
             }
             .banner3-text1 {

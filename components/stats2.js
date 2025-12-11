@@ -8,7 +8,7 @@ const Stats2 = (props) => {
   return (
     <>
       <div className="stats2-container1 thq-section-padding">
-        <div className="stats2-max-width thq-section-max-width">
+        <div className="stats2-thq-max-width-elm thq-section-max-width">
           <div className="stats2-container2 thq-flex-column">
             <img
               alt={props.image1Alt}
@@ -41,7 +41,7 @@ const Stats2 = (props) => {
             width: 100%;
             flex-direction: column;
           }
-          .stats2-max-width {
+          .stats2-thq-max-width-elm {
             gap: var(--dl-layout-space-fourunits);
             flex: 0 0 auto;
             width: auto;
@@ -69,7 +69,7 @@ const Stats2 = (props) => {
             border: 2px dashed rgba(120, 120, 120, 0.4);
           }
           @media (max-width: 991px) {
-            .stats2-max-width {
+            .stats2-thq-max-width-elm {
               gap: var(--dl-layout-space-twounits);
               align-items: flex-start;
               flex-direction: column;

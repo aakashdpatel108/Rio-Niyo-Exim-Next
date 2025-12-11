@@ -8,19 +8,19 @@ const MangoFeature1 = (props) => {
   return (
     <>
       <div
-        className={`mango-feature-1-layout300 thq-section-padding ${props.rootClassName} `}
+        className={`mango-feature-1-thq-layout300-elm thq-section-padding ${props.rootClassName} `}
       >
-        <div className="mango-feature-1-max-width thq-section-max-width">
-          <div className="mango-feature-1-section-title">
-            <div className="mango-feature-1-content1">
-              <h2 className="mango-feature-1-text1 thq-heading-2">
+        <div className="mango-feature-1-thq-max-width-elm thq-section-max-width">
+          <div className="mango-feature-1-thq-section-title-elm">
+            <div className="mango-feature-1-thq-content-elm1">
+              <h2 className="mango-feature-1-thq-text-elm1 thq-heading-2">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_0Dd1J4'),
                   }}
                 ></span>
               </h2>
-              <span className="mango-feature-1-text2 thq-body-large">
+              <span className="mango-feature-1-thq-text-elm2 thq-body-large">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ZlNLuh'),
@@ -29,23 +29,23 @@ const MangoFeature1 = (props) => {
               </span>
             </div>
           </div>
-          <div className="mango-feature-1-content2">
-            <div className="mango-feature-1-row thq-flex-row">
-              <div className="mango-feature-1-feature1">
+          <div className="mango-feature-1-thq-content-elm2">
+            <div className="mango-feature-1-thq-row-elm thq-flex-row">
+              <div className="mango-feature-1-thq-feature1-elm">
                 <img
                   alt="Guava"
                   src="/Fruits/kesar-1400w.jpg"
                   className="thq-img-ratio-4-3"
                 />
-                <div className="mango-feature-1-content3">
-                  <h3 className="mango-feature-1-feature1-title thq-heading-3">
+                <div className="mango-feature-1-thq-content-elm3">
+                  <h3 className="mango-feature-1-thq-feature1-title-elm thq-heading-3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_0VUjhb'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small mango-feature-1-feature1-description">
+                  <span className="thq-body-small mango-feature-1-thq-feature1-description-elm">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Description_fwFxOp'),
@@ -54,21 +54,21 @@ const MangoFeature1 = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="mango-feature-1-feature21">
+              <div className="mango-feature-1-thq-feature2-elm1">
                 <img
                   alt="Papaya"
                   src="/Fruits/hafus-1400w.webp"
                   className="thq-img-ratio-4-3"
                 />
-                <div className="mango-feature-1-content4">
-                  <h3 className="thq-heading-3 mango-feature-1-feature2-title1">
+                <div className="mango-feature-1-thq-content-elm4">
+                  <h3 className="thq-heading-3 mango-feature-1-thq-feature2-title-elm1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_yUfeZg'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small mango-feature-1-feature2-description1">
+                  <span className="thq-body-small mango-feature-1-thq-feature2-description-elm1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Description_6Pwvol'),
@@ -77,47 +77,24 @@ const MangoFeature1 = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="mango-feature-1-feature22">
+              <div className="mango-feature-1-thq-feature2-elm2">
                 <img
                   alt="Papaya"
                   src="/Fruits/rajapuri-1400w.jpg"
                   className="thq-img-ratio-4-3"
                 />
-                <div className="mango-feature-1-content5">
-                  <h3 className="thq-heading-3 mango-feature-1-feature2-title2">
+                <div className="mango-feature-1-thq-content-elm5">
+                  <h3 className="thq-heading-3 mango-feature-1-thq-feature2-title-elm2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_ec5H1d'),
                       }}
                     ></span>
                   </h3>
-                  <span className="thq-body-small mango-feature-1-feature2-description2">
+                  <span className="thq-body-small mango-feature-1-thq-feature2-description-elm2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Description_JCqCB6'),
-                      }}
-                    ></span>
-                  </span>
-                </div>
-              </div>
-              <div className="mango-feature-1-feature23">
-                <img
-                  alt="Papaya"
-                  src="/Fruits/dasheri-1400w.jpeg"
-                  className="thq-img-ratio-4-3"
-                />
-                <div className="mango-feature-1-content6">
-                  <h3 className="thq-heading-3 mango-feature-1-feature2-title3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature2Title_shRai4'),
-                      }}
-                    ></span>
-                  </h3>
-                  <span className="thq-body-small mango-feature-1-feature2-description3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature2Description_I5wVTy'),
                       }}
                     ></span>
                   </span>
@@ -129,7 +106,7 @@ const MangoFeature1 = (props) => {
       </div>
       <style jsx>
         {`
-          .mango-feature-1-layout300 {
+          .mango-feature-1-thq-layout300-elm {
             width: 100%;
             height: auto;
             display: flex;
@@ -139,14 +116,14 @@ const MangoFeature1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .mango-feature-1-max-width {
+          .mango-feature-1-thq-max-width-elm {
             gap: var(--dl-layout-space-threeunits);
             width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .mango-feature-1-section-title {
+          .mango-feature-1-thq-section-title-elm {
             gap: 16px;
             width: 100%;
             display: flex;
@@ -155,34 +132,34 @@ const MangoFeature1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .mango-feature-1-content1 {
+          .mango-feature-1-thq-content-elm1 {
             gap: 24px;
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .mango-feature-1-text1 {
+          .mango-feature-1-thq-text-elm1 {
             text-align: center;
           }
-          .mango-feature-1-text2 {
+          .mango-feature-1-thq-text-elm2 {
             text-align: center;
           }
-          .mango-feature-1-content2 {
+          .mango-feature-1-thq-content-elm2 {
             gap: 48px;
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .mango-feature-1-row {
+          .mango-feature-1-thq-row-elm {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-shrink: 0;
             justify-content: center;
           }
-          .mango-feature-1-feature1 {
+          .mango-feature-1-thq-feature1-elm {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             width: 100%;
@@ -192,17 +169,17 @@ const MangoFeature1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .mango-feature-1-content3 {
+          .mango-feature-1-thq-content-elm3 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
           }
-          .mango-feature-1-feature1-title {
+          .mango-feature-1-thq-feature1-title-elm {
             text-align: center;
           }
-          .mango-feature-1-feature21 {
+          .mango-feature-1-thq-feature2-elm1 {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             width: 100%;
@@ -212,14 +189,14 @@ const MangoFeature1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .mango-feature-1-content4 {
+          .mango-feature-1-thq-content-elm4 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
           }
-          .mango-feature-1-feature22 {
+          .mango-feature-1-thq-feature2-elm2 {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             width: 100%;
@@ -229,24 +206,7 @@ const MangoFeature1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .mango-feature-1-content5 {
-            gap: var(--dl-layout-space-oneandhalfunits);
-            display: flex;
-            align-self: stretch;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .mango-feature-1-feature23 {
-            gap: var(--dl-layout-space-twounits);
-            flex: 1;
-            width: 100%;
-            display: flex;
-            overflow: hidden;
-            align-items: flex-start;
-            flex-shrink: 0;
-            flex-direction: column;
-          }
-          .mango-feature-1-content6 {
+          .mango-feature-1-thq-content-elm5 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
@@ -255,90 +215,75 @@ const MangoFeature1 = (props) => {
           }
 
           @media (max-width: 991px) {
-            .mango-feature-1-section-title {
+            .mango-feature-1-thq-section-title-elm {
               width: 100%;
             }
           }
           @media (max-width: 767px) {
-            .mango-feature-1-max-width {
+            .mango-feature-1-thq-max-width-elm {
               gap: var(--dl-layout-space-oneandhalfunits);
             }
-            .mango-feature-1-section-title {
+            .mango-feature-1-thq-section-title-elm {
               width: auto;
             }
-            .mango-feature-1-text1 {
+            .mango-feature-1-thq-text-elm1 {
               font-size: 25px;
               text-align: center;
             }
-            .mango-feature-1-text2 {
+            .mango-feature-1-thq-text-elm2 {
               font-size: 12px;
             }
-            .mango-feature-1-row {
+            .mango-feature-1-thq-row-elm {
               flex-direction: column;
             }
-            .mango-feature-1-feature1-title {
+            .mango-feature-1-thq-feature1-title-elm {
               font-size: 18px;
             }
-            .mango-feature-1-feature1-description {
+            .mango-feature-1-thq-feature1-description-elm {
               font-size: 12px;
             }
-            .mango-feature-1-feature21 {
+            .mango-feature-1-thq-feature2-elm1 {
               width: auto;
             }
-            .mango-feature-1-feature2-title1 {
+            .mango-feature-1-thq-feature2-title-elm1 {
               font-size: 18px;
             }
-            .mango-feature-1-feature2-description1 {
+            .mango-feature-1-thq-feature2-description-elm1 {
               font-size: 12px;
             }
-            .mango-feature-1-feature22 {
+            .mango-feature-1-thq-feature2-elm2 {
               width: auto;
             }
-            .mango-feature-1-feature2-title2 {
+            .mango-feature-1-thq-feature2-title-elm2 {
               font-size: 18px;
             }
-            .mango-feature-1-feature2-description2 {
-              font-size: 12px;
-            }
-            .mango-feature-1-feature23 {
-              width: auto;
-            }
-            .mango-feature-1-feature2-title3 {
-              font-size: 18px;
-            }
-            .mango-feature-1-feature2-description3 {
+            .mango-feature-1-thq-feature2-description-elm2 {
               font-size: 12px;
             }
           }
           @media (max-width: 344px) {
-            .mango-feature-1-text1 {
+            .mango-feature-1-thq-text-elm1 {
               font-size: 18px;
             }
-            .mango-feature-1-text2 {
+            .mango-feature-1-thq-text-elm2 {
               font-size: 12px;
             }
-            .mango-feature-1-feature1-title {
+            .mango-feature-1-thq-feature1-title-elm {
               font-size: 18px;
             }
-            .mango-feature-1-feature1-description {
+            .mango-feature-1-thq-feature1-description-elm {
               font-size: 12px;
             }
-            .mango-feature-1-feature2-title1 {
+            .mango-feature-1-thq-feature2-title-elm1 {
               font-size: 18px;
             }
-            .mango-feature-1-feature2-description1 {
+            .mango-feature-1-thq-feature2-description-elm1 {
               font-size: 12px;
             }
-            .mango-feature-1-feature2-title2 {
+            .mango-feature-1-thq-feature2-title-elm2 {
               font-size: 18px;
             }
-            .mango-feature-1-feature2-description2 {
-              font-size: 12px;
-            }
-            .mango-feature-1-feature2-title3 {
-              font-size: 18px;
-            }
-            .mango-feature-1-feature2-description3 {
+            .mango-feature-1-thq-feature2-description-elm2 {
               font-size: 12px;
             }
           }

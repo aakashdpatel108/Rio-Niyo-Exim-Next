@@ -10,18 +10,18 @@ const ContentList1 = (props) => {
       <div
         className={`content-list1-container thq-section-padding ${props.rootClassName} `}
       >
-        <div className="content-list1-max-width thq-section-max-width">
-          <div className="content-list1-content thq-flex-column">
+        <div className="content-list1-thq-max-width-elm thq-section-max-width">
+          <div className="content-list1-thq-content-elm thq-flex-column">
             <ul className="content-list1-ul thq-flex-column">
               <li className="thq-flex-column list-item">
-                <h2 className="content-list1-heading1 thq-heading-2">
+                <h2 className="content-list1-thq-heading1-elm thq-heading-2">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_SFI8n-'),
                     }}
                   ></span>
                 </h2>
-                <p className="thq-body-small content-list1-content1">
+                <p className="thq-body-small content-list1-thq-content1-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_fY4KHn'),
@@ -30,14 +30,14 @@ const ContentList1 = (props) => {
                 </p>
               </li>
               <li className="list-item">
-                <h3 className="thq-heading-3 content-list1-heading2">
+                <h3 className="thq-heading-3 content-list1-thq-heading2-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_GRxCJC'),
                     }}
                   ></span>
                 </h3>
-                <p className="thq-body-small content-list1-content2">
+                <p className="thq-body-small content-list1-thq-content2-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_rloAPN'),
@@ -46,14 +46,14 @@ const ContentList1 = (props) => {
                 </p>
               </li>
               <li className="list-item">
-                <h3 className="thq-heading-3 content-list1-heading3">
+                <h3 className="thq-heading-3 content-list1-thq-heading3-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_cp13Q6'),
                     }}
                   ></span>
                 </h3>
-                <p className="thq-body-small content-list1-content3">
+                <p className="thq-body-small content-list1-thq-content3-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_k_T0zu'),
@@ -62,14 +62,14 @@ const ContentList1 = (props) => {
                 </p>
               </li>
               <li className="list-item">
-                <h3 className="thq-heading-3 content-list1-heading4">
+                <h3 className="thq-heading-3 content-list1-thq-heading4-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_Wjf9Wn'),
                     }}
                   ></span>
                 </h3>
-                <p className="thq-body-small content-list1-content4">
+                <p className="thq-body-small content-list1-thq-content4-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_uxFg1A'),
@@ -78,14 +78,14 @@ const ContentList1 = (props) => {
                 </p>
               </li>
               <li className="list-item">
-                <h3 className="thq-heading-3 content-list1-heading5">
+                <h3 className="thq-heading-3 content-list1-thq-heading5-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_9GvFYo'),
                     }}
                   ></span>
                 </h3>
-                <p className="thq-body-small content-list1-content5">
+                <p className="thq-body-small content-list1-thq-content5-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_XZNFbU'),
@@ -107,59 +107,59 @@ const ContentList1 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .content-list1-max-width {
+          .content-list1-thq-max-width-elm {
             width: 100%;
             display: flex;
             max-width: var(--dl-layout-size-maxwidth);
             align-items: center;
             flex-direction: column;
           }
-          .content-list1-content {
+          .content-list1-thq-content-elm {
             align-self: stretch;
             align-items: flex-start;
           }
           .content-list1-ul {
             align-items: flex-start;
           }
-          .content-list1-heading1 {
+          .content-list1-thq-heading1-elm {
             font-size: 35px;
             align-self: flex-start;
           }
           @media (max-width: 991px) {
-            .content-list1-heading1 {
+            .content-list1-thq-heading1-elm {
               align-self: flex-start;
             }
           }
           @media (max-width: 767px) {
-            .content-list1-heading1 {
+            .content-list1-thq-heading1-elm {
               font-size: 25px;
               align-self: flex-start;
             }
-            .content-list1-content1 {
+            .content-list1-thq-content1-elm {
               font-size: 12px;
             }
-            .content-list1-heading2 {
+            .content-list1-thq-heading2-elm {
               font-size: 18px;
             }
-            .content-list1-content2 {
+            .content-list1-thq-content2-elm {
               font-size: 12px;
             }
-            .content-list1-heading3 {
+            .content-list1-thq-heading3-elm {
               font-size: 18px;
             }
-            .content-list1-content3 {
+            .content-list1-thq-content3-elm {
               font-size: 12px;
             }
-            .content-list1-heading4 {
+            .content-list1-thq-heading4-elm {
               font-size: 18px;
             }
-            .content-list1-content4 {
+            .content-list1-thq-content4-elm {
               font-size: 12px;
             }
-            .content-list1-heading5 {
+            .content-list1-thq-heading5-elm {
               font-size: 18px;
             }
-            .content-list1-content5 {
+            .content-list1-thq-content5-elm {
               font-size: 12px;
             }
           }

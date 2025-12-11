@@ -8,9 +8,9 @@ const ContactUsBanner = (props) => {
   return (
     <>
       <div className="contact-us-banner-container1 thq-section-padding">
-        <div className="contact-us-banner-max-width thq-section-max-width">
+        <div className="contact-us-banner-thq-max-width-elm thq-section-max-width">
           <div className="contact-us-banner-container2">
-            <h2 className="contact-us-banner-title thq-heading-2">
+            <h2 className="contact-us-banner-thq-title-elm thq-heading-2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_qgzUpY'),
@@ -44,7 +44,7 @@ const ContactUsBanner = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .contact-us-banner-max-width {
+          .contact-us-banner-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: center;
@@ -57,7 +57,7 @@ const ContactUsBanner = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .contact-us-banner-title {
+          .contact-us-banner-thq-title-elm {
             color: #fdfdfd;
             text-align: center;
           }
@@ -74,7 +74,7 @@ const ContactUsBanner = (props) => {
             object-fit: cover;
           }
           @media (max-width: 767px) {
-            .contact-us-banner-title {
+            .contact-us-banner-thq-title-elm {
               font-size: 25px;
             }
             .contact-us-banner-text {
