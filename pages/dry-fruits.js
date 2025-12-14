@@ -231,6 +231,10 @@ const DryFruits = (props) => {
           rootClassName="dryfruit-feature1root-class-name"
           locale={props?.locale ?? ''}
         ></DryfruitFeature1>
+        <DryfruitFeature1
+          rootClassName="dryfruit-feature1root-class-name1"
+          locale={props?.locale ?? ''}
+        ></DryfruitFeature1>
         <FooterMain
           link2={
             <Fragment>

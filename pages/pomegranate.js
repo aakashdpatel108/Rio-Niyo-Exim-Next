@@ -234,20 +234,9 @@ const Pomegranate = (props) => {
           locale={props?.locale ?? ''}
         ></PomegranateHero>
         <PomegranateTable
-          heading={
-            <Fragment>
-              <span className="pomegranate-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_T3vNuK'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text={
             <Fragment>
-              <span className="pomegranate-text29">
+              <span className="pomegranate-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_SDTXe3'),
@@ -258,7 +247,7 @@ const Pomegranate = (props) => {
           }
           text1={
             <Fragment>
-              <span className="pomegranate-text30">
+              <span className="pomegranate-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_FUGU6S'),
@@ -269,7 +258,7 @@ const Pomegranate = (props) => {
           }
           text2={
             <Fragment>
-              <span className="pomegranate-text31">
+              <span className="pomegranate-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_l1xHbE'),
@@ -280,7 +269,7 @@ const Pomegranate = (props) => {
           }
           text4={
             <Fragment>
-              <span className="pomegranate-text32">
+              <span className="pomegranate-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_oq4LgX'),
@@ -291,7 +280,7 @@ const Pomegranate = (props) => {
           }
           text5={
             <Fragment>
-              <span className="pomegranate-text33">
+              <span className="pomegranate-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_jVWboK'),
@@ -302,7 +291,7 @@ const Pomegranate = (props) => {
           }
           text6={
             <Fragment>
-              <span className="pomegranate-text34">
+              <span className="pomegranate-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_UmzVW8'),
@@ -313,7 +302,7 @@ const Pomegranate = (props) => {
           }
           text7={
             <Fragment>
-              <span className="pomegranate-text35">
+              <span className="pomegranate-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_st9sU7'),
@@ -324,7 +313,7 @@ const Pomegranate = (props) => {
           }
           text8={
             <Fragment>
-              <span className="pomegranate-text36">
+              <span className="pomegranate-text35">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_3IluFQ'),
@@ -335,7 +324,7 @@ const Pomegranate = (props) => {
           }
           text9={
             <Fragment>
-              <span className="pomegranate-text37">
+              <span className="pomegranate-text36">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text__w_nJG'),
@@ -346,7 +335,7 @@ const Pomegranate = (props) => {
           }
           text10={
             <Fragment>
-              <span className="pomegranate-text38">
+              <span className="pomegranate-text37">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_b5xZf8'),
@@ -357,7 +346,7 @@ const Pomegranate = (props) => {
           }
           text11={
             <Fragment>
-              <span className="pomegranate-text39">
+              <span className="pomegranate-text38">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_7JnUI4'),
@@ -368,7 +357,7 @@ const Pomegranate = (props) => {
           }
           text12={
             <Fragment>
-              <span className="pomegranate-text40">
+              <span className="pomegranate-text39">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_hCBbz6'),
@@ -379,7 +368,7 @@ const Pomegranate = (props) => {
           }
           text13={
             <Fragment>
-              <span className="pomegranate-text41">
+              <span className="pomegranate-text40">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_xekVNf'),
@@ -388,20 +377,9 @@ const Pomegranate = (props) => {
               </span>
             </Fragment>
           }
-          text131={
-            <Fragment>
-              <span className="pomegranate-text42">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_Q6vPbl'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
           text14={
             <Fragment>
-              <span className="pomegranate-text43">
+              <span className="pomegranate-text41">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ONd-IH'),
@@ -412,7 +390,7 @@ const Pomegranate = (props) => {
           }
           text15={
             <Fragment>
-              <span className="pomegranate-text44">
+              <span className="pomegranate-text42">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_M2HsfM'),
@@ -423,7 +401,7 @@ const Pomegranate = (props) => {
           }
           text16={
             <Fragment>
-              <span className="pomegranate-text45">
+              <span className="pomegranate-text43">
                 <span>Magnesium – 12 mg</span>
                 <br />
               </span>
@@ -431,7 +409,7 @@ const Pomegranate = (props) => {
           }
           text18={
             <Fragment>
-              <span className="pomegranate-text48">
+              <span className="pomegranate-text46">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_Sp1Vda'),
@@ -442,7 +420,7 @@ const Pomegranate = (props) => {
           }
           text71={
             <Fragment>
-              <span className="pomegranate-text49">
+              <span className="pomegranate-text47">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pRAgVZ'),
@@ -453,10 +431,32 @@ const Pomegranate = (props) => {
           }
           text81={
             <Fragment>
-              <span className="pomegranate-text50">
+              <span className="pomegranate-text48">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_LJHvgj'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          heading={
+            <Fragment>
+              <span className="pomegranate-text49">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_T3vNuK'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          text131={
+            <Fragment>
+              <span className="pomegranate-text50">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_Q6vPbl'),
                   }}
                 ></span>
               </span>
@@ -663,10 +663,10 @@ const Pomegranate = (props) => {
           .pomegranate-text43 {
             display: inline-block;
           }
-          .pomegranate-text44 {
+          .pomegranate-text46 {
             display: inline-block;
           }
-          .pomegranate-text45 {
+          .pomegranate-text47 {
             display: inline-block;
           }
           .pomegranate-text48 {
@@ -700,13 +700,13 @@ const Pomegranate = (props) => {
             display: inline-block;
           }
           @media (max-width: 991px) {
-            .pomegranate-text28 {
-              font-family: Open Sans;
-            }
-            .pomegranate-text30 {
+            .pomegranate-text29 {
               font-family: Taviraj;
             }
-            .pomegranate-text31 {
+            .pomegranate-text30 {
+              font-family: Open Sans;
+            }
+            .pomegranate-text49 {
               font-family: Open Sans;
             }
           }

@@ -12,7 +12,7 @@ const PomegranateTable = (props) => {
           <h2 className="pomegranate-table-text10">
             {props.heading ?? (
               <Fragment>
-                <span className="pomegranate-table-text32">
+                <span className="pomegranate-table-text36">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_kZ647T'),
@@ -30,7 +30,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text11">
                       {props.text ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text33">
+                          <span className="pomegranate-table-text54">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_WcXHE3'),
@@ -45,7 +45,7 @@ const PomegranateTable = (props) => {
                     <span>
                       {props.text1 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text34">
+                          <span className="pomegranate-table-text46">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_L9fA9O'),
@@ -90,7 +90,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text15">
                       {props.text4 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text36">
+                          <span className="pomegranate-table-text41">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_He9GIa'),
@@ -103,7 +103,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text16">
                       {props.text5 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text37">
+                          <span className="pomegranate-table-text50">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_NS_wJb'),
@@ -137,7 +137,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text18">
                       {props.text7 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text39">
+                          <span className="pomegranate-table-text44">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_RWD3dB'),
@@ -152,7 +152,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text19">
                       {props.text8 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text40">
+                          <span className="pomegranate-table-text43">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_EsxohA'),
@@ -173,7 +173,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text20">
                       {props.text9 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text41">
+                          <span className="pomegranate-table-text45">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_xwE81L'),
@@ -188,7 +188,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text21">
                       {props.text10 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text42">
+                          <span className="pomegranate-table-text39">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_PrhxXY'),
@@ -209,7 +209,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text22">
                       {props.text11 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text43">
+                          <span className="pomegranate-table-text33">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_kGO3h1'),
@@ -224,7 +224,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text23">
                       {props.text12 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text44">
+                          <span className="pomegranate-table-text32">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_3NquhJ'),
@@ -237,7 +237,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text24">
                       {props.text13 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text45">
+                          <span className="pomegranate-table-text53">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_99hFvY'),
@@ -250,7 +250,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text25">
                       {props.text131 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text46">
+                          <span className="pomegranate-table-text51">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_tequIr'),
@@ -271,7 +271,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text26">
                       {props.text14 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text47">
+                          <span className="pomegranate-table-text34">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_D0LoLv'),
@@ -286,7 +286,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text27">
                       {props.text15 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text48">
+                          <span className="pomegranate-table-text37">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_ZV930F'),
@@ -299,7 +299,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text28">
                       {props.text16 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text49">
+                          <span className="pomegranate-table-text47">
                             <span>Magnesium – 12 mg</span>
                             <br />
                           </span>
@@ -309,7 +309,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text29">
                       {props.text18 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text52">
+                          <span className="pomegranate-table-text42">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_12Xzb3'),
@@ -330,7 +330,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text30">
                       {props.text71 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text53">
+                          <span className="pomegranate-table-text52">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_6jQGNj'),
@@ -345,7 +345,7 @@ const PomegranateTable = (props) => {
                     <span className="pomegranate-table-text31">
                       {props.text81 ?? (
                         <Fragment>
-                          <span className="pomegranate-table-text54">
+                          <span className="pomegranate-table-text40">
                             <span
                               dangerouslySetInnerHTML={{
                                 __html: translate.raw('text_Z8zPQj'),
@@ -571,10 +571,10 @@ const PomegranateTable = (props) => {
           .pomegranate-table-text47 {
             display: inline-block;
           }
-          .pomegranate-table-text48 {
+          .pomegranate-table-text50 {
             display: inline-block;
           }
-          .pomegranate-table-text49 {
+          .pomegranate-table-text51 {
             display: inline-block;
           }
           .pomegranate-table-text52 {
@@ -648,14 +648,14 @@ const PomegranateTable = (props) => {
             .pomegranate-table-text31 {
               font-family: Open Sans;
             }
-            .pomegranate-table-text32 {
-              font-family: Open Sans;
-            }
-            .pomegranate-table-text34 {
-              font-family: Taviraj;
-            }
             .pomegranate-table-text35 {
               font-family: Open Sans;
+            }
+            .pomegranate-table-text36 {
+              font-family: Open Sans;
+            }
+            .pomegranate-table-text46 {
+              font-family: Taviraj;
             }
           }
         `}
@@ -665,53 +665,53 @@ const PomegranateTable = (props) => {
 }
 
 PomegranateTable.defaultProps = {
-  rootClassName: '',
-  heading: undefined,
-  text: undefined,
-  text1: undefined,
-  text2: undefined,
-  text4: undefined,
-  text5: undefined,
-  text6: undefined,
-  text7: undefined,
-  text8: undefined,
-  text9: undefined,
-  text10: undefined,
-  text11: undefined,
   text12: undefined,
-  text13: undefined,
-  text131: undefined,
+  text11: undefined,
   text14: undefined,
+  text2: undefined,
+  heading: undefined,
   text15: undefined,
-  text16: undefined,
-  text18: undefined,
-  text71: undefined,
+  text6: undefined,
+  text10: undefined,
   text81: undefined,
+  text4: undefined,
+  text18: undefined,
+  text8: undefined,
+  text7: undefined,
+  text9: undefined,
+  text1: undefined,
+  text16: undefined,
+  rootClassName: '',
+  text5: undefined,
+  text131: undefined,
+  text71: undefined,
+  text13: undefined,
+  text: undefined,
 }
 
 PomegranateTable.propTypes = {
-  rootClassName: PropTypes.string,
-  heading: PropTypes.element,
-  text: PropTypes.element,
-  text1: PropTypes.element,
-  text2: PropTypes.element,
-  text4: PropTypes.element,
-  text5: PropTypes.element,
-  text6: PropTypes.element,
-  text7: PropTypes.element,
-  text8: PropTypes.element,
-  text9: PropTypes.element,
-  text10: PropTypes.element,
-  text11: PropTypes.element,
   text12: PropTypes.element,
-  text13: PropTypes.element,
-  text131: PropTypes.element,
+  text11: PropTypes.element,
   text14: PropTypes.element,
+  text2: PropTypes.element,
+  heading: PropTypes.element,
   text15: PropTypes.element,
-  text16: PropTypes.element,
-  text18: PropTypes.element,
-  text71: PropTypes.element,
+  text6: PropTypes.element,
+  text10: PropTypes.element,
   text81: PropTypes.element,
+  text4: PropTypes.element,
+  text18: PropTypes.element,
+  text8: PropTypes.element,
+  text7: PropTypes.element,
+  text9: PropTypes.element,
+  text1: PropTypes.element,
+  text16: PropTypes.element,
+  rootClassName: PropTypes.string,
+  text5: PropTypes.element,
+  text131: PropTypes.element,
+  text71: PropTypes.element,
+  text13: PropTypes.element,
+  text: PropTypes.element,
 }
 
 export default PomegranateTable

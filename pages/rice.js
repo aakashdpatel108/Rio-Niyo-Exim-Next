@@ -4,33 +4,30 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import GrainsCerealsBanner from '../components/grains-cereals-banner'
-import GrainsFeature1 from '../components/grains-feature-1'
+import RiceBanner from '../components/rice-banner'
+import RiceFeature1 from '../components/rice-feature-1'
 import FooterMain from '../components/footer-main'
 
-const GrainsAndCereal = (props) => {
+const Rice = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="grains-and-cereal-container">
+      <div className="rice-container">
         <Head>
-          <title>Grains-and-Cereal - Rio Niyo Exim</title>
-          <meta
-            property="og:title"
-            content="Grains-and-Cereal - Rio Niyo Exim"
-          />
+          <title>Rice - Rio Niyo Exim</title>
+          <meta property="og:title" content="Rice - Rio Niyo Exim" />
           <link
             rel="canonical"
-            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/grains-and-cereal"
+            href="https://pesky-well-documented-gnu-7y5ieg.teleporthq.app/rice"
           />
         </Head>
         <Nav
           page3={
             <Fragment>
-              <span className="grains-and-cereal-text10">
+              <span className="rice-text10">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IsBKnD'),
+                    __html: translate.raw('text_LLtZ_5'),
                   }}
                 ></span>
               </span>
@@ -38,10 +35,10 @@ const GrainsAndCereal = (props) => {
           }
           page4={
             <Fragment>
-              <span className="grains-and-cereal-text11">
+              <span className="rice-text11">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_81Y9wS'),
+                    __html: translate.raw('text_q2Ydof'),
                   }}
                 ></span>
               </span>
@@ -49,10 +46,10 @@ const GrainsAndCereal = (props) => {
           }
           text1={
             <Fragment>
-              <span className="grains-and-cereal-text12">
+              <span className="rice-text12">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_18mC8g'),
+                    __html: translate.raw('text_DNmZrF'),
                   }}
                 ></span>
               </span>
@@ -60,10 +57,10 @@ const GrainsAndCereal = (props) => {
           }
           text2={
             <Fragment>
-              <span className="grains-and-cereal-text13">
+              <span className="rice-text13">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_BlgLsh'),
+                    __html: translate.raw('text_v7N6Qe'),
                   }}
                 ></span>
               </span>
@@ -71,10 +68,10 @@ const GrainsAndCereal = (props) => {
           }
           text3={
             <Fragment>
-              <span className="grains-and-cereal-text14">
+              <span className="rice-text14">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_-BEBZC'),
+                    __html: translate.raw('text_DzHS5j'),
                   }}
                 ></span>
               </span>
@@ -82,10 +79,10 @@ const GrainsAndCereal = (props) => {
           }
           fruits={
             <Fragment>
-              <span className="grains-and-cereal-text15">
+              <span className="rice-text15">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_WfDAYR'),
+                    __html: translate.raw('text_Sv-RWx'),
                   }}
                 ></span>
               </span>
@@ -93,10 +90,10 @@ const GrainsAndCereal = (props) => {
           }
           page41={
             <Fragment>
-              <span className="grains-and-cereal-text16">
+              <span className="rice-text16">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_19hK9M'),
+                    __html: translate.raw('text_BAKU6N'),
                   }}
                 ></span>
               </span>
@@ -104,10 +101,10 @@ const GrainsAndCereal = (props) => {
           }
           text11={
             <Fragment>
-              <span className="grains-and-cereal-text17">
+              <span className="rice-text17">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_4nimhC'),
+                    __html: translate.raw('text_XE1zV8'),
                   }}
                 ></span>
               </span>
@@ -115,10 +112,10 @@ const GrainsAndCereal = (props) => {
           }
           text21={
             <Fragment>
-              <span className="grains-and-cereal-text18">
+              <span className="rice-text18">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_LQHsK3'),
+                    __html: translate.raw('text_zoq8VM'),
                   }}
                 ></span>
               </span>
@@ -126,10 +123,10 @@ const GrainsAndCereal = (props) => {
           }
           text31={
             <Fragment>
-              <span className="grains-and-cereal-text19">
+              <span className="rice-text19">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_VXGZnX'),
+                    __html: translate.raw('text_Dy4uOg'),
                   }}
                 ></span>
               </span>
@@ -137,10 +134,10 @@ const GrainsAndCereal = (props) => {
           }
           text32={
             <Fragment>
-              <span className="grains-and-cereal-text20">
+              <span className="rice-text20">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IW9V4d'),
+                    __html: translate.raw('text_Ub1XrU'),
                   }}
                 ></span>
               </span>
@@ -148,10 +145,10 @@ const GrainsAndCereal = (props) => {
           }
           page411={
             <Fragment>
-              <span className="grains-and-cereal-text21">
+              <span className="rice-text21">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_vyeFjK'),
+                    __html: translate.raw('text_QasYTh'),
                   }}
                 ></span>
               </span>
@@ -159,10 +156,10 @@ const GrainsAndCereal = (props) => {
           }
           text311={
             <Fragment>
-              <span className="grains-and-cereal-text22">
+              <span className="rice-text22">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_xHQFzu'),
+                    __html: translate.raw('text_JFooHi'),
                   }}
                 ></span>
               </span>
@@ -170,10 +167,10 @@ const GrainsAndCereal = (props) => {
           }
           text312={
             <Fragment>
-              <span className="grains-and-cereal-text23">
+              <span className="rice-text23">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text__Awum0'),
+                    __html: translate.raw('text_biENsa'),
                   }}
                 ></span>
               </span>
@@ -181,10 +178,10 @@ const GrainsAndCereal = (props) => {
           }
           text3111={
             <Fragment>
-              <span className="grains-and-cereal-text24">
+              <span className="rice-text24">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_P1hqN1'),
+                    __html: translate.raw('text_qnDvGO'),
                   }}
                 ></span>
               </span>
@@ -192,10 +189,10 @@ const GrainsAndCereal = (props) => {
           }
           text3112={
             <Fragment>
-              <span className="grains-and-cereal-text25">
+              <span className="rice-text25">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_E3szmc'),
+                    __html: translate.raw('text_ggrll-'),
                   }}
                 ></span>
               </span>
@@ -203,10 +200,10 @@ const GrainsAndCereal = (props) => {
           }
           text31111={
             <Fragment>
-              <span className="grains-and-cereal-text26">
+              <span className="rice-text26">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_FTJzvU'),
+                    __html: translate.raw('text_t7KXzW'),
                   }}
                 ></span>
               </span>
@@ -214,33 +211,30 @@ const GrainsAndCereal = (props) => {
           }
           vegetables={
             <Fragment>
-              <span className="grains-and-cereal-text27">
+              <span className="rice-text27">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_IBx7tK'),
+                    __html: translate.raw('text_IHSBz-'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="navroot-class-name12"
+          rootClassName="navroot-class-name16"
           locale={props?.locale ?? ''}
         ></Nav>
-        <GrainsCerealsBanner
-          rootClassName="grains-cereals-bannerroot-class-name"
+        <RiceBanner locale={props?.locale ?? ''}></RiceBanner>
+        <RiceFeature1
+          rootClassName="rice-feature1root-class-name"
           locale={props?.locale ?? ''}
-        ></GrainsCerealsBanner>
-        <GrainsFeature1
-          rootClassName="grains-feature1root-class-name"
-          locale={props?.locale ?? ''}
-        ></GrainsFeature1>
+        ></RiceFeature1>
         <FooterMain
           link2={
             <Fragment>
-              <span className="grains-and-cereal-text28">
+              <span className="rice-text28">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_pdn6fz'),
+                    __html: translate.raw('text_kjgiH0'),
                   }}
                 ></span>
               </span>
@@ -248,10 +242,10 @@ const GrainsAndCereal = (props) => {
           }
           link3={
             <Fragment>
-              <span className="grains-and-cereal-text29">
+              <span className="rice-text29">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_z5_RTP'),
+                    __html: translate.raw('text_cOj13v'),
                   }}
                 ></span>
               </span>
@@ -259,10 +253,10 @@ const GrainsAndCereal = (props) => {
           }
           link4={
             <Fragment>
-              <span className="grains-and-cereal-text30">
+              <span className="rice-text30">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_2XJUZ6'),
+                    __html: translate.raw('text_8leQTh'),
                   }}
                 ></span>
               </span>
@@ -270,10 +264,10 @@ const GrainsAndCereal = (props) => {
           }
           link5={
             <Fragment>
-              <span className="grains-and-cereal-text31">
+              <span className="rice-text31">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ZJotpi'),
+                    __html: translate.raw('text_sAUIzx'),
                   }}
                 ></span>
               </span>
@@ -281,10 +275,10 @@ const GrainsAndCereal = (props) => {
           }
           termsLink={
             <Fragment>
-              <span className="grains-and-cereal-text32">
+              <span className="rice-text32">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_cIykfY'),
+                    __html: translate.raw('text_97_Q8K'),
                   }}
                 ></span>
               </span>
@@ -292,10 +286,10 @@ const GrainsAndCereal = (props) => {
           }
           cookiesLink={
             <Fragment>
-              <span className="grains-and-cereal-text33">
+              <span className="rice-text33">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_k52CX3'),
+                    __html: translate.raw('text_J1snbm'),
                   }}
                 ></span>
               </span>
@@ -303,22 +297,22 @@ const GrainsAndCereal = (props) => {
           }
           privacyLink={
             <Fragment>
-              <span className="grains-and-cereal-text34">
+              <span className="rice-text34">
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_ab9cXY'),
+                    __html: translate.raw('text_bCqMqe'),
                   }}
                 ></span>
               </span>
             </Fragment>
           }
-          rootClassName="footer-mainroot-class-name6"
+          rootClassName="footer-mainroot-class-name13"
           locale={props?.locale ?? ''}
         ></FooterMain>
       </div>
       <style jsx>
         {`
-          .grains-and-cereal-container {
+          .rice-container {
             width: 100%;
             display: flex;
             min-height: 100vh;
@@ -326,79 +320,79 @@ const GrainsAndCereal = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .grains-and-cereal-text10 {
+          .rice-text10 {
             display: inline-block;
           }
-          .grains-and-cereal-text11 {
+          .rice-text11 {
             display: inline-block;
           }
-          .grains-and-cereal-text12 {
+          .rice-text12 {
             display: inline-block;
           }
-          .grains-and-cereal-text13 {
+          .rice-text13 {
             display: inline-block;
           }
-          .grains-and-cereal-text14 {
+          .rice-text14 {
             display: inline-block;
           }
-          .grains-and-cereal-text15 {
+          .rice-text15 {
             display: inline-block;
           }
-          .grains-and-cereal-text16 {
+          .rice-text16 {
             display: inline-block;
           }
-          .grains-and-cereal-text17 {
+          .rice-text17 {
             display: inline-block;
           }
-          .grains-and-cereal-text18 {
+          .rice-text18 {
             display: inline-block;
           }
-          .grains-and-cereal-text19 {
+          .rice-text19 {
             display: inline-block;
           }
-          .grains-and-cereal-text20 {
+          .rice-text20 {
             display: inline-block;
           }
-          .grains-and-cereal-text21 {
+          .rice-text21 {
             display: inline-block;
           }
-          .grains-and-cereal-text22 {
+          .rice-text22 {
             display: inline-block;
           }
-          .grains-and-cereal-text23 {
+          .rice-text23 {
             display: inline-block;
           }
-          .grains-and-cereal-text24 {
+          .rice-text24 {
             display: inline-block;
           }
-          .grains-and-cereal-text25 {
+          .rice-text25 {
             display: inline-block;
           }
-          .grains-and-cereal-text26 {
+          .rice-text26 {
             display: inline-block;
           }
-          .grains-and-cereal-text27 {
+          .rice-text27 {
             display: inline-block;
           }
-          .grains-and-cereal-text28 {
+          .rice-text28 {
             display: inline-block;
           }
-          .grains-and-cereal-text29 {
+          .rice-text29 {
             display: inline-block;
           }
-          .grains-and-cereal-text30 {
+          .rice-text30 {
             display: inline-block;
           }
-          .grains-and-cereal-text31 {
+          .rice-text31 {
             display: inline-block;
           }
-          .grains-and-cereal-text32 {
+          .rice-text32 {
             display: inline-block;
           }
-          .grains-and-cereal-text33 {
+          .rice-text33 {
             display: inline-block;
           }
-          .grains-and-cereal-text34 {
+          .rice-text34 {
             display: inline-block;
           }
         `}
@@ -407,7 +401,7 @@ const GrainsAndCereal = (props) => {
   )
 }
 
-export default GrainsAndCereal
+export default Rice
 
 export async function getStaticProps(context) {
   const messages = (await import('/locales/' + context.locale + '.json'))
