@@ -243,7 +243,6 @@ const DryfruitFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-
           @media (max-width: 991px) {
             .dryfruit-feature-1-thq-section-title-elm {
               align-items: flex-start;
