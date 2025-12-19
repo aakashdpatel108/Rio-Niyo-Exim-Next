@@ -415,7 +415,6 @@ const HomeFeatureSlider = (props) => {
           }
           @media (max-width: 479px) {
             .home-feature-slider-thq-actions-elm {
-              width: 100%;
               flex-direction: column;
             }
             .home-feature-slider-thq-button-elm {
