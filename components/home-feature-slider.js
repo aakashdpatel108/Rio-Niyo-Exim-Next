@@ -431,9 +431,6 @@ const HomeFeatureSlider = (props) => {
             .home-feature-slider-thq-text-elm2 {
               width: 231px;
             }
-            .home-feature-slider-thq-actions-elm {
-              width: auto;
-            }
             .home-feature-slider-thq-text-elm3 {
               font-size: 12px;
             }
