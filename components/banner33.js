@@ -39,7 +39,7 @@ const Banner33 = (props) => {
                   }}
                 ></span>
               </span>
-              {/* <span
+              {/* <span 
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_v5NSPI'),
                 }}
