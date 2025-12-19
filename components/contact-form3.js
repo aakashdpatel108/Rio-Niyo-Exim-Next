@@ -7,24 +7,24 @@ const ContactForm3 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="contact-form3-contact9 thq-section-padding">
-        <div className="thq-flex-row thq-section-max-width contact-form3-max-width">
+      <div className="contact-form3-thq-contact9-elm thq-section-padding">
+        <div className="thq-flex-row thq-section-max-width contact-form3-thq-max-width-elm">
           <img
             alt="contact us"
             src="https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxjb250YWN0JTIwdXN8ZW58MHx8fHwxNzYxMzE5OTc3fDA&amp;ixlib=rb-4.1.0&amp;w=700"
-            className="contact-form3-image1 thq-img-ratio-4-3"
+            className="contact-form3-thq-image1-elm thq-img-ratio-4-3"
           />
-          <div className="contact-form3-content1 thq-flex-column">
-            <div className="" style={{marginBottom: "2rem"}} >
-              <div className="contact-form3-content2">
-                <h2 className="contact-form3-text1 thq-heading-2">
+          <div className="contact-form3-thq-content-elm1 thq-flex-column">
+            <div className="contact-form3-thq-section-title-elm thq-card">
+              <div className="contact-form3-thq-content-elm2">
+                <h2 className="contact-form3-thq-text-elm1 thq-heading-2">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_mHmA2w'),
                     }}
                   ></span>
                 </h2>
-                <span className="contact-form3-text2 thq-body-small">
+                <span className="contact-form3-thq-text-elm2 thq-body-small">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('text_M-3MpL'),
@@ -37,7 +37,7 @@ const ContactForm3 = (props) => {
               <div className="contact-form3-input1">
                 <label
                   htmlFor="contact-form-3-name"
-                  className="contact-form3-text3 thq-body-small"
+                  className="contact-form3-thq-text-elm3 thq-body-small"
                 >
                   <span
                     dangerouslySetInnerHTML={{
@@ -54,10 +54,10 @@ const ContactForm3 = (props) => {
                   className="thq-input"
                 />
               </div>
-              <div className="contact-form3-input2">
+              <div className="contact-form3-thq-input-elm2">
                 <label
                   htmlFor="contact-form-3-email"
-                  className="contact-form3-text4 thq-body-small"
+                  className="contact-form3-thq-text-elm4 thq-body-small"
                 >
                   <span
                     dangerouslySetInnerHTML={{
@@ -75,10 +75,10 @@ const ContactForm3 = (props) => {
                   className="thq-input"
                 />
               </div>
-              <div className="contact-form3-input3">
+              <div className="contact-form3-thq-input-elm3">
                 <label
                   htmlFor="contact-form-3-email"
-                  className="contact-form3-text5 thq-body-small"
+                  className="contact-form3-thq-text-elm5 thq-body-small"
                 >
                   <span
                     dangerouslySetInnerHTML={{
@@ -99,7 +99,7 @@ const ContactForm3 = (props) => {
               <div className="contact-form3-container">
                 <label
                   htmlFor="contact-form-3-message"
-                  className="contact-form3-text6 thq-body-small"
+                  className="contact-form3-thq-text-elm6 thq-body-small"
                 >
                   <span
                     dangerouslySetInnerHTML={{
@@ -120,7 +120,7 @@ const ContactForm3 = (props) => {
                 name="button kqkhww100r"
                 type="submit"
                 data-form-field-id="button kqkhww100r"
-                className="contact-form3-button thq-button-filled"
+                className="contact-form3-thq-button-elm thq-button-filled"
               >
                 <span className="thq-body-small">
                   <span
@@ -137,11 +137,11 @@ const ContactForm3 = (props) => {
       </div>
       <style jsx>
         {`
-          .contact-form3-contact9 {
+          .contact-form3-thq-contact9-elm {
             position: relative;
             align-items: center;
           }
-          .contact-form3-image1 {
+          .contact-form3-thq-image1-elm {
             flex: 1;
             width: auto;
             height: auto;
@@ -150,58 +150,58 @@ const ContactForm3 = (props) => {
             border-radius: var(--dl-layout-radius-radius4);
             flex-direction: column;
           }
-          .contact-form3-content1 {
+          .contact-form3-thq-content-elm1 {
             gap: 0;
             flex: 1;
             align-items: stretch;
           }
-          .contact-form3-section-title {
+          .contact-form3-thq-section-title-elm {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
           }
-          .contact-form3-content2 {
+          .contact-form3-thq-content-elm2 {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
           }
-          .contact-form3-text1 {
+          .contact-form3-thq-text-elm1 {
             font-style: normal;
             font-family: 'Taviraj';
             font-weight: 600;
           }
-          .contact-form3-text2 {
+          .contact-form3-thq-text-elm2 {
             font-family: 'Open Sans';
           }
-          .contact-form3-input1 {
+          .contact-form3-thq-input-elm1 {
             gap: var(--dl-layout-space-halfunit);
             display: flex;
             align-self: stretch;
             flex-direction: column;
           }
-          .contact-form3-text3 {
+          .contact-form3-thq-text-elm3 {
             font-family: 'Inter';
           }
-          .contact-form3-input2 {
+          .contact-form3-thq-input-elm2 {
             gap: var(--dl-layout-space-halfunit);
             display: flex;
             align-self: stretch;
             flex-direction: column;
           }
-          .contact-form3-text4 {
+          .contact-form3-thq-text-elm4 {
             font-family: 'Inter';
           }
-          .contact-form3-input3 {
+          .contact-form3-thq-input-elm3 {
             gap: var(--dl-layout-space-halfunit);
             display: flex;
             align-self: stretch;
             flex-direction: column;
           }
-          .contact-form3-text5 {
+          .contact-form3-thq-text-elm5 {
             font-family: 'Inter';
           }
           .contact-form3-container {
@@ -211,28 +211,28 @@ const ContactForm3 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .contact-form3-text6 {
+          .contact-form3-thq-text-elm6 {
             font-family: 'Inter';
           }
-          .contact-form3-button {
+          .contact-form3-thq-button-elm {
             align-self: flex-start;
           }
           @media (max-width: 991px) {
-            .contact-form3-max-width {
+            .contact-form3-thq-max-width-elm {
               flex-direction: column;
             }
-            .contact-form3-content1 {
+            .contact-form3-thq-content-elm1 {
               width: 100%;
             }
           }
           @media (max-width: 767px) {
-            .contact-form3-image1 {
+            .contact-form3-thq-image1-elm {
               width: 100%;
             }
-            .contact-form3-text1 {
+            .contact-form3-thq-text-elm1 {
               font-size: 25px;
             }
-            .contact-form3-text2 {
+            .contact-form3-thq-text-elm2 {
               font-size: 16px;
             }
           }

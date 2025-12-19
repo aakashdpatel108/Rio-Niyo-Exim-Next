@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
 import Banner33 from '../components/banner33'
-import DryfruitFeature1 from '../components/dryfruit-feature-1'
+import DryfruitFeature11 from '../components/dryfruit-feature-11'
 import FooterMain from '../components/footer-main'
 
 const DryFruits = (props) => {
@@ -227,10 +227,10 @@ const DryFruits = (props) => {
           image1Src="https://images.unsplash.com/photo-1693812879904-b8161644ce5a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2fHxudXRzfGVufDB8fHx8MTc2MjEyMTI1Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
           locale={props?.locale ?? ''}
         ></Banner33>
-        <DryfruitFeature1
-          rootClassName="dryfruit-feature1root-class-name"
+        <DryfruitFeature11
+          rootClassName="dryfruit-feature11root-class-name"
           locale={props?.locale ?? ''}
-        ></DryfruitFeature1>
+        ></DryfruitFeature11>
         <FooterMain
           link2={
             <Fragment>

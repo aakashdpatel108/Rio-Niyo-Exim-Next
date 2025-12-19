@@ -232,13 +232,13 @@ const Home = (props) => {
           locale={props?.locale ?? ''}
         ></HomeBannerComp>
         <HomeFeature1 locale={props?.locale ?? ''}></HomeFeature1>
-        <div className="home-container2">
+        <div className="home-thq-container-elm">
           <HomeFeatureSlider
             rootClassName="home-feature-sliderroot-class-name"
             locale={props?.locale ?? ''}
           ></HomeFeatureSlider>
         </div>
-        <div className="home-container3">
+        <div className="home-container2">
           <HomeFeatureSteps
             rootClassName="home-feature-stepsroot-class-name"
             locale={props?.locale ?? ''}
@@ -404,7 +404,7 @@ const Home = (props) => {
           .home-text27 {
             display: inline-block;
           }
-          .home-container2 {
+          .home-thq-container-elm {
             width: 100%;
             height: 100%;
             display: flex;
@@ -414,7 +414,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #ffffff;
           }
-          .home-container3 {
+          .home-container2 {
             width: 100%;
             height: 100%;
             display: flex;
@@ -454,10 +454,10 @@ const Home = (props) => {
             display: inline-block;
           }
           @media (max-width: 344px) {
-            .home-container2 {
+            .home-thq-container-elm {
               width: 100%;
             }
-            .home-container3 {
+            .home-container2 {
               width: 100%;
               padding-top: var(--dl-layout-space-unit);
               padding-left: var(--dl-layout-space-unit);

@@ -13,9 +13,9 @@ const Banner33 = (props) => {
           src="https://images.unsplash.com/photo-1693812879904-b8161644ce5a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE2fHxudXRzfGVufDB8fHx8MTc2MjEyMTI1Nnww&amp;ixlib=rb-4.1.0&amp;w=1500"
           className="banner33-image thq-img-ratio-16-9"
         />
-        <div className="banner33-max-width thq-section-max-width">
+        <div className="banner33-thq-max-width-elm thq-section-max-width">
           <div className="banner33-container2">
-            <h2 className="banner33-title thq-heading-2">
+            <h2 className="banner33-thq-title-elm thq-heading-2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_0ZouBH'),
@@ -64,7 +64,7 @@ const Banner33 = (props) => {
             height: 100%;
             position: absolute;
           }
-          .banner33-max-width {
+          .banner33-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             height: 100%;
@@ -80,7 +80,7 @@ const Banner33 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .banner33-title {
+          .banner33-thq-title-elm {
             color: #ffffff;
             text-align: center;
           }
@@ -95,7 +95,7 @@ const Banner33 = (props) => {
             text-decoration: none;
           }
           @media (max-width: 767px) {
-            .banner33-title {
+            .banner33-thq-title-elm {
               font-size: 25px;
             }
             .banner33-text1 {
@@ -106,7 +106,7 @@ const Banner33 = (props) => {
             }
           }
           @media (max-width: 344px) {
-            .banner33-title {
+            .banner33-thq-title-elm {
               color: #ffffff;
               font-size: 20px;
             }

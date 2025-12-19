@@ -12,7 +12,7 @@ const Certificate1 = (props) => {
         className={`certificate-1-container1 thq-section-padding ${props.rootClassName} `}
       >
         <div className="certificate-1-container2 thq-section-max-width">
-          <div className="certificate-1-image-container">
+          <div className="certificate-1-thq-image-container-elm">
             {activeTab === 0 && (
               <img
                 alt="OFICE"
@@ -35,25 +35,25 @@ const Certificate1 = (props) => {
               />
             )}
           </div>
-          <div className="certificate-1-tabs-menu">
+          <div className="certificate-1-thq-tabs-menu-elm">
             <div
               onClick={() => setActiveTab(0)}
-              className="certificate-1-tab-horizontal1"
+              className="certificate-1-thq-tab-horizontal-elm1"
             >
-              <div className="certificate-1-divider-container1">
+              <div className="certificate-1-thq-divider-container-elm1">
                 {activeTab === 0 && (
                   <div className="certificate-1-container3"></div>
                 )}
               </div>
-              <div className="certificate-1-content">
-                <h2 className="thq-heading-2 certificate-1-feature1-title">
+              <div className="certificate-1-thq-content-elm">
+                <h2 className="thq-heading-2 certificate-1-thq-feature1-title-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('feature1Title_To0D-A'),
                     }}
                   ></span>
                 </h2>
-                <span className="thq-body-small certificate-1-feature1-description">
+                <span className="thq-body-small certificate-1-thq-feature1-description-elm">
                   <span
                     dangerouslySetInnerHTML={{
                       __html: translate.raw('feature1Description_sWGAPj'),
@@ -64,9 +64,9 @@ const Certificate1 = (props) => {
             </div>
             <div
               onClick={() => setActiveTab(1)}
-              className="certificate-1-tab-horizontal2"
+              className="certificate-1-thq-tab-horizontal-elm2"
             >
-              <div className="certificate-1-divider-container2">
+              <div className="certificate-1-thq-divider-container-elm2">
                 {activeTab === 1 && (
                   <div className="certificate-1-container4"></div>
                 )}
@@ -74,9 +74,9 @@ const Certificate1 = (props) => {
             </div>
             <div
               onClick={() => setActiveTab(2)}
-              className="certificate-1-tab-horizontal3"
+              className="certificate-1-thq-tab-horizontal-elm3"
             >
-              <div className="certificate-1-divider-container3">
+              <div className="certificate-1-thq-divider-container-elm3">
                 {activeTab === 2 && (
                   <div className="certificate-1-container5"></div>
                 )}
@@ -99,7 +99,7 @@ const Certificate1 = (props) => {
             position: relative;
             grid-template-columns: 1fr 1fr;
           }
-          .certificate-1-image-container {
+          .certificate-1-thq-image-container-elm {
             height: 100%;
             display: flex;
             position: relative;
@@ -134,7 +134,7 @@ const Certificate1 = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .certificate-1-tabs-menu {
+          .certificate-1-thq-tabs-menu-elm {
             gap: var(--dl-layout-space-twounits);
             width: 100%;
             display: flex;
@@ -142,7 +142,7 @@ const Certificate1 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .certificate-1-tab-horizontal1 {
+          .certificate-1-thq-tab-horizontal-elm1 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -151,7 +151,7 @@ const Certificate1 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-1-divider-container1 {
+          .certificate-1-thq-divider-container-elm1 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -161,7 +161,7 @@ const Certificate1 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-1-content {
+          .certificate-1-thq-content-elm {
             gap: 16px;
             flex: 1;
             display: flex;
@@ -172,7 +172,7 @@ const Certificate1 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .certificate-1-tab-horizontal2 {
+          .certificate-1-thq-tab-horizontal-elm2 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -181,7 +181,7 @@ const Certificate1 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-1-divider-container2 {
+          .certificate-1-thq-divider-container-elm2 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -191,7 +191,7 @@ const Certificate1 = (props) => {
             align-self: stretch;
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .certificate-1-tab-horizontal3 {
+          .certificate-1-thq-tab-horizontal-elm3 {
             gap: var(--dl-layout-space-twounits);
             cursor: pointer;
             display: flex;
@@ -200,7 +200,7 @@ const Certificate1 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .certificate-1-divider-container3 {
+          .certificate-1-thq-divider-container-elm3 {
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -227,7 +227,7 @@ const Certificate1 = (props) => {
               grid-gap: var(--dl-layout-space-twounits);
               grid-template-columns: 1fr;
             }
-            .certificate-1-image-container {
+            .certificate-1-thq-image-container-elm {
               justify-content: center;
             }
             .certificate-1-image1 {
@@ -239,10 +239,10 @@ const Certificate1 = (props) => {
             .certificate-1-image1 {
               height: 462px;
             }
-            .certificate-1-feature1-title {
+            .certificate-1-thq-feature1-title-elm {
               font-size: 25px;
             }
-            .certificate-1-feature1-description {
+            .certificate-1-thq-feature1-description-elm {
               font-size: 12px;
             }
           }
@@ -251,10 +251,10 @@ const Certificate1 = (props) => {
               width: 100%;
               height: 396px;
             }
-            .certificate-1-feature1-title {
+            .certificate-1-thq-feature1-title-elm {
               font-size: 25px;
             }
-            .certificate-1-feature1-description {
+            .certificate-1-thq-feature1-description-elm {
               font-size: 12px;
             }
           }

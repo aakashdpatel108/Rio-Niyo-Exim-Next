@@ -8,7 +8,7 @@ const Logos1 = (props) => {
   return (
     <>
       <div className="logos1-container1 thq-section-padding">
-        <div className="logos1-max-width thq-section-max-width">
+        <div className="logos1-thq-max-width-elm thq-section-max-width">
           <h2 className="logos1-text thq-heading-2">
             <span
               dangerouslySetInnerHTML={{
@@ -20,32 +20,32 @@ const Logos1 = (props) => {
             <img
               alt={props.logo1Alt}
               src={props.logo1Src}
-              className="logos1-logo1 thq-img-ratio-16-9"
+              className="logos1-thq-logo1-elm thq-img-ratio-16-9"
             />
             <img
               alt={props.logo2Alt}
               src={props.logo2Src}
-              className="logos1-logo2 thq-img-ratio-16-9"
+              className="logos1-thq-logo2-elm thq-img-ratio-16-9"
             />
             <img
               alt={props.logo3Alt}
               src={props.logo3Src}
-              className="logos1-logo3 thq-img-ratio-16-9"
+              className="logos1-thq-logo3-elm thq-img-ratio-16-9"
             />
             <img
               alt={props.logo4Alt}
               src={props.logo4Src}
-              className="logos1-logo4 thq-img-ratio-16-9"
+              className="logos1-thq-logo4-elm thq-img-ratio-16-9"
             />
             <img
               alt={props.logo5Alt}
               src={props.logo5Src}
-              className="logos1-logo5 thq-img-ratio-16-9"
+              className="logos1-thq-logo5-elm thq-img-ratio-16-9"
             />
             <img
               alt={props.logo6Alt}
               src={props.logo6Src}
-              className="logos1-logo6 thq-img-ratio-16-9"
+              className="logos1-thq-logo6-elm thq-img-ratio-16-9"
             />
           </div>
         </div>
@@ -60,7 +60,7 @@ const Logos1 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .logos1-max-width {
+          .logos1-thq-max-width-elm {
             gap: var(--dl-layout-space-twounits);
             width: 100%;
             display: flex;
@@ -71,22 +71,22 @@ const Logos1 = (props) => {
             font-size: 36px;
             text-align: center;
           }
-          .logos1-logo1 {
+          .logos1-thq-logo1-elm {
             object-fit: contain;
           }
-          .logos1-logo2 {
+          .logos1-thq-logo2-elm {
             object-fit: contain;
           }
-          .logos1-logo3 {
+          .logos1-thq-logo3-elm {
             object-fit: contain;
           }
-          .logos1-logo4 {
+          .logos1-thq-logo4-elm {
             object-fit: contain;
           }
-          .logos1-logo5 {
+          .logos1-thq-logo5-elm {
             object-fit: contain;
           }
-          .logos1-logo6 {
+          .logos1-thq-logo6-elm {
             object-fit: contain;
           }
           @media (max-width: 1600px) {
@@ -108,7 +108,7 @@ const Logos1 = (props) => {
             .logos1-container1 {
               gap: var(--dl-layout-space-twounits);
             }
-            .logos1-max-width {
+            .logos1-thq-max-width-elm {
               gap: var(--dl-layout-space-twounits);
             }
             .logos1-text {

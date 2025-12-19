@@ -8,17 +8,17 @@ const MeetOurTeam = (props) => {
   return (
     <>
       <div className="thq-section-padding">
-        <div className="meet-our-team-max-width thq-section-max-width">
-          <div className="meet-our-team-section-title">
-            <div className="meet-our-team-content1">
-              <h2 className="meet-our-team-text10 thq-heading-2">
+        <div className="meet-our-team-thq-max-width-elm thq-section-max-width">
+          <div className="meet-our-team-thq-section-title-elm">
+            <div className="meet-our-team-thq-content-elm1">
+              <h2 className="meet-our-team-thq-text-elm1 thq-heading-2">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_hKx0j7'),
                   }}
                 ></span>
               </h2>
-              <p className="meet-our-team-text11 thq-body-large">
+              <p className="meet-our-team-thq-text-elm2 thq-body-large">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_PBgNGk'),
@@ -27,21 +27,21 @@ const MeetOurTeam = (props) => {
               </p>
             </div>
           </div>
-          <div className="meet-our-team-content2">
-            <div className="meet-our-team-content3">
-              <div className="meet-our-team-row">
-                <div className="meet-our-team-card1">
+          <div className="meet-our-team-thq-content-elm2">
+            <div className="meet-our-team-thq-content-elm3">
+              <div className="meet-our-team-thq-row-elm">
+                <div className="meet-our-team-thq-card-elm1">
                   <img
                     alt="Divyesh patel"
                     src="/divyesh%20patel%20profile-600w.jpg"
-                    className="thq-img-ratio-1-1 meet-our-team-placeholder-image1"
+                    className="thq-img-ratio-1-1 meet-our-team-thq-placeholder-image-elm1"
                   />
-                  <div className="meet-our-team-content4">
-                    <div className="meet-our-team-title1">
-                      <span className="meet-our-team-text12 thq-body-small">
+                  <div className="meet-our-team-thq-content-elm4">
+                    <div className="meet-our-team-thq-title-elm1">
+                      <span className="meet-our-team-thq-text-elm3 thq-body-small">
                         {props.member1 ?? (
                           <Fragment>
-                            <span className="meet-our-team-text18">
+                            <span className="meet-our-team-text1">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_QBvoGT'),
@@ -51,10 +51,10 @@ const MeetOurTeam = (props) => {
                           </Fragment>
                         )}
                       </span>
-                      <span className="meet-our-team-text13 thq-body-small">
+                      <span className="meet-our-team-thq-text-elm4 thq-body-small">
                         {props.member1Job ?? (
                           <Fragment>
-                            <span className="meet-our-team-text19">
+                            <span className="meet-our-team-text2">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_E01Yq3'),
@@ -65,7 +65,7 @@ const MeetOurTeam = (props) => {
                         )}
                       </span>
                     </div>
-                    <span className="meet-our-team-text14 thq-body-small">
+                    <span className="meet-our-team-thq-text-elm5 thq-body-small">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_Lq4cRh'),
@@ -73,7 +73,7 @@ const MeetOurTeam = (props) => {
                       ></span>
                     </span>
                   </div>
-                  <div className="meet-our-team-social-icons1">
+                  <div className="meet-our-team-thq-social-icons-elm1">
                     <a
                       href="https://www.linkedin.com/in/divyesh-patel-47148b201/"
                       target="_blank"
@@ -89,18 +89,18 @@ const MeetOurTeam = (props) => {
                     </a>
                   </div>
                 </div>
-                <div className="meet-our-team-card2">
+                <div className="meet-our-team-thq-card-elm2">
                   <img
                     alt="Aakash Patel"
                     src="/aakash%20patel%20profile-600w.png"
-                    className="thq-img-ratio-1-1 meet-our-team-placeholder-image2"
+                    className="thq-img-ratio-1-1 meet-our-team-thq-placeholder-image-elm2"
                   />
-                  <div className="meet-our-team-content5">
-                    <div className="meet-our-team-title2">
-                      <span className="meet-our-team-text15 thq-body-small">
+                  <div className="meet-our-team-thq-content-elm5">
+                    <div className="meet-our-team-thq-title-elm2">
+                      <span className="meet-our-team-thq-text-elm6 thq-body-small">
                         {props.member2 ?? (
                           <Fragment>
-                            <span className="meet-our-team-text21">
+                            <span className="meet-our-team-text4">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_vBm7Co'),
@@ -110,10 +110,10 @@ const MeetOurTeam = (props) => {
                           </Fragment>
                         )}
                       </span>
-                      <span className="meet-our-team-text16 thq-body-small">
+                      <span className="meet-our-team-thq-text-elm7 thq-body-small">
                         {props.member2Job ?? (
                           <Fragment>
-                            <span className="meet-our-team-text20">
+                            <span className="meet-our-team-text3">
                               <span
                                 dangerouslySetInnerHTML={{
                                   __html: translate.raw('text_wLKY-l'),
@@ -124,7 +124,7 @@ const MeetOurTeam = (props) => {
                         )}
                       </span>
                     </div>
-                    <span className="meet-our-team-text17 thq-body-small">
+                    <span className="meet-our-team-thq-text-elm8 thq-body-small">
                       <span
                         dangerouslySetInnerHTML={{
                           __html: translate.raw('text_xILwBB'),
@@ -132,7 +132,7 @@ const MeetOurTeam = (props) => {
                       ></span>
                     </span>
                   </div>
-                  <div className="meet-our-team-social-icons2">
+                  <div className="meet-our-team-thq-social-icons-elm2">
                     <a
                       href="https://www.linkedin.com/in/aakash-patell/"
                       target="_blank"
@@ -155,14 +155,14 @@ const MeetOurTeam = (props) => {
       </div>
       <style jsx>
         {`
-          .meet-our-team-max-width {
+          .meet-our-team-thq-max-width-elm {
             gap: var(--dl-layout-space-fiveunits);
             display: flex;
             position: relative;
             align-items: flex-start;
             flex-direction: column;
           }
-          .meet-our-team-section-title {
+          .meet-our-team-thq-section-title-elm {
             gap: var(--dl-layout-space-unit);
             width: 1348px;
             display: flex;
@@ -171,7 +171,7 @@ const MeetOurTeam = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .meet-our-team-content1 {
+          .meet-our-team-thq-content-elm1 {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -179,20 +179,20 @@ const MeetOurTeam = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .meet-our-team-text10 {
+          .meet-our-team-thq-text-elm1 {
             align-self: flex-start;
           }
-          .meet-our-team-text11 {
+          .meet-our-team-thq-text-elm2 {
             align-self: flex-start;
           }
-          .meet-our-team-content2 {
+          .meet-our-team-thq-content-elm2 {
             gap: 96px;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
           }
-          .meet-our-team-content3 {
+          .meet-our-team-thq-content-elm3 {
             gap: var(--dl-layout-space-fourunits);
             width: 100%;
             display: flex;
@@ -201,7 +201,7 @@ const MeetOurTeam = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .meet-our-team-row {
+          .meet-our-team-thq-row-elm {
             gap: 48px;
             display: flex;
             max-width: 1200px;
@@ -210,7 +210,7 @@ const MeetOurTeam = (props) => {
             flex-shrink: 0;
             justify-content: center;
           }
-          .meet-our-team-card1 {
+          .meet-our-team-thq-card-elm1 {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             width: 100%;
@@ -221,31 +221,31 @@ const MeetOurTeam = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .meet-our-team-content4 {
+          .meet-our-team-thq-content-elm4 {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .meet-our-team-title1 {
+          .meet-our-team-thq-title-elm1 {
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .meet-our-team-text12 {
+          .meet-our-team-thq-text-elm3 {
             align-self: flex-start;
             font-style: normal;
             font-weight: 600;
           }
-          .meet-our-team-text13 {
+          .meet-our-team-thq-text-elm4 {
             align-self: flex-start;
           }
-          .meet-our-team-text14 {
+          .meet-our-team-thq-text-elm5 {
             align-self: flex-start;
           }
-          .meet-our-team-social-icons1 {
+          .meet-our-team-thq-social-icons-elm1 {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-items: flex-start;
@@ -256,7 +256,7 @@ const MeetOurTeam = (props) => {
           .meet-our-team-icon1 {
             text-decoration: none;
           }
-          .meet-our-team-card2 {
+          .meet-our-team-thq-card-elm2 {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             width: 100%;
@@ -267,31 +267,31 @@ const MeetOurTeam = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .meet-our-team-content5 {
+          .meet-our-team-thq-content-elm5 {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .meet-our-team-title2 {
+          .meet-our-team-thq-title-elm2 {
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .meet-our-team-text15 {
+          .meet-our-team-thq-text-elm6 {
             align-self: flex-start;
             font-style: normal;
             font-weight: 600;
           }
-          .meet-our-team-text16 {
+          .meet-our-team-thq-text-elm7 {
             align-self: flex-start;
           }
-          .meet-our-team-text17 {
+          .meet-our-team-thq-text-elm8 {
             align-self: flex-start;
           }
-          .meet-our-team-social-icons2 {
+          .meet-our-team-thq-social-icons-elm2 {
             gap: var(--dl-layout-space-unit);
             display: flex;
             align-items: flex-start;
@@ -302,64 +302,64 @@ const MeetOurTeam = (props) => {
           .meet-our-team-icon3 {
             text-decoration: none;
           }
-          .meet-our-team-text18 {
+          .meet-our-team-text1 {
             display: inline-block;
           }
-          .meet-our-team-text19 {
+          .meet-our-team-text2 {
             display: inline-block;
           }
-          .meet-our-team-text20 {
+          .meet-our-team-text3 {
             display: inline-block;
           }
-          .meet-our-team-text21 {
+          .meet-our-team-text4 {
             display: inline-block;
           }
           @media (max-width: 991px) {
-            .meet-our-team-row {
+            .meet-our-team-thq-row-elm {
               align-items: center;
               flex-direction: row;
             }
           }
           @media (max-width: 767px) {
-            .meet-our-team-section-title {
+            .meet-our-team-thq-section-title-elm {
               width: 395px;
             }
-            .meet-our-team-content1 {
+            .meet-our-team-thq-content-elm1 {
               width: 358px;
             }
-            .meet-our-team-text10 {
+            .meet-our-team-thq-text-elm1 {
               font-size: 25px;
               text-align: left;
             }
-            .meet-our-team-text11 {
+            .meet-our-team-thq-text-elm2 {
               width: 315px;
               font-size: 18px;
               text-align: left;
             }
-            .meet-our-team-row {
+            .meet-our-team-thq-row-elm {
               flex-direction: column;
             }
-            .meet-our-team-text14 {
+            .meet-our-team-thq-text-elm5 {
               font-size: 16px;
             }
-            .meet-our-team-text17 {
+            .meet-our-team-thq-text-elm8 {
               font-size: 16px;
             }
           }
           @media (max-width: 479px) {
-            .meet-our-team-placeholder-image1 {
+            .meet-our-team-thq-placeholder-image-elm1 {
               height: 450px;
             }
-            .meet-our-team-placeholder-image2 {
+            .meet-our-team-thq-placeholder-image-elm2 {
               height: 450px;
             }
           }
           @media (max-width: 344px) {
-            .meet-our-team-content1 {
+            .meet-our-team-thq-content-elm1 {
               width: 309px;
               margin-right: 0px;
             }
-            .meet-our-team-text11 {
+            .meet-our-team-thq-text-elm2 {
               width: 274px;
             }
           }
