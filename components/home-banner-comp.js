@@ -8,23 +8,23 @@ const HomeBannerComp = (props) => {
   return (
     <>
       <div
-        className={`home-banner-comp-header30 thq-section-padding ${props.rootClassName} `}
+        className={`home-banner-comp-thq-header30-elm thq-section-padding ${props.rootClassName} `}
       >
         <img
           alt="home page banner image"
           src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGZydWl0cyUyMGFuZCUyMHZlZ2V0YWJsZXN8ZW58MHx8fHwxNzU5Njk5MTM5fDA&amp;ixlib=rb-4.1.0&amp;w=1500"
           className="home-banner-comp-image"
         />
-        <div className="home-banner-comp-max-width thq-section-max-width">
-          <div className="home-banner-comp-content">
-            <h1 className="home-banner-comp-text1 thq-heading-1">
+        <div className="home-banner-comp-thq-max-width-elm thq-section-max-width">
+          <div className="home-banner-comp-thq-content-elm">
+            <h1 className="home-banner-comp-thq-text-elm1 thq-heading-1">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_yFuawZ'),
                 }}
               ></span>
             </h1>
-            <p className="home-banner-comp-text2 thq-body-large">
+            <p className="home-banner-comp-thq-text-elm2 thq-body-large">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_cwhaIT'),
@@ -36,7 +36,7 @@ const HomeBannerComp = (props) => {
       </div>
       <style jsx>
         {`
-          .home-banner-comp-header30 {
+          .home-banner-comp-thq-header30-elm {
             gap: var(--dl-layout-space-twounits);
           }
           .home-banner-comp-image {
@@ -48,7 +48,7 @@ const HomeBannerComp = (props) => {
             position: absolute;
             object-fit: cover;
           }
-          .home-banner-comp-max-width {
+          .home-banner-comp-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             width: 100%;
             display: flex;
@@ -56,20 +56,20 @@ const HomeBannerComp = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-banner-comp-content {
+          .home-banner-comp-thq-content-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
-          .home-banner-comp-text1 {
+          .home-banner-comp-thq-text-elm1 {
             color: rgb(255, 255, 255);
             text-align: center;
             font-family: 'Taviraj';
             letter-spacing: 10px;
           }
-          .home-banner-comp-text2 {
+          .home-banner-comp-thq-text-elm2 {
             color: rgb(255, 255, 255);
             font-size: 30px;
             text-align: center;
@@ -84,12 +84,12 @@ const HomeBannerComp = (props) => {
             .home-banner-comp-image {
               height: 100%;
             }
-            .home-banner-comp-text1 {
+            .home-banner-comp-thq-text-elm1 {
               color: rgb(255, 255, 255);
               font-family: Taviraj;
               letter-spacing: 10px;
             }
-            .home-banner-comp-text2 {
+            .home-banner-comp-thq-text-elm2 {
               color: rgb(255, 255, 255);
               font-size: 30px;
               letter-spacing: 6px;
@@ -101,37 +101,37 @@ const HomeBannerComp = (props) => {
             }
           }
           @media (max-width: 1200px) {
-            .home-banner-comp-text1 {
+            .home-banner-comp-thq-text-elm1 {
               letter-spacing: 8px;
             }
           }
           @media (max-width: 991px) {
-            .home-banner-comp-text1 {
+            .home-banner-comp-thq-text-elm1 {
               font-size: 45px;
               text-align: center;
               letter-spacing: 6px;
             }
-            .home-banner-comp-text2 {
+            .home-banner-comp-thq-text-elm2 {
               font-size: 28px;
               text-align: center;
             }
           }
           @media (max-width: 767px) {
-            .home-banner-comp-text1 {
+            .home-banner-comp-thq-text-elm1 {
               font-size: 25px;
               letter-spacing: 4px;
             }
-            .home-banner-comp-text2 {
+            .home-banner-comp-thq-text-elm2 {
               font-size: 18px;
               letter-spacing: 4px;
             }
           }
           @media (max-width: 344px) {
-            .home-banner-comp-text1 {
+            .home-banner-comp-thq-text-elm1 {
               font-size: 20px;
               letter-spacing: 2px;
             }
-            .home-banner-comp-text2 {
+            .home-banner-comp-thq-text-elm2 {
               color: rgb(255, 255, 255);
               font-size: 15px;
               letter-spacing: 2px;

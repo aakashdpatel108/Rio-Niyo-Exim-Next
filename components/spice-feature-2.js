@@ -6,25 +6,25 @@ const SpiceFeature2 = (props) => {
   const translate = useTranslations()
   return (
     <>
-      <div className="spice-feature-2-layout301 thq-section-padding">
-        <div className="spice-feature-2-max-width thq-section-max-width">
-          <div className="spice-feature-2-row thq-grid-auto-300">
-            <div className="spice-feature-2-feature1">
+      <div className="spice-feature-2-thq-layout301-elm thq-section-padding">
+        <div className="spice-feature-2-thq-max-width-elm thq-section-max-width">
+          <div className="spice-feature-2-thq-row-elm thq-grid-auto-300">
+            <div className="spice-feature-2-thq-feature1-elm">
               <img
                 alt="Cloves (Laung)"
                 src="https://images.unsplash.com/photo-1701191579013-7013090c370e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fENsb3Zlc3xlbnwwfHx8fDE3NjE1MTQwMzh8MA&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
-              <div className="spice-feature-2-content1 thq-flex-column">
-                <div className="spice-feature-2-section-title1 thq-flex-column">
-                  <h3 className="spice-feature-2-title1 thq-heading-3">
+              <div className="spice-feature-2-thq-content-elm1 thq-flex-column">
+                <div className="spice-feature-2-thq-section-title-elm1 thq-flex-column">
+                  <h3 className="spice-feature-2-thq-title1-elm thq-heading-3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_NUUXLF'),
                       }}
                     ></span>
                   </h3>
-                  <span className="spice-feature-2-description1 thq-body-small">
+                  <span className="spice-feature-2-thq-description1-elm thq-body-small">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_pjml7e'),
@@ -32,25 +32,25 @@ const SpiceFeature2 = (props) => {
                     ></span>
                   </span>
                 </div>
-                <div className="spice-feature-2-action1 thq-flex-row"></div>
+                <div className="spice-feature-2-thq-action-elm1 thq-flex-row"></div>
               </div>
             </div>
-            <div className="spice-feature-2-feature2">
+            <div className="spice-feature-2-thq-feature2-elm">
               <img
                 alt="Cardamom (Elaichi)"
                 src="https://images.unsplash.com/photo-1642255486695-a52c59347cfa?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDh8fENhcmRhbW9tfGVufDB8fHx8MTc2MTU3ODgzNnww&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
-              <div className="spice-feature-2-content2 thq-flex-column">
-                <div className="spice-feature-2-section-title2 thq-flex-column">
-                  <strong className="spice-feature-2-title2 thq-heading-3">
+              <div className="spice-feature-2-thq-content-elm2 thq-flex-column">
+                <div className="spice-feature-2-thq-section-title-elm2 thq-flex-column">
+                  <strong className="spice-feature-2-thq-title2-elm thq-heading-3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_0Nl_H8'),
                       }}
                     ></span>
                   </strong>
-                  <span className="spice-feature-2-description2 thq-body-small">
+                  <span className="spice-feature-2-thq-description2-elm thq-body-small">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_OFrIj3'),
@@ -58,25 +58,25 @@ const SpiceFeature2 = (props) => {
                     ></span>
                   </span>
                 </div>
-                <div className="spice-feature-2-action2 thq-flex-row"></div>
+                <div className="spice-feature-2-thq-action-elm2 thq-flex-row"></div>
               </div>
             </div>
-            <div className="spice-feature-2-feature3">
+            <div className="spice-feature-2-thq-feature3-elm">
               <img
                 alt="Bay Leaf (Tej Patta)"
                 src="https://images.unsplash.com/photo-1547332226-395d746d139a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGJheSUyMGxlYWYlMjBzcGljZXxlbnwwfHx8fDE3NjE1Nzg5OTl8MA&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
-              <div className="spice-feature-2-content3 thq-flex-column">
-                <div className="spice-feature-2-section-title3 thq-flex-column">
-                  <strong className="spice-feature-2-title3 thq-heading-3">
+              <div className="spice-feature-2-thq-content-elm3 thq-flex-column">
+                <div className="spice-feature-2-thq-section-title-elm3 thq-flex-column">
+                  <strong className="spice-feature-2-thq-title3-elm thq-heading-3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_uTJyUM'),
                       }}
                     ></span>
                   </strong>
-                  <span className="spice-feature-2-description3 thq-body-small">
+                  <span className="spice-feature-2-thq-description3-elm thq-body-small">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_1xITcR'),
@@ -84,25 +84,25 @@ const SpiceFeature2 = (props) => {
                     ></span>
                   </span>
                 </div>
-                <div className="spice-feature-2-action3 thq-flex-row"></div>
+                <div className="spice-feature-2-thq-action-elm3 thq-flex-row"></div>
               </div>
             </div>
-            <div className="spice-feature-2-feature4">
+            <div className="spice-feature-2-thq-feature4-elm">
               <img
                 alt="Cinnamon (Dalchini)"
                 src="https://images.unsplash.com/photo-1622798337764-259682f03741?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGNpbm5hbW9ufGVufDB8fHx8MTc2MTU3OTE4Nnww&amp;ixlib=rb-4.1.0&amp;w=600"
                 className="thq-img-ratio-4-3"
               />
-              <div className="spice-feature-2-content4 thq-flex-column">
-                <div className="spice-feature-2-section-title4 thq-flex-column">
-                  <strong className="spice-feature-2-title4 thq-heading-3">
+              <div className="spice-feature-2-thq-content-elm4 thq-flex-column">
+                <div className="spice-feature-2-thq-section-title-elm4 thq-flex-column">
+                  <strong className="spice-feature-2-thq-title4-elm thq-heading-3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_PH5VF6'),
                       }}
                     ></span>
                   </strong>
-                  <span className="spice-feature-2-description4 thq-body-small">
+                  <span className="spice-feature-2-thq-description4-elm thq-body-small">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('text_c9Yv5y'),
@@ -110,7 +110,7 @@ const SpiceFeature2 = (props) => {
                     ></span>
                   </span>
                 </div>
-                <div className="spice-feature-2-action4 thq-flex-row"></div>
+                <div className="spice-feature-2-thq-action-elm4 thq-flex-row"></div>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ const SpiceFeature2 = (props) => {
       </div>
       <style jsx>
         {`
-          .spice-feature-2-layout301 {
+          .spice-feature-2-thq-layout301-elm {
             gap: var(--dl-layout-space-fiveunits);
             width: 100%;
             height: auto;
@@ -130,16 +130,16 @@ const SpiceFeature2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .spice-feature-2-max-width {
+          .spice-feature-2-thq-max-width-elm {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .spice-feature-2-row {
+          .spice-feature-2-thq-row-elm {
             width: 100%;
           }
-          .spice-feature-2-feature1 {
+          .spice-feature-2-thq-feature1-elm {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             width: auto;
@@ -150,27 +150,27 @@ const SpiceFeature2 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .spice-feature-2-content1 {
+          .spice-feature-2-thq-content-elm1 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-section-title1 {
+          .spice-feature-2-thq-section-title-elm1 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-title1 {
+          .spice-feature-2-thq-title1-elm {
             text-align: center;
           }
-          .spice-feature-2-description1 {
+          .spice-feature-2-thq-description1-elm {
             text-align: justify;
           }
-          .spice-feature-2-action1 {
+          .spice-feature-2-thq-action-elm1 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             align-self: stretch;
             align-items: stretch;
             justify-content: center;
           }
-          .spice-feature-2-feature2 {
+          .spice-feature-2-thq-feature2-elm {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             width: auto;
@@ -181,27 +181,27 @@ const SpiceFeature2 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .spice-feature-2-content2 {
+          .spice-feature-2-thq-content-elm2 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-section-title2 {
+          .spice-feature-2-thq-section-title-elm2 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-title2 {
+          .spice-feature-2-thq-title2-elm {
             text-align: center;
           }
-          .spice-feature-2-description2 {
+          .spice-feature-2-thq-description2-elm {
             text-align: justify;
           }
-          .spice-feature-2-action2 {
+          .spice-feature-2-thq-action-elm2 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             align-self: stretch;
             align-items: stretch;
             justify-content: center;
           }
-          .spice-feature-2-feature3 {
+          .spice-feature-2-thq-feature3-elm {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             width: auto;
@@ -212,27 +212,27 @@ const SpiceFeature2 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .spice-feature-2-content3 {
+          .spice-feature-2-thq-content-elm3 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-section-title3 {
+          .spice-feature-2-thq-section-title-elm3 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-title3 {
+          .spice-feature-2-thq-title3-elm {
             text-align: center;
           }
-          .spice-feature-2-description3 {
+          .spice-feature-2-thq-description3-elm {
             text-align: justify;
           }
-          .spice-feature-2-action3 {
+          .spice-feature-2-thq-action-elm3 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             align-self: stretch;
             align-items: stretch;
             justify-content: center;
           }
-          .spice-feature-2-feature4 {
+          .spice-feature-2-thq-feature4-elm {
             gap: var(--dl-layout-space-twounits);
             flex: 1;
             width: auto;
@@ -243,73 +243,73 @@ const SpiceFeature2 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
           }
-          .spice-feature-2-content4 {
+          .spice-feature-2-thq-content-elm4 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-section-title4 {
+          .spice-feature-2-thq-section-title-elm4 {
             align-self: stretch;
             align-items: center;
           }
-          .spice-feature-2-title4 {
+          .spice-feature-2-thq-title4-elm {
             text-align: center;
           }
-          .spice-feature-2-description4 {
+          .spice-feature-2-thq-description4-elm {
             text-align: justify;
           }
-          .spice-feature-2-action4 {
+          .spice-feature-2-thq-action-elm4 {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             align-self: stretch;
             align-items: stretch;
             justify-content: center;
           }
           @media (max-width: 991px) {
-            .spice-feature-2-row {
+            .spice-feature-2-thq-row-elm {
               width: auto;
               align-items: center;
               flex-direction: column;
             }
-            .spice-feature-2-feature1 {
+            .spice-feature-2-thq-feature1-elm {
               width: 100%;
             }
-            .spice-feature-2-feature2 {
+            .spice-feature-2-thq-feature2-elm {
               width: 100%;
             }
-            .spice-feature-2-feature3 {
+            .spice-feature-2-thq-feature3-elm {
               width: 100%;
             }
-            .spice-feature-2-feature4 {
+            .spice-feature-2-thq-feature4-elm {
               width: 100%;
             }
           }
           @media (max-width: 767px) {
-            .spice-feature-2-title1 {
+            .spice-feature-2-thq-title1-elm {
               font-size: 18px;
             }
-            .spice-feature-2-description1 {
+            .spice-feature-2-thq-description1-elm {
               font-size: 12px;
             }
-            .spice-feature-2-title2 {
+            .spice-feature-2-thq-title2-elm {
               font-size: 18px;
             }
-            .spice-feature-2-description2 {
+            .spice-feature-2-thq-description2-elm {
               font-size: 12px;
             }
-            .spice-feature-2-title3 {
+            .spice-feature-2-thq-title3-elm {
               font-size: 18px;
             }
-            .spice-feature-2-description3 {
+            .spice-feature-2-thq-description3-elm {
               font-size: 12px;
             }
-            .spice-feature-2-title4 {
+            .spice-feature-2-thq-title4-elm {
               font-size: 18px;
             }
-            .spice-feature-2-description4 {
+            .spice-feature-2-thq-description4-elm {
               font-size: 12px;
             }
           }
           @media (max-width: 479px) {
-            .spice-feature-2-max-width {
+            .spice-feature-2-thq-max-width-elm {
               gap: var(--dl-layout-space-oneandhalfunits);
             }
           }

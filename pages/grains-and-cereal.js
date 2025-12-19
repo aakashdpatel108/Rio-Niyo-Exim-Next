@@ -4,7 +4,8 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import NotFound21 from '../components/not-found21'
+import GrainsCerealsBanner from '../components/grains-cereals-banner'
+import GrainsFeature1 from '../components/grains-feature-1'
 import FooterMain from '../components/footer-main'
 
 const GrainsAndCereal = (props) => {
@@ -225,35 +226,18 @@ const GrainsAndCereal = (props) => {
           rootClassName="navroot-class-name12"
           locale={props?.locale ?? ''}
         ></Nav>
-        <NotFound21
-          action1={
-            <Fragment>
-              <span className="grains-and-cereal-text28">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_AfTo4c'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
-          heading2={
-            <Fragment>
-              <span className="grains-and-cereal-text29">
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: translate.raw('text_rOYNgL'),
-                  }}
-                ></span>
-              </span>
-            </Fragment>
-          }
+        <GrainsCerealsBanner
+          rootClassName="grains-cereals-bannerroot-class-name"
           locale={props?.locale ?? ''}
-        ></NotFound21>
+        ></GrainsCerealsBanner>
+        <GrainsFeature1
+          rootClassName="grains-feature1root-class-name"
+          locale={props?.locale ?? ''}
+        ></GrainsFeature1>
         <FooterMain
           link2={
             <Fragment>
-              <span className="grains-and-cereal-text30">
+              <span className="grains-and-cereal-text28">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_pdn6fz'),
@@ -264,7 +248,7 @@ const GrainsAndCereal = (props) => {
           }
           link3={
             <Fragment>
-              <span className="grains-and-cereal-text31">
+              <span className="grains-and-cereal-text29">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_z5_RTP'),
@@ -275,7 +259,7 @@ const GrainsAndCereal = (props) => {
           }
           link4={
             <Fragment>
-              <span className="grains-and-cereal-text32">
+              <span className="grains-and-cereal-text30">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_2XJUZ6'),
@@ -286,7 +270,7 @@ const GrainsAndCereal = (props) => {
           }
           link5={
             <Fragment>
-              <span className="grains-and-cereal-text33">
+              <span className="grains-and-cereal-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ZJotpi'),
@@ -297,7 +281,7 @@ const GrainsAndCereal = (props) => {
           }
           termsLink={
             <Fragment>
-              <span className="grains-and-cereal-text34">
+              <span className="grains-and-cereal-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_cIykfY'),
@@ -308,7 +292,7 @@ const GrainsAndCereal = (props) => {
           }
           cookiesLink={
             <Fragment>
-              <span className="grains-and-cereal-text35">
+              <span className="grains-and-cereal-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_k52CX3'),
@@ -319,7 +303,7 @@ const GrainsAndCereal = (props) => {
           }
           privacyLink={
             <Fragment>
-              <span className="grains-and-cereal-text36">
+              <span className="grains-and-cereal-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ab9cXY'),
@@ -338,6 +322,7 @@ const GrainsAndCereal = (props) => {
             width: 100%;
             display: flex;
             min-height: 100vh;
+            overflow-x: clip;
             align-items: center;
             flex-direction: column;
           }
@@ -414,12 +399,6 @@ const GrainsAndCereal = (props) => {
             display: inline-block;
           }
           .grains-and-cereal-text34 {
-            display: inline-block;
-          }
-          .grains-and-cereal-text35 {
-            display: inline-block;
-          }
-          .grains-and-cereal-text36 {
             display: inline-block;
           }
         `}

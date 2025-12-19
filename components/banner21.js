@@ -9,9 +9,9 @@ const Banner21 = (props) => {
   return (
     <>
       <div className="banner21-container1 thq-section-padding">
-        <div className="banner21-max-width thq-section-max-width">
+        <div className="banner21-thq-max-width-elm thq-section-max-width">
           <div className="banner21-container2">
-            <h2 className="banner21-title thq-heading-2">
+            <h2 className="banner21-thq-title-elm thq-heading-2">
               <span
                 dangerouslySetInnerHTML={{
                   __html: translate.raw('text_81G-9t'),
@@ -49,7 +49,7 @@ const Banner21 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .banner21-max-width {
+          .banner21-thq-max-width-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: center;
@@ -62,7 +62,7 @@ const Banner21 = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .banner21-title {
+          .banner21-thq-title-elm {
             fill: var(--dl-color-theme-secondary1);
             color: var(--dl-color-theme-secondary1);
             text-align: center;
@@ -80,7 +80,7 @@ const Banner21 = (props) => {
             object-fit: cover;
           }
           @media (max-width: 767px) {
-            .banner21-title {
+            .banner21-thq-title-elm {
               color: var(--dl-color-theme-secondary1);
               font-size: 25px;
               font-family: Taviraj;

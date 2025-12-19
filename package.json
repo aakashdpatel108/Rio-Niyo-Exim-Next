@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "dangerous-html": "0.1.13",
+    "@teleporthq/react-components": "latest",
     "next": "^12.1.10",
     "next-intl": "2.10.0",
     "nodemailer": "^7.0.10",

@@ -342,6 +342,7 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
+          rootClassName="certificate6root-class-name"
           feature1Description={
             <Fragment>
               <span className="certificates-text36">
@@ -353,7 +354,6 @@ const Certificates = (props) => {
               </span>
             </Fragment>
           }
-          rootClassName="certificate6root-class-name"
           locale={props?.locale ?? ''}
         ></Certificate6>
         <FooterMain

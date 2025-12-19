@@ -4,9 +4,9 @@ import Head from 'next/head'
 import { useTranslations } from 'next-intl'
 
 import Nav from '../components/nav'
-import Hero8 from '../components/hero8'
+import MangoHero from '../components/mango-hero'
 import TableComponent from '../components/table-component'
-import ContentList1 from '../components/content-list1'
+import MangoFeature1 from '../components/mango-feature-1'
 import FooterMain from '../components/footer-main'
 
 const Mango = (props) => {
@@ -224,10 +224,10 @@ const Mango = (props) => {
           rootClassName="navroot-class-name13"
           locale={props?.locale ?? ''}
         ></Nav>
-        <Hero8
+        <MangoHero
           image1Src="https://images.unsplash.com/photo-1582655299221-2b6bff351df0?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE4fHxtYW5nb2VzfGVufDB8fHx8MTc2NDQ0ODczNnww&amp;ixlib=rb-4.1.0&amp;w=1500"
           locale={props?.locale ?? ''}
-        ></Hero8>
+        ></MangoHero>
         <TableComponent
           text={
             <Fragment>
@@ -437,10 +437,10 @@ const Mango = (props) => {
           }
           locale={props?.locale ?? ''}
         ></TableComponent>
-        <ContentList1
-          rootClassName="content-list1root-class-name"
+        <MangoFeature1
+          rootClassName="mango-feature1root-class-name"
           locale={props?.locale ?? ''}
-        ></ContentList1>
+        ></MangoFeature1>
         <FooterMain
           link2={
             <Fragment>

@@ -10,10 +10,10 @@ const CTA26 = (props) => {
     <>
       <div className="thq-section-padding">
         <div className="thq-section-max-width">
-          <div className="cta26-accent2-bg">
-            <div className="cta26-accent1-bg">
+          <div className="cta26-thq-accent2-bg-elm">
+            <div className="cta26-thq-accent1-bg-elm">
               <div className="cta26-container2">
-                <div className="cta26-content">
+                <div className="cta26-thq-content-elm">
                   <span className="thq-heading-2 cta26-text1">
                     <span
                       dangerouslySetInnerHTML={{
@@ -29,7 +29,7 @@ const CTA26 = (props) => {
                     ></span>
                   </p>
                 </div>
-                <div className="cta26-actions">
+                <div className="cta26-thq-actions-elm">
                   <button
                     type="button"
                     className="thq-button-filled cta26-button"
@@ -58,7 +58,7 @@ const CTA26 = (props) => {
       </div>
       <style jsx>
         {`
-          .cta26-accent2-bg {
+          .cta26-thq-accent2-bg-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -71,10 +71,10 @@ const CTA26 = (props) => {
             transform-style: preserve-3d;
             background-color: var(--dl-color-theme-accent2);
           }
-          .cta26-accent2-bg:hover {
+          .cta26-thq-accent2-bg-elm:hover {
             transform: scale3d(1.1, 1.1, 1.1);
           }
-          .cta26-accent1-bg {
+          .cta26-thq-accent1-bg-elm {
             width: 100%;
             display: flex;
             transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -103,13 +103,13 @@ const CTA26 = (props) => {
             color: var(--dl-color-theme-neutral-light);
             background-color: var(--dl-color-theme-neutral-dark);
           }
-          .cta26-content {
+          .cta26-thq-content-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .cta26-actions {
+          .cta26-thq-actions-elm {
             gap: var(--dl-layout-space-oneandhalfunits);
             flex: 1;
             display: flex;
@@ -128,7 +128,7 @@ const CTA26 = (props) => {
               flex-direction: column;
               justify-content: flex-start;
             }
-            .cta26-content {
+            .cta26-thq-content-elm {
               align-items: center;
             }
             .cta26-text1 {
@@ -140,7 +140,7 @@ const CTA26 = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .cta26-actions {
+            .cta26-thq-actions-elm {
               flex-wrap: wrap;
               align-self: stretch;
               justify-content: center;
