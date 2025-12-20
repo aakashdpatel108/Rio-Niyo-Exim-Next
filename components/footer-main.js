@@ -346,7 +346,7 @@ FooterMain.defaultProps = {
   link4: undefined,
   link5: undefined,
   rootClassName: '',
-  imageSrc: '/footer%20logo.svg',
+  imageSrc: '/Others/footer%20logo.svg',
   link3: undefined,
   termsLink: undefined,
   privacyLink: undefined,

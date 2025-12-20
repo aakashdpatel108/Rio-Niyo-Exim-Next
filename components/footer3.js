@@ -461,7 +461,7 @@ const Footer3 = (props) => {
 }
 
 Footer3.defaultProps = {
-  imageSrc: '/footer%20logo.svg',
+  imageSrc: '/Others/footer%20logo.svg',
   termsLink: undefined,
   cookiesLink: undefined,
   link5: undefined,

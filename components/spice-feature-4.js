@@ -67,7 +67,7 @@ const SpiceFeature4 = (props) => {
             <div className="spice-feature-4-thq-feature2-elm2">
               <img
                 alt="Sesame Seed (Til)"
-                src="https://images.unsplash.com/photo-1628317321557-68729bee6644?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fFNlc2FtZSUyMHNlZWR8ZW58MHx8fHwxNzYxNTgyMTA3fDA&amp;ixlib=rb-4.1.0&amp;w=600"
+                src="/Spices/black-and-white-sesame-seeds-600w.jpg"
                 className="thq-img-ratio-4-3"
               />
               <div className="spice-feature-4-thq-content-elm3 thq-flex-column">

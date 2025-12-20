@@ -8,6 +8,7 @@ import VegetablesBannerComp from '../components/vegetables-banner-comp'
 import FruitsFeature1 from '../components/fruits-feature-1'
 import FruitsFeature2 from '../components/fruits-feature-2'
 import FruitsFeature3 from '../components/fruits-feature-3'
+import FruitsFeature4 from '../components/fruits-feature-4'
 import FooterMain from '../components/footer-main'
 
 const Fruits = (props) => {
@@ -255,6 +256,10 @@ const Fruits = (props) => {
         <FruitsFeature1 locale={props?.locale ?? ''}></FruitsFeature1>
         <FruitsFeature2 locale={props?.locale ?? ''}></FruitsFeature2>
         <FruitsFeature3 locale={props?.locale ?? ''}></FruitsFeature3>
+        <FruitsFeature4
+          rootClassName="fruits-feature4root-class-name"
+          locale={props?.locale ?? ''}
+        ></FruitsFeature4>
         <FooterMain
           link2={
             <Fragment>

@@ -23,21 +23,23 @@ const GrainsFeature1 = (props) => {
               </h2>
             </div>
           </div>
+        </div>
+        <div className="grains-feature-1-thq-max-width-elm2 thq-section-max-width">
           <div className="grains-feature-1-thq-content-elm1">
             <div className="grains-feature-1-thq-row-elm1 thq-flex-row">
               <Link href="/rice">
                 <a>
-                  <div className="grains-feature-1-thq-feature1-elm thq-flex-column">
+                  <div className="grains-feature-1-thq-feature2-elm1 thq-flex-column">
                     <img
                       alt="Rice"
-                      src="https://images.unsplash.com/photo-1586201375761-83865001e31c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHJpY2V8ZW58MHx8fHwxNzY1NzMwMTI3fDA&amp;ixlib=rb-4.1.0&amp;w=1400"
-                      className="grains-feature-1-thq-feature1-image-elm thq-img-ratio-4-3"
+                      src="https://images.unsplash.com/photo-1686820740687-426a7b9b2043?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fFJpY2V8ZW58MHx8fHwxNzY2MjY5NTczfDA&amp;ixlib=rb-4.1.0&amp;h=300"
+                      className="grains-feature-1-thq-feature2-image-elm1 thq-img-ratio-4-3"
                     />
                     <div className="grains-feature-1-thq-content-elm2 thq-flex-column">
-                      <h3 className="thq-heading-3 grains-feature-1-thq-feature1-title-elm">
+                      <h3 className="thq-heading-3 grains-feature-1-thq-feature2-title-elm1">
                         <span
                           dangerouslySetInnerHTML={{
-                            __html: translate.raw('feature1Title_XgHSGz'),
+                            __html: translate.raw('feature2Title_uHBtjz'),
                           }}
                         ></span>
                       </h3>
@@ -45,17 +47,17 @@ const GrainsFeature1 = (props) => {
                   </div>
                 </a>
               </Link>
-              <div className="grains-feature-1-thq-feature2-elm1 thq-flex-column">
+              <div className="grains-feature-1-thq-feature2-elm2 thq-flex-column">
                 <img
                   alt="Wheat"
-                  src="/Grains and cereals/wheat-300h.jpg"
-                  className="grains-feature-1-thq-feature2-image-elm1 thq-img-ratio-4-3"
+                  src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fFdoZWF0fGVufDB8fHx8MTc2NjI2OTYwOHww&amp;ixlib=rb-4.1.0&amp;h=300"
+                  className="grains-feature-1-thq-feature2-image-elm2 thq-img-ratio-4-3"
                 />
                 <div className="grains-feature-1-thq-content-elm3 thq-flex-column">
-                  <h3 className="thq-heading-3 grains-feature-1-thq-feature2-title-elm1">
+                  <h3 className="thq-heading-3 grains-feature-1-thq-feature2-title-elm2">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature2Title_-O7Hg_'),
+                        __html: translate.raw('feature2Title_jYDp2q'),
                       }}
                     ></span>
                   </h3>
@@ -63,15 +65,15 @@ const GrainsFeature1 = (props) => {
               </div>
               <div className="grains-feature-1-thq-feature3-elm1 thq-flex-column">
                 <img
-                  alt="Chana dal/Split chickpeas"
-                  src="/Grains and cereals/chana%20dal-300h.webp"
+                  alt="Chana Dal / Split Cheakpeas"
+                  src="https://images.unsplash.com/photo-1724418020207-144b3ba54d2d?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGNoaWNrcGVhJTIwc3BsaXR8ZW58MHx8fHwxNzY2MjY5NzgyfDA&amp;ixlib=rb-4.1.0&amp;h=300"
                   className="grains-feature-1-thq-feature3-image-elm1 thq-img-ratio-4-3"
                 />
                 <div className="grains-feature-1-thq-content-elm4 thq-flex-column">
                   <h3 className="thq-heading-3 grains-feature-1-thq-feature3-title-elm1">
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature3Title_E7ML23'),
+                        __html: translate.raw('feature3Title_5XtxXv'),
                       }}
                     ></span>
                   </h3>
@@ -80,17 +82,17 @@ const GrainsFeature1 = (props) => {
             </div>
           </div>
         </div>
-        <div className="grains-feature-1-thq-max-width-elm2 thq-section-max-width">
+        <div className="grains-feature-1-thq-max-width-elm3 thq-section-max-width">
           <div className="grains-feature-1-thq-content-elm5">
             <div className="grains-feature-1-thq-row-elm2 thq-flex-row">
-              <div className="grains-feature-1-thq-feature2-elm2 thq-flex-column">
+              <div className="grains-feature-1-thq-feature2-elm3 thq-flex-column">
                 <img
                   alt="Split Urad Dal"
                   src="/Grains and cereals/split%20urad%20dal-300h.jpg"
-                  className="grains-feature-1-thq-feature2-image-elm2 thq-img-ratio-4-3"
+                  className="grains-feature-1-thq-feature2-image-elm3 thq-img-ratio-4-3"
                 />
                 <div className="grains-feature-1-thq-content-elm6 thq-flex-column">
-                  <h3 className="thq-heading-3 grains-feature-1-thq-feature2-title-elm2">
+                  <h3 className="thq-heading-3 grains-feature-1-thq-feature2-title-elm3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_82rq3M'),
@@ -99,14 +101,14 @@ const GrainsFeature1 = (props) => {
                   </h3>
                 </div>
               </div>
-              <div className="grains-feature-1-thq-feature2-elm3 thq-flex-column">
+              <div className="grains-feature-1-thq-feature2-elm4 thq-flex-column">
                 <img
                   alt="Rajma/Kidney beans"
                   src="https://images.unsplash.com/photo-1763368397625-32c8f75fed44?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fGtpZG5leSUyMGJlYW5zfGVufDB8fHx8MTc2NTczNDQ1Mnww&amp;ixlib=rb-4.1.0&amp;h=300"
-                  className="grains-feature-1-thq-feature2-image-elm3 thq-img-ratio-4-3"
+                  className="grains-feature-1-thq-feature2-image-elm4 thq-img-ratio-4-3"
                 />
                 <div className="grains-feature-1-thq-content-elm7 thq-flex-column">
-                  <h3 className="thq-heading-3 grains-feature-1-thq-feature2-title-elm3">
+                  <h3 className="thq-heading-3 grains-feature-1-thq-feature2-title-elm4">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_qB5agd'),
@@ -174,6 +176,12 @@ const GrainsFeature1 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
+          .grains-feature-1-thq-max-width-elm2 {
+            gap: var(--dl-layout-space-threeunits);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
           .grains-feature-1-thq-content-elm1 {
             gap: 48px;
             display: flex;
@@ -182,23 +190,26 @@ const GrainsFeature1 = (props) => {
             flex-direction: column;
           }
           .grains-feature-1-thq-row-elm1 {
+            width: 100%;
             align-items: flex-start;
           }
-          .grains-feature-1-thq-feature1-elm {
+          .grains-feature-1-thq-feature2-elm1 {
             flex: 1;
+            padding-top: var(--dl-layout-space-twounits);
             text-decoration: none;
           }
-          .grains-feature-1-thq-feature1-image-elm {
+          .grains-feature-1-thq-feature2-image-elm1 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
           .grains-feature-1-thq-content-elm2 {
             align-self: stretch;
             align-items: flex-start;
           }
-          .grains-feature-1-thq-feature2-elm1 {
+          .grains-feature-1-thq-feature2-elm2 {
             flex: 1;
+            padding-top: var(--dl-layout-space-twounits);
           }
-          .grains-feature-1-thq-feature2-image-elm1 {
+          .grains-feature-1-thq-feature2-image-elm2 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
           .grains-feature-1-thq-content-elm3 {
@@ -207,6 +218,8 @@ const GrainsFeature1 = (props) => {
           }
           .grains-feature-1-thq-feature3-elm1 {
             flex: 1;
+            padding-top: var(--dl-layout-space-twounits);
+            padding-bottom: var(--dl-layout-space-twounits);
           }
           .grains-feature-1-thq-feature3-image-elm1 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
@@ -215,7 +228,7 @@ const GrainsFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .grains-feature-1-thq-max-width-elm2 {
+          .grains-feature-1-thq-max-width-elm3 {
             gap: var(--dl-layout-space-threeunits);
             display: flex;
             align-items: flex-start;
@@ -231,22 +244,22 @@ const GrainsFeature1 = (props) => {
           .grains-feature-1-thq-row-elm2 {
             align-items: flex-start;
           }
-          .grains-feature-1-thq-feature2-elm2 {
+          .grains-feature-1-thq-feature2-elm3 {
             flex: 1;
             padding-top: var(--dl-layout-space-twounits);
           }
-          .grains-feature-1-thq-feature2-image-elm2 {
+          .grains-feature-1-thq-feature2-image-elm3 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
           .grains-feature-1-thq-content-elm6 {
             align-self: stretch;
             align-items: flex-start;
           }
-          .grains-feature-1-thq-feature2-elm3 {
+          .grains-feature-1-thq-feature2-elm4 {
             flex: 1;
             padding-top: var(--dl-layout-space-twounits);
           }
-          .grains-feature-1-thq-feature2-image-elm3 {
+          .grains-feature-1-thq-feature2-image-elm4 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
           .grains-feature-1-thq-content-elm7 {
@@ -283,19 +296,19 @@ const GrainsFeature1 = (props) => {
               align-items: flex-start;
               flex-direction: column;
             }
-            .grains-feature-1-thq-feature1-image-elm {
-              height: 260px;
-            }
             .grains-feature-1-thq-feature2-image-elm1 {
-              height: 260px;
-            }
-            .grains-feature-1-thq-feature3-image-elm1 {
               height: 260px;
             }
             .grains-feature-1-thq-feature2-image-elm2 {
               height: 260px;
             }
+            .grains-feature-1-thq-feature3-image-elm1 {
+              height: 260px;
+            }
             .grains-feature-1-thq-feature2-image-elm3 {
+              height: 260px;
+            }
+            .grains-feature-1-thq-feature2-image-elm4 {
               height: 260px;
             }
             .grains-feature-1-thq-feature3-image-elm2 {
@@ -316,12 +329,6 @@ const GrainsFeature1 = (props) => {
             .grains-feature-1-thq-row-elm1 {
               flex-direction: column;
             }
-            .grains-feature-1-thq-feature1-image-elm {
-              width: 100%;
-            }
-            .grains-feature-1-thq-feature1-title-elm {
-              font-size: 18px;
-            }
             .grains-feature-1-thq-feature2-elm1 {
               width: auto;
             }
@@ -330,15 +337,6 @@ const GrainsFeature1 = (props) => {
             }
             .grains-feature-1-thq-feature2-title-elm1 {
               font-size: 18px;
-            }
-            .grains-feature-1-thq-feature3-elm1 {
-              width: auto;
-            }
-            .grains-feature-1-thq-feature3-title-elm1 {
-              font-size: 18px;
-            }
-            .grains-feature-1-thq-row-elm2 {
-              flex-direction: column;
             }
             .grains-feature-1-thq-feature2-elm2 {
               width: auto;
@@ -349,6 +347,15 @@ const GrainsFeature1 = (props) => {
             .grains-feature-1-thq-feature2-title-elm2 {
               font-size: 18px;
             }
+            .grains-feature-1-thq-feature3-elm1 {
+              width: auto;
+            }
+            .grains-feature-1-thq-feature3-title-elm1 {
+              font-size: 22px;
+            }
+            .grains-feature-1-thq-row-elm2 {
+              flex-direction: column;
+            }
             .grains-feature-1-thq-feature2-elm3 {
               width: auto;
             }
@@ -356,6 +363,15 @@ const GrainsFeature1 = (props) => {
               width: 100%;
             }
             .grains-feature-1-thq-feature2-title-elm3 {
+              font-size: 18px;
+            }
+            .grains-feature-1-thq-feature2-elm4 {
+              width: auto;
+            }
+            .grains-feature-1-thq-feature2-image-elm4 {
+              width: 100%;
+            }
+            .grains-feature-1-thq-feature2-title-elm4 {
               font-size: 18px;
             }
             .grains-feature-1-thq-feature3-elm2 {
@@ -375,19 +391,19 @@ const GrainsFeature1 = (props) => {
             .grains-feature-1-thq-text-elm {
               font-size: 20px;
             }
-            .grains-feature-1-thq-feature1-title-elm {
-              font-size: 20px;
-            }
             .grains-feature-1-thq-feature2-title-elm1 {
-              font-size: 20px;
-            }
-            .grains-feature-1-thq-feature3-title-elm1 {
               font-size: 20px;
             }
             .grains-feature-1-thq-feature2-title-elm2 {
               font-size: 20px;
             }
+            .grains-feature-1-thq-feature3-title-elm1 {
+              font-size: 20px;
+            }
             .grains-feature-1-thq-feature2-title-elm3 {
+              font-size: 20px;
+            }
+            .grains-feature-1-thq-feature2-title-elm4 {
               font-size: 20px;
             }
             .grains-feature-1-thq-feature3-title-elm2 {
