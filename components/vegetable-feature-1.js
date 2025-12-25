@@ -31,17 +31,10 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-thq-feature1-image-elm1 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-thq-content-elm11 thq-flex-column">
-                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm10">
+                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_kdFr9V'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm11 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_85r_Kn'),
                       }}
                     ></span>
                   </h3>
@@ -61,13 +54,6 @@ const VegetableFeature1 = (props) => {
                       }}
                     ></span>
                   </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm12 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_nMfuHS'),
-                      }}
-                    ></span>
-                  </h3>
                 </div>
               </div>
               <div className="vegetable-feature-1-thq-feature3-elm1 thq-flex-column">
@@ -84,13 +70,6 @@ const VegetableFeature1 = (props) => {
                       }}
                     ></span>
                   </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm13 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_fhKILM'),
-                      }}
-                    ></span>
-                  </h3>
                 </div>
               </div>
             </div>
@@ -102,17 +81,10 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-thq-feature1-image-elm2 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-thq-content-elm14 thq-flex-column">
-                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm14">
+                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_HY-Q1n'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm15 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_JOVFnm'),
                       }}
                     ></span>
                   </h3>
@@ -132,13 +104,6 @@ const VegetableFeature1 = (props) => {
                       }}
                     ></span>
                   </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm16 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_Xsr3Em'),
-                      }}
-                    ></span>
-                  </h3>
                 </div>
               </div>
               <div className="vegetable-feature-1-thq-feature3-elm2 thq-flex-column">
@@ -155,13 +120,6 @@ const VegetableFeature1 = (props) => {
                       }}
                     ></span>
                   </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm17 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_rDsLyH'),
-                      }}
-                    ></span>
-                  </h3>
                 </div>
               </div>
             </div>
@@ -173,17 +131,10 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-thq-feature1-image-elm3 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-thq-content-elm17 thq-flex-column">
-                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm18">
+                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_3tSQd3'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm19 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_eF9rGP'),
                       }}
                     ></span>
                   </h3>
@@ -203,13 +154,6 @@ const VegetableFeature1 = (props) => {
                       }}
                     ></span>
                   </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm20 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_yWplA_'),
-                      }}
-                    ></span>
-                  </h3>
                 </div>
               </div>
               <div className="vegetable-feature-1-thq-feature3-elm3 thq-flex-column">
@@ -226,13 +170,6 @@ const VegetableFeature1 = (props) => {
                       }}
                     ></span>
                   </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm21 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_6G6ej_'),
-                      }}
-                    ></span>
-                  </h3>
                 </div>
               </div>
             </div>
@@ -244,17 +181,10 @@ const VegetableFeature1 = (props) => {
                   className="vegetable-feature-1-thq-feature1-image-elm4 thq-img-ratio-4-3"
                 />
                 <div className="vegetable-feature-1-thq-content-elm20 thq-flex-column">
-                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm22">
+                  <h3 className="thq-heading-3 vegetable-feature-1-thq-feature1-title-elm4">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_UI3T_f'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm23 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_0D2rln'),
                       }}
                     ></span>
                   </h3>
@@ -274,13 +204,6 @@ const VegetableFeature1 = (props) => {
                       }}
                     ></span>
                   </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm24 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_xAmWr3'),
-                      }}
-                    ></span>
-                  </h3>
                 </div>
               </div>
               <div className="vegetable-feature-1-thq-feature3-elm4 thq-flex-column">
@@ -294,13 +217,6 @@ const VegetableFeature1 = (props) => {
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_wkTk08'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="vegetable-feature-1-thq-feature1-title-elm25 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_0uaPAQ'),
                       }}
                     ></span>
                   </h3>
@@ -356,13 +272,6 @@ const VegetableFeature1 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .vegetable-feature-1-thq-feature1-title-elm11 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature2-elm1 {
             flex: 1;
           }
@@ -374,13 +283,6 @@ const VegetableFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .vegetable-feature-1-thq-feature1-title-elm12 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature3-elm1 {
             flex: 1;
           }
@@ -391,13 +293,6 @@ const VegetableFeature1 = (props) => {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .vegetable-feature-1-thq-feature1-title-elm13 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .vegetable-feature-1-thq-row-elm2 {
             align-items: flex-start;
@@ -413,13 +308,6 @@ const VegetableFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .vegetable-feature-1-thq-feature1-title-elm15 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature2-elm2 {
             flex: 1;
           }
@@ -431,13 +319,6 @@ const VegetableFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .vegetable-feature-1-thq-feature1-title-elm16 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature3-elm2 {
             flex: 1;
           }
@@ -448,13 +329,6 @@ const VegetableFeature1 = (props) => {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .vegetable-feature-1-thq-feature1-title-elm17 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .vegetable-feature-1-thq-row-elm3 {
             align-items: flex-start;
@@ -470,13 +344,6 @@ const VegetableFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .vegetable-feature-1-thq-feature1-title-elm19 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature2-elm3 {
             flex: 1;
           }
@@ -488,13 +355,6 @@ const VegetableFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .vegetable-feature-1-thq-feature1-title-elm20 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature3-elm3 {
             flex: 1;
           }
@@ -505,13 +365,6 @@ const VegetableFeature1 = (props) => {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .vegetable-feature-1-thq-feature1-title-elm21 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .vegetable-feature-1-thq-row-elm4 {
             align-items: flex-start;
@@ -527,13 +380,6 @@ const VegetableFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .vegetable-feature-1-thq-feature1-title-elm23 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature2-elm4 {
             flex: 1;
           }
@@ -545,13 +391,6 @@ const VegetableFeature1 = (props) => {
             align-self: stretch;
             align-items: flex-start;
           }
-          .vegetable-feature-1-thq-feature1-title-elm24 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
           .vegetable-feature-1-thq-feature3-elm4 {
             flex: 1;
           }
@@ -562,13 +401,6 @@ const VegetableFeature1 = (props) => {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .vegetable-feature-1-thq-feature1-title-elm25 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
 
           @media (max-width: 991px) {
@@ -627,15 +459,8 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature1-image-elm1 {
               width: 100%;
             }
-            .vegetable-feature-1-thq-feature1-title-elm10 {
+            .vegetable-feature-1-thq-feature1-title-elm1 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm11 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-elm1 {
               width: auto;
@@ -646,25 +471,11 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature2-title-elm1 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm12 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-elm1 {
               width: auto;
             }
             .vegetable-feature-1-thq-feature3-title-elm1 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm13 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-row-elm2 {
               flex-direction: column;
@@ -672,15 +483,8 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature1-image-elm2 {
               width: 100%;
             }
-            .vegetable-feature-1-thq-feature1-title-elm14 {
+            .vegetable-feature-1-thq-feature1-title-elm2 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm15 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-elm2 {
               width: auto;
@@ -691,25 +495,11 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature2-title-elm2 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm16 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-elm2 {
               width: auto;
             }
             .vegetable-feature-1-thq-feature3-title-elm2 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm17 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-row-elm3 {
               flex-direction: column;
@@ -717,15 +507,8 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature1-image-elm3 {
               width: 100%;
             }
-            .vegetable-feature-1-thq-feature1-title-elm18 {
+            .vegetable-feature-1-thq-feature1-title-elm3 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm19 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-elm3 {
               width: auto;
@@ -736,25 +519,11 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature2-title-elm3 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm20 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-elm3 {
               width: auto;
             }
             .vegetable-feature-1-thq-feature3-title-elm3 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm21 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-row-elm4 {
               flex-direction: column;
@@ -762,15 +531,8 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature1-image-elm4 {
               width: 100%;
             }
-            .vegetable-feature-1-thq-feature1-title-elm22 {
+            .vegetable-feature-1-thq-feature1-title-elm4 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm23 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-elm4 {
               width: auto;
@@ -781,150 +543,52 @@ const VegetableFeature1 = (props) => {
             .vegetable-feature-1-thq-feature2-title-elm4 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm24 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-elm4 {
               width: auto;
             }
             .vegetable-feature-1-thq-feature3-title-elm4 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm25 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
           }
           @media (max-width: 344px) {
             .vegetable-feature-1-thq-text-elm {
               font-size: 25px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm10 {
+            .vegetable-feature-1-thq-feature1-title-elm1 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm11 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-title-elm1 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm12 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-title-elm1 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm13 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm14 {
+            .vegetable-feature-1-thq-feature1-title-elm2 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm15 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-title-elm2 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm16 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-title-elm2 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm17 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm18 {
+            .vegetable-feature-1-thq-feature1-title-elm3 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm19 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-title-elm3 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm20 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-title-elm3 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm21 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm22 {
+            .vegetable-feature-1-thq-feature1-title-elm4 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm23 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .vegetable-feature-1-thq-feature2-title-elm4 {
               font-size: 18px;
             }
-            .vegetable-feature-1-thq-feature1-title-elm24 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .vegetable-feature-1-thq-feature3-title-elm4 {
               font-size: 18px;
-            }
-            .vegetable-feature-1-thq-feature1-title-elm25 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
           }
         `}

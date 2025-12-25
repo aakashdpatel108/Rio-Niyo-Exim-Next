@@ -64,7 +64,7 @@ const SpiceFeature2 = (props) => {
             <div className="spice-feature-2-thq-feature3-elm">
               <img
                 alt="Bay Leaf (Tej Patta)"
-                src="https://images.unsplash.com/photo-1547332226-395d746d139a?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fGJheSUyMGxlYWYlMjBzcGljZXxlbnwwfHx8fDE3NjE1Nzg5OTl8MA&amp;ixlib=rb-4.1.0&amp;w=600"
+                src="/Spices/bay%20leaf-600w.jpg"
                 className="thq-img-ratio-4-3"
               />
               <div className="spice-feature-2-thq-content-elm3 thq-flex-column">
