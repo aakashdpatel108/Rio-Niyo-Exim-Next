@@ -9,6 +9,7 @@ import SpiceFeature1 from '../components/spice-feature-1'
 import SpiceFeature2 from '../components/spice-feature-2'
 import SpiceFeature3 from '../components/spice-feature-3'
 import SpiceFeature4 from '../components/spice-feature-4'
+import CouldNotFindTheProduct from '../components/could-not-find-the-product'
 import FooterMain from '../components/footer-main'
 
 const Spices = (props) => {
@@ -264,10 +265,25 @@ const Spices = (props) => {
           rootClassName="spice-feature4root-class-name"
           locale={props?.locale ?? ''}
         ></SpiceFeature4>
+        <CouldNotFindTheProduct
+          action1={
+            <Fragment>
+              <span className="spices-text30">
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: translate.raw('text_hHzASW'),
+                  }}
+                ></span>
+              </span>
+            </Fragment>
+          }
+          rootClassName="could-not-find-the-productroot-class-name"
+          locale={props?.locale ?? ''}
+        ></CouldNotFindTheProduct>
         <FooterMain
           link2={
             <Fragment>
-              <span className="spices-text30">
+              <span className="spices-text31">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_7HAZRc'),
@@ -278,7 +294,7 @@ const Spices = (props) => {
           }
           link3={
             <Fragment>
-              <span className="spices-text31">
+              <span className="spices-text32">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_cK4cIy'),
@@ -289,7 +305,7 @@ const Spices = (props) => {
           }
           link4={
             <Fragment>
-              <span className="spices-text32">
+              <span className="spices-text33">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_tozo_A'),
@@ -300,7 +316,7 @@ const Spices = (props) => {
           }
           link5={
             <Fragment>
-              <span className="spices-text33">
+              <span className="spices-text34">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_BSWzwg'),
@@ -311,7 +327,7 @@ const Spices = (props) => {
           }
           termsLink={
             <Fragment>
-              <span className="spices-text34">
+              <span className="spices-text35">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_ycDKT9'),
@@ -322,7 +338,7 @@ const Spices = (props) => {
           }
           cookiesLink={
             <Fragment>
-              <span className="spices-text35">
+              <span className="spices-text36">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_moKJ28'),
@@ -333,7 +349,7 @@ const Spices = (props) => {
           }
           privacyLink={
             <Fragment>
-              <span className="spices-text36">
+              <span className="spices-text37">
                 <span
                   dangerouslySetInnerHTML={{
                     __html: translate.raw('text_9y6pNh'),
@@ -435,6 +451,9 @@ const Spices = (props) => {
             display: inline-block;
           }
           .spices-text36 {
+            display: inline-block;
+          }
+          .spices-text37 {
             display: inline-block;
           }
         `}

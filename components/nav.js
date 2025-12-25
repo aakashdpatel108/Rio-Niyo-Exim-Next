@@ -19,7 +19,7 @@ const Nav = (props) => {
             <a className="nav-link10">
               <img
                 alt="RioNiyo EXIM Logo"
-                src="/rioniyoexim.svg"
+                src="/Others/rioniyoexim.svg"
                 className="nav-thq-image1-elm"
               />
             </a>
@@ -363,7 +363,7 @@ const Nav = (props) => {
               <div className="nav-thq-top-elm">
                 <img
                   alt="RioNiyo EXIM Logo"
-                  src="/rioniyoexim.svg"
+                  src="/Others/rioniyoexim.svg"
                   className="nav-thq-logo-elm"
                 />
                 <div

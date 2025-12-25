@@ -9,6 +9,7 @@ import HomeFeature1 from '../components/home-feature-1'
 import HomeFeatureSlider from '../components/home-feature-slider'
 import HomeFeatureSteps from '../components/home-feature-steps'
 import ContactUs from '../components/contact-us'
+import CTA22 from '../components/cta22'
 import FooterMain from '../components/footer-main'
 
 const Home = (props) => {
@@ -258,6 +259,7 @@ const Home = (props) => {
           }
           locale={props?.locale ?? ''}
         ></ContactUs>
+        <CTA22 locale={props?.locale ?? ''}></CTA22>
         <FooterMain
           link2={
             <Fragment>

@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl'
 import Nav from '../components/nav'
 import ProductCategoryBanner from '../components/product-category-banner'
 import ProductCategoryFeature1 from '../components/product-category-feature-1'
-import CTA26 from '../components/cta26'
+import CouldNotFindTheProduct from '../components/could-not-find-the-product'
 import FooterMain from '../components/footer-main'
 
 const ProductCategories = (props) => {
@@ -245,7 +245,7 @@ const ProductCategories = (props) => {
           }
           locale={props?.locale ?? ''}
         ></ProductCategoryFeature1>
-        <CTA26
+        <CouldNotFindTheProduct
           action1={
             <Fragment>
               <span className="product-categories-text29">
@@ -258,7 +258,7 @@ const ProductCategories = (props) => {
             </Fragment>
           }
           locale={props?.locale ?? ''}
-        ></CTA26>
+        ></CouldNotFindTheProduct>
         <FooterMain
           link2={
             <Fragment>

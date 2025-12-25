@@ -33,7 +33,7 @@ const MeetOurTeam = (props) => {
                 <div className="meet-our-team-thq-card-elm1">
                   <img
                     alt="Divyesh patel"
-                    src="/divyesh%20patel%20profile-600w.jpg"
+                    src="/Others/divyesh%20patel%20profile-600w.jpg"
                     className="thq-img-ratio-1-1 meet-our-team-thq-placeholder-image-elm1"
                   />
                   <div className="meet-our-team-thq-content-elm4">
@@ -92,7 +92,7 @@ const MeetOurTeam = (props) => {
                 <div className="meet-our-team-thq-card-elm2">
                   <img
                     alt="Aakash Patel"
-                    src="/aakash%20patel%20profile-600w.png"
+                    src="/Others/aakash%20patel%20profile-600w.png"
                     className="thq-img-ratio-1-1 meet-our-team-thq-placeholder-image-elm2"
                   />
                   <div className="meet-our-team-thq-content-elm5">

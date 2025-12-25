@@ -63,7 +63,7 @@ const FruitsFeature1 = (props) => {
               </div>
               <div className="fruits-feature-1-thq-feature2-elm">
                 <img
-                  alt="Papaya"
+                  alt="Pomegranate"
                   src="https://images.unsplash.com/photo-1702040242599-46809572ffce?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxwYXBheWF8ZW58MHx8fHwxNzU5NTAyOTc2fDA&amp;ixlib=rb-4.1.0&amp;w=1400"
                   className="thq-img-ratio-4-3"
                 />

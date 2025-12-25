@@ -22,7 +22,7 @@ const DryfruitFeature11 = (props) => {
               </h2>
             </div>
           </div>
-          <div className="dryfruit-feature-11-thq-content-elm10">
+          <div className="dryfruit-feature-11-thq-content-elm1">
             <div className="dryfruit-feature-11-thq-row-elm1 thq-flex-row">
               <div className="dryfruit-feature-11-thq-feature1-elm1 thq-flex-column">
                 <img
@@ -30,18 +30,11 @@ const DryfruitFeature11 = (props) => {
                   src="https://images.unsplash.com/photo-1649431473538-216ed9b3859f?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDI5fHxXaG9sZSUyMENhc2hld3xlbnwwfHx8fDE3NjYwNzMxODZ8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                   className="dryfruit-feature-11-thq-feature1-image-elm1 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm11 thq-flex-column">
-                  <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature1-title-elm10">
+                <div className="dryfruit-feature-11-thq-content-elm2 thq-flex-column">
+                  <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature1-title-elm1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_4M6001'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm11 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_6UW0kz'),
                       }}
                     ></span>
                   </h3>
@@ -53,18 +46,11 @@ const DryfruitFeature11 = (props) => {
                   src="/Dry fruits/dryfigs-300h.webp"
                   className="dryfruit-feature-11-thq-feature2-image-elm1 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm12 thq-flex-column">
+                <div className="dryfruit-feature-11-thq-content-elm3 thq-flex-column">
                   <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature2-title-elm1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_hxh2R1'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm12 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_zkl-sn'),
                       }}
                     ></span>
                   </h3>
@@ -76,18 +62,11 @@ const DryfruitFeature11 = (props) => {
                   src="https://images.unsplash.com/photo-1583126379180-ec70bb3178b1?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGFsbW9uZHxlbnwwfHx8fDE3NjYwNzM0MDB8MA&amp;ixlib=rb-4.1.0&amp;h=300"
                   className="dryfruit-feature-11-thq-feature3-image-elm1 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm13 thq-flex-column">
+                <div className="dryfruit-feature-11-thq-content-elm4 thq-flex-column">
                   <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature3-title-elm1">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_yfvXjV'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm13 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_Ezuhdi'),
                       }}
                     ></span>
                   </h3>
@@ -101,18 +80,11 @@ const DryfruitFeature11 = (props) => {
                   src="/Dry fruits/raisins-1400w.webp"
                   className="dryfruit-feature-11-thq-feature1-image-elm2 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm14 thq-flex-column">
-                  <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature1-title-elm14">
+                <div className="dryfruit-feature-11-thq-content-elm5 thq-flex-column">
+                  <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature1-title-elm2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_YfTtGk'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm15 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_YAg62e'),
                       }}
                     ></span>
                   </h3>
@@ -124,18 +96,11 @@ const DryfruitFeature11 = (props) => {
                   src="https://images.unsplash.com/photo-1704079662049-d00890d21a69?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDN8fHBpc3RhY2hvfGVufDB8fHx8MTc2NjA3Mzc2NHww&amp;ixlib=rb-4.1.0&amp;h=300"
                   className="dryfruit-feature-11-thq-feature2-image-elm2 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm15 thq-flex-column">
+                <div className="dryfruit-feature-11-thq-content-elm6 thq-flex-column">
                   <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature2-title-elm2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature2Title_7whw4h'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm16 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_HqFOZD'),
                       }}
                     ></span>
                   </h3>
@@ -147,18 +112,11 @@ const DryfruitFeature11 = (props) => {
                   src="https://images.unsplash.com/photo-1595412017587-b7f3117dff54?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fERyeSUyMGFwcmljb3R8ZW58MHx8fHwxNzY2MDczODkyfDA&amp;ixlib=rb-4.1.0&amp;h=300"
                   className="dryfruit-feature-11-thq-feature3-image-elm2 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm16 thq-flex-column">
+                <div className="dryfruit-feature-11-thq-content-elm7 thq-flex-column">
                   <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature3-title-elm2">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_cQ_wd9'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm17 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_t2WnVA'),
                       }}
                     ></span>
                   </h3>
@@ -172,41 +130,11 @@ const DryfruitFeature11 = (props) => {
                   src="https://images.unsplash.com/photo-1626012109496-21f579f648dd?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fFdhbG51dHxlbnwwfHx8fDE3NjYwNzM5Mzl8MA&amp;ixlib=rb-4.1.0&amp;w=1400"
                   className="dryfruit-feature-11-thq-feature1-image-elm3 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm17 thq-flex-column">
-                  <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature1-title-elm18">
+                <div className="dryfruit-feature-11-thq-content-elm8 thq-flex-column">
+                  <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature1-title-elm3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature1Title_o1XpMW'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm19 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_UtdfiS'),
-                      }}
-                    ></span>
-                  </h3>
-                </div>
-              </div>
-              <div className="dryfruit-feature-11-thq-feature2-elm3 thq-flex-column">
-                <img
-                  alt="Bitter Gourd/Karela"
-                  src="https://images.unsplash.com/photo-1679949499517-1ce03d17f20b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDZ8fERhdGVzfGVufDB8fHx8MTc2NjA3NDAzM3ww&amp;ixlib=rb-4.1.0&amp;h=300"
-                  className="dryfruit-feature-11-thq-feature2-image-elm3 thq-img-ratio-4-3"
-                />
-                <div className="dryfruit-feature-11-thq-content-elm18 thq-flex-column">
-                  <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature2-title-elm3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature2Title_njZwoJ'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm20 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_Ri62Pf'),
                       }}
                     ></span>
                   </h3>
@@ -218,18 +146,11 @@ const DryfruitFeature11 = (props) => {
                   src="https://images.unsplash.com/photo-1635843130314-c0b5cc832b79?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGhhemVsbnV0fGVufDB8fHx8MTc2NjA3NDA4M3ww&amp;ixlib=rb-4.1.0&amp;h=300"
                   className="dryfruit-feature-11-thq-feature3-image-elm3 thq-img-ratio-4-3"
                 />
-                <div className="dryfruit-feature-11-thq-content-elm19 thq-flex-column">
+                <div className="dryfruit-feature-11-thq-content-elm9 thq-flex-column">
                   <h3 className="thq-heading-3 dryfruit-feature-11-thq-feature3-title-elm3">
                     <span
                       dangerouslySetInnerHTML={{
                         __html: translate.raw('feature3Title_mSSPDO'),
-                      }}
-                    ></span>
-                  </h3>
-                  <h3 className="dryfruit-feature-11-thq-feature1-title-elm21 thq-heading-3">
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: translate.raw('feature1Title_KjI6f2'),
                       }}
                     ></span>
                   </h3>
@@ -262,7 +183,7 @@ const DryfruitFeature11 = (props) => {
             align-items: flex-start;
             flex-shrink: 0;
           }
-          .dryfruit-feature-11-thq-content-elm10 {
+          .dryfruit-feature-11-thq-content-elm1 {
             gap: 48px;
             display: flex;
             align-self: stretch;
@@ -278,19 +199,12 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature1-image-elm1 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm11 {
+          .dryfruit-feature-11-thq-content-elm2 {
             gap: var(--dl-layout-space-halfunit);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm11 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .dryfruit-feature-11-thq-feature2-elm1 {
             flex: 1;
@@ -298,17 +212,10 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature2-image-elm1 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm12 {
+          .dryfruit-feature-11-thq-content-elm3 {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm12 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .dryfruit-feature-11-thq-feature3-elm1 {
             flex: 1;
@@ -316,17 +223,10 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature3-image-elm1 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm13 {
+          .dryfruit-feature-11-thq-content-elm4 {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm13 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .dryfruit-feature-11-thq-row-elm2 {
             align-items: flex-start;
@@ -337,17 +237,10 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature1-image-elm2 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm14 {
+          .dryfruit-feature-11-thq-content-elm5 {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm15 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .dryfruit-feature-11-thq-feature2-elm2 {
             flex: 1;
@@ -355,17 +248,10 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature2-image-elm2 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm15 {
+          .dryfruit-feature-11-thq-content-elm6 {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm16 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .dryfruit-feature-11-thq-feature3-elm2 {
             flex: 1;
@@ -373,17 +259,10 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature3-image-elm2 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm16 {
+          .dryfruit-feature-11-thq-content-elm7 {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm17 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .dryfruit-feature-11-thq-row-elm3 {
             align-items: flex-start;
@@ -394,35 +273,10 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature1-image-elm3 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm17 {
+          .dryfruit-feature-11-thq-content-elm8 {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm19 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
-          }
-          .dryfruit-feature-11-thq-feature2-elm3 {
-            flex: 1;
-          }
-          .dryfruit-feature-11-thq-feature2-image-elm3 {
-            box-shadow: 5px 5px 10px 0px #d4d4d4;
-          }
-          .dryfruit-feature-11-thq-content-elm18 {
-            gap: var(--dl-layout-space-halfunit);
-            align-self: stretch;
-            align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm20 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
           .dryfruit-feature-11-thq-feature3-elm3 {
             flex: 1;
@@ -430,17 +284,10 @@ const DryfruitFeature11 = (props) => {
           .dryfruit-feature-11-thq-feature3-image-elm3 {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
           }
-          .dryfruit-feature-11-thq-content-elm19 {
+          .dryfruit-feature-11-thq-content-elm9 {
             gap: var(--dl-layout-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
-          }
-          .dryfruit-feature-11-thq-feature1-title-elm21 {
-            display: grid;
-            font-size: 16px;
-            font-style: normal;
-            font-family: 'Open Sans';
-            font-weight: 400;
           }
 
           @media (max-width: 991px) {
@@ -469,9 +316,6 @@ const DryfruitFeature11 = (props) => {
             .dryfruit-feature-11-thq-feature1-image-elm3 {
               height: 260px;
             }
-            .dryfruit-feature-11-thq-feature2-image-elm3 {
-              height: 260px;
-            }
             .dryfruit-feature-11-thq-feature3-image-elm3 {
               height: 260px;
             }
@@ -490,15 +334,8 @@ const DryfruitFeature11 = (props) => {
             .dryfruit-feature-11-thq-feature1-image-elm1 {
               width: 100%;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm10 {
+            .dryfruit-feature-11-thq-feature1-title-elm1 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm11 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-feature2-elm1 {
               width: auto;
@@ -509,25 +346,11 @@ const DryfruitFeature11 = (props) => {
             .dryfruit-feature-11-thq-feature2-title-elm1 {
               font-size: 18px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm12 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .dryfruit-feature-11-thq-feature3-elm1 {
               width: auto;
             }
             .dryfruit-feature-11-thq-feature3-title-elm1 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm13 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-row-elm2 {
               flex-direction: column;
@@ -535,15 +358,8 @@ const DryfruitFeature11 = (props) => {
             .dryfruit-feature-11-thq-feature1-image-elm2 {
               width: 100%;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm14 {
+            .dryfruit-feature-11-thq-feature1-title-elm2 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm15 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-feature2-elm2 {
               width: auto;
@@ -554,25 +370,11 @@ const DryfruitFeature11 = (props) => {
             .dryfruit-feature-11-thq-feature2-title-elm2 {
               font-size: 18px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm16 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .dryfruit-feature-11-thq-feature3-elm2 {
               width: auto;
             }
             .dryfruit-feature-11-thq-feature3-title-elm2 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm17 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-row-elm3 {
               flex-direction: column;
@@ -580,31 +382,8 @@ const DryfruitFeature11 = (props) => {
             .dryfruit-feature-11-thq-feature1-image-elm3 {
               width: 100%;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm18 {
+            .dryfruit-feature-11-thq-feature1-title-elm3 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm19 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
-            .dryfruit-feature-11-thq-feature2-elm3 {
-              width: auto;
-            }
-            .dryfruit-feature-11-thq-feature2-image-elm3 {
-              width: 100%;
-            }
-            .dryfruit-feature-11-thq-feature2-title-elm3 {
-              font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm20 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-feature3-elm3 {
               width: auto;
@@ -612,107 +391,34 @@ const DryfruitFeature11 = (props) => {
             .dryfruit-feature-11-thq-feature3-title-elm3 {
               font-size: 18px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm21 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
           }
           @media (max-width: 344px) {
             .dryfruit-feature-11-thq-text-elm {
               font-size: 25px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm10 {
+            .dryfruit-feature-11-thq-feature1-title-elm1 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm11 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-feature2-title-elm1 {
               font-size: 18px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm12 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .dryfruit-feature-11-thq-feature3-title-elm1 {
               font-size: 18px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm13 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm14 {
+            .dryfruit-feature-11-thq-feature1-title-elm2 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm15 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-feature2-title-elm2 {
               font-size: 18px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm16 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
             .dryfruit-feature-11-thq-feature3-title-elm2 {
               font-size: 18px;
             }
-            .dryfruit-feature-11-thq-feature1-title-elm17 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm18 {
+            .dryfruit-feature-11-thq-feature1-title-elm3 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm19 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
-            }
-            .dryfruit-feature-11-thq-feature2-title-elm3 {
-              font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm20 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
             .dryfruit-feature-11-thq-feature3-title-elm3 {
               font-size: 18px;
-            }
-            .dryfruit-feature-11-thq-feature1-title-elm21 {
-              display: grid;
-              font-size: 12px;
-              font-style: normal;
-              font-family: Open Sans;
-              font-weight: 400;
             }
           }
         `}
